@@ -666,249 +666,294 @@ permalink: /Resource/
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 
 <script>
-let checkedBeans = [];
-let checkedData = [];
-let allBeans = [];
+(function() {
+  let checkedBeans = [];
+  let checkedData = [];
+  let allBeans = [];
+  let observer;
+  let isInitialized = false;
 
-class Bean {
-  constructor(name, marketClass, year, commonMosaicVirus, anthracnose, commonBlight, yieldB, maturity, oneHundredSdWeight, directHarvestSuitability) {
-    this.name = name;
-    this.marketClass = marketClass;
-    this.year = year || "--";
-    this.commonMosaicVirus = commonMosaicVirus || ["--", "--"];
-    this.anthracnose = anthracnose || ["--", "--", "--"];
-    this.commonBlight = commonBlight || "--";
-    this.yieldB = yieldB || "--";
-    this.maturity = maturity || "--";
-    this.oneHundredSdWeight = oneHundredSdWeight || "--";
-    this.directHarvestSuitability = directHarvestSuitability || "--";
+  class Bean {
+    constructor(name, marketClass, year, commonMosaicVirus, anthracnose, commonBlight, yieldB, maturity, oneHundredSdWeight, directHarvestSuitability) {
+      this.name = name;
+      this.marketClass = marketClass;
+      this.year = year || "--";
+      this.commonMosaicVirus = commonMosaicVirus || ["--", "--"];
+      this.anthracnose = anthracnose || ["--", "--", "--"];
+      this.commonBlight = commonBlight || "--";
+      this.yieldB = yieldB || "--";
+      this.maturity = maturity || "--";
+      this.oneHundredSdWeight = oneHundredSdWeight || "--";
+      this.directHarvestSuitability = directHarvestSuitability || "--";
+    }
+
+    createDescriptionRow() {
+      return `<tr><td>${this.name}</td><td>${this.marketClass}</td><td>${this.year}</td></tr>`;
+    }
+
+    createDiseaseRow() {
+      return `<tr><td>${this.name}</td><td>${this.commonMosaicVirus[0]}</td><td>${this.commonMosaicVirus[1]}</td><td>${this.anthracnose[0]}</td><td>${this.anthracnose[1]}</td><td>${this.anthracnose[2]}</td><td>${this.commonBlight}</td></tr>`;
+    }
+
+    createPerformanceRow() {
+      const formatNumber = (value) => value === "--" || value == null ? "--" : Number(value).toFixed(2);
+      return `<tr><td>${this.name}</td><td>${formatNumber(this.yieldB)}</td><td>${formatNumber(this.maturity)}</td><td>${formatNumber(this.oneHundredSdWeight)}</td><td>${formatNumber(this.directHarvestSuitability)}</td></tr>`;
+    }
   }
 
-  createDescriptionRow() {
-    return `<tr><td>${this.name}</td><td>${this.marketClass}</td><td>${this.year}</td></tr>`;
-  }
-
-  createDiseaseRow() {
-    return `<tr><td>${this.name}</td><td>${this.commonMosaicVirus[0]}</td><td>${this.commonMosaicVirus[1]}</td><td>${this.anthracnose[0]}</td><td>${this.anthracnose[1]}</td><td>${this.anthracnose[2]}</td><td>${this.commonBlight}</td></tr>`;
-  }
-
-  createPerformanceRow() {
-    const formatNumber = (value) => value === "--" || value == null ? "--" : Number(value).toFixed(2);
-    return `<tr><td>${this.name}</td><td>${formatNumber(this.yieldB)}</td><td>${formatNumber(this.maturity)}</td><td>${formatNumber(this.oneHundredSdWeight)}</td><td>${formatNumber(this.directHarvestSuitability)}</td></tr>`;
-  }
-}
-
-const TABLE = {
-  createDescriptionTable: function(beans) {
-    let HTML = "<table id='description'><tr><td colspan='3'>Variety Description</td></tr>";
-    HTML += "<tr><td>Variety</td><td>Market Class</td><td>Year of Registration</td></tr>";
-    beans.forEach(bean => HTML += bean.createDescriptionRow());
-    HTML += "</table>";
-    return HTML;
-  },
-  createDiseaseTable: function(beans) {
-    let HTML = "<table id='diseaseRating'><tr><td colspan='7'>Disease Ratings</td></tr>";
-    HTML += "<tr><td>Variety</td><td colspan='2'>Bean Common Mosaic Virus</td><td colspan='3'>Anthracnose</td><td>Common Blight</td></tr>";
-    HTML += "<tr><td></td><td>R 1</td><td>R 15</td><td>R 17</td><td>R 23</td><td>R 73</td><td></td></tr>";
-    beans.forEach(bean => HTML += bean.createDiseaseRow());
-    HTML += "</table>";
-    return HTML;
-  },
-  createPerformanceTable: function(beans) {
-    let HTML = "<table id='performance'><tr><td colspan='5'>Performance Metrics</td></tr>";
-    HTML += "<tr><td>Variety</td><td>Yield (lbs/acre)</td><td>Maturity (days)</td><td>100 Seed Weight (g)</td><td>Direct Harvest Suitability (1-5)</td></tr>";
-    beans.forEach(bean => HTML += bean.createPerformanceRow());
-    HTML += "</table>";
-    return HTML;
-  },
-  createTables: function(beans, parameters) {
-    let HTML = "";
-    if (parameters.includes("description")) HTML += this.createDescriptionTable(beans);
-    if (parameters.includes("diseaseRatings")) HTML += this.createDiseaseTable(beans);
-    if (parameters.includes("performance")) HTML += this.createPerformanceTable(beans);
-    HTML += "<button id='exportCSV'>Export as CSV</button>";
-    HTML += "<button id='newComparison'>Start a New Comparison</button>";
-    return HTML;
-  }
-};
-
-function convertStringToBean(name) {
-  return allBeans.find(bean => bean.name === name);
-}
-
-function convertArrToBean(arr) {
-  return arr.map(name => convertStringToBean(name)).filter(bean => bean);
-}
-
-function uncheckBoxes() {
-  document.querySelectorAll("#dataForm input[type='checkbox'], #beanForm input[type='checkbox']").forEach(checkbox => checkbox.checked = false);
-}
-
-let selected = false;
-function selectAllCheckboxes(className) {
-  const beanForm = document.getElementById("beanForm");
-  if (!beanForm) return;
-  beanForm.querySelectorAll(`.${className} input[type='checkbox']`).forEach(checkbox => checkbox.checked = !selected);
-  selected = !selected;
-}
-
-function createFormFromBeansList(className) {
-  let beansList = allBeans.filter(bean => {
-    if (className === "whiteNavy") return bean.marketClass === "White Navy";
-    if (className === "minorClass") return !["White Navy", "Light Red Kidney", "Dark Red Kidney", "White Kidney", "Cranberry"].includes(bean.marketClass);
-    if (className === "majorClass") return ["Light Red Kidney", "Dark Red Kidney", "White Kidney", "Cranberry"].includes(bean.marketClass);
-  });
-  if (beansList.length === 0) return "<p>No varieties available for this category.</p>";
-  let HTML = "<ul>";
-  beansList.forEach(bean => {
-    let additionalMarketInfo = className === "whiteNavy" ? "" : ` (${bean.marketClass})`;
-    HTML += `<li class="${className}"><label><input type="checkbox" value="${bean.name}"><span class="checkmark"></span> ${bean.name}${additionalMarketInfo}</label></li>`;
-  });
-  HTML += "</ul>";
-  HTML += `<button id="selectAll${className}" class="gradientBtn" type="button">Select All</button>`;
-  return HTML;
-}
-
-function exportAsCSV() {
-  const tables = document.getElementById("tables");
-  if (!tables) return;
-  let csv = "";
-  tables.querySelectorAll("table").forEach(table => {
-    table.querySelectorAll("tr").forEach(tr => {
-      tr.querySelectorAll("td").forEach(td => csv += `${td.innerHTML},`);
-      csv += "\n";
-    });
-    csv += "\n\n";
-  });
-  const blob = new Blob([csv], { type: "text/csv" });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = "bean_comparison.csv";
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(url);
-}
-
-async function loadBeanData() {
-  try {
-    const response = await fetch('/assets/data/beans.xlsx');
-    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-    const arrayBuffer = await response.arrayBuffer();
-    const workbook = XLSX.read(arrayBuffer, { type: 'array' });
-    const sheetName = workbook.SheetNames[0];
-    const sheet = workbook.Sheets[sheetName];
-    const jsonData = XLSX.utils.sheet_to_json(sheet);
-    allBeans = jsonData.map(row => new Bean(
-      row["Name"],
-      row["Market Class"],
-      row["Year"],
-      [row["Common Mosaic Virus R1"], row["Common Mosaic Virus R15"]],
-      [row["Anthracnose R17"], row["Anthracnose R23"], row["Anthracnose R73"]],
-      row["Common Blight"],
-      row["Yield (lbs/acre)"],
-      row["Maturity (days)"],
-      row["100 Sd Weight (g)"],
-      row["Direct Harvest Suitability"]
-    ));
-  } catch (error) {
-    document.getElementById("beanForm").innerHTML = "<p>Error loading data. Please try again later.</p>";
-  }
-}
-
-function setupEventListeners() {
-  const elements = {
-    whiteBeanBtn: document.getElementById("whiteBean"),
-    minorBtn: document.getElementById("minor"),
-    majorBtn: document.getElementById("major"),
-    goBackBtn: document.getElementById("goBack"),
-    submitBtn: document.getElementById("submitBtnData"),
-    closeErrorBtn: document.getElementById("closeError")
+  consthower TABLE = {
+    createDescriptionTable: function(beans) {
+      let HTML = "<table id='description'><tr><td colspan='3'>Variety Description</td></tr>";
+      HTML += "<tr><td>Variety</td><td>Market Class</td><td>Year of Registration</td></tr>";
+      beans.forEach(bean => HTML += bean.createDescriptionRow());
+      HTML += "</table>";
+      return HTML;
+    },
+    createDiseaseTable: function(beans) {
+      let HTML = "<table id='diseaseRating'><tr><td colspan='7'>Disease Ratings</td></tr>";
+      HTML += "<tr><td>Variety</td><td colspan='2'>Bean Common Mosaic Virus</td><td colspan='3'>Anthracnose</td><td>Common Blight</td></tr>";
+      HTML += "<tr><td></td><td>R 1</td><td>R 15</td><td>R 17</td><td>R 23</td><td>R 73</td><td></td></tr>";
+      beans.forEach(bean => HTML += bean.createDiseaseRow());
+      HTML += "</table>";
+      return HTML;
+    },
+    createPerformanceTable: function(beans) {
+      let HTML = "<table id='performance'><tr><td colspan='5'>Performance Metrics</td></tr>";
+      HTML += "<tr><td>Variety</td><td>Yield (lbs/acre)</td><td>Maturity (days)</td><td>100 Seed Weight (g)</td><td>Direct Harvest Suitability (1-5)</td></tr>";
+      beans.forEach(bean => HTML += bean.createPerformanceRow());
+      HTML += "</table>";
+      return HTML;
+    },
+    createTables: function(beans, parameters) {
+      let HTML = "";
+      if (parameters.includes("description")) HTML += this.createDescriptionTable(beans);
+      if (parameters.includes("diseaseRatings")) HTML += this.createDiseaseTable(beans);
+      if (parameters.includes("performance")) HTML += this.createPerformanceTable(beans);
+      HTML += "<button id='exportCSV'>Export as CSV</button>";
+      HTML += "<button id='newComparison'>Start a New Comparison</button>";
+      return HTML;
+    }
   };
 
-  if (Object.values(elements).some(el => !el)) return;
+  function convertStringToBean(name) {
+    return allBeans.find(bean => bean.name === name);
+  }
 
-  elements.whiteBeanBtn.addEventListener("click", () => {
+  function convertArrToBean(arr) {
+    return arr.map(name => convertStringToBean(name)).filter(bean => bean);
+  }
+
+  function uncheckBoxes() {
+    document.querySelectorAll("#dataForm input[type='checkbox'], #beanForm input[type='checkbox']").forEach(checkbox => checkbox.checked = false);
+  }
+
+  function selectAllCheckboxes(className) {
     const beanForm = document.getElementById("beanForm");
-    beanForm.innerHTML = createFormFromBeansList("whiteNavy");
-    toggleVisibility("whiteNavy");
-    document.getElementById("selectAllwhiteNavy")?.addEventListener("click", () => selectAllCheckboxes("whiteNavy"));
-  });
+    if (!beanForm) return;
+    const isAllSelected = beanForm.querySelector(`.${className} input[type='checkbox']:not(:checked)`);
+    beanForm.querySelectorAll(`.${className} input[type='checkbox']`).forEach(checkbox => checkbox.checked = !!isAllSelected);
+  }
 
-  elements.minorBtn.addEventListener("click", () => {
-    const beanForm = document.getElementById("beanForm");
-    bean.ConcurrentHashMapbeanForm.innerHTML = createFormFromBeansList("minorClass");
-    toggleVisibility("minorClass");
-    document.getElementById("selectAllminorClass")?.addEventListener("click", () => selectAllCheckboxes("minorClass"));
-  });
+  function createFormFromBeansList(className) {
+    let beansList = allBeans.filter(bean => {
+      if (className === "whiteNavy") return bean.marketClass === "White Navy";
+      if (className === "minorClass") return !["White Navy", "Light Red Kidney", "Dark Red Kidney", "White Kidney", "Cranberry"].includes(bean.marketClass);
+      if (className === "majorClass") return ["Light Red Kidney", "Dark Red Kidney", "White Kidney", "Cranberry"].includes(bean.marketClass);
+    });
+    if (beansList.length === 0) return "<p>No varieties available for this category.</p>";
+    let HTML = "<ul>";
+    beansList.forEach(bean => {
+      let additionalMarketInfo = className === "whiteNavy" ? "" : ` (${bean.marketClass})`;
+      HTML += `<li class="${className}"><label><input type="checkbox" value="${bean.name}"><span class="checkmark"></span> ${bean.name}${additionalMarketInfo}</label></li>`;
+    });
+    HTML += "</ul>";
+    HTML += `<button id="selectAll${className}" class="gradientBtn" type="button">Select All</button>`;
+    return HTML;
+  }
 
-  elements.majorBtn.addEventListener("click", () => {
-    const beanForm = document.getElementById("beanForm");
-    beanForm.innerHTML = createFormFromBeansList("majorClass");
-    toggleVisibility("majorClass");
-    document.getElementById("selectAllmajorClass")?.addEventListener("click", () => selectAllCheckboxes("majorClass"));
-  });
+  function exportAsCSV() {
+    const tables = document.getElementById("tables");
+    if (!tables) return;
+    let csv = "";
+    tables.querySelectorAll("table").forEach(table => {
+      table.querySelectorAll("tr").forEach(tr => {
+        tr.querySelectorAll("td").forEach(td => csv += `${td.innerHTML},`);
+        csv += "\n";
+      });
+      csv += "\n\n";
+    });
+    const blob = new Blob([csv], { type: "text/csv" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "bean_comparison.csv";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
 
-  elements.goBackBtn.addEventListener("click", () => {
-    uncheckBoxes();
-    resetView();
-  });
-
-  elements.submitBtn.addEventListener("click", () => {
-    checkedBeans = Array.from(document.querySelectorAll("#beanForm input[type='checkbox']:checked")).map(cb => cb.value);
-    checkedData = Array.from(document.querySelectorAll("#dataForm input[type='checkbox']:checked")).map(cb => cb.value);
-    const beans = convertArrToBean(checkedBeans);
-    if (beans.length < 2 || checkedData.length < 1) {
-      showError();
-    } else {
-      const tables = document.getElementById("tables");
-      tables.innerHTML = TABLE.createTables(beans, checkedData);
-      tables.style.display = "block";
-      document.querySelectorAll(".selectors, .buttons, .formInfo, #error").forEach(el => el.style.display = "none");
-      setupTableButtons();
+  async function loadBeanData() {
+    if (allBeans.length > 0) return;
+    try {
+      const response = await fetch('/assets/data/beans.xlsx');
+      if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+      const arrayBuffer = await response.arrayBuffer();
+      const workbook = XLSX.read(arrayBuffer, { type: 'array' });
+      const sheetName = workbook.SheetNames[0];
+      const sheet = workbook.Sheets[sheetName];
+      const jsonData = XLSX.utils.sheet_to_json(sheet);
+      allBeans = jsonData.map(row => new Bean(
+        row["Name"],
+        row["Market Class"],
+        row["Year"],
+        [row["Common Mosaic Virus R1"], row["Common Mosaic Virus R15"]],
+        [row["Anthracnose R17"], row["Anthracnose R23"], row["Anthracnose R73"]],
+        row["Common Blight"],
+        row["Yield (lbs/acre)"],
+        row["Maturity (days)"],
+        row["100 Sd Weight (g)"],
+        row["Direct Harvest Suitability"]
+      ));
+    } catch (error) {
+      document.getElementById("beanForm").innerHTML = "<p>Error loading data. Please try again later.</p>";
     }
+  }
+
+  function removeEventListeners() {
+    const elements = {
+      whiteBeanBtn: document.getElementById("whiteBean"),
+      minorBtn: document.getElementById("minor"),
+      majorBtn: document.getElementById("major"),
+      goBackBtn: document.getElementById("goBack"),
+      submitBtn: document.getElementById("submitBtnData"),
+      closeErrorBtn: document.getElementById("closeError"),
+      exportBtn: document.getElementById("exportCSV"),
+      newCompBtn: document.getElementById("newComparison")
+    };
+    Object.values(elements).forEach(el => el?.replaceWith(el.cloneNode(true)));
+  }
+
+  function setupEventListeners() {
+    removeEventListeners();
+    
+    const elements = {
+      whiteBeanBtn: document.getElementById("whiteBean"),
+      minorBtn: document.getElementById("minor"),
+      majorBtn: document.getElementById("major"),
+      goBackBtn: document.getElementById("goBack"),
+      submitBtn: document.getElementById("submitBtnData"),
+      closeErrorBtn: document.getElementById("closeError")
+    };
+
+    if (Object.values(elements).some(el => !el)) return;
+
+    elements.whiteBeanBtn.addEventListener("click", () => {
+      const beanForm = document.getElementById("beanForm");
+      beanForm.innerHTML = createFormFromBeansList("whiteNavy");
+      toggleVisibility("whiteNavy");
+      document.getElementById("selectAllwhiteNavy")?.addEventListener("click", () => selectAllCheckboxes("whiteNavy"));
+    });
+
+    elements.minorBtn.addEventListener("click", () => {
+      const beanForm = document.getElementById("beanForm");
+      beanForm.innerHTML = createFormFromBeansList("minorClass");
+      toggleVisibility("minorClass");
+      document.getElementById("selectAllminorClass")?.addEventListener("click", () => selectAllCheckboxes("minorClass"));
+    });
+
+    elements.majorBtn.addEventListener("click", () => {
+      const beanForm = document.getElementById("beanForm");
+      beanForm.innerHTML = createFormFromBeansList("majorClass");
+      toggleVisibility("majorClass");
+      document.getElementById("selectAllmajorClass")?.addEventListener("click", () => selectAllCheckboxes("majorClass"));
+    });
+
+    elements.goBackBtn.addEventListener("click", () => {
+      uncheckBoxes();
+      resetView();
+    });
+
+    elements.submitBtn.addEventListener("click", () => {
+      checkedBeans = Array.from(document.querySelectorAll("#beanForm input[type='checkbox']:checked")).map(cb => cb.value);
+      checkedData = Array.from(document.querySelectorAll("#dataForm input[type='checkbox']:checked")).map(cb => cb.value);
+      const beans = convertArrToBean(checkedBeans);
+      if (beans.length < 2 || checkedData.length < 1) {
+        showError();
+      } else {
+        const tables = document.getElementById("tables");
+        tables.innerHTML = TABLE.createTables(beans, checkedData);
+        tables.style.display = "block";
+        document.querySelectorAll(".selectors, .buttons, .formInfo, #error").forEach(el => el.style.display = "none");
+        setupTableButtons();
+      }
+    });
+
+    elements.closeErrorBtn.addEventListener("click", () => {
+      uncheckBoxes();
+      resetView();
+    });
+  }
+
+  function setupTableButtons() {
+    const exportBtn = document.getElementById("exportCSV");
+    const newCompBtn = document.getElementById("newComparison");
+    if (exportBtn) exportBtn.addEventListener("click", exportAsCSV);
+    if (newCompBtn) newCompBtn.addEventListener("click", () => {
+      document.getElementById("tables").innerHTML = "";
+      uncheckBoxes();
+      resetView();
+    });
+  }
+
+  function toggleVisibility(className) {
+    document.querySelectorAll(".whiteNavy, .minorClass, .majorClass").forEach(el => el.style.display = "none");
+    document.querySelectorAll(`.${className}`).forEach(el => el.style.display = "block");
+    document.querySelectorAll(".selectors").forEach(el => el.style.display = "block");
+    document.querySelectorAll(".form, .formInfo").forEach(el => el.style.display = "none");
+    document.getElementById("error").style.display = "none";
+    document.getElementById("tables").style.display = "none";
+  }
+
+  function resetView() {
+    document.querySelectorAll(".whiteNavy, .minorClass, .majorClass, .selectors, #error, #tables").forEach(el => el.style.display = "none");
+    document.querySelectorAll(".form, .formInfo, .buttons").forEach(el => el.style.display = "block");
+  }
+
+  function showError() {
+    document.querySelectorAll(".beanForm, .selectors, .buttons, .formInfo, .form").forEach(el => el.style.display = "none");
+    document.getElementById("error").style.display = "block";
+    document.getElementById("tables").style.display = "none";
+  }
+
+  async function initializeComparisonTool() {
+    if (isInitialized) return;
+    await loadBeanData();
+    setupEventListeners();
+    isInitialized = true;
+
+    const comparisonSection = document.querySelector(".crop-comparison");
+    if (comparisonSection && !observer) {
+      observer = new IntersectionObserver((entries) => {
+        if (entries[0].isIntersecting) {
+          setupEventListeners();
+        }
+      }, { threshold: 0.1 });
+      observer.observe(comparisonSection);
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    initializeComparisonTool();
   });
 
-  elements.closeErrorBtn.addEventListener("click", () => {
-    uncheckBoxes();
-    resetView();
+  window.addEventListener("pageshow", () => {
+    if (!isInitialized) initializeComparisonTool();
+    else setupEventListeners();
   });
-}
 
-function setupTableButtons() {
-  document.getElementById("exportCSV")?.addEventListener("click", exportAsCSV);
-  document.getElementById("newComparison")?.addEventListener("click", () => {
-    document.getElementById("tables").innerHTML = "";
-    uncheckBoxes();
-    resetView();
+  window.addEventListener("beforeunload", () => {
+    if (observer) observer.disconnect();
   });
-}
-
-function toggleVisibility(className) {
-  document.querySelectorAll(".whiteNavy, .minorClass, .majorClass").forEach(el => el.style.display = "none");
-  document.querySelectorAll(`.${className}`).forEach(el => el.style.display = "block");
-  document.querySelectorAll(".selectors").forEach(el => el.style.display = "block");
-  document.querySelectorAll(".form, .formInfo").forEach(el => el.style.display = "none");
-  document.getElementById("error").style.display = "none";
-  document.getElementById("tables").style.display = "none";
-}
-
-function resetView() {
-  document.querySelectorAll(".whiteNavy, .minorClass, .majorClass, .selectors, #error, #tables").forEach(el => el.style.display = "none");
-  document.querySelectorAll(".form, .formInfo, .buttons").forEach(el => el.style.display = "block");
-}
-
-function showError() {
-  document.querySelectorAll(".beanForm, .selectors, .buttons, .formInfo, .form").forEach(el => el.style.display = "none");
-  document.getElementById("error").style.display = "block";
-  document.getElementById("tables").style.display = "none";
-}
-
-async function initializeComparisonTool() {
-  await loadBeanData();
-  setupEventListeners();
-}
-
-document.addEventListener("DOMContentLoaded", initializeComparisonTool);
+})();
 </script>
