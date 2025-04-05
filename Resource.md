@@ -3,14 +3,12 @@ layout: default
 title: Resources
 permalink: /Resource/
 ---
-
 <header class="page-header">
   <h1 style="font-size: 2.5rem; margin: 0 auto 1rem; font-weight: 700; letter-spacing: 1px; text-align: center; width: 100%; display: block;">Resources</h1>
   <p>Explore our latest dry bean varieties and connect with distributors for licensing and inquiries.</p>
 </header>
 
 <div class="resource-container">
-  <!-- New Varieties Section -->
   <section class="new-varieties">
     <h2>New Dry Bean Varieties</h2>
     <p>We’re excited to announce the upcoming release of innovative dry bean varieties developed through advanced computational breeding at the University of Guelph. These varieties offer enhanced yield, disease resistance, and adaptability to diverse climates, supporting sustainable agriculture for growers across North America.</p>
@@ -19,124 +17,124 @@ permalink: /Resource/
         <img src="/assets/Lines/Bechamel.jpg" alt="OAC Bechamel" class="variety-img">
         <h3>OAC Bechamel</h3>
         <ul>
-          <li> Full Maturity</li>
-          <li> Excellent Yield</li>
-          <li> Anthracnose race 73 resistant</li>
-          <li> Excellent upright plant architecture for direct combining</li>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Excellent upright plant architecture for direct combining</li>
         </ul>
       </div>
       <div class="variety-box">
         <img src="/assets/Lines/Resilient.jpg" alt="OAC Resilient" class="variety-img">
         <h3>OAC Resilient</h3>
         <ul>
-          <li> Full Maturity</li>
-          <li> Excellent Yield</li>
-          <li> Anthracnose race 73 resistant</li>
-          <li> Very good upright plant architecture for direct combining</li>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Very good upright plant architecture for direct combining</li>
         </ul>
       </div>
       <div class="variety-box">
-        <img src="/assets/Lines/Plasma.jpg" alt="Plasma" class="variety-img">
+        <img src="/assets/Lines/Plasma.jpg" alt="OAC Plasma" class="variety-img">
         <h3>OAC Plasma</h3>
         <ul>
-          <li> Mid Maturity</li>
-          <li> High Yield</li>
-          <li> Anthracnose race 73 resistant</li>          
-          <li> Tolerant to common bacterial blight</li>          
-          <li> Excellent upright plant architecture for direct combining</li>
+          <li>Mid Maturity</li>
+          <li>High Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Tolerant to common bacterial blight</li>
+          <li>Excellent upright plant architecture for direct combining</li>
         </ul>
       </div>
       <div class="variety-box">
-        <img src="/assets/Lines/Storm.jpg" alt="6OAC Storm" class="variety-img">
+        <img src="/assets/Lines/Storm.jpg" alt="OAC Storm" class="variety-img">
         <h3>OAC Storm</h3>
         <ul>
-          <li> Full Maturity</li>
-          <li> Excellent Yield</li>
-          <li> Anthracnose race 73 resistant</li>          
-          <li> Tolerant to common bacterial blight</li>          
-          <li> Excellent upright plant architecture for direct combining</li>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Tolerant to common bacterial blight</li>
+          <li>Excellent upright plant architecture for direct combining</li>
         </ul>
       </div>
       <div class="variety-box">
         <img src="/assets/Lines/Agate.jpg" alt="OAC Agate" class="variety-img">
         <h3>OAC Agate</h3>
         <ul>
-          <li> Mid Maturity</li>
-          <li> Very Good Yield</li>
-          <li> Anthracnose race 73 resistant</li>          
-          <li> Very Good Coocking Quality</li>          
-          <li> Very Good upright plant architecture for direct combining</li>
+          <li>Mid Maturity</li>
+          <li>Very Good Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Very Good Cooking Quality</li>
+          <li>Very Good upright plant architecture for direct combining</li>
         </ul>
       </div>
       <div class="variety-box">
         <img src="/assets/Lines/Candycane.jpg" alt="OAC Candycane" class="variety-img">
         <h3>OAC Candycane</h3>
         <ul>
-          <li> Mid Maturity</li>
-          <li> Excellent Yield</li>
-          <li> Good Seed Size</li>          
+          <li>Mid Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Good Seed Size</li>
         </ul>
       </div>
       <div class="variety-box">
         <img src="/assets/Lines/volterra.jpg" alt="OAC Volterra" class="variety-img">
-        <h3>OAC Volterra </h3>
+        <h3>OAC Volterra</h3>
         <ul>
-          <li> Mid Maturity</li>
-          <li> Excellent Yield</li>
-          <li> Anthracnose race 73 resistant</li>                    
-          <li> Excellent upright plant architecture for direct combining</li>
+          <li>Mid Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Excellent upright plant architecture for direct combining</li>
         </ul>
       </div>
       <div class="variety-box">
         <img src="/assets/Lines/Firebrand.jpg" alt="OAC Firebrand" class="variety-img">
-        <h3>OAC Firebrand </h3>
+        <h3>OAC Firebrand</h3>
         <ul>
-          <li> Light Red</li>    
-          <li> Full Maturity</li>
-          <li> Excellent Yield</li>
-          <li> Anthracnose race 73 resistant</li>                    
-          <li> Excellent upright plant architecture for direct combining</li>
-          <li> Good Seed Size</li>    
+          <li>Light Red</li>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Excellent upright plant architecture for direct combining</li>
+          <li>Good Seed Size</li>
         </ul>
       </div>
-       <div class="variety-box">
+      <div class="variety-box">
         <img src="/assets/Lines/Jasper.jpg" alt="OAC Jasper" class="variety-img">
-        <h3>OAC Jasper </h3>
+        <h3>OAC Jasper</h3>
         <ul>
-          <li> Dark Red</li>    
-          <li> Mid Maturity</li>
-          <li> Good Yield</li>
-          <li> Anthracnose race 73 resistant</li>                    
-          <li> Good upright plant architecture for direct combining</li>
-          <li> Large Seed Size</li>    
+          <li>Dark Red</li>
+          <li>Mid Maturity</li>
+          <li>Good Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Good upright plant architecture for direct combining</li>
+          <li>Large Seed Size</li>
         </ul>
       </div>
-       <div class="variety-box">
+      <div class="variety-box">
         <img src="/assets/Lines/o18hr0037.jpg" alt="O18HR003y" class="variety-img">
-        <h3>O18HR003y </h3>
+        <h3>O18HR003y</h3>
         <ul>
-          <li> Full Maturity</li>
-          <li> Excellent Yield</li>
-          <li> Anthracnose race 73 resistant</li>
-          <li> Tolerant to common bacterial blight</li>              
-          <li> Good upright plant architecture for direct combining</li>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Tolerant to common bacterial blight</li>
+          <li>Good upright plant architecture for direct combining</li>
         </ul>
       </div>
-       <div class="variety-box">
-        <img src="/assets/Lines/O18HR007y.jpg" alt="O18HR007y" class="variety-img">
-        <h3>O18HR007y </h3>
+      <div class="variety-box">
+        <img src="/assets/Lines/o18hr007y.jpg" alt="O18HR007y" class="variety-img">
+        <h3>O18HR007y</h3>
         <ul>
-          <li> Full Maturity</li>
-          <li> Excellent Yield</li>
-          <li> Anthracnose race 73 resistant</li>
-          <li> Tolerant to common bacterial blight</li>              
-          <li> Good upright plant architecture for direct combining</li>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Tolerant to common bacterial blight</li>
+          <li>Good upright plant architecture for direct combining</li>
         </ul>
       </div>
     </div>
     <p>For detailed licensing information, download our <a href="/assets/pdf/Dry Beans CFP JAN2025 - LIGHT.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link">Call for Licensing PDF</a> or contact the <a href="https://www.uoguelph.ca/research/innovation/" target="_blank" rel="noopener noreferrer" class="pdf-link">Research Innovation Office</a>.</p>
     <div class="contact-box">
-      <img src="/assets/img/team/steve.jpg" alt="Steve Dinka" class="contact-img">
+      <img src="/assets/img/team/Steve.jpg" alt="Steve Dinka" class="contact-img">
       <div class="contact-details">
         <h3>Steve Dinka</h3>
         <p><strong>Technology Transfer Manager, Germplasm</strong></p>
@@ -146,7 +144,6 @@ permalink: /Resource/
     </div>
   </section>
 
-  <!-- Crop Comparison Tool -->
   <section class="crop-comparison">
     <h2>Compare Dry Bean Varieties</h2>
     <h3 class="formInfo">Select a Crop</h3>
@@ -155,7 +152,7 @@ permalink: /Resource/
       <button id="minor" class="gradientBtn">Coloured Bean Minor</button>
       <button id="major" class="gradientBtn">Coloured Bean Major</button>
     </div>
-	<p class="form">If you run into an error, please refresh the page and attempt it again </p>
+    <p class="form">If you run into an error, please refresh the page and attempt it again</p>
     <p class="form">* "--" represents data not existing due to time since bean registration.</p>
     <p class="form">* For more information, consider visiting the <a target="_blank" href="https://pulse.gocrops.ca/" rel="noopener">Ontario Pulse Crops Committee</a> Official Website.</p>
     <h4 class="selectors">Select varieties to compare</h4>
@@ -167,8 +164,8 @@ permalink: /Resource/
         <li><label><input type="checkbox" value="diseaseRatings"><span class="checkmark"></span> Disease Ratings</label></li>
         <li><label><input type="checkbox" value="performance"><span class="checkmark"></span> Performance Metrics</label></li>
       </ul>
-      <input id="goBack" class="gradientBtn" type="submit" value="Go Back">
-      <input id="submitBtnData" class="gradientBtn" type="submit" value="Submit">
+      <input id="goBack" class="gradientBtn" type="button" value="Go Back">
+      <input id="submitBtnData" class="gradientBtn" type="button" value="Submit">
     </form>
     <div id="error">
       <p>Error. Please ensure you have selected at least two beans and at least one response to compare.</p>
@@ -177,7 +174,6 @@ permalink: /Resource/
     <div id="tables"></div>
   </section>
 
-  <!-- Distributors Section -->
   <section class="distributors">
     <h2>Dry Bean Variety Distributors</h2>
     <div class="distributor-grid">
@@ -231,7 +227,6 @@ permalink: /Resource/
 </div>
 
 <style>
-  /* Header Styling */
   .page-header {
     text-align: center;
     padding: 3rem 1rem;
@@ -259,15 +254,11 @@ permalink: /Resource/
     max-width: 800px;
     display: inline-block;
   }
-
-  /* Resource Container */
   .resource-container {
     max-width: 1200px;
     margin: 4rem auto;
     padding: 0 1rem;
   }
-
-  /* New Varieties Section */
   .new-varieties {
     margin-bottom: 4rem;
   }
@@ -374,8 +365,6 @@ permalink: /Resource/
     color: #333;
     margin: 0.5rem 0;
   }
-
-  /* Crop Comparison Section */
   .crop-comparison {
     margin-bottom: 4rem;
   }
@@ -406,6 +395,7 @@ permalink: /Resource/
     padding: 10px;
     font-weight: 700;
     font-size: 20px;
+    border: 2px solid;
     border-image-source: linear-gradient(to top, #C20430, maroon);
     border-image-slice: 1;
     background: #fff;
@@ -490,6 +480,7 @@ permalink: /Resource/
     padding: 10px;
     font-weight: 700;
     font-size: 20px;
+    border: 2px solid;
     border-image-source: linear-gradient(to top, #C20430, maroon);
     border-image-slice: 1;
     background: #fff;
@@ -522,6 +513,7 @@ permalink: /Resource/
     padding: 10px 20px;
     font-weight: 700;
     font-size: 18px;
+    border: 2px solid;
     border-image-source: linear-gradient(to top, #C20430, maroon);
     border-image-slice: 1;
     background: #fff;
@@ -533,8 +525,10 @@ permalink: /Resource/
   }
   #tables {
     display: none;
+    margin-top: 2rem;
   }
   #tables table {
+    border-collapse: collapse;
     border: 2px solid black;
     margin-bottom: 10px;
     width: 100%;
@@ -569,6 +563,7 @@ permalink: /Resource/
     padding: 10px;
     font-weight: 900;
     font-size: 20px;
+    border: 2px solid;
     border-image-source: linear-gradient(to top, #C20430, maroon);
     border-image-slice: 1;
     background: #fff;
@@ -578,8 +573,6 @@ permalink: /Resource/
   #newComparison:hover, #exportCSV:hover {
     background: #f9e6ed;
   }
-
-  /* Distributors Section */
   .distributors {
     margin-bottom: 4rem;
   }
@@ -633,14 +626,10 @@ permalink: /Resource/
   .distributor-item a:hover {
     color: #d94f8e;
   }
-
-  /* Animation */
   @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
   }
-
-  /* Responsive Design */
   @media (max-width: 600px) {
     .page-header h1 {
       font-size: 2rem;
@@ -674,12 +663,9 @@ permalink: /Resource/
   }
 </style>
 
-<!-- Include SheetJS library for Excel parsing -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 
-<!-- JavaScript for Crop Comparison Tool -->
 <script>
-// Global variables
 let checkedBeans = [];
 let checkedData = [];
 let allBeans = [];
@@ -688,14 +674,14 @@ class Bean {
   constructor(name, marketClass, year, commonMosaicVirus, anthracnose, commonBlight, yieldB, maturity, oneHundredSdWeight, directHarvestSuitability) {
     this.name = name;
     this.marketClass = marketClass;
-    this.year = year;
-    this.commonMosaicVirus = commonMosaicVirus;
-    this.anthracnose = anthracnose;
-    this.commonBlight = commonBlight;
-    this.yieldB = yieldB;
-    this.maturity = maturity;
-    this.oneHundredSdWeight = oneHundredSdWeight;
-    this.directHarvestSuitability = directHarvestSuitability;
+    this.year = year || "--";
+    this.commonMosaicVirus = commonMosaicVirus || ["--", "--"];
+    this.anthracnose = anthracnose || ["--", "--", "--"];
+    this.commonBlight = commonBlight || "--";
+    this.yieldB = yieldB || "--";
+    this.maturity = maturity || "--";
+    this.oneHundredSdWeight = oneHundredSdWeight || "--";
+    this.directHarvestSuitability = directHarvestSuitability || "--";
   }
 
   createDescriptionRow() {
@@ -707,7 +693,7 @@ class Bean {
   }
 
   createPerformanceRow() {
-    const formatNumber = (value) => value === "--" || value === null ? "--" : Number(value).toFixed(2);
+    const formatNumber = (value) => value === "--" || value == null ? "--" : Number(value).toFixed(2);
     return `<tr><td>${this.name}</td><td>${formatNumber(this.yieldB)}</td><td>${formatNumber(this.maturity)}</td><td>${formatNumber(this.oneHundredSdWeight)}</td><td>${formatNumber(this.directHarvestSuitability)}</td></tr>`;
   }
 }
@@ -755,70 +741,45 @@ function convertArrToBean(arr) {
 }
 
 function uncheckBoxes() {
-  const dataForm = document.getElementById("dataForm");
-  const beanForm = document.getElementById("beanForm");
-  if (dataForm) {
-    let checkboxes = dataForm.getElementsByTagName("input");
-    for (let i = 0; i < checkboxes.length; i++) { checkboxes[i].checked = false; }
-  }
-  if (beanForm) {
-    let checkboxes = beanForm.getElementsByTagName("input");
-    for (let i = 0; i < checkboxes.length; i++) { checkboxes[i].checked = false; }
-  }
+  document.querySelectorAll("#dataForm input[type='checkbox'], #beanForm input[type='checkbox']").forEach(checkbox => checkbox.checked = false);
 }
 
 let selected = false;
 function selectAllCheckboxes(className) {
-  console.log(`Selecting all for ${className}, current state: ${selected}`);
   const beanForm = document.getElementById("beanForm");
   if (!beanForm) return;
-  let checkboxes = beanForm.getElementsByTagName("li");
-  for (let i = 0; i < checkboxes.length; i++) {
-    if (checkboxes[i].classList.contains(className)) {
-      checkboxes[i].getElementsByTagName("input")[0].checked = !selected;
-    }
-  }
+  beanForm.querySelectorAll(`.${className} input[type='checkbox']`).forEach(checkbox => checkbox.checked = !selected);
   selected = !selected;
 }
 
 function createFormFromBeansList(className) {
-  console.log(`Creating form for ${className}, allBeans length: ${allBeans.length}`);
   let beansList = allBeans.filter(bean => {
     if (className === "whiteNavy") return bean.marketClass === "White Navy";
     if (className === "minorClass") return !["White Navy", "Light Red Kidney", "Dark Red Kidney", "White Kidney", "Cranberry"].includes(bean.marketClass);
     if (className === "majorClass") return ["Light Red Kidney", "Dark Red Kidney", "White Kidney", "Cranberry"].includes(bean.marketClass);
   });
-  if (beansList.length === 0) {
-    console.warn(`No beans found for ${className}`);
-    return "<p>No varieties available for this category.</p>";
-  }
+  if (beansList.length === 0) return "<p>No varieties available for this category.</p>";
   let HTML = "<ul>";
   beansList.forEach(bean => {
-    let additionalMarketInfo = className === "whiteNavy" ? "" : " (" + bean.marketClass + ")";
+    let additionalMarketInfo = className === "whiteNavy" ? "" : ` (${bean.marketClass})`;
     HTML += `<li class="${className}"><label><input type="checkbox" value="${bean.name}"><span class="checkmark"></span> ${bean.name}${additionalMarketInfo}</label></li>`;
   });
   HTML += "</ul>";
-  HTML += `<button id="selectAll${className}" class="gradientBtn">Select All</button>`;
+  HTML += `<button id="selectAll${className}" class="gradientBtn" type="button">Select All</button>`;
   return HTML;
 }
 
 function exportAsCSV() {
-  console.log("Exporting as CSV...");
   const tables = document.getElementById("tables");
   if (!tables) return;
   let csv = "";
-  let tableElements = tables.getElementsByTagName("table");
-  for (let table of tableElements) {
-    let trs = table.getElementsByTagName("tr");
-    for (let tr of trs) {
-      let tds = tr.getElementsByTagName("td");
-      for (let td of tds) {
-        csv += `${td.innerHTML},`;
-      }
+  tables.querySelectorAll("table").forEach(table => {
+    table.querySelectorAll("tr").forEach(tr => {
+      tr.querySelectorAll("td").forEach(td => csv += `${td.innerHTML},`);
       csv += "\n";
-    }
+    });
     csv += "\n\n";
-  }
+  });
   const blob = new Blob([csv], { type: "text/csv" });
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
@@ -828,7 +789,6 @@ function exportAsCSV() {
   a.click();
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
-  console.log("CSV exported successfully");
 }
 
 async function loadBeanData() {
@@ -840,187 +800,115 @@ async function loadBeanData() {
     const sheetName = workbook.SheetNames[0];
     const sheet = workbook.Sheets[sheetName];
     const jsonData = XLSX.utils.sheet_to_json(sheet);
-
     allBeans = jsonData.map(row => new Bean(
       row["Name"],
       row["Market Class"],
       row["Year"],
-      [row["Common Mosaic Virus R1"] || "--", row["Common Mosaic Virus R15"] || "--"],
-      [row["Anthracnose R17"] || "--", row["Anthracnose R23"] || "--", row["Anthracnose R73"] || "--"],
-      row["Common Blight"] || "--",
-      row["Yield (lbs/acre)"] || "--",
-      row["Maturity (days)"] || "--",
-      row["100 Sd Weight (g)"] || "--",
-      row["Direct Harvest Suitability"] || "--"
+      [row["Common Mosaic Virus R1"], row["Common Mosaic Virus R15"]],
+      [row["Anthracnose R17"], row["Anthracnose R23"], row["Anthracnose R73"]],
+      row["Common Blight"],
+      row["Yield (lbs/acre)"],
+      row["Maturity (days)"],
+      row["100 Sd Weight (g)"],
+      row["Direct Harvest Suitability"]
     ));
-    console.log("Beans loaded successfully:", allBeans.length);
   } catch (error) {
-    console.error("Error loading bean data:", error);
-    const beanForm = document.getElementById("beanForm");
-    if (beanForm) beanForm.innerHTML = "<p>Error loading data. Please try again later.</p>";
+    document.getElementById("beanForm").innerHTML = "<p>Error loading data. Please try again later.</p>";
   }
 }
 
 function setupEventListeners() {
-  console.log("Setting up event listeners...");
-  const whiteBeanBtn = document.getElementById("whiteBean");
-  const minorBtn = document.getElementById("minor");
-  const majorBtn = document.getElementById("major");
-  const goBackBtn = document.getElementById("goBack");
-  const submitBtn = document.getElementById("submitBtnData");
-  const closeErrorBtn = document.getElementById("closeError");
-
-  if (!whiteBeanBtn || !minorBtn || !majorBtn || !goBackBtn || !submitBtn || !closeErrorBtn) {
-    console.error("One or more critical elements not found in the DOM");
-    return;
-  }
-
-  whiteBeanBtn.onclick = function(event) {
-    event.preventDefault();
-    console.log("White Bean clicked");
-    const beanForm = document.getElementById("beanForm");
-    if (beanForm) {
-      beanForm.innerHTML = createFormFromBeansList("whiteNavy");
-      toggleVisibility("whiteNavy");
-      const selectAllBtn = document.getElementById("selectAllwhiteNavy");
-      if (selectAllBtn) selectAllBtn.onclick = (e) => { e.preventDefault(); selectAllCheckboxes("whiteNavy"); };
-    }
+  const elements = {
+    whiteBeanBtn: document.getElementById("whiteBean"),
+    minorBtn: document.getElementById("minor"),
+    majorBtn: document.getElementById("major"),
+    goBackBtn: document.getElementById("goBack"),
+    submitBtn: document.getElementById("submitBtnData"),
+    closeErrorBtn: document.getElementById("closeError")
   };
 
-  minorBtn.onclick = function(event) {
-    event.preventDefault();
-    console.log("Coloured Bean Minor clicked");
-    const beanForm = document.getElementById("beanForm");
-    if (beanForm) {
-      beanForm.innerHTML = createFormFromBeansList("minorClass");
-      toggleVisibility("minorClass");
-      const selectAllBtn = document.getElementById("selectAllminorClass");
-      if (selectAllBtn) selectAllBtn.onclick = (e) => { e.preventDefault(); selectAllCheckboxes("minorClass"); };
-    }
-  };
+  if (Object.values(elements).some(el => !el)) return;
 
-  majorBtn.onclick = function(event) {
-    event.preventDefault();
-    console.log("Coloured Bean Major clicked");
+  elements.whiteBeanBtn.addEventListener("click", () => {
     const beanForm = document.getElementById("beanForm");
-    if (beanForm) {
-      beanForm.innerHTML = createFormFromBeansList("majorClass");
-      toggleVisibility("majorClass");
-      const selectAllBtn = document.getElementById("selectAllmajorClass");
-      if (selectAllBtn) selectAllBtn.onclick = (e) => { e.preventDefault(); selectAllCheckboxes("majorClass"); };
-    }
-  };
+    beanForm.innerHTML = createFormFromBeansList("whiteNavy");
+    toggleVisibility("whiteNavy");
+    document.getElementById("selectAllwhiteNavy")?.addEventListener("click", () => selectAllCheckboxes("whiteNavy"));
+  });
 
-  goBackBtn.onclick = function(event) {
-    event.preventDefault();
-    console.log("Go Back clicked");
+  elements.minorBtn.addEventListener("click", () => {
+    const beanForm = document.getElementById("beanForm");
+    bean.ConcurrentHashMapbeanForm.innerHTML = createFormFromBeansList("minorClass");
+    toggleVisibility("minorClass");
+    document.getElementById("selectAllminorClass")?.addEventListener("click", () => selectAllCheckboxes("minorClass"));
+  });
+
+  elements.majorBtn.addEventListener("click", () => {
+    const beanForm = document.getElementById("beanForm");
+    beanForm.innerHTML = createFormFromBeansList("majorClass");
+    toggleVisibility("majorClass");
+    document.getElementById("selectAllmajorClass")?.addEventListener("click", () => selectAllCheckboxes("majorClass"));
+  });
+
+  elements.goBackBtn.addEventListener("click", () => {
     uncheckBoxes();
     resetView();
-  };
+  });
 
-  submitBtn.onclick = function(event) {
-    event.preventDefault();
-    console.log("Submit clicked");
-    checkedBeans = [];
-    const beanForm = document.getElementById("beanForm");
-    if (beanForm) {
-      let checkboxesBeans = beanForm.getElementsByTagName("input");
-      for (let i = 0; i < checkboxesBeans.length; i++) {
-        if (checkboxesBeans[i].checked) checkedBeans.push(checkboxesBeans[i].value);
-      }
-    }
-    checkedData = [];
-    const dataForm = document.getElementById("dataForm");
-    if (dataForm) {
-      let checkboxes = dataForm.getElementsByTagName("input");
-      for (let i = 0; i < checkboxes.length; i++) {
-        if (checkboxes[i].checked) checkedData.push(checkboxes[i].value);
-      }
-    }
-    let beans = convertArrToBean(checkedBeans);
-    console.log("Selected beans:", checkedBeans, "Selected data:", checkedData);
+  elements.submitBtn.addEventListener("click", () => {
+    checkedBeans = Array.from(document.querySelectorAll("#beanForm input[type='checkbox']:checked")).map(cb => cb.value);
+    checkedData = Array.from(document.querySelectorAll("#dataForm input[type='checkbox']:checked")).map(cb => cb.value);
+    const beans = convertArrToBean(checkedBeans);
     if (beans.length < 2 || checkedData.length < 1) {
       showError();
     } else {
       const tables = document.getElementById("tables");
-      if (tables) {
-        tables.innerHTML = TABLE.createTables(beans, checkedData);
-        tables.style.display = "block";
-        document.querySelectorAll(".selectors, .buttons, .formInfo, #error").forEach(el => el.style.display = "none");
-        setupTableButtons();
-      }
+      tables.innerHTML = TABLE.createTables(beans, checkedData);
+      tables.style.display = "block";
+      document.querySelectorAll(".selectors, .buttons, .formInfo, #error").forEach(el => el.style.display = "none");
+      setupTableButtons();
     }
-  };
+  });
 
-  closeErrorBtn.onclick = function(event) {
-    event.preventDefault();
-    console.log("Close Error clicked");
+  elements.closeErrorBtn.addEventListener("click", () => {
     uncheckBoxes();
     resetView();
-  };
+  });
 }
 
 function setupTableButtons() {
-  console.log("Setting up table buttons...");
-  const exportBtn = document.getElementById("exportCSV");
-  const newCompBtn = document.getElementById("newComparison");
-
-  if (exportBtn) exportBtn.onclick = (e) => { e.preventDefault(); exportAsCSV(); };
-  if (newCompBtn) newCompBtn.onclick = (e) => { 
-    e.preventDefault(); 
-    console.log("Start a New Comparison clicked");
-    const tables = document.getElementById("tables");
-    if (tables) tables.innerHTML = "";
+  document.getElementById("exportCSV")?.addEventListener("click", exportAsCSV);
+  document.getElementById("newComparison")?.addEventListener("click", () => {
+    document.getElementById("tables").innerHTML = "";
     uncheckBoxes();
     resetView();
-  };
+  });
 }
 
 function toggleVisibility(className) {
-  console.log(`Toggling visibility for ${className}`);
   document.querySelectorAll(".whiteNavy, .minorClass, .majorClass").forEach(el => el.style.display = "none");
   document.querySelectorAll(`.${className}`).forEach(el => el.style.display = "block");
   document.querySelectorAll(".selectors").forEach(el => el.style.display = "block");
   document.querySelectorAll(".form, .formInfo").forEach(el => el.style.display = "none");
-  const error = document.getElementById("error");
-  const tables = document.getElementById("tables");
-  if (error) error.style.display = "none";
-  if (tables) tables.style.display = "none";
+  document.getElementById("error").style.display = "none";
+  document.getElementById("tables").style.display = "none";
 }
 
 function resetView() {
-  console.log("Resetting view...");
   document.querySelectorAll(".whiteNavy, .minorClass, .majorClass, .selectors, #error, #tables").forEach(el => el.style.display = "none");
   document.querySelectorAll(".form, .formInfo, .buttons").forEach(el => el.style.display = "block");
 }
 
 function showError() {
-  console.log("Showing error");
   document.querySelectorAll(".beanForm, .selectors, .buttons, .formInfo, .form").forEach(el => el.style.display = "none");
-  const error = document.getElementById("error");
-  const tables = document.getElementById("tables");
-  if (error) error.style.display = "block";
-  if (tables) tables.style.display = "none";
+  document.getElementById("error").style.display = "block";
+  document.getElementById("tables").style.display = "none";
 }
 
 async function initializeComparisonTool() {
-  console.log("Initializing comparison tool...");
   await loadBeanData();
   setupEventListeners();
-
-  // Intersection Observer to re-initialize when section is visible
-  const comparisonSection = document.querySelector(".crop-comparison");
-  if (comparisonSection) {
-    const observer = new IntersectionObserver((entries) => {
-      if (entries[0].isIntersecting) {
-        console.log("Crop comparison section is visible, re-checking event listeners...");
-        setupEventListeners();
-      }
-    }, { threshold: 0.1 });
-    observer.observe(comparisonSection);
-  }
 }
 
-// Run initialization
 document.addEventListener("DOMContentLoaded", initializeComparisonTool);
 </script>
