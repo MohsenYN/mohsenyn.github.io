@@ -814,6 +814,7 @@ async function loadBeanData() {
     ));
   } catch (error) {
     document.getElementById("beanForm").innerHTML = "<p>Error loading data. Please try again later.</p>";
+    console.error("Error loading bean data:", error);
   }
 }
 
@@ -827,7 +828,10 @@ function setupEventListeners() {
     closeErrorBtn: document.getElementById("closeError")
   };
 
-  if (Object.values(elements).some(el => !el)) return;
+  if (Object.values(elements).some(el => !el)) {
+    console.error("One or more required DOM elements are missing.");
+    return;
+  }
 
   elements.whiteBeanBtn.addEventListener("click", () => {
     const beanForm = document.getElementById("beanForm");
@@ -838,7 +842,7 @@ function setupEventListeners() {
 
   elements.minorBtn.addEventListener("click", () => {
     const beanForm = document.getElementById("beanForm");
-    bean.ConcurrentHashMapbeanForm.innerHTML = createFormFromBeansList("minorClass");
+    beanForm.innerHTML = createFormFromBeansList("minorClass");
     toggleVisibility("minorClass");
     document.getElementById("selectAllminorClass")?.addEventListener("click", () => selectAllCheckboxes("minorClass"));
   });
