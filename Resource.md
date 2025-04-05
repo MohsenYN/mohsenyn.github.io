@@ -76,7 +76,7 @@ permalink: /Resource/
         </ul>
       </div>
       <div class="variety-box">
-        <img src="/assets/Lines/volterra.jpg" alt="OAC Volterra" class="variety-img">
+        <img src="/assets/Lines/Volterra.jpg" alt="OAC Volterra" class="variety-img">
         <h3>OAC Volterra</h3>
         <ul>
           <li>Mid Maturity</li>
