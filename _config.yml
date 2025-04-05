@@ -26,7 +26,7 @@ twitter_username: UoGDryBean  # Add if applicable
 github_username: # Add if applicable, e.g., myoosefzadeh
 
 # Build settings
-theme: jekyll-theme-hydejack
+remote_theme: hydecorp/hydejack
 plugins:
   - jekyll-feed
   - jekyll-seo-tag  # For better SEO
