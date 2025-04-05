@@ -11,7 +11,7 @@ permalink: /Resource/
 <div class="resource-container">
   <section class="new-varieties">
     <h2>New Dry Bean Varieties</h2>
-    <p>We’re excited to announce the upcoming release of innovative dry bean varieties developed through advanced computational breeding at the University of Guelph. These varieties offer enhanced yield, disease resistance, and adaptability to diverse climates, supporting sustainable agriculture for growers across North America.</p>
+    <p>We’re excited to announce the upcoming release of dry bean varieties developed through advanced computational breeding at the University of Guelph. These varieties offer enhanced yield, disease resistance, and adaptability to diverse environmental conditions, supporting sustainable agriculture for growers across North America.</p>
     <div class="variety-grid">
       <div class="variety-box">
         <img src="/assets/Lines/Bechamel.jpg" alt="OAC Bechamel" class="variety-img">
