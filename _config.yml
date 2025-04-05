@@ -1,0 +1,115 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole site, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+
+# Site settings
+title: University of Guelph Dry Bean Breeding and Computational Biology  # Fixed typo "Breeing" to "Breeding"
+email: myoosefz@uoguelph.ca  # Updated to a plausible Guelph email (replace with actual)
+description: >-
+
+
+
+ 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://mohsenyn.github.io # the base hostname & protocol for your site, e.g. https://username.github.io
+twitter_username: UoGDryBean  # Add if applicable
+github_username: # Add if applicable, e.g., myoosefzadeh
+
+# Build settings
+theme: jekyll-theme-hydejack
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag  # For better SEO
+  - jekyll-sitemap  # For generating a sitemap
+
+# Hydejack-specific settings
+accent_color: rgb(150,0,0)    # University of Guelph red
+theme_color: rgb(150,0,0)     # Changed from gold to red for consistency (adjust as needed)
+accent_image: /assets/img/Introdcution.jpg  # Local image for background or accent
+
+# Author information
+author:
+  name: Dr. Mohsen Yoosefzadeh Najafabadi
+  title: Assistant Professor
+  affiliation: University of Guelph
+  email: myoosefz@uoguelph.ca  # Consistent with site email
+  google_scholar: https://scholar.google.com/citations?user=your-id  # Update with actual link
+
+# Collections for organizing content
+collections:
+  research:
+    output: false
+    permalink: /research/:path/
+  publications:
+    output: false
+    permalink: /publications/:path/
+
+# Hydejack UI customization
+hydejack:
+  post_addons: false # Tailored for academic posts
+  project_addons: false           # For research projects
+  no_search: false                        # Keep search for publications
+  no_toc: false                           # Keep TOC for long pages
+  no_breadcrumbs: false                   # Useful for navigation
+  use_lsi: true                           # Improves related content
+  cookies_banner: true                    # Privacy compliance
+  advertise: false                        # Not needed for academic site
+menu:
+    - title: Home
+      url: /
+    - title: About Us
+      url: /about-us/
+    - title: Research
+      url: /research/
+    - title: Publications
+      url: /publications/
+    - title: Team Members
+      url: /team-members/
+    - title: Lab News
+      url: /updates/
+    - title: Resources
+      url: /Resource/
+    - title: Join Us
+      url: /join-us/
+
+# Dark mode settings
+dark_mode:
+  dynamic: true
+  sunrise: 6
+  sunset: 18
+  icon: true
+
+# Compress HTML for faster loading
+compress_html:
+  clippings: all
+  endings: all
+  ignore:
+    envs: [development]
+
+# Sass settings
+sass:
+  style: compressed
+  sass_dir: _sass  # Directory for custom SCSS files
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
