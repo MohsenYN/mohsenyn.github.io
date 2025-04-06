@@ -38,8 +38,6 @@ accent_image: /assets/img/Introdcution.jpg
 
 ---
 
-# Read More
-
 <div class="read-more-section" style="background: linear-gradient(135deg, rgba(150,0,0,0.05), rgba(255,255,255,0.95)); border-radius: 15px; padding: 2.5rem; margin: 3rem 0; box-shadow: 0 8px 16px rgba(0,0,0,0.15); text-align: center; position: relative; overflow: hidden;">
   <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle, rgba(150,0,0,0.1) 0%, transparent 70%); opacity: 0.3;"></div>
   <h2 style="color: rgb(150,0,0); font-size: 2.2rem; margin-bottom: 1rem; font-weight: 700; letter-spacing: 1px; position: relative; z-index: 1; text-shadow: 1px 1px 2px rgba(0,0,0,0.1);">Dive Deeper</h2>
@@ -55,8 +53,6 @@ accent_image: /assets/img/Introdcution.jpg
 </div>
 
 ---
-
-## Explore More
 
 <div style="text-align: center; margin: 4rem 0;">
   <a href="/research/" class="btn" style="display: inline-block; padding: 1.25rem 2.5rem; background: rgb(150,0,0); color: white; text-decoration: none; border-radius: 8px; box-shadow: 0 6px 12px rgba(0,0,0,0.2); font-size: 1.25rem; font-weight: 500; transition: background-color 0.3s, transform 0.3s;">Back to Research</a>
