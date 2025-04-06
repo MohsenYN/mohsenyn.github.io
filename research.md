@@ -88,9 +88,33 @@ Our ongoing projects bring these research areas to life, addressing critical cha
   <a href="/publications/" class="btn" style="display: inline-block; padding: 1rem 2rem; background-color: rgb(150,0,0); color: white; text-decoration: none; border-radius: 6px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); font-size: 1.2rem; transition: background-color 0.3s;">Discover Our Publications</a>
 </div>
 
+---
+
+## Acknowledgements
+
+<div class="acknowledgements-box" style="background: linear-gradient(135deg, rgba(150,0,0,0.1), rgba(255,255,255,0.9)); border: 2px solid rgb(150,0,0); border-radius: 12px; padding: 2rem; margin: 2rem 0; box-shadow: 0 6px 12px rgba(0,0,0,0.15); text-align: center;">
+  <h2 style="color: rgb(150,0,0); font-size: 2rem; margin: 0 auto 1.5rem; font-weight: 700; letter-spacing: 1px;">Our Grateful Thanks to Our Sponsors</h2>
+  <p style="font-size: 1.2rem; line-height: 1.6; color: #333; margin-bottom: 2rem;">We extend our deepest gratitude to the sponsors of our Bean Breeding Program. Their generous support enables us to better develop superior dry bean varieties for the future.</p>
+  <div class="sponsor-logos" style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+    <div style="max-width: 200px;">
+      <img src="/assets/img/obg.png" alt="Sponsor 1 Logo" style="width: 100%; height: auto; transition: transform 0.3s;">
+    </div>
+    <div style="max-width: 200px;">
+      <img src="/assets/img/Tier1.png" alt="Sponsor 2 Logo" style="width: 100%; height: auto; transition: transform 0.3s;">
+    </div>
+    <div style="max-width: 200px;">
+      <img src="/assets/img/agilent.png" alt="Sponsor 1 Logo" style="width: 100%; height: auto; transition: transform 0.3s;">
+    </div>
+    <div style="max-width: 200px;">
+      <img src="/assets/img/hensal.png" alt="Sponsor 1 Logo" style="width: 100%; height: auto; transition: transform 0.3s;">
+    </div>
+  </div>
+</div>
+
 <style>
   .gallery figure:hover img { transform: scale(1.05); }
   .gallery figure:hover figcaption { opacity: 1; }
   .research-areas div:hover { transform: translateY(-5px); }
   .btn:hover { background-color: rgb(120,0,0); }
+  .sponsor-logos img:hover { transform: scale(1.1); }
 </style>
