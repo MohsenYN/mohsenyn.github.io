@@ -21,7 +21,7 @@ accent_image: /assets/img/Introdcution.jpg
     <h3 style="color: rgb(150,0,0); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Dr. Mohsen Yoosefzadeh Najafabadi</h3>
     <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Principal Investigator</p>
     <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">2024–Present</p>
-    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">Leading the program with expertise in breeding, genomics, and computational biology to revolutionize dry bean research.</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;"> Overseeing the dry bean breeding and computational biology program. </p>
     <div style="text-align: center; margin-top: 1rem;">
       <a href="mailto:myoosefz@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
       <a href="https://www.linkedin.com/in/mohsen-yoosefzadeh-n-82365bb2/" target="_blank" class="social-link"><img src="/assets/img/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
