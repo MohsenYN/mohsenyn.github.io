@@ -30,7 +30,9 @@ permalink: /join-us/
     </div>
     <p class="call-to-action">Interested? Email <a href="mailto:myoosefz@uoguelph.ca" class="email-link">myoosefz@uoguelph.ca</a> with your CV and a brief statement of your interests. While there are no specific openings at this moment, we are always seeking exceptional students, scientists, and collaborators to join our dynamic team.</p>
   </section>
-
+    <p class="call-to-action">Any questions regarding the Breeding Program? Email Lynsay Schram (<a href="mailto:lschram@uoguelph.ca" class="email-link">lschram@uoguelph.ca</a>) or <a href="mailto:myoosefz@uoguelph.ca" class="email-link">myoosefz@uoguelph.ca</a> for any inquiries regarding the breeding program.</p>
+  </section>
+  
   <!-- Previous Openings Section -->
   <section class="previous-openings">
     <h2>Previous Openings</h2>
