@@ -10,8 +10,7 @@ accent_image: /assets/img/Introdcution.jpg
 
 Our research at the University of Guelph is centered around developing dry bean varieties that excel in yield, stress resistance, and nutritional quality. We employ both conventional breeding methods and modern techniques, such as genomic selection and phenomics, to achieve superior breeding outcomes. This approach ensures the development of resilient and adaptable beans capable of thriving under diverse and changing environmental conditions.
 
-> "By integrating advanced technologies with traditional breeding, we aim to deliver dry bean cultivars that support sustainable agriculture and meet the needs of growers worldwide."  
-> — Dr. Mohsen Yoosefzadeh Najafabadi, Program Lead
+> "By integrating advanced technologies with traditional breeding, we aim to deliver dry bean cultivars that support sustainable agriculture and meet the needs of growers and industry."  
 
 <div class="gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 2rem 0;">
   <figure style="margin: 0; position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
