@@ -37,19 +37,21 @@ accent_image: /assets/img/Introdcution.jpg
 </div>
 
 ---
+
 # Read More
 
-<div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; margin: 3rem 0; box-shadow: 0 6px 12px rgba(0,0,0,0.15); text-align: center;">
-  <h2 style="color: rgb(150,0,0); font-size: 2rem; margin-bottom: 1.5rem; font-weight: 600; letter-spacing: 0.5px;">Google Scholar</h2>
-  <a href="https://scholar.google.ca/citations?user=WJs0cQ0AAAAJ&hl=en" class="btn" style="display: inline-block; padding: 1.25rem 2.5rem; background: rgb(150,0,0); color: white; text-decoration: none; border-radius: 8px; box-shadow: 0 6px 12px rgba(0,0,0,0.2); font-size: 1.25rem; font-weight: 500; transition: background-color 0.3s, transform 0.3s;" target="_blank">Google Scholar</a>
-  <p style="font-size: 1.15rem; line-height: 1.7; color: #444; margin-top: 1.5rem; font-style: italic;"></p>
-</div>
-
----
-
-<div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; margin: 3rem 0; box-shadow: 0 6px 12px rgba(0,0,0,0.15); text-align: center;">
-  <h2 style="color: rgb(150,0,0); font-size: 2rem; margin-bottom: 1.5rem; font-weight: 600; letter-spacing: 0.5px;">ResearchGate</h2>
-  <a href="https://www.researchgate.net/profile/Mohsen-Yoosefzadeh-Najafabadi?ev=hdr_xprf" class="btn" style="display: inline-block; padding: 1.25rem 2.5rem; background: rgb(150,0,0); color: white; text-decoration: none; border-radius: 8px; box-shadow: 0 6px 12px rgba(0,0,0,0.2); font-size: 1.25rem; font-weight: 500; transition: background-color 0.3s, transform 0.3s;" target="_blank">ResearchGate</a>
+<div class="read-more-section" style="background: linear-gradient(135deg, rgba(150,0,0,0.05), rgba(255,255,255,0.95)); border-radius: 15px; padding: 2.5rem; margin: 3rem 0; box-shadow: 0 8px 16px rgba(0,0,0,0.15); text-align: center; position: relative; overflow: hidden;">
+  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle, rgba(150,0,0,0.1) 0%, transparent 70%); opacity: 0.3;"></div>
+  <h2 style="color: rgb(150,0,0); font-size: 2.2rem; margin-bottom: 1rem; font-weight: 700; letter-spacing: 1px; position: relative; z-index: 1; text-shadow: 1px 1px 2px rgba(0,0,0,0.1);">Dive Deeper</h2>
+  <p style="font-size: 1.1rem; line-height: 1.6; color: #555; margin-bottom: 2rem; font-style: italic; position: relative; z-index: 1;">Explore more on Google Scholar and ResearchGate.</p>
+  <div class="button-container" style="display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap;">
+    <a href="https://scholar.google.ca/citations?user=WJs0cQ0AAAAJ&hl=en" class="scholar-btn" target="_blank">
+      <i class="fas fa-graduation-cap"></i> Google Scholar
+    </a>
+    <a href="https://www.researchgate.net/profile/Mohsen-Yoosefzadeh-Najafabadi?ev=hdr_xprf" class="researchgate-btn" target="_blank">
+      <i class="fab fa-researchgate"></i> ResearchGate
+    </a>
+  </div>
 </div>
 
 ---
@@ -64,4 +66,63 @@ accent_image: /assets/img/Introdcution.jpg
   .publications-list div:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
   .publications-list a:hover { color: rgb(120,0,0); }
   .btn:hover { background-color: rgb(120,0,0); transform: translateY(-3px); box-shadow: 0 10px 20px rgba(0,0,0,0.25); }
+
+  /* Styling for the Read More section buttons */
+  .scholar-btn, .researchgate-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: rgb(150,0,0);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .scholar-btn i, .researchgate-btn i {
+    font-size: 1.2rem;
+  }
+
+  /* Hover effects */
+  .scholar-btn:hover, .researchgate-btn:hover {
+    background: rgb(120,0,0);
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  }
+
+  /* Glowing border effect on hover */
+  .scholar-btn::before, .researchgate-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .scholar-btn:hover::before, .researchgate-btn:hover::before {
+    opacity: 1;
+    animation: glow 1.5s infinite;
+  }
+
+  /* Bounce animation on click */
+  .scholar-btn:active, .researchgate-btn:active {
+    transform: scale(0.95);
+    transition: transform 0.1s ease;
+  }
+
+  /* Keyframes for glowing effect */
+  @keyframes glow {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }
 </style>
