@@ -21,32 +21,30 @@ accent_image: /assets/img/Introdcution.jpg
 
 ## Areas of Interest
 
-Our research unfolds across six vibrant domains, each designed to revolutionize dry bean breeding:
-
 <div class="research-areas" style="margin: 2rem 0;">
   <div style="padding: 1.5rem; background: rgba(255, 255, 255, 0.9); border-left: 6px solid rgb(150,0,0); border-radius: 8px; margin-bottom: 1.5rem; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s;">
     <h3 style="color: rgb(150,0,0); font-size: 1.5rem; margin-bottom: 0.75rem;">Dry Bean Breeding & Genetics</h3>
-    <p style="font-size: 1.1rem; line-height: 1.6; color: #444;">Crafting advanced breeding strategies to elevate yield, stress tolerance, and cooking quality across diverse market classes, including navy, black, cranberry, kidney, and pinto beans.</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: #444;"> Developing breeding strategies to genetically improve important traits of interest (yield, biotic and abiotic stresses, cooking quality, etc.) in different market classes of dry beans.</p>
   </div>
   <div style="padding: 1.5rem; background: rgba(255, 255, 255, 0.9); border-left: 6px solid rgb(150,0,0); border-radius: 8px; margin-bottom: 1.5rem; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s;">
     <h3 style="color: rgb(150,0,0); font-size: 1.5rem; margin-bottom: 0.75rem;">Comparative Analysis of Breeding Approaches</h3>
-    <p style="font-size: 1.1rem; line-height: 1.6; color: #444;">Exploring the synergy between traditional and modern breeding methods, enriched by omics and multi-omics insights, to refine and enhance breeding efficiency.</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: #444;"> Investigating the differences between conventional and modern dry bean breeding techniques, particularly through omics and multi-omics insights to enhance breeding outcomes.</p>
   </div>
   <div style="padding: 1.5rem; background: rgba(255, 255, 255, 0.9); border-left: 6px solid rgb(150,0,0); border-radius: 8px; margin-bottom: 1.5rem; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s;">
     <h3 style="color: rgb(150,0,0); font-size: 1.5rem; margin-bottom: 0.75rem;">Remote Sensing & Imaging</h3>
-    <p style="font-size: 1.1rem; line-height: 1.6; color: #444;">Harnessing satellite, aerial, and drone imaging technologies to sharpen predictions of complex traits, empowering smarter, data-driven breeding choices.</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: #444;"> Utilizing remote, satellite, and aerial imaging technologies to improve the prediction accuracy of complex traits in dry beans, thereby facilitating more informed breeding decisions.</p>
   </div>
   <div style="padding: 1.5rem; background: rgba(255, 255, 255, 0.9); border-left: 6px solid rgb(150,0,0); border-radius: 8px; margin-bottom: 1.5rem; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s;">
     <h3 style="color: rgb(150,0,0); font-size: 1.5rem; margin-bottom: 0.75rem;">Omics-Based Selection</h3>
-    <p style="font-size: 1.1rem; line-height: 1.6; color: #444;">Integrating genomics, phenomics, metabolomics, and enviromics to streamline selection, while uncovering the intricate connections across omics disciplines.</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: #444;"> Implementing genomics, phenomics, metabolomics, and enviromics prediction methods to optimize the selection process for dry beans, while exploring the interplay between various omics fields.</p>
   </div>
   <div style="padding: 1.5rem; background: rgba(255, 255, 255, 0.9); border-left: 6px solid rgb(150,0,0); border-radius: 8px; margin-bottom: 1.5rem; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s;">
     <h3 style="color: rgb(150,0,0); font-size: 1.5rem; margin-bottom: 0.75rem;">Genetic Studies Across Omics Fields</h3>
-    <p style="font-size: 1.1rem; line-height: 1.6; color: #444;">Bridging genome-phenome, proteome-phenome, and envirome-phenome relationships to unlock deeper genetic insights into dry bean performance.</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: #444;"> Conducting research that links genome-phenome, proteome-phenome, envirome-phenome, and other omics relationships to deepen our understanding of dry bean genetics.</p>
   </div>
   <div style="padding: 1.5rem; background: rgba(255, 255, 255, 0.9); border-left: 6px solid rgb(150,0,0); border-radius: 8px; margin-bottom: 1.5rem; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s;">
     <h3 style="color: rgb(150,0,0); font-size: 1.5rem; margin-bottom: 0.75rem;">Computational Tools Development</h3>
-    <p style="font-size: 1.1rem; line-height: 1.6; color: #444;">Designing sophisticated data packages, statistical methods, and pipelines to process and interpret complex breeding datasets with precision.</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: #444;"> Creating and implementing advanced computational tools, including data packages, statistical methods, and data-driven pipelines, designed for processing and analyzing complex crop breeding datasets.</p>
   </div>
 </div>
 
