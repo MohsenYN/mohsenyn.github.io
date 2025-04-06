@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: list
 title: About Us
 permalink: /about-us/
 accent_image: /assets/img/Introdcution.jpg
