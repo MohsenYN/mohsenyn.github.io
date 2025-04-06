@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: list
 title: Meet Our Team
 permalink: /team-members/
 accent_image: /assets/img/Introdcution.jpg
