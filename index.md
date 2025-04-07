@@ -5,7 +5,7 @@ accent_image: /assets/img/Introdcution.jpg
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-  <img src="/assets/img/Logo.jpg" alt="Dry Bean Program Logo" style="max-width: 400px; margin: 0 1rem;">
+  <img src="/assets/img/Logo.jpg" alt="Dry Bean Program Logo" style="max-width: 300px; margin: 0 1rem;">
 </div>
 
 Our research at the University of Guelph is centered around developing dry bean varieties that excel in yield, stress resistance, and nutritional quality. We employ both conventional breeding methods and modern techniques, such as genomic selection and phenomics, to achieve superior breeding outcomes. This approach ensures the development of resilient and adaptable beans capable of thriving under diverse and changing environmental conditions.
