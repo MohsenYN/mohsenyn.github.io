@@ -125,7 +125,7 @@ accent_image: /assets/img/Introdcution.jpg
     </div>
   </div>
   <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(255,255,255); border-right: 8px solid rgb(0,0,0); transition: transform 0.3s, box-shadow 0.3s;">
-    <img src="/assets/img/team/nophoto.jpg" alt="Anna Collins" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <img src="/assets/img/team/Anna.jpg" alt="Anna Collins" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <h3 style="color: rgb(0,0,0); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Anna Collins</h3>
     <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Undergraduate Student</p>
     <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">Assisting with field and lab research.</p>
@@ -197,13 +197,13 @@ accent_image: /assets/img/Introdcution.jpg
 
 <div class="team-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 3rem 0;">
   <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,0,0); transition: transform 0.3s, box-shadow 0.3s;">
-    <img src="/assets/img/team/nophoto.jpg" alt="Madison Taylor" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <img src="/assets/img/team/Madison.jpg" alt="Madison Taylor" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <h3 style="color: rgb(0,0,0); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Madison Taylor</h3>
     <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Former Undergraduate Student</p>
     <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">2024</p>
   </div>
   <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,0,0); transition: transform 0.3s, box-shadow 0.3s;">
-    <img src="/assets/img/team/nophoto.jpg" alt="Christian Alloway" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <img src="/assets/img/team/Christian.jpg" alt="Christian Alloway" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <h3 style="color: rgb(0,0,0); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Christian Alloway</h3>
     <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Former Undergraduate Student</p>
     <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">2024</p>
