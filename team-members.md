@@ -149,6 +149,7 @@ accent_image: /assets/img/Introdcution.jpg
       <a href="mailto:akourets@gmail.com" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
       <a href="https://www.linkedin.com/in/alekoure/" target="_blank" class="social-link"><img src="/assets/img/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
       <a href="https://github.com/AleKoure" target="_blank" class="social-link"><img src="/assets/img/icons/github.png" alt="GitHub" class="social-icon"></a>
+      <a href="https://scholar.google.ca/citations?user=WJs0cQ0AAAAJ&hl=en" target="_blank" class="social-link"><img src="/assets/img/icons/google-scholar.png" alt="Google Scholar" class="social-icon"></a>
     </div>
   </div>
   <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(255,204,0); transition: transform 0.3s, box-shadow 0.3s;">
