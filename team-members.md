@@ -137,19 +137,19 @@ accent_image: /assets/img/Introdcution.jpg
 
 ---
 
-## Volunteers
+## Collaborators and Volunteers
 
 <div class="team-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 3rem 0;">
   <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(255,204,0); transition: transform 0.3s, box-shadow 0.3s;">
     <img src="/assets/img/team/Alexandros.jpg" alt="Alexandros Kouretsis" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <h3 style="color: rgb(255,204,0); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Dr. Alexandros Kouretsis</h3>
-    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Volunteer-Collaborator</p>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">External Collaborator</p>
     <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">Volunteering and collaborating in developing AllInOne Genomics R Shiny App.</p>
     <div style="text-align: center; margin-top: 1rem;">
       <a href="mailto:akourets@gmail.com" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
       <a href="https://www.linkedin.com/in/alekoure/" target="_blank" class="social-link"><img src="/assets/img/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
       <a href="https://github.com/AleKoure" target="_blank" class="social-link"><img src="/assets/img/icons/github.png" alt="GitHub" class="social-icon"></a>
-      <a href="https://scholar.google.ca/citations?user=WJs0cQ0AAAAJ&hl=en" target="_blank" class="social-link"><img src="/assets/img/icons/google-scholar.png" alt="Google Scholar" class="social-icon"></a>
+      <a href="https://scholar.google.gr/citations?user=9UTGbIAAAAAJ&hl=en" target="_blank" class="social-link"><img src="/assets/img/icons/google-scholar.png" alt="Google Scholar" class="social-icon"></a>
     </div>
   </div>
   <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(255,204,0); transition: transform 0.3s, box-shadow 0.3s;">
