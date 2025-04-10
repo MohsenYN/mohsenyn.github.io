@@ -1,6 +1,5 @@
 ---
 layout: list
-title: Join Us
 permalink: /join-us/
 ---
 
