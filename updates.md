@@ -11,6 +11,20 @@ permalink: /updates/
 
 <div class="news-grid">
   <div class="news-item">
+    <h3>April 8, 2025</h3>
+    <p><strong>First Step Toward Development of Phenomic Markers for Early Detection of Anthracnose Resistance in Dry Beans</strong><br>At the time a proposal was developed for fast screening and detection of anthracnose-resistant dry bean genotypes in the field, consideration was given to developing phenomic markers in addition to genomic markers for early-stage detection of anthracnose.
+To pursue this, it was hypothesized that conducting a controlled indoor experiment could help isolate the pure spectral variance caused by anthracnose infection. This approach would allow for the identification of key hyperspectral wavelengths associated with anthracnose resistance. These wavelengths could then be compared with those collected in the field to evaluate how well single-plant measurements correlate with canopy-level data.
+Today marked the first day of our indoor experiment aimed at identifying phenomic markers linked to anthracnose resistance in dry beans. Jhana and Sajal, who are both involved in the project, began by filling the pots and sowing the seeds. In this experiment, we selected six genotypes: two resistant, two moderately resistant, and two susceptible to anthracnose. Each genotype will be grown in four replicates under two treatments, inoculated and non-inoculated with anthracnose. We will capture hyperspectral reflectance data from each pot at two different viewing angles, allowing us to track changes over time and analyze resistance-related signatures. 
+Stay tunned for more about this project.</p>
+    <img src="/assets/img/news/ant1.jpg" alt="Jhana">
+    <img src="/assets/img/news/ant2.jpg" alt="Sajal">
+    <img src="/assets/img/news/ant3.jpg" alt="pots">
+    <img src="/assets/img/news/ant4.jpg" alt="selfie">
+    <img src="/assets/img/news/ant5.jpg" alt="experimental setup">
+  </div>
+  
+  <div class="news-grid">
+  <div class="news-item">
     <h3>March 14, 2025</h3>
     <p><strong>Showcasing Innovation at College Royal 2025</strong><br>Our team unveiled pioneering dry bean varieties at the University of Guelph’s 2025 College Royal. Crafted through advanced computational breeding, these varieties boost yield, resilience, and adaptability for Ontario growers. Visitors immersed themselves in our vision for sustainable agriculture.</p>
     <img src="/assets/img/news/CollegeR1.jpg" alt="Team showcasing new bean varieties at College Royal 2025">
