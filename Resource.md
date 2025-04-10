@@ -1,6 +1,5 @@
 ---
 layout: list
-title: Resources
 permalink: /Resource/
 ---
 <header class="page-header">
