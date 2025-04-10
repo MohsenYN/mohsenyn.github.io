@@ -1,6 +1,5 @@
 ---
 layout: list
-title: Lab News
 permalink: /updates/
 ---
 
