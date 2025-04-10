@@ -5,7 +5,7 @@ permalink: /updates/
 ---
 
 <header class="page-header">
-  <h1 class="page-title">Lab News</h1>
+  <h1 style="font-size: 2.5rem; margin: 0 auto 1rem; font-weight: 700; letter-spacing: 1px; text-align: center; width: 100%; display: block;">Lab News</h1>
   <p class="page-subtitle">We regularly update our news here. For the latest updates, follow us on <a href="https://www.linkedin.com/in/mohsen-yoosefzadeh-n-82365bb2/" target="_blank" rel="noopener noreferrer"><strong>LinkedIn</strong></a>.</p>
 </header>
 
