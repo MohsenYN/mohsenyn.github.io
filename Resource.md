@@ -19,7 +19,7 @@ permalink: /Resource/
       <button class="variety-tab" data-category="pinto">Pinto Beans</button>
       <button class="variety-tab" data-category="other">Other Beans</button>
     </div>
-    <div class="variety-content" id="navy">
+    <div class="variety-content active" id="navy">
       <div class="variety-grid">
         <div class="variety-box">
           <img src="/assets/Lines/Bechamel.jpg" alt="OAC Bechamel" class="variety-img">
@@ -758,37 +758,90 @@ function initializeTabs() {
   const buttons = document.querySelectorAll(".variety-tab");
   const contents = document.querySelectorAll(".variety-content");
 
-  // Remove any existing event listeners to prevent duplicates
   buttons.forEach(button => {
-    button.removeEventListener("click", handleTabClick);
-  });
+    button.addEventListener("click", function() {
+      buttons.forEach(btn => btn.classList.remove("active"));
+      contents.forEach(content => content.classList.remove("active"));
 
-  // Add fresh event listeners
-  buttons.forEach(button => {
-    button.addEventListener("click", handleTabClick);
-  });
-
-  function handleTabClick() {
-    buttons.forEach(btn => btn.classList.remove("active"));
-    this.classList.add("active");
-
-    contents.forEach(content => {
-      content.classList.remove("active");
-      if (content.id === this.dataset.category) {
+      this.classList.add("active");
+      const content = document.getElementById(this.dataset.category);
+      if (content) {
         content.classList.add("active");
       }
     });
-  }
+  });
 
   // Ensure Navy Beans tab is active on load
   const activeButton = document.querySelector(".variety-tab[data-category='navy']");
-  const activeContent = document.querySelector("#navy");
-  buttons.forEach(btn => btn.classList.remove("active"));
-  contents.forEach(content => content.classList.remove("active"));
-  if (activeButton && activeContent) {
+  const activeContent = document.getElementById("navy");
+  if (activeButton && activeContent && !activeButton.classList.contains("active")) {
+    buttons.forEach(btn => btn.classList.remove("active"));
+    contents.forEach(content => content.classList.remove("active"));
     activeButton.classList.add("active");
     activeContent.classList.add("active");
   }
+}
+
+function initializeComparisonButtons() {
+  const elements = {
+    whiteBeanBtn: document.getElementById("whiteBean"),
+    minorBtn: document.getElementById("minor"),
+    majorBtn: document.getElementById("major"),
+    goBackBtn: document.getElementById("goBack"),
+    submitBtn: document.getElementById("submitBtnData"),
+    closeErrorBtn: document.getElementById("closeError")
+  };
+
+  if (Object.values(elements).some(el => !el)) {
+    console.error("One or more required DOM elements are missing.");
+    return;
+  }
+
+  elements.whiteBeanBtn.addEventListener("click", () => {
+    const beanForm = document.getElementById("beanForm");
+    beanForm.innerHTML = createFormFromBeansList("whiteNavy");
+    toggleVisibility("whiteNavy");
+    document.getElementById("selectAllwhiteNavy")?.addEventListener("click", () => selectAllCheckboxes("whiteNavy"));
+  });
+
+  elements.minorBtn.addEventListener("click", () => {
+    const beanForm = document.getElementById("beanForm");
+    beanForm.innerHTML = createFormFromBeansList("minorClass");
+    toggleVisibility("minorClass");
+    document.getElementById("selectAllminorClass")?.addEventListener("click", () => selectAllCheckboxes("minorClass"));
+  });
+
+  elements.majorBtn.addEventListener("click", () => {
+    const beanForm = document.getElementById("beanForm");
+    beanForm.innerHTML = createFormFromBeansList("majorClass");
+    toggleVisibility("majorClass");
+    document.getElementById("selectAllmajorClass")?.addEventListener("click", () => selectAllCheckboxes("majorClass"));
+  });
+
+  elements.goBackBtn.addEventListener("click", () => {
+    uncheckBoxes();
+    resetView();
+  });
+
+  elements.submitBtn.addEventListener("click", () => {
+    checkedBeans = Array.from(document.querySelectorAll("#beanForm input[type='checkbox']:checked")).map(cb => cb.value);
+    checkedData = Array.from(document.querySelectorAll("#dataForm input[type='checkbox']:checked")).map(cb => cb.value);
+    const beans = convertArrToBean(checkedBeans);
+    if (beans.length < 2 || checkedData.length < 1) {
+      showError();
+    } else {
+      const tables = document.getElementById("tables");
+      tables.innerHTML = TABLE.createTables(beans, checkedData);
+      tables.style.display = "block";
+      document.querySelectorAll(".selectors, .buttons, .formInfo, #error").forEach(el => el.style.display = "none");
+      setupTableButtons();
+    }
+  });
+
+  elements.closeErrorBtn.addEventListener("click", () => {
+    uncheckBoxes();
+    resetView();
+  });
 }
 
 let checkedBeans = [];
@@ -900,7 +953,7 @@ function exportAsCSV() {
   let csv = "";
   tables.querySelectorAll("table").forEach(table => {
     table.querySelectorAll("tr").forEach(tr => {
-      tr.querySelectorAll("td").forEach(td => csv += `${td.innerHTML},`);
+      tr.querySelectorAll("td").forEach(td => csv += `"${td.innerHTML.replace(/"/g, '""')}",`);
       csv += "\n";
     });
     csv += "\n\n";
@@ -943,75 +996,17 @@ async function loadBeanData() {
   }
 }
 
-function setupEventListeners() {
-  const elements = {
-    whiteBeanBtn: document.getElementById("whiteBean"),
-    minorBtn: document.getElementById("minor"),
-    majorBtn: document.getElementById("major"),
-    goBackBtn: document.getElementById("goBack"),
-    submitBtn: document.getElementById("submitBtnData"),
-    closeErrorBtn: document.getElementById("closeError")
-  };
-
-  if (Object.values(elements).some(el => !el)) {
-    console.error("One or more required DOM elements are missing.");
-    return;
-  }
-
-  elements.whiteBeanBtn.addEventListener("click", () => {
-    const beanForm = document.getElementById("beanForm");
-    beanForm.innerHTML = createFormFromBeansList("whiteNavy");
-    toggleVisibility("whiteNavy");
-    document.getElementById("selectAllwhiteNavy")?.addEventListener("click", () => selectAllCheckboxes("whiteNavy"));
-  });
-
-  elements.minorBtn.addEventListener("click", () => {
-    const beanForm = document.getElementById("beanForm");
-    beanForm.innerHTML = createFormFromBeansList("minorClass");
-    toggleVisibility("minorClass");
-    document.getElementById("selectAllminorClass")?.addEventListener("click", () => selectAllCheckboxes("minorClass"));
-  });
-
-  elements.majorBtn.addEventListener("click", () => {
-    const beanForm = document.getElementById("beanForm");
-    beanForm.innerHTML = createFormFromBeansList("majorClass");
-    toggleVisibility("majorClass");
-    document.getElementById("selectAllmajorClass")?.addEventListener("click", () => selectAllCheckboxes("majorClass"));
-  });
-
-  elements.goBackBtn.addEventListener("click", () => {
-    uncheckBoxes();
-    resetView();
-  });
-
-  elements.submitBtn.addEventListener("click", () => {
-    checkedBeans = Array.from(document.querySelectorAll("#beanForm input[type='checkbox']:checked")).map(cb => cb.value);
-    checkedData = Array.from(document.querySelectorAll("#dataForm input[type='checkbox']:checked")).map(cb => cb.value);
-    const beans = convertArrToBean(checkedBeans);
-    if (beans.length < 2 || checkedData.length < 1) {
-      showError();
-    } else {
-      const tables = document.getElementById("tables");
-      tables.innerHTML = TABLE.createTables(beans, checkedData);
-      tables.style.display = "block";
-      document.querySelectorAll(".selectors, .buttons, .formInfo, #error").forEach(el => el.style.display = "none");
-      setupTableButtons();
-    }
-  });
-
-  elements.closeErrorBtn.addEventListener("click", () => {
-    uncheckBoxes();
-    resetView();
-  });
-}
-
 function setupTableButtons() {
-  document.getElementById("exportCSV")?.addEventListener("click", exportAsCSV);
-  document.getElementById("newComparison")?.addEventListener("click", () => {
-    document.getElementById("tables").innerHTML = "";
-    uncheckBoxes();
-    resetView();
-  });
+  const exportBtn = document.getElementById("exportCSV");
+  const newComparisonBtn = document.getElementById("newComparison");
+  if (exportBtn) exportBtn.addEventListener("click", exportAsCSV);
+  if (newComparisonBtn) {
+    newComparisonBtn.addEventListener("click", () => {
+      document.getElementById("tables").innerHTML = "";
+      uncheckBoxes();
+      resetView();
+    });
+  }
 }
 
 function toggleVisibility(className) {
@@ -1034,15 +1029,11 @@ function showError() {
   document.getElementById("tables").style.display = "none";
 }
 
-async function initializeComparisonTool() {
+async function initializePage() {
   await loadBeanData();
-  setupEventListeners();
   initializeTabs();
+  initializeComparisonButtons();
 }
 
-document.addEventListener("DOMContentLoaded", initializeComparisonTool);
-
-// Re-initialize tabs on page load or navigation
-window.addEventListener("load", initializeTabs);
-window.addEventListener("popstate", initializeTabs);
+document.addEventListener("DOMContentLoaded", initializePage);
 </script>
