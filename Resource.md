@@ -19,7 +19,7 @@ permalink: /Resource/
           <li>Full Maturity</li>
           <li>Excellent Yield</li>
           <li>Anthracnose race 73 resistant</li>
-          <li>Excellent upright plant architecture for direct combining</li>
+          <li>Excellent Upright Plant Architecture for Direct Combining</li>
         </ul>
       </div>
       <div class="variety-box">
@@ -29,7 +29,7 @@ permalink: /Resource/
           <li>Full Maturity</li>
           <li>Excellent Yield</li>
           <li>Anthracnose race 73 resistant</li>
-          <li>Very good upright plant architecture for direct combining</li>
+          <li>Very Good Upright Plant Architecture for Direct Combining</li>
         </ul>
       </div>
       <div class="variety-box">
@@ -40,7 +40,7 @@ permalink: /Resource/
           <li>High Yield</li>
           <li>Anthracnose race 73 resistant</li>
           <li>Tolerant to common bacterial blight</li>
-          <li>Excellent upright plant architecture for direct combining</li>
+          <li>Excellent Upright Plant Architecture for Direct Combining</li>
         </ul>
       </div>
       <div class="variety-box">
@@ -51,7 +51,20 @@ permalink: /Resource/
           <li>Excellent Yield</li>
           <li>Anthracnose race 73 resistant</li>
           <li>Tolerant to common bacterial blight</li>
-          <li>Excellent upright plant architecture for direct combining</li>
+          <li>Excellent Upright Plant Architecture for Direct Combining</li>
+        </ul>
+      </div>
+      <div class="variety-grid">
+      <div class="variety-box">
+        <img src="/assets/Lines/NDC-1.jpg" alt="OAC 22-NDC1" class="variety-img">
+        <img src="/assets/Lines/NDC-1-1.jpg" alt="OAC 22-NDC1" class="variety-img">
+        <h3>OAC 22-NDC1</h3>
+        <ul>
+          <li>The First Non-Darkening Cranberry Bean</li>
+          <li>Mid Maturity</li>
+          <li>Good Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Very Good Cooking Quality and Excellent Upright Plant Architecture</li>
         </ul>
       </div>
       <div class="variety-box">
@@ -62,7 +75,7 @@ permalink: /Resource/
           <li>Very Good Yield</li>
           <li>Anthracnose race 73 resistant</li>
           <li>Very Good Cooking Quality</li>
-          <li>Very Good upright plant architecture for direct combining</li>
+          <li>Very Good upright Plant Architecture for Direct Combining</li>
         </ul>
       </div>
       <div class="variety-box">
@@ -81,7 +94,7 @@ permalink: /Resource/
           <li>Mid Maturity</li>
           <li>Excellent Yield</li>
           <li>Anthracnose race 73 resistant</li>
-          <li>Excellent upright plant architecture for direct combining</li>
+          <li>Excellent Upright Plant Architecture for Direct Combining</li>
         </ul>
       </div>
       <div class="variety-box">
@@ -92,7 +105,7 @@ permalink: /Resource/
           <li>Full Maturity</li>
           <li>Excellent Yield</li>
           <li>Anthracnose race 73 resistant</li>
-          <li>Excellent upright plant architecture for direct combining</li>
+          <li>Excellent Upright Plant Architecture for Direct Combining</li>
           <li>Good Seed Size</li>
         </ul>
       </div>
@@ -104,7 +117,7 @@ permalink: /Resource/
           <li>Mid Maturity</li>
           <li>Good Yield</li>
           <li>Anthracnose race 73 resistant</li>
-          <li>Good upright plant architecture for direct combining</li>
+          <li>Good Upright Plant Architecture for Direct Combining</li>
           <li>Large Seed Size</li>
         </ul>
       </div>
@@ -116,7 +129,7 @@ permalink: /Resource/
           <li>Excellent Yield</li>
           <li>Anthracnose race 73 resistant</li>
           <li>Tolerant to common bacterial blight</li>
-          <li>Good upright plant architecture for direct combining</li>
+          <li>Good Upright Plant Architecture for Direct Combining</li>
         </ul>
       </div>
       <div class="variety-box">
@@ -127,7 +140,7 @@ permalink: /Resource/
           <li>Excellent Yield</li>
           <li>Anthracnose race 73 resistant</li>
           <li>Tolerant to common bacterial blight</li>
-          <li>Good upright plant architecture for direct combining</li>
+          <li>Good Upright Plant Architecture for Direct Combining</li>
         </ul>
       </div>
     </div>
