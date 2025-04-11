@@ -57,7 +57,7 @@ permalink: /Resource/
       <div class="variety-grid">
       <div class="variety-box">
         <img src="/assets/Lines/NDC-1.jpg" alt="OAC 22-NDC1" class="variety-img">
-        <img src="/assets/Lines/NDC-1-1.jpg" alt="OAC 22-NDC1" class="variety-img">
+        <img src="/assets/Lines/NDC1-1.jpg" alt="OAC 22-NDC1-Compare" class="variety-img">
         <h3>OAC 22-NDC1</h3>
         <ul>
           <li>The First Non-Darkening Cranberry Bean</li>
