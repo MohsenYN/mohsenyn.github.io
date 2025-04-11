@@ -11,163 +11,136 @@ permalink: /Resource/
   <section class="new-varieties">
     <h2>New Dry Bean Varieties</h2>
     <p>We’re excited to announce the upcoming release of dry bean varieties developed through advanced computational breeding at the University of Guelph. These varieties offer enhanced yield, disease resistance, and adaptability to diverse environmental conditions, supporting sustainable agriculture for growers across North America.</p>
-    <div class="variety-tabs">
-      <button class="variety-tab active" data-category="navy">Navy Beans</button>
-      <button class="variety-tab" data-category="black">Black Beans</button>
-      <button class="variety-tab" data-category="kidney">Kidney Beans</button>
-      <button class="variety-tab" data-category="cranberry">Cranberry Beans</button>
-      <button class="variety-tab" data-category="pinto">Pinto Beans</button>
-      <button class="variety-tab" data-category="other">Other Beans</button>
-    </div>
-    <div class="variety-content active" id="navy">
-      <div class="variety-grid">
-        <div class="variety-box">
-          <img src="/assets/Lines/Bechamel.jpg" alt="OAC Bechamel" class="variety-img">
-          <h3>OAC Bechamel</h3>
-          <ul>
-            <li>Full Maturity</li>
-            <li>Excellent Yield</li>
-            <li>Anthracnose race 73 resistant</li>
-            <li>Excellent Upright Plant Architecture for Direct Combining</li>
-          </ul>
-        </div>
-        <div class="variety-box">
-          <img src="/assets/Lines/Resilient.jpg" alt="OAC Resilient" class="variety-img">
-          <h3>OAC Resilient</h3>
-          <ul>
-            <li>Full Maturity</li>
-            <li>Excellent Yield</li>
-            <li>Anthracnose race 73 resistant</li>
-            <li>Very Good Upright Plant Architecture for Direct Combining</li>
-          </ul>
-        </div>
-        <div class="variety-box">
-          <img src="/assets/Lines/Plasma.jpg" alt="OAC Plasma" class="variety-img">
-          <h3>OAC Plasma</h3>
-          <ul>
-            <li>Mid Maturity</li>
-            <li>High Yield</li>
-            <li>Anthracnose race 73 resistant</li>
-            <li>Tolerant to common bacterial blight</li>
-            <li>Excellent Upright Plant Architecture for Direct Combining</li>
-          </ul>
-        </div>
-        <div class="variety-box">
-          <img src="/assets/Lines/Storm.jpg" alt="OAC Storm" class="variety-img">
-          <h3>OAC Storm</h3>
-          <ul>
-            <li>Full Maturity</li>
-            <li>Excellent Yield</li>
-            <li>Anthracnose race 73 resistant</li>
-            <li>Tolerant to common bacterial blight</li>
-            <li>Excellent Upright Plant Architecture for Direct Combining</li>
-          </ul>
-        </div>
+    <div class="variety-grid">
+      <div class="variety-box">
+        <img src="/assets/Lines/Bechamel.jpg" alt="OAC Bechamel" class="variety-img">
+        <h3>OAC Bechamel</h3>
+        <ul>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Excellent Upright Plant Architecture for Direct Combining</li>
+        </ul>
       </div>
-    </div>
-    <div class="variety-content" id="black">
-      <p>No Black Beans are currently available for licensing.</p>
-    </div>
-    <div class="variety-content" id="kidney">
-      <div class="variety-grid">
-        <div class="variety-box">
-          <img src="/assets/Lines/Firebrand.jpg" alt="OAC Firebrand" class="variety-img">
-          <h3>OAC Firebrand</h3>
-          <ul>
-            <li>Light Red</li>
-            <li>Full Maturity</li>
-            <li>Excellent Yield</li>
-            <li>Anthracnose race 73 resistant</li>
-            <li>Excellent Upright Plant Architecture for Direct Combining</li>
-            <li>Good Seed Size</li>
-          </ul>
-        </div>
-        <div class="variety-box">
-          <img src="/assets/Lines/Jasper.jpg" alt="OAC Jasper" class="variety-img">
-          <h3>OAC Jasper</h3>
-          <ul>
-            <li>Dark Red</li>
-            <li>Mid Maturity</li>
-            <li>Good Yield</li>
-            <li>Anthracnose race 73 resistant</li>
-            <li>Good Upright Plant Architecture for Direct Combining</li>
-            <li>Large Seed Size</li>
-          </ul>
-        </div>
+      <div class="variety-box">
+        <img src="/assets/Lines/Resilient.jpg" alt="OAC Resilient" class="variety-img">
+        <h3>OAC Resilient</h3>
+        <ul>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Very Good Upright Plant Architecture for Direct Combining</li>
+        </ul>
       </div>
-    </div>
-    <div class="variety-content" id="cranberry">
-      <div class="variety-grid">
-        <div class="variety-box">
-          <img src="/assets/Lines/Volterra.jpg" alt="OAC Volterra" class="variety-img">
-          <h3>OAC Volterra</h3>
-          <ul>
-            <li>Mid Maturity</li>
-            <li>Excellent Yield</li>
-            <li>Anthracnose race 73 resistant</li>
-            <li>Excellent Upright Plant Architecture for Direct Combining</li>
-          </ul>
-        </div>
-        <div class="variety-box">
-          <img src="/assets/Lines/Candycane.jpg" alt="OAC Candycane" class="variety-img">
-          <h3>OAC Candycane</h3>
-          <ul>
-            <li>Mid Maturity</li>
-            <li>Excellent Yield</li>
-            <li>Good Seed Size</li>
-          </ul>
-        </div>
-        <div class="variety-box">
-          <img src="/assets/Lines/Agate.jpg" alt="OAC Agate" class="variety-img">
-          <h3>OAC Agate</h3>
-          <ul>
-            <li>Mid Maturity</li>
-            <li>Very Good Yield</li>
-            <li>Anthracnose race 73 resistant</li>
-            <li>Very Good Cooking Quality</li>
-            <li>Very Good upright Plant Architecture for Direct Combining</li>
-          </ul>
-        </div>
-        <div class="variety-box">
-          <img src="/assets/Lines/NDC-1.jpg" alt="OAC 22-NDC1" class="variety-img">
-          <h3>OAC 22-NDC1</h3>
-          <ul>
-            <li>The First Non-Darkening Cranberry Bean</li>
-            <li>Mid Maturity</li>
-            <li>Good Yield</li>
-            <li>Anthracnose race 73 resistant</li>
-            <li>Very Good Cooking Quality and Excellent Upright Plant Architecture</li>
-          </ul>
-        </div>
+      <div class="variety-box">
+        <img src="/assets/Lines/Plasma.jpg" alt="OAC Plasma" class="variety-img">
+        <h3>OAC Plasma</h3>
+        <ul>
+          <li>Mid Maturity</li>
+          <li>High Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Tolerant to common bacterial blight</li>
+          <li>Excellent Upright Plant Architecture for Direct Combining</li>
+        </ul>
       </div>
-    </div>
-    <div class="variety-content" id="pinto">
-      <p>No Pinto Beans are currently available for licensing.</p>
-    </div>
-    <div class="variety-content" id="other">
-      <div class="variety-grid">
-        <div class="variety-box">
-          <img src="/assets/Lines/o18hr0037.jpg" alt="O18HR003y" class="variety-img">
-          <h3>O18HR003y</h3>
-          <ul>
-            <li>Full Maturity</li>
-            <li>Excellent Yield</li>
-            <li>Anthracnose race 73 resistant</li>
-            <li>Tolerant to common bacterial blight</li>
-            <li>Good Upright Plant Architecture for Direct Combining</li>
-          </ul>
-        </div>
-        <div class="variety-box">
-          <img src="/assets/Lines/o18hr007y.jpg" alt="O18HR007y" class="variety-img">
-          <h3>O18HR007y</h3>
-          <ul>
-            <li>Full Maturity</li>
-            <li>Excellent Yield</li>
-            <li>Anthracnose race 73 resistant</li>
-            <li>Tolerant to common bacterial blight</li>
-            <li>Good Upright Plant Architecture for Direct Combining</li>
-          </ul>
-        </div>
+      <div class="variety-box">
+        <img src="/assets/Lines/Storm.jpg" alt="OAC Storm" class="variety-img">
+        <h3>OAC Storm</h3>
+        <ul>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Tolerant to common bacterial blight</li>
+          <li>Excellent Upright Plant Architecture for Direct Combining</li>
+        </ul>
+      </div>
+      <div class="variety-box">
+        <img src="/assets/Lines/NDC-1.jpg" alt="OAC 22-NDC1" class="variety-img">
+        <img src="/assets/Lines/NDC1-1.jpg" alt="OAC 22-NDC1-Compare" class="variety-img">
+        <h3>OAC 22-NDC1</h3>
+        <ul>
+          <li>The First Non-Darkening Cranberry Bean</li>
+          <li>Mid Maturity</li>
+          <li>Good Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Very Good Cooking Quality and Excellent Upright Plant Architecture</li>
+        </ul>
+      </div>
+      <div class="variety-box">
+        <img src="/assets/Lines/Agate.jpg" alt="OAC Agate" class="variety-img">
+        <h3>OAC Agate</h3>
+        <ul>
+          <li>Mid Maturity</li>
+          <li>Very Good Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Very Good Cooking Quality</li>
+          <li>Very Good upright Plant Architecture for Direct Combining</li>
+        </ul>
+      </div>
+      <div class="variety-box">
+        <img src="/assets/Lines/Candycane.jpg" alt="OAC Candycane" class="variety-img">
+        <h3>OAC Candycane</h3>
+        <ul>
+          <li>Mid Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Good Seed Size</li>
+        </ul>
+      </div>
+      <div class="variety-box">
+        <img src="/assets/Lines/Volterra.jpg" alt="OAC Volterra" class="variety-img">
+        <h3>OAC Volterra</h3>
+        <ul>
+          <li>Mid Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Excellent Upright Plant Architecture for Direct Combining</li>
+        </ul>
+      </div>
+      <div class="variety-box">
+        <img src="/assets/Lines/Firebrand.jpg" alt="OAC Firebrand" class="variety-img">
+        <h3>OAC Firebrand</h3>
+        <ul>
+          <li>Light Red</li>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Excellent Upright Plant Architecture for Direct Combining</li>
+          <li>Good Seed Size</li>
+        </ul>
+      </div>
+      <div class="variety-box">
+        <img src="/assets/Lines/Jasper.jpg" alt="OAC Jasper" class="variety-img">
+        <h3>OAC Jasper</h3>
+        <ul>
+          <li>Dark Red</li>
+          <li>Mid Maturity</li>
+          <li>Good Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Good Upright Plant Architecture for Direct Combining</li>
+          <li>Large Seed Size</li>
+        </ul>
+      </div>
+      <div class="variety-box">
+        <img src="/assets/Lines/o18hr0037.jpg" alt="O18HR003y" class="variety-img">
+        <h3>O18HR003y</h3>
+        <ul>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Tolerant to common bacterial blight</li>
+          <li>Good Upright Plant Architecture for Direct Combining</li>
+        </ul>
+      </div>
+      <div class="variety-box">
+        <img src="/assets/Lines/o18hr007y.jpg" alt="O18HR007y" class="variety-img">
+        <h3>O18HR007y</h3>
+        <ul>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Tolerant to common bacterial blight</li>
+          <li>Good Upright Plant Architecture for Direct Combining</li>
+        </ul>
       </div>
     </div>
     <p>For detailed licensing information, download our <a href="/assets/pdf/Dry Beans CFP JAN2025 - LIGHT.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link">Call for Licensing PDF</a> or contact the <a href="https://www.uoguelph.ca/research/innovation/" target="_blank" rel="noopener noreferrer" class="pdf-link">Research Innovation Office</a>.</p>
@@ -313,44 +286,6 @@ permalink: /Resource/
     line-height: 1.7;
     color: #333;
     margin-bottom: 1.5rem;
-  }
-  .variety-tabs {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 2rem;
-    border-bottom: 2px solid #9b1d64;
-  }
-  .variety-tab {
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    font-weight: 600;
-    border: none;
-    background: #f9e6ed;
-    color: #9b1d64;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    border-radius: 8px 8px 0 0;
-    position: relative;
-  }
-  .variety-tab:hover {
-    background: #d94f8e;
-    color: #fff;
-  }
-  .variety-tab.active {
-    background: #9b1d64;
-    color: #fff;
-    border-bottom: 2px solid #f4c430;
-  }
-  .variety-content {
-    display: none;
-    padding: 1rem;
-    background: #fff;
-    border-radius: 0 8px 8px 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  .variety-content.active {
-    display: block;
   }
   .variety-grid {
     display: grid;
@@ -736,25 +671,12 @@ permalink: /Resource/
     .contact-img {
       margin: 0 auto 1rem;
     }
-    .variety-tabs {
-      flex-direction: column;
-      align-items: stretch;
-    }
-    .variety-tab {
-      width: 100%;
-      border-radius: 8px;
-      margin-bottom: 0.5rem;
-    }
-    .variety-tab.active {
-      border-radius: 8px 8px 0 0;
-    }
   }
 </style>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 
 <script>
-// Global variables
 let checkedBeans = [];
 let checkedData = [];
 let allBeans = [];
@@ -788,14 +710,14 @@ class Bean {
 }
 
 const TABLE = {
-  createDescriptionTable(beans) {
+  createDescriptionTable: function(beans) {
     let HTML = "<table id='description'><tr><td colspan='3'>Variety Description</td></tr>";
     HTML += "<tr><td>Variety</td><td>Market Class</td><td>Year of Registration</td></tr>";
     beans.forEach(bean => HTML += bean.createDescriptionRow());
     HTML += "</table>";
     return HTML;
   },
-  createDiseaseTable(beans) {
+  createDiseaseTable: function(beans) {
     let HTML = "<table id='diseaseRating'><tr><td colspan='7'>Disease Ratings</td></tr>";
     HTML += "<tr><td>Variety</td><td colspan='2'>Bean Common Mosaic Virus</td><td colspan='3'>Anthracnose</td><td>Common Blight</td></tr>";
     HTML += "<tr><td></td><td>R 1</td><td>R 15</td><td>R 17</td><td>R 23</td><td>R 73</td><td></td></tr>";
@@ -803,14 +725,14 @@ const TABLE = {
     HTML += "</table>";
     return HTML;
   },
-  createPerformanceTable(beans) {
+  createPerformanceTable: function(beans) {
     let HTML = "<table id='performance'><tr><td colspan='5'>Performance Metrics</td></tr>";
     HTML += "<tr><td>Variety</td><td>Yield (lbs/acre)</td><td>Maturity (days)</td><td>100 Seed Weight (g)</td><td>Direct Harvest Suitability (1-5)</td></tr>";
     beans.forEach(bean => HTML += bean.createPerformanceRow());
     HTML += "</table>";
     return HTML;
   },
-  createTables(beans, parameters) {
+  createTables: function(beans, parameters) {
     let HTML = "";
     if (parameters.includes("description")) HTML += this.createDescriptionTable(beans);
     if (parameters.includes("diseaseRatings")) HTML += this.createDiseaseTable(beans);
@@ -833,12 +755,12 @@ function uncheckBoxes() {
   document.querySelectorAll("#dataForm input[type='checkbox'], #beanForm input[type='checkbox']").forEach(checkbox => checkbox.checked = false);
 }
 
+let selected = false;
 function selectAllCheckboxes(className) {
   const beanForm = document.getElementById("beanForm");
   if (!beanForm) return;
-  const checkboxes = beanForm.querySelectorAll(`.${className} input[type='checkbox']`);
-  const allChecked = Array.from(checkboxes).every(cb => cb.checked);
-  checkboxes.forEach(checkbox => checkbox.checked = !allChecked);
+  beanForm.querySelectorAll(`.${className} input[type='checkbox']`).forEach(checkbox => checkbox.checked = !selected);
+  selected = !selected;
 }
 
 function createFormFromBeansList(className) {
@@ -854,7 +776,7 @@ function createFormFromBeansList(className) {
     HTML += `<li class="${className}"><label><input type="checkbox" value="${bean.name}"><span class="checkmark"></span> ${bean.name}${additionalMarketInfo}</label></li>`;
   });
   HTML += "</ul>";
-  HTML += `<button class="gradientBtn selectAll" data-class="${className}" type="button">Select All</button>`;
+  HTML += `<button id="selectAll${className}" class="gradientBtn" type="button">Select All</button>`;
   return HTML;
 }
 
@@ -864,7 +786,7 @@ function exportAsCSV() {
   let csv = "";
   tables.querySelectorAll("table").forEach(table => {
     table.querySelectorAll("tr").forEach(tr => {
-      tr.querySelectorAll("td").forEach(td => csv += `"${td.innerHTML.replace(/"/g, '""')}",`);
+      tr.querySelectorAll("td").forEach(td => csv += `${td.innerHTML},`);
       csv += "\n";
     });
     csv += "\n\n";
@@ -907,6 +829,77 @@ async function loadBeanData() {
   }
 }
 
+function setupEventListeners() {
+  const elements = {
+    whiteBeanBtn: document.getElementById("whiteBean"),
+    minorBtn: document.getElementById("minor"),
+    majorBtn: document.getElementById("major"),
+    goBackBtn: document.getElementById("goBack"),
+    submitBtn: document.getElementById("submitBtnData"),
+    closeErrorBtn: document.getElementById("closeError")
+  };
+
+  if (Object.values(elements).some(el => !el)) {
+    console.error("One or more required DOM elements are missing.");
+    return;
+  }
+
+  elements.whiteBeanBtn.addEventListener("click", () => {
+    const beanForm = document.getElementById("beanForm");
+    beanForm.innerHTML = createFormFromBeansList("whiteNavy");
+    toggleVisibility("whiteNavy");
+    document.getElementById("selectAllwhiteNavy")?.addEventListener("click", () => selectAllCheckboxes("whiteNavy"));
+  });
+
+  elements.minorBtn.addEventListener("click", () => {
+    const beanForm = document.getElementById("beanForm");
+    beanForm.innerHTML = createFormFromBeansList("minorClass");
+    toggleVisibility("minorClass");
+    document.getElementById("selectAllminorClass")?.addEventListener("click", () => selectAllCheckboxes("minorClass"));
+  });
+
+  elements.majorBtn.addEventListener("click", () => {
+    const beanForm = document.getElementById("beanForm");
+    beanForm.innerHTML = createFormFromBeansList("majorClass");
+    toggleVisibility("majorClass");
+    document.getElementById("selectAllmajorClass")?.addEventListener("click", () => selectAllCheckboxes("majorClass"));
+  });
+
+  elements.goBackBtn.addEventListener("click", () => {
+    uncheckBoxes();
+    resetView();
+  });
+
+  elements.submitBtn.addEventListener("click", () => {
+    checkedBeans = Array.from(document.querySelectorAll("#beanForm input[type='checkbox']:checked")).map(cb => cb.value);
+    checkedData = Array.from(document.querySelectorAll("#dataForm input[type='checkbox']:checked")).map(cb => cb.value);
+    const beans = convertArrToBean(checkedBeans);
+    if (beans.length < 2 || checkedData.length < 1) {
+      showError();
+    } else {
+      const tables = document.getElementById("tables");
+      tables.innerHTML = TABLE.createTables(beans, checkedData);
+      tables.style.display = "block";
+      document.querySelectorAll(".selectors, .buttons, .formInfo, #error").forEach(el => el.style.display = "none");
+      setupTableButtons();
+    }
+  });
+
+  elements.closeErrorBtn.addEventListener("click", () => {
+    uncheckBoxes();
+    resetView();
+  });
+}
+
+function setupTableButtons() {
+  document.getElementById("exportCSV")?.addEventListener("click", exportAsCSV);
+  document.getElementById("newComparison")?.addEventListener("click", () => {
+    document.getElementById("tables").innerHTML = "";
+    uncheckBoxes();
+    resetView();
+  });
+}
+
 function toggleVisibility(className) {
   document.querySelectorAll(".whiteNavy, .minorClass, .majorClass").forEach(el => el.style.display = "none");
   document.querySelectorAll(`.${className}`).forEach(el => el.style.display = "block");
@@ -927,128 +920,10 @@ function showError() {
   document.getElementById("tables").style.display = "none";
 }
 
-function setupTableButtons() {
-  const exportBtn = document.getElementById("exportCSV");
-  const newComparisonBtn = document.getElementById("newComparison");
-  if (exportBtn) exportBtn.addEventListener("click", exportAsCSV);
-  if (newComparisonBtn) {
-    newComparisonBtn.addEventListener("click", () => {
-      document.getElementById("tables").innerHTML = "";
-      uncheckBoxes();
-      resetView();
-    });
-  }
-}
-
-function initializePage() {
-  // Tabs for variety selection
-  const varietyTabs = document.querySelector(".variety-tabs");
-  if (varietyTabs) {
-    varietyTabs.addEventListener("click", (e) => {
-      const button = e.target.closest(".variety-tab");
-      if (!button) return;
-      document.querySelectorAll(".variety-tab").forEach(btn => btn.classList.remove("active"));
-      document.querySelectorAll(".variety-content").forEach(content => content.classList.remove("active"));
-      button.classList.add("active");
-      const content = document.getElementById(button.dataset.category);
-      if (content) content.classList.add("active");
-    });
-  }
-
-  // Ensure Navy Beans is active by default
-  const navyTab = document.querySelector(".variety-tab[data-category='navy']");
-  const navyContent = document.getElementById("navy");
-  if (navyTab && navyContent && !navyTab.classList.contains("active")) {
-    document.querySelectorAll(".variety-tab").forEach(btn => btn.classList.remove("active"));
-    document.querySelectorAll(".variety-content").forEach(content => content.classList.remove("active"));
-    navyTab.classList.add("active");
-    navyContent.classList.add("active");
-  }
-
-  // Comparison section buttons
-  const buttonsContainer = document.querySelector(".buttons.form");
-  if (buttonsContainer) {
-    buttonsContainer.addEventListener("click", (e) => {
-      const btn = e.target.closest(".gradientBtn");
-      if (!btn) return;
-      const beanForm = document.getElementById("beanForm");
-      if (btn.id === "whiteBean") {
-        beanForm.innerHTML = createFormFromBeansList("whiteNavy");
-        toggleVisibility("whiteNavy");
-      } else if (btn.id === "minor") {
-        beanForm.innerHTML = createFormFromBeansList("minorClass");
-        toggleVisibility("minorClass");
-      } else if (btn.id === "major") {
-        beanForm.innerHTML = createFormFromBeansList("majorClass");
-        toggleVisibility("majorClass");
-      }
-    });
-  }
-
-  // Event delegation for dynamically added "Select All" buttons
-  document.addEventListener("click", (e) => {
-    const selectAllBtn = e.target.closest(".selectAll");
-    if (selectAllBtn) {
-      selectAllCheckboxes(selectAllBtn.dataset.class);
-    }
-  });
-
-  // Go Back and Submit buttons
-  const goBackBtn = document.getElementById("goBack");
-  if (goBackBtn) {
-    goBackBtn.addEventListener("click", () => {
-      uncheckBoxes();
-      resetView();
-    });
-  }
-
-  const submitBtn = document.getElementById("submitBtnData");
-  if (submitBtn) {
-    submitBtn.addEventListener("click", () => {
-      checkedBeans = Array.from(document.querySelectorAll("#beanForm input[type='checkbox']:checked")).map(cb => cb.value);
-      checkedData = Array.from(document.querySelectorAll("#dataForm input[type='checkbox']:checked")).map(cb => cb.value);
-      const beans = convertArrToBean(checkedBeans);
-      if (beans.length < 2 || checkedData.length < 1) {
-        showError();
-      } else {
-        const tables = document.getElementById("tables");
-        tables.innerHTML = TABLE.createTables(beans, checkedData);
-        tables.style.display = "block";
-        document.querySelectorAll(".selectors, .buttons, .formInfo, #error").forEach(el => el.style.display = "none");
-        setupTableButtons();
-      }
-    });
-  }
-
-  const closeErrorBtn = document.getElementById("closeError");
-  if (closeErrorBtn) {
-    closeErrorBtn.addEventListener("click", () => {
-      uncheckBoxes();
-      resetView();
-    });
-  }
-}
-
-async function start() {
+async function initializeComparisonTool() {
   await loadBeanData();
-  initializePage();
+  setupEventListeners();
 }
 
-// Run on initial load
-document.addEventListener("DOMContentLoaded", start);
-
-// Re-run on navigation events (for SPA or browser back/forward)
-window.addEventListener("popstate", () => {
-  if (window.location.pathname === "/Resource/") {
-    start();
-  }
-});
-
-// Handle dynamic content loading (e.g., if part of a larger site)
-const observer = new MutationObserver((mutations) => {
-  if (document.querySelector(".resource-container")) {
-    initializePage();
-  }
-});
-observer.observe(document.body, { childList: true, subtree: true });
+document.addEventListener("DOMContentLoaded", initializeComparisonTool);
 </script>
