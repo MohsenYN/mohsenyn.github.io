@@ -754,96 +754,7 @@ permalink: /Resource/
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 
 <script>
-function initializeTabs() {
-  const buttons = document.querySelectorAll(".variety-tab");
-  const contents = document.querySelectorAll(".variety-content");
-
-  buttons.forEach(button => {
-    button.addEventListener("click", function() {
-      buttons.forEach(btn => btn.classList.remove("active"));
-      contents.forEach(content => content.classList.remove("active"));
-
-      this.classList.add("active");
-      const content = document.getElementById(this.dataset.category);
-      if (content) {
-        content.classList.add("active");
-      }
-    });
-  });
-
-  // Ensure Navy Beans tab is active on load
-  const activeButton = document.querySelector(".variety-tab[data-category='navy']");
-  const activeContent = document.getElementById("navy");
-  if (activeButton && activeContent && !activeButton.classList.contains("active")) {
-    buttons.forEach(btn => btn.classList.remove("active"));
-    contents.forEach(content => content.classList.remove("active"));
-    activeButton.classList.add("active");
-    activeContent.classList.add("active");
-  }
-}
-
-function initializeComparisonButtons() {
-  const elements = {
-    whiteBeanBtn: document.getElementById("whiteBean"),
-    minorBtn: document.getElementById("minor"),
-    majorBtn: document.getElementById("major"),
-    goBackBtn: document.getElementById("goBack"),
-    submitBtn: document.getElementById("submitBtnData"),
-    closeErrorBtn: document.getElementById("closeError")
-  };
-
-  if (Object.values(elements).some(el => !el)) {
-    console.error("One or more required DOM elements are missing.");
-    return;
-  }
-
-  elements.whiteBeanBtn.addEventListener("click", () => {
-    const beanForm = document.getElementById("beanForm");
-    beanForm.innerHTML = createFormFromBeansList("whiteNavy");
-    toggleVisibility("whiteNavy");
-    document.getElementById("selectAllwhiteNavy")?.addEventListener("click", () => selectAllCheckboxes("whiteNavy"));
-  });
-
-  elements.minorBtn.addEventListener("click", () => {
-    const beanForm = document.getElementById("beanForm");
-    beanForm.innerHTML = createFormFromBeansList("minorClass");
-    toggleVisibility("minorClass");
-    document.getElementById("selectAllminorClass")?.addEventListener("click", () => selectAllCheckboxes("minorClass"));
-  });
-
-  elements.majorBtn.addEventListener("click", () => {
-    const beanForm = document.getElementById("beanForm");
-    beanForm.innerHTML = createFormFromBeansList("majorClass");
-    toggleVisibility("majorClass");
-    document.getElementById("selectAllmajorClass")?.addEventListener("click", () => selectAllCheckboxes("majorClass"));
-  });
-
-  elements.goBackBtn.addEventListener("click", () => {
-    uncheckBoxes();
-    resetView();
-  });
-
-  elements.submitBtn.addEventListener("click", () => {
-    checkedBeans = Array.from(document.querySelectorAll("#beanForm input[type='checkbox']:checked")).map(cb => cb.value);
-    checkedData = Array.from(document.querySelectorAll("#dataForm input[type='checkbox']:checked")).map(cb => cb.value);
-    const beans = convertArrToBean(checkedBeans);
-    if (beans.length < 2 || checkedData.length < 1) {
-      showError();
-    } else {
-      const tables = document.getElementById("tables");
-      tables.innerHTML = TABLE.createTables(beans, checkedData);
-      tables.style.display = "block";
-      document.querySelectorAll(".selectors, .buttons, .formInfo, #error").forEach(el => el.style.display = "none");
-      setupTableButtons();
-    }
-  });
-
-  elements.closeErrorBtn.addEventListener("click", () => {
-    uncheckBoxes();
-    resetView();
-  });
-}
-
+// Global variables
 let checkedBeans = [];
 let checkedData = [];
 let allBeans = [];
@@ -877,14 +788,14 @@ class Bean {
 }
 
 const TABLE = {
-  createDescriptionTable: function(beans) {
+  createDescriptionTable(beans) {
     let HTML = "<table id='description'><tr><td colspan='3'>Variety Description</td></tr>";
     HTML += "<tr><td>Variety</td><td>Market Class</td><td>Year of Registration</td></tr>";
     beans.forEach(bean => HTML += bean.createDescriptionRow());
     HTML += "</table>";
     return HTML;
   },
-  createDiseaseTable: function(beans) {
+  createDiseaseTable(beans) {
     let HTML = "<table id='diseaseRating'><tr><td colspan='7'>Disease Ratings</td></tr>";
     HTML += "<tr><td>Variety</td><td colspan='2'>Bean Common Mosaic Virus</td><td colspan='3'>Anthracnose</td><td>Common Blight</td></tr>";
     HTML += "<tr><td></td><td>R 1</td><td>R 15</td><td>R 17</td><td>R 23</td><td>R 73</td><td></td></tr>";
@@ -892,14 +803,14 @@ const TABLE = {
     HTML += "</table>";
     return HTML;
   },
-  createPerformanceTable: function(beans) {
+  createPerformanceTable(beans) {
     let HTML = "<table id='performance'><tr><td colspan='5'>Performance Metrics</td></tr>";
     HTML += "<tr><td>Variety</td><td>Yield (lbs/acre)</td><td>Maturity (days)</td><td>100 Seed Weight (g)</td><td>Direct Harvest Suitability (1-5)</td></tr>";
     beans.forEach(bean => HTML += bean.createPerformanceRow());
     HTML += "</table>";
     return HTML;
   },
-  createTables: function(beans, parameters) {
+  createTables(beans, parameters) {
     let HTML = "";
     if (parameters.includes("description")) HTML += this.createDescriptionTable(beans);
     if (parameters.includes("diseaseRatings")) HTML += this.createDiseaseTable(beans);
@@ -922,12 +833,12 @@ function uncheckBoxes() {
   document.querySelectorAll("#dataForm input[type='checkbox'], #beanForm input[type='checkbox']").forEach(checkbox => checkbox.checked = false);
 }
 
-let selected = false;
 function selectAllCheckboxes(className) {
   const beanForm = document.getElementById("beanForm");
   if (!beanForm) return;
-  beanForm.querySelectorAll(`.${className} input[type='checkbox']`).forEach(checkbox => checkbox.checked = !selected);
-  selected = !selected;
+  const checkboxes = beanForm.querySelectorAll(`.${className} input[type='checkbox']`);
+  const allChecked = Array.from(checkboxes).every(cb => cb.checked);
+  checkboxes.forEach(checkbox => checkbox.checked = !allChecked);
 }
 
 function createFormFromBeansList(className) {
@@ -943,7 +854,7 @@ function createFormFromBeansList(className) {
     HTML += `<li class="${className}"><label><input type="checkbox" value="${bean.name}"><span class="checkmark"></span> ${bean.name}${additionalMarketInfo}</label></li>`;
   });
   HTML += "</ul>";
-  HTML += `<button id="selectAll${className}" class="gradientBtn" type="button">Select All</button>`;
+  HTML += `<button class="gradientBtn selectAll" data-class="${className}" type="button">Select All</button>`;
   return HTML;
 }
 
@@ -996,19 +907,6 @@ async function loadBeanData() {
   }
 }
 
-function setupTableButtons() {
-  const exportBtn = document.getElementById("exportCSV");
-  const newComparisonBtn = document.getElementById("newComparison");
-  if (exportBtn) exportBtn.addEventListener("click", exportAsCSV);
-  if (newComparisonBtn) {
-    newComparisonBtn.addEventListener("click", () => {
-      document.getElementById("tables").innerHTML = "";
-      uncheckBoxes();
-      resetView();
-    });
-  }
-}
-
 function toggleVisibility(className) {
   document.querySelectorAll(".whiteNavy, .minorClass, .majorClass").forEach(el => el.style.display = "none");
   document.querySelectorAll(`.${className}`).forEach(el => el.style.display = "block");
@@ -1029,11 +927,128 @@ function showError() {
   document.getElementById("tables").style.display = "none";
 }
 
-async function initializePage() {
-  await loadBeanData();
-  initializeTabs();
-  initializeComparisonButtons();
+function setupTableButtons() {
+  const exportBtn = document.getElementById("exportCSV");
+  const newComparisonBtn = document.getElementById("newComparison");
+  if (exportBtn) exportBtn.addEventListener("click", exportAsCSV);
+  if (newComparisonBtn) {
+    newComparisonBtn.addEventListener("click", () => {
+      document.getElementById("tables").innerHTML = "";
+      uncheckBoxes();
+      resetView();
+    });
+  }
 }
 
-document.addEventListener("DOMContentLoaded", initializePage);
+function initializePage() {
+  // Tabs for variety selection
+  const varietyTabs = document.querySelector(".variety-tabs");
+  if (varietyTabs) {
+    varietyTabs.addEventListener("click", (e) => {
+      const button = e.target.closest(".variety-tab");
+      if (!button) return;
+      document.querySelectorAll(".variety-tab").forEach(btn => btn.classList.remove("active"));
+      document.querySelectorAll(".variety-content").forEach(content => content.classList.remove("active"));
+      button.classList.add("active");
+      const content = document.getElementById(button.dataset.category);
+      if (content) content.classList.add("active");
+    });
+  }
+
+  // Ensure Navy Beans is active by default
+  const navyTab = document.querySelector(".variety-tab[data-category='navy']");
+  const navyContent = document.getElementById("navy");
+  if (navyTab && navyContent && !navyTab.classList.contains("active")) {
+    document.querySelectorAll(".variety-tab").forEach(btn => btn.classList.remove("active"));
+    document.querySelectorAll(".variety-content").forEach(content => content.classList.remove("active"));
+    navyTab.classList.add("active");
+    navyContent.classList.add("active");
+  }
+
+  // Comparison section buttons
+  const buttonsContainer = document.querySelector(".buttons.form");
+  if (buttonsContainer) {
+    buttonsContainer.addEventListener("click", (e) => {
+      const btn = e.target.closest(".gradientBtn");
+      if (!btn) return;
+      const beanForm = document.getElementById("beanForm");
+      if (btn.id === "whiteBean") {
+        beanForm.innerHTML = createFormFromBeansList("whiteNavy");
+        toggleVisibility("whiteNavy");
+      } else if (btn.id === "minor") {
+        beanForm.innerHTML = createFormFromBeansList("minorClass");
+        toggleVisibility("minorClass");
+      } else if (btn.id === "major") {
+        beanForm.innerHTML = createFormFromBeansList("majorClass");
+        toggleVisibility("majorClass");
+      }
+    });
+  }
+
+  // Event delegation for dynamically added "Select All" buttons
+  document.addEventListener("click", (e) => {
+    const selectAllBtn = e.target.closest(".selectAll");
+    if (selectAllBtn) {
+      selectAllCheckboxes(selectAllBtn.dataset.class);
+    }
+  });
+
+  // Go Back and Submit buttons
+  const goBackBtn = document.getElementById("goBack");
+  if (goBackBtn) {
+    goBackBtn.addEventListener("click", () => {
+      uncheckBoxes();
+      resetView();
+    });
+  }
+
+  const submitBtn = document.getElementById("submitBtnData");
+  if (submitBtn) {
+    submitBtn.addEventListener("click", () => {
+      checkedBeans = Array.from(document.querySelectorAll("#beanForm input[type='checkbox']:checked")).map(cb => cb.value);
+      checkedData = Array.from(document.querySelectorAll("#dataForm input[type='checkbox']:checked")).map(cb => cb.value);
+      const beans = convertArrToBean(checkedBeans);
+      if (beans.length < 2 || checkedData.length < 1) {
+        showError();
+      } else {
+        const tables = document.getElementById("tables");
+        tables.innerHTML = TABLE.createTables(beans, checkedData);
+        tables.style.display = "block";
+        document.querySelectorAll(".selectors, .buttons, .formInfo, #error").forEach(el => el.style.display = "none");
+        setupTableButtons();
+      }
+    });
+  }
+
+  const closeErrorBtn = document.getElementById("closeError");
+  if (closeErrorBtn) {
+    closeErrorBtn.addEventListener("click", () => {
+      uncheckBoxes();
+      resetView();
+    });
+  }
+}
+
+async function start() {
+  await loadBeanData();
+  initializePage();
+}
+
+// Run on initial load
+document.addEventListener("DOMContentLoaded", start);
+
+// Re-run on navigation events (for SPA or browser back/forward)
+window.addEventListener("popstate", () => {
+  if (window.location.pathname === "/Resource/") {
+    start();
+  }
+});
+
+// Handle dynamic content loading (e.g., if part of a larger site)
+const observer = new MutationObserver((mutations) => {
+  if (document.querySelector(".resource-container")) {
+    initializePage();
+  }
+});
+observer.observe(document.body, { childList: true, subtree: true });
 </script>
