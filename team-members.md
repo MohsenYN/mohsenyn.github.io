@@ -165,7 +165,7 @@ accent_image: /assets/img/Introdcution.jpg
     <img src="/assets/img/team/Hosna.jpg" alt="Hosna Miladi" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <h3 style="color: rgb(255,204,0); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;"> Dr. Hosna Miladi</h3>
     <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Volunteer</p>
-    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">Volunteering in advancing computational techniques for the dry bean breeding program.</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">Volunteering in developing high-throughput techniques to accelerate the dry bean breeding program.</p>
     <div style="text-align: center; margin-top: 1rem;">
       <a href="mailto:hosna.miladi@gmail.com" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
       <a href="https://www.linkedin.com/in/hosnamiladi/" target="_blank" class="social-link"><img src="/assets/img/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
