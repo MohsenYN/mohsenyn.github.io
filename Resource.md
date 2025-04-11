@@ -11,15 +11,15 @@ permalink: /Resource/
   <section class="new-varieties">
     <h2>New Dry Bean Varieties</h2>
     <p>We’re excited to announce the upcoming release of dry bean varieties developed through advanced computational breeding at the University of Guelph. These varieties offer enhanced yield, disease resistance, and adaptability to diverse environmental conditions, supporting sustainable agriculture for growers across North America.</p>
-    <div class="variety-buttons">
-      <button class="variety-btn active" data-category="navy">Navy Beans</button>
-      <button class="variety-btn" data-category="black">Black Beans</button>
-      <button class="variety-btn" data-category="kidney">Kidney Beans</button>
-      <button class="variety-btn" data-category="cranberry">Cranberry Beans</button>
-      <button class="variety-btn" data-category="pinto">Pinto Beans</button>
-      <button class="variety-btn" data-category="other">Other Beans</button>
+    <div class="variety-tabs">
+      <button class="variety-tab active" data-category="navy">Navy Beans</button>
+      <button class="variety-tab" data-category="black">Black Beans</button>
+      <button class="variety-tab" data-category="kidney">Kidney Beans</button>
+      <button class="variety-tab" data-category="cranberry">Cranberry Beans</button>
+      <button class="variety-tab" data-category="pinto">Pinto Beans</button>
+      <button class="variety-tab" data-category="other">Other Beans</button>
     </div>
-    <div class="variety-content" id="navy" style="display: block;">
+    <div class="variety-content" id="navy">
       <div class="variety-grid">
         <div class="variety-box">
           <img src="/assets/Lines/Bechamel.jpg" alt="OAC Bechamel" class="variety-img">
@@ -65,10 +65,10 @@ permalink: /Resource/
         </div>
       </div>
     </div>
-    <div class="variety-content" id="black" style="display: none;">
+    <div class="variety-content" id="black">
       <p>No Black Beans are currently available for licensing.</p>
     </div>
-    <div class="variety-content" id="kidney" style="display: none;">
+    <div class="variety-content" id="kidney">
       <div class="variety-grid">
         <div class="variety-box">
           <img src="/assets/Lines/Firebrand.jpg" alt="OAC Firebrand" class="variety-img">
@@ -96,7 +96,7 @@ permalink: /Resource/
         </div>
       </div>
     </div>
-    <div class="variety-content" id="cranberry" style="display: none;">
+    <div class="variety-content" id="cranberry">
       <div class="variety-grid">
         <div class="variety-box">
           <img src="/assets/Lines/Volterra.jpg" alt="OAC Volterra" class="variety-img">
@@ -141,10 +141,10 @@ permalink: /Resource/
         </div>
       </div>
     </div>
-    <div class="variety-content" id="pinto" style="display: none;">
+    <div class="variety-content" id="pinto">
       <p>No Pinto Beans are currently available for licensing.</p>
     </div>
-    <div class="variety-content" id="other" style="display: none;">
+    <div class="variety-content" id="other">
       <div class="variety-grid">
         <div class="variety-box">
           <img src="/assets/Lines/o18hr0037.jpg" alt="O18HR003y" class="variety-img">
@@ -314,34 +314,43 @@ permalink: /Resource/
     color: #333;
     margin-bottom: 1.5rem;
   }
-  .variety-buttons {
+  .variety-tabs {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 0.5rem;
     margin-bottom: 2rem;
+    border-bottom: 2px solid #9b1d64;
   }
-  .variety-btn {
+  .variety-tab {
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
     font-weight: 600;
-    border: 2px solid #9b1d64;
-    border-radius: 8px;
-    background: #fff;
+    border: none;
+    background: #f9e6ed;
     color: #9b1d64;
     cursor: pointer;
     transition: all 0.3s ease;
+    border-radius: 8px 8px 0 0;
+    position: relative;
   }
-  .variety-btn:hover {
-    background: #f9e6ed;
-    border-color: #d94f8e;
+  .variety-tab:hover {
+    background: #d94f8e;
+    color: #fff;
   }
-  .variety-btn.active {
+  .variety-tab.active {
     background: #9b1d64;
     color: #fff;
-    border-color: #9b1d64;
+    border-bottom: 2px solid #f4c430;
   }
   .variety-content {
     display: none;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 0 8px 8px 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .variety-content.active {
+    display: block;
   }
   .variety-grid {
     display: grid;
@@ -439,7 +448,7 @@ permalink: /Resource/
     color: #9b1d64;
     font-size: 2rem;
     font-weight: 700;
-    margin-bottom: JunoApp();
+    margin-bottom: 0.5rem;
     border-bottom: 3px solid #f4c430;
     display: inline-block;
   }
@@ -727,12 +736,17 @@ permalink: /Resource/
     .contact-img {
       margin: 0 auto 1rem;
     }
-    .variety-buttons {
+    .variety-tabs {
       flex-direction: column;
       align-items: stretch;
     }
-    .variety-btn {
+    .variety-tab {
       width: 100%;
+      border-radius: 8px;
+      margin-bottom: 0.5rem;
+    }
+    .variety-tab.active {
+      border-radius: 8px 8px 0 0;
     }
   }
 </style>
@@ -740,21 +754,42 @@ permalink: /Resource/
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-  const buttons = document.querySelectorAll(".variety-btn");
+function initializeTabs() {
+  const buttons = document.querySelectorAll(".variety-tab");
   const contents = document.querySelectorAll(".variety-content");
 
+  // Remove any existing event listeners to prevent duplicates
   buttons.forEach(button => {
-    button.addEventListener("click", function() {
-      buttons.forEach(btn => btn.classList.remove("active"));
-      this.classList.add("active");
-
-      contents.forEach(content => {
-        content.style.display = content.id === this.dataset.category ? "block" : "none";
-      });
-    });
+    button.removeEventListener("click", handleTabClick);
   });
-});
+
+  // Add fresh event listeners
+  buttons.forEach(button => {
+    button.addEventListener("click", handleTabClick);
+  });
+
+  function handleTabClick() {
+    buttons.forEach(btn => btn.classList.remove("active"));
+    this.classList.add("active");
+
+    contents.forEach(content => {
+      content.classList.remove("active");
+      if (content.id === this.dataset.category) {
+        content.classList.add("active");
+      }
+    });
+  }
+
+  // Ensure Navy Beans tab is active on load
+  const activeButton = document.querySelector(".variety-tab[data-category='navy']");
+  const activeContent = document.querySelector("#navy");
+  buttons.forEach(btn => btn.classList.remove("active"));
+  contents.forEach(content => content.classList.remove("active"));
+  if (activeButton && activeContent) {
+    activeButton.classList.add("active");
+    activeContent.classList.add("active");
+  }
+}
 
 let checkedBeans = [];
 let checkedData = [];
@@ -1002,7 +1037,12 @@ function showError() {
 async function initializeComparisonTool() {
   await loadBeanData();
   setupEventListeners();
+  initializeTabs();
 }
 
 document.addEventListener("DOMContentLoaded", initializeComparisonTool);
+
+// Re-initialize tabs on page load or navigation
+window.addEventListener("load", initializeTabs);
+window.addEventListener("popstate", initializeTabs);
 </script>
