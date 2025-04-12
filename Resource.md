@@ -11,171 +11,158 @@ permalink: /Resource/
   <section class="new-varieties">
     <h2>New Dry Bean Varieties</h2>
     <p>We’re excited to announce the upcoming release of dry bean varieties developed through advanced computational breeding at the University of Guelph. These varieties offer enhanced yield, disease resistance, and adaptability to diverse environmental conditions, supporting sustainable agriculture for growers across North America.</p>
-    
-    <!-- Tabs Navigation -->
-    <div class="tabs">
-      <button class="tab-button active" data-tab="navy">Navy Beans</button>
-      <button class="tab-button" data-tab="black">Black Beans</button>
-      <button class="tab-button" data-tab="kidney">Kidney Beans</button>
-      <button class="tab-button" data-tab="cranberry">Cranberry Beans</button>
-      <button class="tab-button" data-tab="pinto">Pinto Beans</button>
-      <button class="tab-button" data-tab="other">Other Beans</button>
+    <div class="category-buttons">
+      <button class="category-btn" data-category="navy">Navy Beans</button>
+      <button class="category-btn" data-category="black">Black Beans</button>
+      <button class="category-btn" data-category="cranberry">Cranberry Beans</button>
+      <button class="category-btn" data-category="kidney">Kidney Beans</button>
+      <button class="category-btn" data-category="pinto">Pinto Beans</button>
+      <button class="category-btn" data-category="other.TRANSLATE_TO_ENGLISH">Other Beans</button>
     </div>
-
-    <!-- Tab Content -->
-    <div class="tab-content" id="navy">
-      <div class="variety-grid">
-        <div class="variety-box">
-          <img src="/assets/Lines/Bechamel.jpg" alt="OAC Bechamel" class="variety-img">
-          <h3>OAC Bechamel</h3>
-          <ul>
-            <li>Full Maturity</li>
-            <li>Excellent Yield</li>
-            <li>Anthracnose race 73 resistant</li>
-            <li>Excellent Upright Plant Architecture for Direct Combining</li>
-          </ul>
-        </div>
-        <div class="variety-box">
-          <img src="/assets/Lines/Resilient.jpg" alt="OAC Resilient" class="variety-img">
-          <h3>OAC Resilient</h3>
-          <ul>
-            <li>Full Maturity</li>
-            <li>Excellent Yield</li>
-            <li>Anthracnose race 73 resistant</li>
-            <li>Very Good Upright Plant Architecture for Direct Combining</li>
-          </ul>
-        </div>
-        <div class="variety-box">
-          <img src="/assets/Lines/Plasma.jpg" alt="OAC Plasma" class="variety-img">
-          <h3>OAC Plasma</h3>
-          <ul>
-            <li>Mid Maturity</li>
-            <li>High Yield</li>
-            <li>Anthracnose race 73 resistant</li>
-            <li>Tolerant to common bacterial blight</li>
-            <li>Excellent Upright Plant Architecture for Direct Combining</li>
-          </ul>
-        </div>
-        <div class="variety-box">
-          <img src="/assets/Lines/Storm.jpg" alt="OAC Storm" class="variety-img">
-          <h3>OAC Storm</h3>
-          <ul>
-            <li>Full Maturity</li>
-            <li>Excellent Yield</li>
-            <li>Anthracnose race 73 resistant</li>
-            <li>Tolerant to common bacterial blight</li>
-            <li>Excellent Upright Plant Architecture for Direct Combining</li>
-          </ul>
-        </div>
+    <div class="variety-grid" id="variety-grid">
+      <!-- Navy Beans -->
+      <div class="variety-box navy" style="display: none;">
+        <img src="/assets/Lines/Bechamel.jpg" alt="OAC Bechamel" class="variety-img">
+        <h3>OAC Bechamel</h3>
+        <ul>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Excellent Upright Plant Architecture for Direct Combining</li>
+        </ul>
+      </div>
+      <div class="variety-box navy" style="display: none;">
+        <img src="/assets/Lines/Resilient.jpg" alt="OAC Resilient" class="variety-img">
+        <h3>OAC Resilient</h3>
+        <ul>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Very Good Upright Plant Architecture for Direct Combining</li>
+        </ul>
+      </div>
+      <div class="variety-box navy" style="display: none;">
+        <img src="/assets/Lines/Plasma.jpg" alt="OAC Plasma" class="variety-img">
+        <h3>OAC Plasma</h3>
+        <ul>
+          <li>Mid Maturity</li>
+          <li>High Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Tolerant to common bacterial blight</li>
+          <li>Excellent Upright Plant Architecture for Direct Combining</li>
+        </ul>
+      </div>
+      <div class="variety-box navy" style="display: none;">
+        <img src="/assets/Lines/Storm.jpg" alt="OAC Storm" class="variety-img">
+        <h3>OAC Storm</h3>
+        <ul>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Tolerant to common bacterial blight</li>
+          <li>Excellent Upright Plant Architecture for Direct Combining</li>
+        </ul>
+      </div>
+      <!-- Black Beans -->
+      <div class="variety-box black" style="display: none;">
+        <p>No black bean varieties available.</p>
+      </div>
+      <!-- Cranberry Beans -->
+      <div class="variety-box cranberry" style="display: none;">
+        <img src="/assets/Lines/NDC-1.jpg" alt="OAC 22-NDC1" class="variety-img">
+        <img src="/assets/Lines/NDC1-1.jpg" alt="OAC 22-NDC1-Compare" class="variety-img">
+        <h3>OAC 22-NDC1</h3>
+        <ul>
+          <li>The First Non-Darkening Cranberry Bean</li>
+          <li>Mid Maturity</li>
+          <li>Good Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Very Good Cooking Quality and Excellent Upright Plant Architecture</li>
+        </ul>
+      </div>
+      <div class="variety-box cranberry" style="display: none;">
+        <img src="/assets/Lines/Agate.jpg" alt="OAC Agate" class="variety-img">
+        <h3>OAC Agate</h3>
+        <ul>
+          <li>Mid Maturity</li>
+          <li>Very Good Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Very Good Cooking Quality</li>
+          <li>Very Good upright Plant Architecture for Direct Combining</li>
+        </ul>
+      </div>
+      <div class="variety-box cranberry" style="display: none;">
+        <img src="/assets/Lines/Candycane.jpg" alt="OAC Candycane" class="variety-img">
+        <h3>OAC Candycane</h3>
+        <ul>
+          <li>Mid Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Good Seed Size</li>
+        </ul>
+      </div>
+      <div class="variety-box cranberry" style="display: none;">
+        <img src="/assets/Lines/Volterra.jpg" alt="OAC Volterra" class="variety-img">
+        <h3>OAC Volterra</h3>
+        <ul>
+          <li>Mid Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Excellent Upright Plant Architecture for Direct Combining</li>
+        </ul>
+      </div>
+      <!-- Kidney Beans -->
+      <div class="variety-box kidney" style="display: none;">
+        <img src="/assets/Lines/Firebrand.jpg" alt="OAC Firebrand" class="variety-img">
+        <h3>OAC Firebrand</h3>
+        <ul>
+          <li>Light Red</li>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Excellent Upright Plant Architecture for Direct Combining</li>
+          <li>Good Seed Size</li>
+        </ul>
+      </div>
+      <div class="variety-box kidney" style="display: none;">
+        <img src="/assets/Lines/Jasper.jpg" alt="OAC Jasper" class="variety-img">
+        <h3>OAC Jasper</h3>
+        <ul>
+          <li>Dark Red</li>
+          <li>Mid Maturity</li>
+          <li>Good Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Good Upright Plant Architecture for Direct Combining</li>
+          <li>Large Seed Size</li>
+        </ul>
+      </div>
+      <!-- Pinto Beans -->
+      <div class="variety-box pinto" style="display: none;">
+        <p>No pinto bean varieties available.</p>
+      </div>
+      <!-- Other Beans -->
+      <div class="variety-box other" style="display: none;">
+        <img src="/assets/Lines/o18hr0037.jpg" alt="O18HR003y" class="variety-img">
+        <h3>O18HR003y</h3>
+        <ul>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Tolerant to common bacterial blight</li>
+          <li>Good Upright Plant Architecture for Direct Combining</li>
+        </ul>
+      </div>
+      <div class="variety-box other" style="display: none;">
+        <img src="/assets/Lines/o18hr007y.jpg" alt="O18HR007y" class="variety-img">
+        <h3>O18HR007y</h3>
+        <ul>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Tolerant to common bacterial blight</li>
+          <li>Good Upright Plant Architecture for Direct Combining</li>
+        </ul>
       </div>
     </div>
-    <div class="tab-content" id="black" style="display: none;">
-      <p>No Black Bean varieties are currently available for licensing.</p>
-    </div>
-    <div class="tab-content" id="kidney" style="display: none;">
-      <div class="variety-grid">
-        <div class="variety-box">
-          <img src="/assets/Lines/Firebrand.jpg" alt="OAC Firebrand" class="variety-img">
-          <h3>OAC Firebrand</h3>
-          <ul>
-            <li>Light Red</li>
-            <li>Full Maturity</li>
-            <li>Excellent Yield</li>
-            <li>Anthracnose race 73 resistant</li>
-            <li>Excellent Upright Plant Architecture for Direct Combining</li>
-            <li>Good Seed Size</li>
-          </ul>
-        </div>
-        <div class="variety-box">
-          <img src="/assets/Lines/Jasper.jpg" alt="OAC Jasper" class="variety-img">
-          <h3>OAC Jasper</h3>
-          <ul>
-            <li>Dark Red</li>
-            <li>Mid Maturity</li>
-            <li>Good Yield</li>
-            <li>Anthracnose race 73 resistant</li>
-            <li>Good Upright Plant Architecture for Direct Combining</li>
-            <li>Large Seed Size</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="tab-content" id="cranberry" style="display: none;">
-      <div class="variety-grid">
-        <div class="variety-box">
-          <img src="/assets/Lines/NDC-1.jpg" alt="OAC 22-NDC1" class="variety-img">
-          <img src="/assets/Lines/NDC1-1.jpg" alt="OAC 22-NDC1-Compare" class="variety-img">
-          <h3>OAC 22-NDC1</h3>
-          <ul>
-            <li>The First Non-Darkening Cranberry Bean</li>
-            <li>Mid Maturity</li>
-            <li>Good Yield</li>
-            <li>Anthracnose race 73 resistant</li>
-            <li>Very Good Cooking Quality and Excellent Upright Plant Architecture</li>
-          </ul>
-        </div>
-        <div class="variety-box">
-          <img src="/assets/Lines/Agate.jpg" alt="OAC Agate" class="variety-img">
-          <h3>OAC Agate</h3>
-          <ul>
-            <li>Mid Maturity</li>
-            <li>Very Good Yield</li>
-            <li>Anthracnose race 73 resistant</li>
-            <li>Very Good Cooking Quality</li>
-            <li>Very Good upright Plant Architecture for Direct Combining</li>
-          </ul>
-        </div>
-        <div class="variety-box">
-          <img src="/assets/Lines/Candycane.jpg" alt="OAC Candycane" class="variety-img">
-          <h3>OAC Candycane</h3>
-          <ul>
-            <li>Mid Maturity</li>
-            <li>Excellent Yield</li>
-            <li>Good Seed Size</li>
-          </ul>
-        </div>
-        <div class="variety-box">
-          <img src="/assets/Lines/Volterra.jpg" alt="OAC Volterra" class="variety-img">
-          <h3>OAC Volterra</h3>
-          <ul>
-            <li>Mid Maturity</li>
-            <li>Excellent Yield</li>
-            <li>Anthracnose race 73 resistant</li>
-            <li>Excellent Upright Plant Architecture for Direct Combining</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="tab-content" id="pinto" style="display: none;">
-      <p>No Pinto Bean varieties are currently available for licensing.</p>
-    </div>
-    <div class="tab-content" id="other" style="display: none;">
-      <div class="variety-grid">
-        <div class="variety-box">
-          <img src="/assets/Lines/o18hr0037.jpg" alt="O18HR003y" class="variety-img">
-          <h3>O18HR003y</h3>
-          <ul>
-            <li>Full Maturity</li>
-            <li>Excellent Yield</li>
-            <li>Anthracnose race 73 resistant</li>
-            <li>Tolerant to common bacterial blight</li>
-            <li>Good Upright Plant Architecture for Direct Combining</li>
-          </ul>
-        </div>
-        <div class="variety-box">
-          <img src="/assets/Lines/o18hr007y.jpg" alt="O18HR007y" class="variety-img">
-          <h3>O18HR007y</h3>
-          <ul>
-            <li>Full Maturity</li>
-            <li>Excellent Yield</li>
-            <li>Anthracnose race 73 resistant</li>
-            <li>Tolerant to common bacterial blight</li>
-            <li>Good Upright Plant Architecture for Direct Combining</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
     <p>For detailed licensing information, download our <a href="/assets/pdf/Dry Beans CFP JAN2025 - LIGHT.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link">Call for Licensing PDF</a> or contact the <a href="https://www.uoguelph.ca/research/innovation/" target="_blank" rel="noopener noreferrer" class="pdf-link">Research Innovation Office</a>.</p>
     <div class="contact-box">
       <img src="/assets/img/team/Steve.jpg" alt="Steve Dinka" class="contact-img">
@@ -189,13 +176,20 @@ permalink: /Resource/
   </section>
 
   <section class="crop-comparison">
-    <div id="tables"></div>
-    <div id="error">
-      <p>Error. Please ensure you have selected at least two beans and at least one response to compare.</p>
-      <button id="closeError" class="gradientBtn">Try Again</button>
+    <h2>Compare Dry Bean Varieties</h2>
+    <h3 class="formInfo">Select a Crop</h3>
+    <div class="buttons form">
+      <button id="whiteBean" class="gradientBtn">White Bean</button>
+      <button id="minor" class="gradientBtn">Coloured Bean Minor</button>
+      <button id="major" class="gradientBtn">Coloured Bean Major</button>
     </div>
+    <p class="form">If you run into an error, please refresh the page and attempt it again</p>
+    <p class="form">* "--" represents data not existing due to time since bean registration.</p>
+    <p class="form">* For more information, consider visiting the <a target="_blank" href="https://pulse.gocrops.ca/" rel="noopener">Ontario Pulse Crops Committee</a> Official Website.</p>
+    <h4 class="selectors">Select varieties to compare</h4>
+    <form class="beanForm selectors" id="beanForm"></form>
+    <h4 class="selectors">Select at least one response to compare</h4>
     <form class="beanForm selectors" id="dataForm">
-      <h4 class="selectors">Select at least one response to compare</h4>
       <ul>
         <li><label><input type="checkbox" value="description"><span class="checkmark"></span> Description</label></li>
         <li><label><input type="checkbox" value="diseaseRatings"><span class="checkmark"></span> Disease Ratings</label></li>
@@ -204,19 +198,11 @@ permalink: /Resource/
       <input id="goBack" class="gradientBtn" type="button" value="Go Back">
       <input id="submitBtnData" class="gradientBtn" type="button" value="Submit">
     </form>
-    <form class="beanForm selectors" id="beanForm">
-      <h4 class="selectors">Select varieties to compare</h4>
-    </form>
-    <p class="form">* For more information, consider visiting the <a target="_blank" href="https://pulse.gocrops.ca/" rel="noopener">Ontario Pulse Crops Committee</a> Official Website.</p>
-    <p class="form">* "--" represents data not existing due to time since bean registration.</p>
-    <p class="form">If you run into an error, please refresh the page and attempt it again</p>
-    <div class="buttons form">
-      <button id="whiteBean" class="gradientBtn">White Bean</button>
-      <button id="minor" class="gradientBtn">Coloured Bean Minor</button>
-      <button id="major" class="gradientBtn">Coloured Bean Major</button>
+    <div id="error">
+      <p>Error. Please ensure you have selected at least two beans and at least one response to compare.</p>
+      <button id="closeError" class="gradientBtn">Try Again</button>
     </div>
-    <h3 class="formInfo">Select a Crop</h3>
-    <h2>Compare Dry Bean Varieties</h2>
+    <div id="tables"></div>
   </section>
 
   <section class="distributors">
@@ -230,7 +216,7 @@ permalink: /Resource/
       <div class="distributor-item">
         <img src="/assets/img/dist/BS.jpg" alt="R.T. Bolton and Sons Logo" class="distributor-logo">
         <h3>R.T. Bolton and Sons</h3>
-        <p>43234 Winthrop Road, RR#1<br>Dublin, ON N0K 1E0<br>Tel: (519) 525-6430<br><a href="https://secan.com/members/rt-bolton-sons" target="_blank" rel="noopener noreferrer">secan.com/members/rt-bolton-sons</a></p>
+        <p>43234 Winthrop Road, RR#1 referring to https://secan.com/members/rt-bolton-sons" target="_blank" rel="noopener noreferrer">secan.com/members/rt-bolton-sons</a></p>
       </div>
       <div class="distributor-item">
         <img src="/assets/img/dist/PLOVGH.jpg" alt="Plovgh, Inc. Logo" class="distributor-logo">
@@ -321,38 +307,33 @@ permalink: /Resource/
     color: #333;
     margin-bottom: 1.5rem;
   }
-  .tabs {
+  .category-buttons {
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
     margin-bottom: 2rem;
-    border-bottom: 2px solid #f4c430;
+    justify-content: center;
   }
-  .tab-button {
+  .category-btn {
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
     font-weight: 600;
     color: #9b1d64;
     background: #fff;
-    border: none;
+    border: 2px solid #9b1d64;
+    border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
-    border-radius: 8px 8px 0 0;
   }
-  .tab-button:hover {
+  .category-btn:hover {
     background: #f9e6ed;
+    color: #d94f8e;
+    border-color: #d94f8e;
   }
-  .tab-button.active {
+  .category-btn.active {
     background: #9b1d64;
     color: #fff;
-    border-bottom: 2px solid #f4c430;
-  }
-  .tab-content {
-    display: none;
-  }
-  .tab-content.active {
-    display: block;
+    border-color: #9b1d64;
   }
   .variety-grid {
     display: grid;
@@ -406,6 +387,11 @@ permalink: /Resource/
     position: absolute;
     left: 0;
   }
+  .variety-box p {
+    font-size: 1.1rem;
+    color: #333;
+    text-align: center;
+  }
   .pdf-link {
     color: #9b1d64;
     font-weight: 600;
@@ -445,8 +431,6 @@ permalink: /Resource/
   }
   .crop-comparison {
     margin-bottom: 4rem;
-    display: flex;
-    flex-direction: column;
   }
   .crop-comparison h2 {
     color: #9b1d64;
@@ -740,13 +724,13 @@ permalink: /Resource/
     .contact-img {
       margin: 0 auto 1rem;
     }
-    .tabs {
+    .category-buttons {
       flex-direction: column;
+      align-items: center;
     }
-    .tab-button {
+    .category-btn {
       width: 100%;
-      margin-right: 0;
-      border-radius: 8px;
+      max-width: 300px;
     }
   }
 </style>
@@ -754,28 +738,38 @@ permalink: /Resource/
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 
 <script>
-// Tab Switching Logic
-function initializeTabs() {
-  const tabs = document.querySelectorAll(".tab-button");
-  const contents = document.querySelectorAll(".tab-content");
+document.addEventListener("DOMContentLoaded", function () {
+  const buttons = document.querySelectorAll(".category-btn");
+  const varietyBoxes = document.querySelectorAll(".variety-box");
 
-  tabs.forEach(tab => {
-    tab.addEventListener("click", () => {
-      tabs.forEach(t => t.classList.remove("active"));
-      tab.classList.add("active");
+  buttons.forEach(button => {
+    button.addEventListener("click", function () {
+      // Remove active class from all buttons
+      buttons.forEach(btn => btn.classList.remove("active"));
+      // Add active class to clicked button
+      this.classList.add("active");
 
-      contents.forEach(content => content.classList.remove("active"));
-      const tabId = tab.getAttribute("data-tab");
-      document.getElementById(tabId).classList.add("active");
+      const category = this.getAttribute("data-category");
+
+      // Hide all variety boxes
+      varietyBoxes.forEach(box => {
+        box.style.display = "none";
+      });
+
+      // Show variety boxes for the selected category
+      const selectedBoxes = document.querySelectorAll(`.variety-box.${category}`);
+      selectedBoxes.forEach(box => {
+        box.style.display = "block";
+      });
     });
   });
 
-  // Ensure Navy tab is active on load
-  document.querySelector(".tab-button[data-tab='navy']").classList.add("active");
-  document.getElementById("navy").classList.add("active");
-}
+  // Optionally, trigger click on the first button to show a default category
+  if (buttons.length > 0) {
+    buttons[0].click();
+  }
+});
 
-// Comparison Tool Logic
 let checkedBeans = [];
 let checkedData = [];
 let allBeans = [];
@@ -885,7 +879,7 @@ function exportAsCSV() {
   let csv = "";
   tables.querySelectorAll("table").forEach(table => {
     table.querySelectorAll("tr").forEach(tr => {
-      tr.querySelectorAll("td").forEach(td => csv += `"${td.innerHTML}",`);
+      tr.querySelectorAll("td").forEach(td => csv += `${td.innerHTML},`);
       csv += "\n";
     });
     csv += "\n\n";
@@ -1003,7 +997,7 @@ function toggleVisibility(className) {
   document.querySelectorAll(".whiteNavy, .minorClass, .majorClass").forEach(el => el.style.display = "none");
   document.querySelectorAll(`.${className}`).forEach(el => el.style.display = "block");
   document.querySelectorAll(".selectors").forEach(el => el.style.display = "block");
-  document.querySelectorAll(".form, .formInfo, .buttons").forEach(el => el.style.display = "none");
+  document.querySelectorAll(".form, .formInfo").forEach(el => el.style.display = "none");
   document.getElementById("error").style.display = "none";
   document.getElementById("tables").style.display = "none";
 }
@@ -1024,9 +1018,5 @@ async function initializeComparisonTool() {
   setupEventListeners();
 }
 
-// Initialize everything
-document.addEventListener("DOMContentLoaded", () => {
-  initializeTabs();
-  initializeComparisonTool();
-});
+document.addEventListener("DOMContentLoaded", initializeComparisonTool);
 </script>
