@@ -925,5 +925,6 @@ async function initializeComparisonTool() {
   setupEventListeners();
 }
 
-document.addEventListener("DOMContentLoaded", initializeComparisonTool);
+document.addEventListener("DOMContentLoaded", function() {
 </script>
+});
