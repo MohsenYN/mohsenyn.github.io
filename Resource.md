@@ -11,174 +11,138 @@ permalink: /Resource/
   <section class="new-varieties">
     <h2>New Dry Bean Varieties</h2>
     <p>We’re excited to announce the upcoming release of dry bean varieties developed through advanced computational breeding at the University of Guelph. These varieties offer enhanced yield, disease resistance, and adaptability to diverse environmental conditions, supporting sustainable agriculture for growers across North America.</p>
-    
-    <!-- Heading-Based Toggle Boxes -->
-    <div class="variety-categories">
-      <h3 class="variety-heading" onclick="toggleBox('navy')">Navy Beans</h3>
-      <div id="navy" class="variety-box-content">
-        <div class="variety-grid">
-          <div class="variety-box">
-            <img src="/assets/Lines/Bechamel.jpg" alt="OAC Bechamel" class="variety-img">
-            <h3>OAC Bechamel</h3>
-            <ul>
-              <li>Full Maturity</li>
-              <li>Excellent Yield</li>
-              <li>Anthracnose race 73 resistant</li>
-              <li>Excellent Upright Plant Architecture for Direct Combining</li>
-            </ul>
-          </div>
-          <div class="variety-box">
-            <img src="/assets/Lines/Resilient.jpg" alt="OAC Resilient" class="variety-img">
-            <h3>OAC Resilient</h3>
-            <ul>
-              <li>Full Maturity</li>
-              <li>Excellent Yield</li>
-              <li>Anthracnose race 73 resistant</li>
-              <li>Very Good Upright Plant Architecture for Direct Combining</li>
-            </ul>
-          </div>
-          <div class="variety-box">
-            <img src="/assets/Lines/Plasma.jpg" alt="OAC Plasma" class="variety-img">
-            <h3>OAC Plasma</h3>
-            <ul>
-              <li>Mid Maturity</li>
-              <li>High Yield</li>
-              <li>Anthracnose race 73 resistant</li>
-              <li>Tolerant to common bacterial blight</li>
-              <li>Excellent Upright Plant Architecture for Direct Combining</li>
-            </ul>
-          </div>
-          <div class="variety-box">
-            <img src="/assets/Lines/Storm.jpg" alt="OAC Storm" class="variety-img">
-            <h3>OAC Storm</h3>
-            <ul>
-              <li>Full Maturity</li>
-              <li>Excellent Yield</li>
-              <li>Anthracnose race 73 resistant</li>
-              <li>Tolerant to common bacterial blight</li>
-              <li>Excellent Upright Plant Architecture for Direct Combining</li>
-            </ul>
-          </div>
-        </div>
+    <div class="variety-grid">
+      <div class="variety-box">
+        <img src="/assets/Lines/Bechamel.jpg" alt="OAC Bechamel" class="variety-img">
+        <h3>OAC Bechamel</h3>
+        <ul>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Excellent Upright Plant Architecture for Direct Combining</li>
+        </ul>
       </div>
-
-      <h3 class="variety-heading" onclick="toggleBox('black')">Black Beans</h3>
-      <div id="black" class="variety-box-content">
-        <p>No varieties available for licensing.</p>
+      <div class="variety-box">
+        <img src="/assets/Lines/Resilient.jpg" alt="OAC Resilient" class="variety-img">
+        <h3>OAC Resilient</h3>
+        <ul>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Very Good Upright Plant Architecture for Direct Combining</li>
+        </ul>
       </div>
-
-      <h3 class="variety-heading" onclick="toggleBox('kidney')">Kidney Beans</h3>
-      <div id="kidney" class="variety-box-content">
-        <div class="variety-grid">
-          <div class="variety-box">
-            <img src="/assets/Lines/Firebrand.jpg" alt="OAC Firebrand" class="variety-img">
-            <h3>OAC Firebrand</h3>
-            <ul>
-              <li>Light Red</li>
-              <li>Full Maturity</li>
-              <li>Excellent Yield</li>
-              <li>Anthracnose race 73 resistant</li>
-              <li>Excellent Upright Plant Architecture for Direct Combining</li>
-              <li>Good Seed Size</li>
-            </ul>
-          </div>
-          <div class="variety-box">
-            <img src="/assets/Lines/Jasper.jpg" alt="OAC Jasper" class="variety-img">
-            <h3>OAC Jasper</h3>
-            <ul>
-              <li>Dark Red</li>
-              <li>Mid Maturity</li>
-              <li>Good Yield</li>
-              <li>Anthracnose race 73 resistant</li>
-              <li>Good Upright Plant Architecture for Direct Combining</li>
-              <li>Large Seed Size</li>
-            </ul>
-          </div>
-        </div>
+      <div class="variety-box">
+        <img src="/assets/Lines/Plasma.jpg" alt="OAC Plasma" class="variety-img">
+        <h3>OAC Plasma</h3>
+        <ul>
+          <li>Mid Maturity</li>
+          <li>High Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Tolerant to common bacterial blight</li>
+          <li>Excellent Upright Plant Architecture for Direct Combining</li>
+        </ul>
       </div>
-
-      <h3 class="variety-heading" onclick="toggleBox('cranberry')">Cranberry Beans</h3>
-      <div id="cranberry" class="variety-box-content">
-        <div class="variety-grid">
-          <div class="variety-box">
-            <img src="/assets/Lines/NDC-1.jpg" alt="OAC 22-NDC1" class="variety-img">
-            <img src="/assets/Lines/NDC1-1.jpg" alt="OAC 22-NDC1-Compare" class="variety-img">
-            <h3>OAC 22-NDC1</h3>
-            <ul>
-              <li>The First Non-Darkening Cranberry Bean</li>
-              <li>Mid Maturity</li>
-              <li>Good Yield</li>
-              <li>Anthracnose race 73 resistant</li>
-              <li>Very Good Cooking Quality and Excellent Upright Plant Architecture</li>
-            </ul>
-          </div>
-          <div class="variety-box">
-            <img src="/assets/Lines/Agate.jpg" alt="OAC Agate" class="variety-img">
-            <h3>OAC Agate</h3>
-            <ul>
-              <li>Mid Maturity</li>
-              <li>Very Good Yield</li>
-              <li>Anthracnose race 73 resistant</li>
-              <li>Very Good Cooking Quality</li>
-              <li>Very Good upright Plant Architecture for Direct Combining</li>
-            </ul>
-          </div>
-          <div class="variety-box">
-            <img src="/assets/Lines/Candycane.jpg" alt="OAC Candycane" class="variety-img">
-            <h3>OAC Candycane</h3>
-            <ul>
-              <li>Mid Maturity</li>
-              <li>Excellent Yield</li>
-              <li>Good Seed Size</li>
-            </ul>
-          </div>
-          <div class="variety-box">
-            <img src="/assets/Lines/Volterra.jpg" alt="OAC Volterra" class="variety-img">
-            <h3>OAC Volterra</h3>
-            <ul>
-              <li>Mid Maturity</li>
-              <li>Excellent Yield</li>
-              <li>Anthracnose race 73 resistant</li>
-              <li>Excellent Upright Plant Architecture for Direct Combining</li>
-            </ul>
-          </div>
-        </div>
+      <div class="variety-box">
+        <img src="/assets/Lines/Storm.jpg" alt="OAC Storm" class="variety-img">
+        <h3>OAC Storm</h3>
+        <ul>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Tolerant to common bacterial blight</li>
+          <li>Excellent Upright Plant Architecture for Direct Combining</li>
+        </ul>
       </div>
-
-      <h3 class="variety-heading" onclick="toggleBox('pinto')">Pinto Beans</h3>
-      <div id="pinto" class="variety-box-content">
-        <p>No varieties available for licensing.</p>
+      <div class="variety-box">
+        <img src="/assets/Lines/NDC-1.jpg" alt="OAC 22-NDC1" class="variety-img">
+        <img src="/assets/Lines/NDC1-1.jpg" alt="OAC 22-NDC1-Compare" class="variety-img">
+        <h3>OAC 22-NDC1</h3>
+        <ul>
+          <li>The First Non-Darkening Cranberry Bean</li>
+          <li>Mid Maturity</li>
+          <li>Good Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Very Good Cooking Quality and Excellent Upright Plant Architecture</li>
+        </ul>
       </div>
-
-      <h3 class="variety-heading" onclick="toggleBox('other')">Other Beans</h3>
-      <div id="other" class="variety-box-content">
-        <div class="variety-grid">
-          <div class="variety-box">
-            <img src="/assets/Lines/o18hr0037.jpg" alt="O18HR003y" class="variety-img">
-            <h3>O18HR003y</h3>
-            <ul>
-              <li>Full Maturity</li>
-              <li>Excellent Yield</li>
-              <li>Anthracnose race 73 resistant</li>
-              <li>Tolerant to common bacterial blight</li>
-              <li>Good Upright Plant Architecture for Direct Combining</li>
-            </ul>
-          </div>
-          <div class="variety-box">
-            <img src="/assets/Lines/o18hr007y.jpg" alt="O18HR007y" class="variety-img">
-            <h3>O18HR007y</h3>
-            <ul>
-              <li>Full Maturity</li>
-              <li>Excellent Yield</li>
-              <li>Anthracnose race 73 resistant</li>
-              <li>Tolerant to common bacterial blight</li>
-              <li>Good Upright Plant Architecture for Direct Combining</li>
-            </ul>
-          </div>
-        </div>
+      <div class="variety-box">
+        <img src="/assets/Lines/Agate.jpg" alt="OAC Agate" class="variety-img">
+        <h3>OAC Agate</h3>
+        <ul>
+          <li>Mid Maturity</li>
+          <li>Very Good Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Very Good Cooking Quality</li>
+          <li>Very Good upright Plant Architecture for Direct Combining</li>
+        </ul>
+      </div>
+      <div class="variety-box">
+        <img src="/assets/Lines/Candycane.jpg" alt="OAC Candycane" class="variety-img">
+        <h3>OAC Candycane</h3>
+        <ul>
+          <li>Mid Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Good Seed Size</li>
+        </ul>
+      </div>
+      <div class="variety-box">
+        <img src="/assets/Lines/Volterra.jpg" alt="OAC Volterra" class="variety-img">
+        <h3>OAC Volterra</h3>
+        <ul>
+          <li>Mid Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Excellent Upright Plant Architecture for Direct Combining</li>
+        </ul>
+      </div>
+      <div class="variety-box">
+        <img src="/assets/Lines/Firebrand.jpg" alt="OAC Firebrand" class="variety-img">
+        <h3>OAC Firebrand</h3>
+        <ul>
+          <li>Light Red</li>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Excellent Upright Plant Architecture for Direct Combining</li>
+          <li>Good Seed Size</li>
+        </ul>
+      </div>
+      <div class="variety-box">
+        <img src="/assets/Lines/Jasper.jpg" alt="OAC Jasper" class="variety-img">
+        <h3>OAC Jasper</h3>
+        <ul>
+          <li>Dark Red</li>
+          <li>Mid Maturity</li>
+          <li>Good Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Good Upright Plant Architecture for Direct Combining</li>
+          <li>Large Seed Size</li>
+        </ul>
+      </div>
+      <div class="variety-box">
+        <img src="/assets/Lines/o18hr0037.jpg" alt="O18HR003y" class="variety-img">
+        <h3>O18HR003y</h3>
+        <ul>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Tolerant to common bacterial blight</li>
+          <li>Good Upright Plant Architecture for Direct Combining</li>
+        </ul>
+      </div>
+      <div class="variety-box">
+        <img src="/assets/Lines/o18hr007y.jpg" alt="O18HR007y" class="variety-img">
+        <h3>O18HR007y</h3>
+        <ul>
+          <li>Full Maturity</li>
+          <li>Excellent Yield</li>
+          <li>Anthracnose race 73 resistant</li>
+          <li>Tolerant to common bacterial blight</li>
+          <li>Good Upright Plant Architecture for Direct Combining</li>
+        </ul>
       </div>
     </div>
-
     <p>For detailed licensing information, download our <a href="/assets/pdf/Dry Beans CFP JAN2025 - LIGHT.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link">Call for Licensing PDF</a> or contact the <a href="https://www.uoguelph.ca/research/innovation/" target="_blank" rel="noopener noreferrer" class="pdf-link">Research Innovation Office</a>.</p>
     <div class="contact-box">
       <img src="/assets/img/team/Steve.jpg" alt="Steve Dinka" class="contact-img">
@@ -322,45 +286,6 @@ permalink: /Resource/
     line-height: 1.7;
     color: #333;
     margin-bottom: 1.5rem;
-  }
-  .variety-categories {
-    margin-bottom: 2rem;
-  }
-  .variety-heading {
-    color: #9b1d64;
-    font-size: 1.4rem;
-    font-weight: 600;
-    margin: 0.5rem 0;
-    padding: 0.75rem 1.5rem;
-    background: #fff;
-    border: 2px solid #9b1d64;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    display: inline-block;
-  }
-  .variety-heading:hover {
-    background: #f9e6ed;
-    border-color: #d94f8e;
-    color: #d94f8e;
-  }
-  .variety-heading.active {
-    background: #9b1d64;
-    color: #fff;
-    border-color: #9b1d64;
-  }
-  .variety-box-content {
-    display: none;
-    background: #fff;
-    border-radius: 12px;
-    padding: 1.5rem;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    margin: 0.5rem 0 1.5rem;
-    border-left: 6px solid #f4c430;
-    animation: slideDown 0.3s ease;
-  }
-  .variety-box-content.active {
-    display: block;
   }
   .variety-grid {
     display: grid;
@@ -716,10 +641,6 @@ permalink: /Resource/
     from { opacity: 0; }
     to { opacity: 1; }
   }
-  @keyframes slideDown {
-    from { opacity: 0; transform: translateY(-10px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
   @media (max-width: 600px) {
     .page-header h1 {
       font-size: 2rem;
@@ -750,30 +671,8 @@ permalink: /Resource/
     .contact-img {
       margin: 0 auto 1rem;
     }
-    .variety-heading {
-      width: 100%;
-      margin: 0.25rem 0;
-    }
   }
 </style>
-
-<script>
-function toggleBox(boxId) {
-  const box = document.getElementById(boxId);
-  const heading = document.querySelector(`.variety-heading[onclick="toggleBox('${boxId}')"]`);
-  const isActive = box.classList.contains('active');
-
-  // Close all boxes and remove active class from all headings
-  document.querySelectorAll('.variety-box-content').forEach(b => b.classList.remove('active'));
-  document.querySelectorAll('.variety-heading').forEach(h => h.classList.remove('active'));
-
-  // If the clicked box was not active, open it and mark the heading as active
-  if (!isActive) {
-    box.classList.add('active');
-    heading.classList.add('active');
-  }
-}
-</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 
