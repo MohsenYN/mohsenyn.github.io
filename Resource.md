@@ -10,20 +10,9 @@ permalink: /Resource/
 <div class="resource-container">
   <section class="new-varieties">
     <h2>New Dry Bean Varieties</h2>
-    <p>We're excited to announce the upcoming release of dry bean varieties developed through advanced computational breeding at the University of Guelph. These varieties offer enhanced yield, disease resistance, and adaptability to diverse environmental conditions, supporting sustainable agriculture for growers across North America.</p>
-    
-    <div class="variety-categories">
-      <button class="category-btn active" data-category="navy">Navy Beans</button>
-      <button class="category-btn" data-category="cranberry">Cranberry Beans</button>
-      <button class="category-btn" data-category="kidney">Kidney Beans</button>
-      <button class="category-btn" data-category="other">Other Beans</button>
-      <button class="category-btn" data-category="pinto">Pinto Beans</button>
-      <button class="category-btn" data-category="black">Black Beans</button>
-    </div>
-
+    <p>We’re excited to announce the upcoming release of dry bean varieties developed through advanced computational breeding at the University of Guelph. These varieties offer enhanced yield, disease resistance, and adaptability to diverse environmental conditions, supporting sustainable agriculture for growers across North America.</p>
     <div class="variety-grid">
-      <!-- Navy Beans -->
-      <div class="variety-box navy">
+      <div class="variety-box">
         <img src="/assets/Lines/Bechamel.jpg" alt="OAC Bechamel" class="variety-img">
         <h3>OAC Bechamel</h3>
         <ul>
@@ -33,7 +22,7 @@ permalink: /Resource/
           <li>Excellent Upright Plant Architecture for Direct Combining</li>
         </ul>
       </div>
-      <div class="variety-box navy">
+      <div class="variety-box">
         <img src="/assets/Lines/Resilient.jpg" alt="OAC Resilient" class="variety-img">
         <h3>OAC Resilient</h3>
         <ul>
@@ -43,7 +32,7 @@ permalink: /Resource/
           <li>Very Good Upright Plant Architecture for Direct Combining</li>
         </ul>
       </div>
-      <div class="variety-box navy">
+      <div class="variety-box">
         <img src="/assets/Lines/Plasma.jpg" alt="OAC Plasma" class="variety-img">
         <h3>OAC Plasma</h3>
         <ul>
@@ -54,7 +43,7 @@ permalink: /Resource/
           <li>Excellent Upright Plant Architecture for Direct Combining</li>
         </ul>
       </div>
-      <div class="variety-box navy">
+      <div class="variety-box">
         <img src="/assets/Lines/Storm.jpg" alt="OAC Storm" class="variety-img">
         <h3>OAC Storm</h3>
         <ul>
@@ -65,9 +54,7 @@ permalink: /Resource/
           <li>Excellent Upright Plant Architecture for Direct Combining</li>
         </ul>
       </div>
-
-      <!-- Cranberry Beans -->
-      <div class="variety-box cranberry">
+      <div class="variety-box">
         <img src="/assets/Lines/NDC-1.jpg" alt="OAC 22-NDC1" class="variety-img">
         <img src="/assets/Lines/NDC1-1.jpg" alt="OAC 22-NDC1-Compare" class="variety-img">
         <h3>OAC 22-NDC1</h3>
@@ -79,7 +66,7 @@ permalink: /Resource/
           <li>Very Good Cooking Quality and Excellent Upright Plant Architecture</li>
         </ul>
       </div>
-      <div class="variety-box cranberry">
+      <div class="variety-box">
         <img src="/assets/Lines/Agate.jpg" alt="OAC Agate" class="variety-img">
         <h3>OAC Agate</h3>
         <ul>
@@ -90,7 +77,7 @@ permalink: /Resource/
           <li>Very Good upright Plant Architecture for Direct Combining</li>
         </ul>
       </div>
-      <div class="variety-box cranberry">
+      <div class="variety-box">
         <img src="/assets/Lines/Candycane.jpg" alt="OAC Candycane" class="variety-img">
         <h3>OAC Candycane</h3>
         <ul>
@@ -99,7 +86,7 @@ permalink: /Resource/
           <li>Good Seed Size</li>
         </ul>
       </div>
-      <div class="variety-box cranberry">
+      <div class="variety-box">
         <img src="/assets/Lines/Volterra.jpg" alt="OAC Volterra" class="variety-img">
         <h3>OAC Volterra</h3>
         <ul>
@@ -109,9 +96,7 @@ permalink: /Resource/
           <li>Excellent Upright Plant Architecture for Direct Combining</li>
         </ul>
       </div>
-
-      <!-- Kidney Beans -->
-      <div class="variety-box kidney">
+      <div class="variety-box">
         <img src="/assets/Lines/Firebrand.jpg" alt="OAC Firebrand" class="variety-img">
         <h3>OAC Firebrand</h3>
         <ul>
@@ -123,7 +108,7 @@ permalink: /Resource/
           <li>Good Seed Size</li>
         </ul>
       </div>
-      <div class="variety-box kidney">
+      <div class="variety-box">
         <img src="/assets/Lines/Jasper.jpg" alt="OAC Jasper" class="variety-img">
         <h3>OAC Jasper</h3>
         <ul>
@@ -135,9 +120,7 @@ permalink: /Resource/
           <li>Large Seed Size</li>
         </ul>
       </div>
-
-      <!-- Other Beans -->
-      <div class="variety-box other">
+      <div class="variety-box">
         <img src="/assets/Lines/o18hr0037.jpg" alt="O18HR003y" class="variety-img">
         <h3>O18HR003y</h3>
         <ul>
@@ -148,7 +131,7 @@ permalink: /Resource/
           <li>Good Upright Plant Architecture for Direct Combining</li>
         </ul>
       </div>
-      <div class="variety-box other">
+      <div class="variety-box">
         <img src="/assets/Lines/o18hr007y.jpg" alt="O18HR007y" class="variety-img">
         <h3>O18HR007y</h3>
         <ul>
@@ -159,20 +142,7 @@ permalink: /Resource/
           <li>Good Upright Plant Architecture for Direct Combining</li>
         </ul>
       </div>
-
-      <!-- Pinto Beans (No beans available) -->
-      <div class="variety-box pinto empty-category">
-        <h3>No Pinto Beans Available</h3>
-        <p>Currently, there are no pinto bean varieties available for release.</p>
-      </div>
-
-      <!-- Black Beans (No beans available) -->
-      <div class="variety-box black empty-category">
-        <h3>No Black Beans Available</h3>
-        <p>Currently, there are no black bean varieties available for release.</p>
-      </div>
     </div>
-    
     <p>For detailed licensing information, download our <a href="/assets/pdf/Dry Beans CFP JAN2025 - LIGHT.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link">Call for Licensing PDF</a> or contact the <a href="https://www.uoguelph.ca/research/innovation/" target="_blank" rel="noopener noreferrer" class="pdf-link">Research Innovation Office</a>.</p>
     <div class="contact-box">
       <img src="/assets/img/team/Steve.jpg" alt="Steve Dinka" class="contact-img">
@@ -317,42 +287,12 @@ permalink: /Resource/
     color: #333;
     margin-bottom: 1.5rem;
   }
-  
-  .variety-categories {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-bottom: 2rem;
-  }
-  
-  .category-btn {
-    padding: 0.75rem 1.5rem;
-    background-color: #f4c430;
-    color: #333;
-    border: none;
-    border-radius: 30px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  .category-btn:hover {
-    background-color: #e6b82e;
-    transform: translateY(-2px);
-  }
-  
-  .category-btn.active {
-    background-color: #9b1d64;
-    color: white;
-  }
-  
   .variety-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
     margin-bottom: 2rem;
   }
-  
   .variety-box {
     background: linear-gradient(135deg, #fff 0%, #f9e6ed 100%);
     border-radius: 15px;
@@ -362,35 +302,7 @@ permalink: /Resource/
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
-    display: none;
   }
-  
-  .variety-box.navy,
-  .variety-box.cranberry,
-  .variety-box.kidney,
-  .variety-box.other,
-  .variety-box.pinto,
-  .variety-box.black {
-    display: block;
-  }
-  
-  .variety-box.empty-category {
-    background: linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%);
-    border: 2px solid #ccc;
-    text-align: center;
-    padding: 2rem;
-  }
-  
-  .variety-box.empty-category h3 {
-    color: #666;
-    margin-bottom: 1rem;
-  }
-  
-  .variety-box.empty-category p {
-    color: #888;
-    font-style: italic;
-  }
-  
   .variety-box:hover {
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
@@ -739,9 +651,6 @@ permalink: /Resource/
     .new-varieties h2, .crop-comparison h2, .distributors h2 {
       font-size: 1.5rem;
     }
-    .variety-categories {
-      flex-direction: column;
-    }
     .variety-grid, .distributor-grid {
       grid-template-columns: 1fr;
     }
@@ -979,27 +888,6 @@ function setupEventListeners() {
   elements.closeErrorBtn.addEventListener("click", () => {
     uncheckBoxes();
     resetView();
-  });
-  
-  // Add event listeners for category buttons
-  document.querySelectorAll('.category-btn').forEach(btn => {
-    btn.addEventListener('click', function() {
-      // Remove active class from all buttons
-      document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
-      // Add active class to clicked button
-      this.classList.add('active');
-      
-      const category = this.dataset.category;
-      // Hide all variety boxes
-      document.querySelectorAll('.variety-box').forEach(box => {
-        box.style.display = 'none';
-      });
-      
-      // Show only the selected category
-      document.querySelectorAll(`.variety-box.${category}`).forEach(box => {
-        box.style.display = 'block';
-      });
-    });
   });
 }
 
