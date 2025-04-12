@@ -189,20 +189,13 @@ permalink: /Resource/
   </section>
 
   <section class="crop-comparison">
-    <h2>Compare Dry Bean Varieties</h2>
-    <h3 class="formInfo">Select a Crop</h3>
-    <div class="buttons form">
-      <button id="whiteBean" class="gradientBtn">White Bean</button>
-      <button id="minor" class="gradientBtn">Coloured Bean Minor</button>
-      <button id="major" class="gradientBtn">Coloured Bean Major</button>
+    <div id="tables"></div>
+    <div id="error">
+      <p>Error. Please ensure you have selected at least two beans and at least one response to compare.</p>
+      <button id="closeError" class="gradientBtn">Try Again</button>
     </div>
-    <p class="form">If you run into an error, please refresh the page and attempt it again</p>
-    <p class="form">* "--" represents data not existing due to time since bean registration.</p>
-    <p class="form">* For more information, consider visiting the <a target="_blank" href="https://pulse.gocrops.ca/" rel="noopener">Ontario Pulse Crops Committee</a> Official Website.</p>
-    <h4 class="selectors">Select varieties to compare</h4>
-    <form class="beanForm selectors" id="beanForm"></form>
-    <h4 class="selectors">Select at least one response to compare</h4>
     <form class="beanForm selectors" id="dataForm">
+      <h4 class="selectors">Select at least one response to compare</h4>
       <ul>
         <li><label><input type="checkbox" value="description"><span class="checkmark"></span> Description</label></li>
         <li><label><input type="checkbox" value="diseaseRatings"><span class="checkmark"></span> Disease Ratings</label></li>
@@ -211,11 +204,19 @@ permalink: /Resource/
       <input id="goBack" class="gradientBtn" type="button" value="Go Back">
       <input id="submitBtnData" class="gradientBtn" type="button" value="Submit">
     </form>
-    <div id="error">
-      <p>Error. Please ensure you have selected at least two beans and at least one response to compare.</p>
-      <button id="closeError" class="gradientBtn">Try Again</button>
+    <form class="beanForm selectors" id="beanForm">
+      <h4 class="selectors">Select varieties to compare</h4>
+    </form>
+    <p class="form">* For more information, consider visiting the <a target="_blank" href="https://pulse.gocrops.ca/" rel="noopener">Ontario Pulse Crops Committee</a> Official Website.</p>
+    <p class="form">* "--" represents data not existing due to time since bean registration.</p>
+    <p class="form">If you run into an error, please refresh the page and attempt it again</p>
+    <div class="buttons form">
+      <button id="whiteBean" class="gradientBtn">White Bean</button>
+      <button id="minor" class="gradientBtn">Coloured Bean Minor</button>
+      <button id="major" class="gradientBtn">Coloured Bean Major</button>
     </div>
-    <div id="tables"></div>
+    <h3 class="formInfo">Select a Crop</h3>
+    <h2>Compare Dry Bean Varieties</h2>
   </section>
 
   <section class="distributors">
@@ -348,10 +349,10 @@ permalink: /Resource/
     border-bottom: 2px solid #f4c430;
   }
   .tab-content {
-    display: block;
-  }
-  .tab-content[style*="display: none"] {
     display: none;
+  }
+  .tab-content.active {
+    display: block;
   }
   .variety-grid {
     display: grid;
@@ -444,6 +445,8 @@ permalink: /Resource/
   }
   .crop-comparison {
     margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
   }
   .crop-comparison h2 {
     color: #9b1d64;
@@ -751,26 +754,28 @@ permalink: /Resource/
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
+// Tab Switching Logic
+function initializeTabs() {
   const tabs = document.querySelectorAll(".tab-button");
   const contents = document.querySelectorAll(".tab-content");
 
   tabs.forEach(tab => {
-    tab.addEventListener("click", function() {
-      // Remove active class from all tabs
+    tab.addEventListener("click", () => {
       tabs.forEach(t => t.classList.remove("active"));
-      // Add active class to clicked tab
-      this.classList.add("active");
+      tab.classList.add("active");
 
-      // Hide all tab contents
-      contents.forEach(content => content.style.display = "none");
-      // Show the selected tab content
-      const tabId = this.getAttribute("data-tab");
-      document.getElementById(tabId).style.display = "block";
+      contents.forEach(content => content.classList.remove("active"));
+      const tabId = tab.getAttribute("data-tab");
+      document.getElementById(tabId).classList.add("active");
     });
   });
-});
 
+  // Ensure Navy tab is active on load
+  document.querySelector(".tab-button[data-tab='navy']").classList.add("active");
+  document.getElementById("navy").classList.add("active");
+}
+
+// Comparison Tool Logic
 let checkedBeans = [];
 let checkedData = [];
 let allBeans = [];
@@ -880,7 +885,7 @@ function exportAsCSV() {
   let csv = "";
   tables.querySelectorAll("table").forEach(table => {
     table.querySelectorAll("tr").forEach(tr => {
-      tr.querySelectorAll("td").forEach(td => csv += `${td.innerHTML},`);
+      tr.querySelectorAll("td").forEach(td => csv += `"${td.innerHTML}",`);
       csv += "\n";
     });
     csv += "\n\n";
@@ -998,7 +1003,7 @@ function toggleVisibility(className) {
   document.querySelectorAll(".whiteNavy, .minorClass, .majorClass").forEach(el => el.style.display = "none");
   document.querySelectorAll(`.${className}`).forEach(el => el.style.display = "block");
   document.querySelectorAll(".selectors").forEach(el => el.style.display = "block");
-  document.querySelectorAll(".form, .formInfo").forEach(el => el.style.display = "none");
+  document.querySelectorAll(".form, .formInfo, .buttons").forEach(el => el.style.display = "none");
   document.getElementById("error").style.display = "none";
   document.getElementById("tables").style.display = "none";
 }
@@ -1019,5 +1024,9 @@ async function initializeComparisonTool() {
   setupEventListeners();
 }
 
-document.addEventListener("DOMContentLoaded", initializeComparisonTool);
+// Initialize everything
+document.addEventListener("DOMContentLoaded", () => {
+  initializeTabs();
+  initializeComparisonTool();
+});
 </script>
