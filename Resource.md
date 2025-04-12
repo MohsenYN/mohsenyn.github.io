@@ -12,10 +12,10 @@ permalink: /Resource/
     <h2>New Dry Bean Varieties</h2>
     <p>We’re excited to announce the upcoming release of dry bean varieties developed through advanced computational breeding at the University of Guelph. These varieties offer enhanced yield, disease resistance, and adaptability to diverse environmental conditions, supporting sustainable agriculture for growers across North America.</p>
     
-    <!-- Buttons for Bean Categories -->
-    <div class="variety-buttons">
-      <button class="variety-button" onclick="togglePanel('navy')">Navy Beans</button>
-      <div id="navy" class="variety-panel">
+    <!-- Heading-Based Toggle Boxes -->
+    <div class="variety-categories">
+      <h3 class="variety-heading" onclick="toggleBox('navy')">Navy Beans</h3>
+      <div id="navy" class="variety-box-content">
         <div class="variety-grid">
           <div class="variety-box">
             <img src="/assets/Lines/Bechamel.jpg" alt="OAC Bechamel" class="variety-img">
@@ -62,13 +62,13 @@ permalink: /Resource/
         </div>
       </div>
 
-      <button class="variety-button" onclick="togglePanel('black')">Black Beans</button>
-      <div id="black" class="variety-panel">
+      <h3 class="variety-heading" onclick="toggleBox('black')">Black Beans</h3>
+      <div id="black" class="variety-box-content">
         <p>No varieties available for licensing.</p>
       </div>
 
-      <button class="variety-button" onclick="togglePanel('kidney')">Kidney Beans</button>
-      <div id="kidney" class="variety-panel">
+      <h3 class="variety-heading" onclick="toggleBox('kidney')">Kidney Beans</h3>
+      <div id="kidney" class="variety-box-content">
         <div class="variety-grid">
           <div class="variety-box">
             <img src="/assets/Lines/Firebrand.jpg" alt="OAC Firebrand" class="variety-img">
@@ -97,8 +97,8 @@ permalink: /Resource/
         </div>
       </div>
 
-      <button class="variety-button" onclick="togglePanel('cranberry')">Cranberry Beans</button>
-      <div id="cranberry" class="variety-panel">
+      <h3 class="variety-heading" onclick="toggleBox('cranberry')">Cranberry Beans</h3>
+      <div id="cranberry" class="variety-box-content">
         <div class="variety-grid">
           <div class="variety-box">
             <img src="/assets/Lines/NDC-1.jpg" alt="OAC 22-NDC1" class="variety-img">
@@ -145,13 +145,13 @@ permalink: /Resource/
         </div>
       </div>
 
-      <button class="variety-button" onclick="togglePanel('pinto')">Pinto Beans</button>
-      <div id="pinto" class="variety-panel">
+      <h3 class="variety-heading" onclick="toggleBox('pinto')">Pinto Beans</h3>
+      <div id="pinto" class="variety-box-content">
         <p>No varieties available for licensing.</p>
       </div>
 
-      <button class="variety-button" onclick="togglePanel('other')">Other Beans</button>
-      <div id="other" class="variety-panel">
+      <h3 class="variety-heading" onclick="toggleBox('other')">Other Beans</h3>
+      <div id="other" class="variety-box-content">
         <div class="variety-grid">
           <div class="variety-box">
             <img src="/assets/Lines/o18hr0037.jpg" alt="O18HR003y" class="variety-img">
@@ -323,33 +323,33 @@ permalink: /Resource/
     color: #333;
     margin-bottom: 1.5rem;
   }
-  .variety-buttons {
+  .variety-categories {
     margin-bottom: 2rem;
   }
-  .variety-button {
+  .variety-heading {
+    color: #9b1d64;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+    padding: 0.75rem 1.5rem;
     background: #fff;
     border: 2px solid #9b1d64;
     border-radius: 8px;
-    padding: 0.75rem 1.5rem;
-    margin: 0.5rem;
-    font-size: 1rem;
-    font-weight: 600;
-    color: #9b1d64;
     cursor: pointer;
     transition: all 0.3s ease;
     display: inline-block;
   }
-  .variety-button:hover {
+  .variety-heading:hover {
     background: #f9e6ed;
     border-color: #d94f8e;
     color: #d94f8e;
   }
-  .variety-button.active {
+  .variety-heading.active {
     background: #9b1d64;
     color: #fff;
     border-color: #9b1d64;
   }
-  .variety-panel {
+  .variety-box-content {
     display: none;
     background: #fff;
     border-radius: 12px;
@@ -359,7 +359,7 @@ permalink: /Resource/
     border-left: 6px solid #f4c430;
     animation: slideDown 0.3s ease;
   }
-  .variety-panel.active {
+  .variety-box-content.active {
     display: block;
   }
   .variety-grid {
@@ -750,7 +750,7 @@ permalink: /Resource/
     .contact-img {
       margin: 0 auto 1rem;
     }
-    .variety-button {
+    .variety-heading {
       width: 100%;
       margin: 0.25rem 0;
     }
@@ -758,19 +758,19 @@ permalink: /Resource/
 </style>
 
 <script>
-function togglePanel(panelId) {
-  const panel = document.getElementById(panelId);
-  const button = document.querySelector(`.variety-button[onclick="togglePanel('${panelId}')"]`);
-  const isActive = panel.classList.contains('active');
+function toggleBox(boxId) {
+  const box = document.getElementById(boxId);
+  const heading = document.querySelector(`.variety-heading[onclick="toggleBox('${boxId}')"]`);
+  const isActive = box.classList.contains('active');
 
-  // Close all panels and remove active class from all buttons
-  document.querySelectorAll('.variety-panel').forEach(p => p.classList.remove('active'));
-  document.querySelectorAll('.variety-button').forEach(b => b.classList.remove('active'));
+  // Close all boxes and remove active class from all headings
+  document.querySelectorAll('.variety-box-content').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.variety-heading').forEach(h => h.classList.remove('active'));
 
-  // If the clicked panel was not active, open it and mark the button as active
+  // If the clicked box was not active, open it and mark the heading as active
   if (!isActive) {
-    panel.classList.add('active');
-    button.classList.add('active');
+    box.classList.add('active');
+    heading.classList.add('active');
   }
 }
 </script>
