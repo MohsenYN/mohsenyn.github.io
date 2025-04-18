@@ -122,8 +122,8 @@ accent_image: /assets/img/Introdcution.jpg
     <div style="text-align: center; margin-top: 1rem;">
       <a href="mailto:tsolinge@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
     </div>
-</div>
-
+  </div>
+</div> 
 ---
 
 ## Collaborators and Volunteers
