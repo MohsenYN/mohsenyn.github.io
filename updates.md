@@ -10,6 +10,19 @@ permalink: /updates/
 
 <main class="news-grid" role="main">
   <article class="news-item">
+    <h2 class="news-date">April 21, 2025</h2>
+    <p><strong>Welcome to Our Team, Trinity!</strong><br>
+      We are happy to announce that Trinity Solinger has joined our dry bean breeding team. With her  expertise and passion in dry bean breeding, she will play an important role in supporting our technicians and advancing our research goals.
+    In her own words:
+    Hello, my name is Trinity Solinger! I am an undergraduate student here at the University of Guelph, entering my second year of Environmental Sciences. In my free time, I enjoy hiking, camping, baking, and wildlife photography, all hobbies that have inspired my love for conservation and the environment. I am excited to join this team as I believe their work is incredibly valuable and connects well with my field of study. Working towards increasing both stress resistance and yields of dry beans is vital to ensure continued food security through the climate crisis. This unique opportunity will not only allow me to expand my knowledge of genetics and plant breeding but also gain hands-on experience in agricultural research.
+   Please join us in welcoming Trinity Solinger to the team!  </p>
+    <figure>
+      <img src="/assets/img/team/Trinity.jpg" alt="Trinity" loading="lazy">
+    </figure>
+  </article>
+
+<main class="news-grid" role="main">
+  <article class="news-item">
     <h2 class="news-date">April 8, 2025</h2>
     <p><strong>First Step Toward Developing Phenomic Markers for Anthracnose Resistance in Dry Beans</strong><br>
       At the time a proposal was developed for fast screening and detection of anthracnose-resistant dry bean genotypes in the field, consideration was given to developing phenomic markers in addition to genomic markers for early-stage detection of anthracnose. To pursue this, it was hypothesized that conducting a controlled indoor experiment could help isolate the pure spectral variance caused by anthracnose infection. This approach would allow for the identification of key hyperspectral wavelengths associated with anthracnose resistance. These wavelengths could then be compared with those collected in the field to evaluate how well single-plant measurements correlate with canopy-level data. Today marked the first day of our indoor experiment aimed at identifying phenomic markers linked to anthracnose resistance in dry beans. Jhana and Sajal, who are both involved in the project, began by filling the pots and sowing the seeds. In this experiment, we selected six genotypes: two resistant, two moderately resistant, and two susceptible to anthracnose. Each genotype will be grown in four replicates under two treatments, inoculated and non-inoculated with anthracnose. We will capture hyperspectral reflectance data from each pot at two different viewing angles, allowing us to track changes over time and analyze resistance-related signatures. Stay tuned for updates!</p>
