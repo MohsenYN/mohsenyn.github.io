@@ -21,7 +21,6 @@ permalink: /updates/
     </figure>
   </article>
 
-<main class="news-grid" role="main">
   <article class="news-item">
     <h2 class="news-date">April 8, 2025</h2>
     <p><strong>First Step Toward Developing Phenomic Markers for Anthracnose Resistance in Dry Beans</strong><br>
