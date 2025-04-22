@@ -107,6 +107,16 @@ accent_image: /assets/img/Introdcution.jpg
       <a href="https://www.linkedin.com/in/sajal-ahlawat/" target="_blank" class="social-link"><img src="/assets/img/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
     </div>
   </div>
+  <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,51); transition: transform 0.3s, box-shadow 0.3s;">
+    <img src="/assets/img/team/nophoto.jpg" alt="Yasmine Hezema" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="color: rgb(0,102,51); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Yasmine Hezema</h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">MSc-Internship Student Co-advised with Dr. Milad Eskandari.</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">Exploring advanced breeding techniques.</p>
+    <div style="text-align: center; margin-top: 1rem;">
+      <a href="mailto:yhezema@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
+      <a href="https://www.linkedin.com/in/yasmine-hezema-phd-250a981a1/" target="_blank" class="social-link"><img src="/assets/img/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
+    </div>
+  </div>
 </div>
 
 ---
