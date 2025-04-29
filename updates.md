@@ -10,7 +10,7 @@ permalink: /updates/
     <p><strong>Latest Update from LinkedIn</strong><br>
       Check out our recent post on LinkedIn for the latest lab updates!</p>
     <!-- Placeholder LinkedIn embed code; replace with actual embed code from LinkedIn -->
-    <iframe src="https://www.linkedin.com/feed/update/urn:li:activity:7323090313563013120" height="500" width="100%" frameborder="0" allowfullscreen="" title="Embedded LinkedIn Post"></iframe>
+    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7323090311147069440?collapsed=1" height="544" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
   </div>
 </header>
 
