@@ -10,12 +10,27 @@ permalink: /updates/
 
 <main class="news-grid" role="main">
   <article class="news-item">
+    <h2 class="news-date">April 29, 2025</h2>
+    <p><strong>Welcome to Our Team, Aashvi!</strong><br>
+    We are very happy to announce that Aashvi Patel has joined our team as a Master’s student, starting May 1, 2025, working on the genomics side of the anthacnose project. </p>
+    <p><be> Aashvi brings a strong background in molecular genetics and a passion for agriculture, rooted in her family’s farming heritage. Her interest in our lab’s work on dry bean plant breeding and the application of omics approaches to enhance anthracnose resistance aligns perfectly with our mission to boost dry bean production in Ontario. Aashvi aims to discover molecular markers that will enable the breeding of stronger, more resilient dry bean varieties, contributing meaningful research to Canada’s agricultural community. </p>
+     <p><strong> In her own words: </strong><br>
+     I am excited to further my knowledge in genetics and genomics while working on the anthracnose resistance project. The integration of bioinformatics with agriculture resonates with me, and I am eager to contribute to the advancement of dry bean cultivation. </p>
+       <p><strong> Please join us in welcoming Aashvi to the team! </strong><br> </p>
+    <figure>
+      <img src="/assets/img/news/Aashvi2.jpg" alt="Aashvi" loading="lazy">
+    </figure>
+  </article>
+
+  <article class="news-item">
     <h2 class="news-date">April 21, 2025</h2>
     <p><strong>Welcome to Our Team, Trinity!</strong><br>
       We are happy to announce that Trinity Solinger has joined our dry bean breeding team. With her  expertise and passion in dry bean breeding, she will play an important role in supporting our technicians and advancing our research goals. </p>
     <p><strong>In her own words:</strong><br>
     "Hello, my name is Trinity Solinger! I am an undergraduate student here at the University of Guelph, entering my second year of Environmental Sciences. In my free time, I enjoy hiking, camping, baking, and wildlife photography, all hobbies that have inspired my love for conservation and the environment. I am excited to join this team as I believe their work is incredibly valuable and connects well with my field of study. Working towards increasing both stress resistance and yields of dry beans is vital to ensure continued food security through the climate crisis. This unique opportunity will not only allow me to expand my knowledge of genetics and plant breeding but also gain hands-on experience in agricultural research." </p>
-        <p><strong> Please join us in welcoming Trinity Solinger to the team! </strong><br> </p>
+    <p><strong><em>Fun fact: In her free time, Aashvi enjoys exploring creative hobbies such as painting and crafting little trinkets out of clay!</em></strong><br>
+      We are excited to have Aashvi’s enthusiasm and expertise in our lab as we work together to fortify Ontario’s agri-food sector.</p>
+        <p><strong> Please join us in welcoming Trinity to the team! </strong><br> </p>
     <figure>
       <img src="/assets/img/team/Trinity.jpg" alt="Trinity" loading="lazy">
     </figure>
