@@ -11,6 +11,9 @@ permalink: /updates/
       Check out our recent post on LinkedIn for the latest lab updates!</p>
     <!-- Placeholder LinkedIn embed code; replace with actual embed code from LinkedIn -->
     <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7323090311147069440?collapsed=1" height="544" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7314784183929708545?collapsed=1" height="595" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7311517918356197377?collapsed=1" height="671" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7304649287194353665?collapsed=1" height="543" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
   </div>
 </header>
 
