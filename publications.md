@@ -55,6 +55,10 @@ accent_image: /assets/img/Introdcution.jpg
 ---
 
 <div style="text-align: center; margin: 4rem 0;">
+  <a href="/team-members/" class="btn" style="display: inline-block; padding: 1.25rem 2.5rem; background: rgb(150,0,0); color: white; text-decoration: none; border-radius: 8px; box-shadow: 0 6px 12px rgba(0,0,0,0.2); font-size: 1.25rem; font-weight: 500; transition: background-color 0.3s, transform 0.3s;">Meet our Team</a>
+</div>
+
+<div style="text-align: center; margin: 4rem 0;">
   <a href="/research/" class="btn" style="display: inline-block; padding: 1.25rem 2.5rem; background: rgb(150,0,0); color: white; text-decoration: none; border-radius: 8px; box-shadow: 0 6px 12px rgba(0,0,0,0.2); font-size: 1.25rem; font-weight: 500; transition: background-color 0.3s, transform 0.3s;">Back to Research</a>
 </div>
 
