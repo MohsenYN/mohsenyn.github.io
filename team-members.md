@@ -144,7 +144,6 @@ accent_image: /assets/img/Introdcution.jpg
       <a href="mailto:tsolinge@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
     </div>
   </div>
-  <div class="team-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 3rem 0;">
   <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(255,255,255); border-right: 8px solid rgb(0,0,0); transition: transform 0.3s, box-shadow 0.3s;">
     <img src="/assets/img/team/Kiarash.jpg" alt="Kiarash Mirkamandari" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <h3 style="color: rgb(0,0,0); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Kiarash Mirkamandari</h3>
