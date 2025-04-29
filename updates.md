@@ -4,40 +4,42 @@ permalink: /updates/
 ---
 
 <header class="page-header">
-  <h1 style="font-size: 2.5rem; margin: 0 auto 1rem; font-weight: 700; letter-spacing: 1px; text-align: center; width: 100%; display: block;">Lab News</h1>
+  <h1 class="page-title">Lab News</h1>
   <p class="page-subtitle">We regularly update our news here. For the latest updates, follow us on <a href="https://www.linkedin.com/in/mohsen-yoosefzadeh-n-82365bb2/" target="_blank" rel="noopener noreferrer"><strong>LinkedIn</strong></a>.</p>
 </header>
 
 <main class="news-grid" role="main">
-  <article class="news-item">
-    <h2 class="news-date">April 29, 2025</h2>
+  <article class="news-item" aria-labelledby="news-2025-04-29">
+    <h2 class="news-date" id="news-2025-04-29">April 29, 2025</h2>
     <p><strong>Welcome to Our Team, Aashvi!</strong><br>
     We are very happy to announce that Aashvi Patel has joined our team as a Master’s student, starting May 1, 2025, working on the genomics side of the anthacnose project. </p>
-    <p><be> Aashvi brings a strong background in molecular genetics and a passion for agriculture, rooted in her family’s farming heritage. Her interest in our lab’s work on dry bean plant breeding and the application of omics approaches to enhance anthracnose resistance aligns perfectly with our mission to boost dry bean production in Ontario. Aashvi aims to discover molecular markers that will enable the breeding of stronger, more resilient dry bean varieties, contributing meaningful research to Canada’s agricultural community. </p>
-     <p><strong> In her own words: </strong><br>
-     I am excited to further my knowledge in genetics and genomics while working on the anthracnose resistance project. The integration of bioinformatics with agriculture resonates with me, and I am eager to contribute to the advancement of dry bean cultivation. </p>
-       <p><strong> Please join us in welcoming Aashvi to the team! </strong><br> </p>
+    <p> Aashvi brings a strong background in molecular genetics and a passion for agriculture, rooted in her family’s farming heritage. Her interest in our lab’s work on dry bean plant breeding and the application of omics approaches to enhance anthracnose resistance aligns perfectly with our mission to boost dry bean production in Ontario. Aashvi aims to discover molecular markers that will enable the breeding of stronger, more resilient dry bean varieties, contributing meaningful research to Canada’s agricultural community. </p>
+     <blockquote>
+     <strong> In her own words: </strong><br>
+     I am excited to further my knowledge in genetics and genomics while working on the anthracnose resistance project. The integration of bioinformatics with agriculture resonates with me, and I am eager to contribute to the advancement of dry bean cultivation. </blockquote>
+       <p><strong> Please join us in welcoming Aashvi to the team! </strong></p>
     <figure>
       <img src="/assets/img/news/Aashvi2.jpg" alt="Aashvi" loading="lazy">
     </figure>
   </article>
 
-  <article class="news-item">
-    <h2 class="news-date">April 21, 2025</h2>
+  <article class="news-item" aria-labelledby="news-2025-04-21">
+    <h2 class="news-date" id="news-2025-04-21">April 21, 2025</h2>
     <p><strong>Welcome to Our Team, Trinity!</strong><br>
       We are happy to announce that Trinity Solinger has joined our dry bean breeding team. With her  expertise and passion in dry bean breeding, she will play an important role in supporting our technicians and advancing our research goals. </p>
-    <p><strong>In her own words:</strong><br>
-    "Hello, my name is Trinity Solinger! I am an undergraduate student here at the University of Guelph, entering my second year of Environmental Sciences. In my free time, I enjoy hiking, camping, baking, and wildlife photography, all hobbies that have inspired my love for conservation and the environment. I am excited to join this team as I believe their work is incredibly valuable and connects well with my field of study. Working towards increasing both stress resistance and yields of dry beans is vital to ensure continued food security through the climate crisis. This unique opportunity will not only allow me to expand my knowledge of genetics and plant breeding but also gain hands-on experience in agricultural research." </p>
+    <blockquote>
+    <strong>In her own words:</strong><br>
+    "Hello, my name is Trinity Solinger! I am an undergraduate student here at the University of Guelph, entering my second year of Environmental Sciences. In my free time, I enjoy hiking, camping, baking, and wildlife photography, all hobbies that have inspired my love for conservation and the environment. I am excited to join this team as I believe their work is incredibly valuable and connects well with my field of study. Working towards increasing both stress resistance and yields of dry beans is vital to ensure continued food security through the climate crisis. This unique opportunity will not only allow me to expand my knowledge of genetics and plant breeding but also gain hands-on experience in agricultural research." </blockquote>
     <p><strong><em>Fun fact: In her free time, Aashvi enjoys exploring creative hobbies such as painting and crafting little trinkets out of clay!</em></strong><br>
       We are excited to have Aashvi’s enthusiasm and expertise in our lab as we work together to fortify Ontario’s agri-food sector.</p>
-        <p><strong> Please join us in welcoming Trinity to the team! </strong><br> </p>
+        <p><strong> Please join us in welcoming Trinity to the team! </strong></p>
     <figure>
       <img src="/assets/img/team/Trinity.jpg" alt="Trinity" loading="lazy">
     </figure>
   </article>
 
-  <article class="news-item">
-    <h2 class="news-date">April 8, 2025</h2>
+  <article class="news-item" aria-labelledby="news-2025-04-08">
+    <h2 class="news-date" id="news-2025-04-08">April 8, 2025</h2>
     <p><strong>First Step Toward Developing Phenomic Markers for Anthracnose Resistance in Dry Beans</strong><br>
       At the time a proposal was developed for fast screening and detection of anthracnose-resistant dry bean genotypes in the field, consideration was given to developing phenomic markers in addition to genomic markers for early-stage detection of anthracnose. To pursue this, it was hypothesized that conducting a controlled indoor experiment could help isolate the pure spectral variance caused by anthracnose infection. This approach would allow for the identification of key hyperspectral wavelengths associated with anthracnose resistance. These wavelengths could then be compared with those collected in the field to evaluate how well single-plant measurements correlate with canopy-level data. Today marked the first day of our indoor experiment aimed at identifying phenomic markers linked to anthracnose resistance in dry beans. Jhana and Sajal, who are both involved in the project, began by filling the pots and sowing the seeds. In this experiment, we selected six genotypes: two resistant, two moderately resistant, and two susceptible to anthracnose. Each genotype will be grown in four replicates under two treatments, inoculated and non-inoculated with anthracnose. We will capture hyperspectral reflectance data from each pot at two different viewing angles, allowing us to track changes over time and analyze resistance-related signatures. Stay tuned for updates!</p>
     <figure>
@@ -49,8 +51,8 @@ permalink: /updates/
     </figure>
   </article>
 
-  <article class="news-item">
-    <h2 class="news-date">March 14, 2025</h2>
+  <article class="news-item" aria-labelledby="news-2025-03-14">
+    <h2 class="news-date" id="news-2025-03-14">March 14, 2025</h2>
     <p><strong>Showcasing Innovation at College Royal 2025</strong><br>
       Our team debuted cutting-edge dry bean varieties at the University of Guelph’s 2025 College Royal. Developed using advanced computational breeding, these varieties enhance yield, resilience, and adaptability for Ontario growers. Attendees explored our vision for sustainable agriculture firsthand.</p>
     <figure>
@@ -60,8 +62,8 @@ permalink: /updates/
     </figure>
   </article>
 
-  <article class="news-item">
-    <h2 class="news-date">February 27, 2025</h2>
+  <article class="news-item" aria-labelledby="news-2025-02-27">
+    <h2 class="news-date" id="news-2025-02-27">February 27, 2025</h2>
     <p><strong>Engaging Growers at the Ontario Bean Growers AGM</strong><br>
       Dr. Mohsen Yoosefzadeh Najafabadi presented <em>What’s Next at UoG? Advancing Computational Methods in Dry Bean Breeding</em> at the Ontario Bean Growers AGM. His talk on computational techniques for resilient, high-yield beans sparked dynamic discussions with growers and experts.</p>
     <figure>
@@ -69,8 +71,8 @@ permalink: /updates/
     </figure>
   </article>
 
-  <article class="news-item">
-    <h2 class="news-date">January 16, 2025</h2>
+  <article class="news-item" aria-labelledby="news-2025-01-16">
+    <h2 class="news-date" id="news-2025-01-16">January 16, 2025</h2>
     <p><strong>Advancing AI at the 22nd CCA Conference</strong><br>
       Dr. Mohsen Yoosefzadeh Najafabadi delivered <em>From Data to Harvest: AI and Multi-Omics in Crop Production</em> at the 22nd CCA Conference, highlighting how AI and multi-omics are transforming dry bean breeding for sustainable farming.</p>
     <figure>
@@ -88,160 +90,175 @@ permalink: /updates/
 </section>
 
 <style>
+  /* General Reset */
+  *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
   /* Header Styling */
   .page-header {
     text-align: center;
     padding: 3rem 1rem;
-    background: linear-gradient(135deg, #4a2c5f 0%, #8e4b7e 100%);
+    background: linear-gradient(135deg, #2e1a47 0%, #6b3e8e 100%);
     color: #fff;
-    border-bottom: 4px solid #f4c430;
-    max-width: 1200px;
+    border-bottom: 4px solid #ffb107;
+    max-width: 1280px;
     margin: 0 auto;
-    box-sizing: border-box;
   }
   .page-title {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     font-weight: 700;
-    margin: 0 0 0.5rem;
-    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    letter-spacing: 0.5px;
     animation: fadeIn 1s ease-in;
   }
   .page-subtitle {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     font-style: italic;
     opacity: 0.9;
-    margin: 0;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 900px;
+    margin: 0 auto;
   }
   .page-subtitle a {
-    color: #fff;
+    color: #ffb107;
     text-decoration: none;
     transition: color 0.3s;
   }
   .page-subtitle a:hover {
-    color: #f4c430;
+    color: #fff;
   }
 
   /* News Grid */
   .news-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
     gap: 2rem;
-    max-width: 1200px;
-    margin: 4rem auto;
+    max-width: 1280px;
+    margin: 3rem auto;
     padding: 0 1rem;
   }
   .news-item {
     background: #fff;
     border-radius: 12px;
     padding: 2rem;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    border-left: 6px solid #9b1d64;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    border-left: 6px solid #6b3e8e;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   .news-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
   }
   .news-date {
-    color: #9b1d64;
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 0.75rem;
-    border-bottom: 2px solid #f4c430;
-    padding-bottom: 0.25rem;
-    display: inline-block;
+    color: #6b3e8e;
+    font-size: 1.6rem moeil.7;
+    color: #2e2e2e;
+    margin-bottom: 1rem;
   }
-  .news-item p {
-    font-size: 1.1rem;
+  .news-item blockquote {
+    font-size: 1.05rem;
     line-height: 1.6;
-    color: #333;
-    margin-bottom: 1.5rem;
+    color: #555;
+    border-left: 4px solid #ffb107;
+    padding-left: 1rem;
+    margin: 1rem 0;
   }
   .news-item figure {
-    margin: 0;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    margin-top: 1rem;
   }
   .news-item img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
   }
   .news-item img:hover {
-    transform: scale(1.03);
+    transform: scale(1.05);
   }
 
   /* Footer */
   .footer-text {
     text-align: center;
     padding: 2rem 0;
-    background: #f9f9f9;
-    border-top: 1px solid #eee;
+    background: #fafafa;
+    border-top: 1px solid #e0e0e0;
   }
   .footer-text p {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     font-style: italic;
-    color: #555;
+    color: #4a4a4a;
   }
 
   /* Resource Link */
   .resource-link {
     text-align: center;
-    margin: 4rem 0;
+    margin: 3rem 0;
   }
   .btn {
     display: inline-block;
-    padding: 1rem 2rem;
-    background: #960000;
+    padding: 0.9rem 2rem;
+    background: #6b3e8e;
     color: #fff;
     text-decoration: none;
     border-radius: 6px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    font-size: 1.25rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    font-size: 1.2rem;
     font-weight: 500;
     transition: background-color 0.3s, transform 0.3s;
   }
   .btn:hover {
-    background: #b30000;
-    transform: translateY(-2px);
+    background: #8e5bb5;
+    transform: translateY(-3px);
   }
 
   /* Animation */
   @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
   }
 
   /* Responsive Design */
+  @media (max-width: 1024px) {
+    .news-grid {
+      grid-template-columns: repeat(2, minmax(280px, 1fr));
+    }
+  }
   @media (max-width: 768px) {
     .page-title {
-      font-size: 2rem;
+      font-size: 2.25rem;
     }
     .page-subtitle {
       font-size: 1.1rem;
     }
     .news-date {
-      font-size: 1.3rem;
+      font-size: 1.4rem;
     }
-    .news-item p {
+    .news-item p, .news-item blockquote {
       font-size: 1rem;
     }
     .news-grid {
       grid-template-columns: 1fr;
+      margin: 2rem auto;
     }
   }
   @media (max-width: 480px) {
     .page-header {
-      padding: 2rem 0.5rem;
+      padding: 2rem 1rem;
     }
     .page-title {
-      font-size: 1.8rem;
+      font-size: 1.75rem;
+    }
+    .page-subtitle {
+      font-size: 1rem;
+    }
+    .news-item {
+      padding: 1.5rem;
     }
     .btn {
       padding: 0.75rem 1.5rem;
