@@ -16,6 +16,9 @@ permalink: /updates/
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7314784183929708545?collapsed=1" height="595" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7311517918356197377?collapsed=1" height="671" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7304649287194353665?collapsed=1" height="543" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7302384880930172930?collapsed=1" height="352" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7293048339166547968?collapsed=1" height="568" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7280766672444051457?collapsed=1" height="568" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
       </div>
     </div>
   </div>
