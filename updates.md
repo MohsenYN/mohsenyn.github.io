@@ -6,6 +6,12 @@ permalink: /updates/
 <header class="page-header">
   <h1 style="font-size: 2.5rem; margin: 0 auto 1rem; font-weight: 700; letter-spacing: 1px; text-align: center; width: 100%; display: block;">Lab News</h1>
   <p class="page-subtitle">We regularly update our news here. For the latest updates, follow us on <a href="https://www.linkedin.com/in/mohsen-yoosefzadeh-n-82365bb2/" target="_blank" rel="noopener noreferrer"><strong>LinkedIn</strong></a>.</p>
+  <div class="linkedin-embed">
+    <p><strong>Latest Update from LinkedIn</strong><br>
+      Check out our recent post on LinkedIn for the latest lab updates!</p>
+    <!-- Placeholder LinkedIn embed code; replace with actual embed code from LinkedIn -->
+    <iframe src="https://www.linkedin.com/posts/mohsen-yoosefzadeh-n-82365bb2_im-happy-to-share-that-aashvi-patel-has-activity-7323090313563013120-jTfD?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAABfyC9sB_mZMlg8xpai38x5Sn_Z_UDu18EM" height="500" width="100%" frameborder="0" allowfullscreen="" title="Embedded LinkedIn Post"></iframe>
+  </div>
 </header>
 
 <main class="news-grid" role="main">
@@ -119,15 +125,38 @@ permalink: /updates/
     font-style: italic;
     opacity: 0.9;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0 auto 1rem;
   }
-  .page-subtitle a {
+  .pageZhou a {
     color: #ffb107;
     text-decoration: none;
     transition: color 0.3s;
   }
   .page-subtitle a:hover {
     color: #fff;
+  }
+
+  /* LinkedIn Embed Styling */
+  .linkedin-embed {
+    background: #fff;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    border-left: 6px solid #6b3e8e;
+    max-width: 600px;
+    margin: 1rem auto;
+  }
+  .linkedin-embed p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #2e2e2e;
+    margin-bottom: 1rem;
+  }
+  .linkedin-embed iframe {
+    max-width: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
   }
 
   /* News Grid */
@@ -153,17 +182,19 @@ permalink: /updates/
   }
   .news-date {
     color: #6b3e8e;
-    font-size: 1.6rem moeil.7;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  .news-item p, .news-item blockquote {
+    font-size: 1.05rem;
+    line-height: 1.6;
     color: #2e2e2e;
     margin-bottom: 1rem;
   }
   .news-item blockquote {
-    font-size: 1.05rem;
-    line-height: 1.6;
-    color: #555;
     border-left: 4px solid #ffb107;
     padding-left: 1rem;
-    margin: 1rem 0;
   }
   .news-item figure {
     display: flex;
@@ -246,6 +277,9 @@ permalink: /updates/
       grid-template-columns: 1fr;
       margin: 2rem auto;
     }
+    .linkedin-embed {
+      max-width: 100%;
+    }
   }
   @media (max-width: 480px) {
     .page-header {
@@ -263,6 +297,9 @@ permalink: /updates/
     .btn {
       padding: 0.75rem 1.5rem;
       font-size: 1rem;
+    }
+    .linkedin-embed iframe {
+      height: 400px; /* Adjust height for smaller screens */
     }
   }
 </style>
