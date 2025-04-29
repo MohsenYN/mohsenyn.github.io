@@ -10,7 +10,7 @@ permalink: /updates/
     <p><strong>Latest Update from LinkedIn</strong><br>
       Check out our recent post on LinkedIn for the latest lab updates!</p>
     <!-- Placeholder LinkedIn embed code; replace with actual embed code from LinkedIn -->
-    <iframe src="https://www.linkedin.com/posts/mohsen-yoosefzadeh-n-82365bb2_im-happy-to-share-that-aashvi-patel-has-activity-7323090313563013120-jTfD?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAABfyC9sB_mZMlg8xpai38x5Sn_Z_UDu18EM" height="500" width="100%" frameborder="0" allowfullscreen="" title="Embedded LinkedIn Post"></iframe>
+    <iframe src="https://www.linkedin.com/feed/update/urn:li:activity:7323090313563013120" height="500" width="100%" frameborder="0" allowfullscreen="" title="Embedded LinkedIn Post"></iframe>
   </div>
 </header>
 
