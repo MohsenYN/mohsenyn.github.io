@@ -7,13 +7,17 @@ permalink: /updates/
   <h1 style="font-size: 2.5rem; margin: 0 auto 1rem; font-weight: 700; letter-spacing: 1px; text-align: center; width: 100%; display: block;">Lab News</h1>
   <p class="page-subtitle">We regularly update our news here. For the latest updates, follow us on <a href="https://www.linkedin.com/in/mohsen-yoosefzadeh-n-82365bb2/" target="_blank" rel="noopener noreferrer"><strong>LinkedIn</strong></a>.</p>
   <div class="linkedin-embed">
-    <p><strong>Latest Update from LinkedIn</strong><br>
-      Check out our recent post on LinkedIn for the latest lab updates!</p>
-    <!-- Placeholder LinkedIn embed code; replace with actual embed code from LinkedIn -->
-    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7323090311147069440?collapsed=1" height="544" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7314784183929708545?collapsed=1" height="595" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7311517918356197377?collapsed=1" height="671" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7304649287194353665?collapsed=1" height="543" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+    <p><strong>Latest Updates from LinkedIn</strong><br>
+      Scroll through our recent LinkedIn posts for the latest lab updates!</p>
+    <div class="linkedin-scroll-frame">
+      <!-- Embed for first LinkedIn post -->
+      <div class="linkedin-post">
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7323090311147069440?collapsed=1" height="544" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7314784183929708545?collapsed=1" height="595" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7311517918356197377?collapsed=1" height="671" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7304649287194353665?collapsed=1" height="543" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+      </div>
+    </div>
   </div>
 </header>
 
@@ -35,7 +39,7 @@ permalink: /updates/
   <article class="news-item" aria-labelledby="news-2025-04-21">
     <h2 class="news-date" id="news-2025-04-21">April 21, 2025</h2>
     <p><strong>Welcome to Our Team, Trinity!</strong><br>
-      We are happy to announce that Trinity Solinger has joined our dry bean breeding team. With her  expertise and passion in dry bean breeding, she will play an important role in supporting our technicians and advancing our research goals. </p>
+      We are happy to announce that Trinity Solinger has joined our dry bean breeding team. With her expertise and passion in dry bean breeding, she will play an important role in supporting our technicians and advancing our research goals. </p>
     <blockquote>
     <strong>In her own words:</strong><br>
     "Hello, my name is Trinity Solinger! I am an undergraduate student here at the University of Guelph, entering my second year of Environmental Sciences. In my free time, I enjoy hiking, camping, baking, and wildlife photography, all hobbies that have inspired my love for conservation and the environment. I am excited to join this team as I believe their work is incredibly valuable and connects well with my field of study. Working towards increasing both stress resistance and yields of dry beans is vital to ensure continued food security through the climate crisis. This unique opportunity will not only allow me to expand my knowledge of genetics and plant breeding but also gain hands-on experience in agricultural research." </blockquote>
@@ -130,7 +134,7 @@ permalink: /updates/
     max-width: 900px;
     margin: 0 auto 1rem;
   }
-  .pageZhou a {
+  .page-subtitle a {
     color: #ffb107;
     text-decoration: none;
     transition: color 0.3s;
@@ -155,11 +159,35 @@ permalink: /updates/
     color: #2e2e2e;
     margin-bottom: 1rem;
   }
+  .linkedin-scroll-frame {
+    max-height: 600px; /* Fixed height for the scrollable frame */
+    overflow-y: auto; /* Enable vertical scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on touch devices */
+    border-radius: 8px;
+  }
+  .linkedin-post {
+    margin-bottom: 1.5rem; /* Space between posts */
+  }
   .linkedin-embed iframe {
     max-width: 100%;
     width: 100%;
     border: none;
     border-radius: 8px;
+  }
+  /* Custom scrollbar styling for better aesthetics */
+  .linkedin-scroll-frame::-webkit-scrollbar {
+    width: 8px;
+  }
+  .linkedin-scroll-frame::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+  }
+  .linkedin-scroll-frame::-webkit-scrollbar-thumb {
+    background: #6b3e8e;
+    border-radius: 4px;
+  }
+  .linkedin-scroll-frame::-webkit-scrollbar-thumb:hover {
+    background: #8e5bb5;
   }
 
   /* News Grid */
@@ -283,6 +311,9 @@ permalink: /updates/
     .linkedin-embed {
       max-width: 100%;
     }
+    .linkedin-scroll-frame {
+      max-height: 500px; /* Adjust for medium screens */
+    }
   }
   @media (max-width: 480px) {
     .page-header {
@@ -301,8 +332,14 @@ permalink: /updates/
       padding: 0.75rem 1.5rem;
       font-size: 1rem;
     }
+    .linkedin-embed {
+      padding: 1.5rem;
+    }
+    .linkedin-scroll-frame {
+      max-height: 400px; /* Adjust for small screens */
+    }
     .linkedin-embed iframe {
-      height: 400px; /* Adjust height for smaller screens */
+      height: 400px; /* Adjust iframe height for smaller screens */
     }
   }
 </style>
