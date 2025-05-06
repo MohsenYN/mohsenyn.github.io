@@ -5,7 +5,7 @@ permalink: /join-us/
 
 <header class="page-header">
   <h1 style="font-size: 2.5rem; margin: 0 auto 1rem; font-weight: 700; letter-spacing: 1px; text-align: center; width: 100%; display: block;">Join Our Team</h1>
-  <p>Be a part of  dry bean breeding & computational biology at the University of Guelph.</p>
+  <p>Be a part of dry bean breeding & computational biology at the University of Guelph.</p>
 </header>
 
 <div class="join-us-container">
@@ -31,11 +31,37 @@ permalink: /join-us/
   </section>
     <p class="call-to-action"> Any questions regarding the Breeding Program? Email Lyndsay Schram (<a href="mailto:lschram@uoguelph.ca" class="email-link">lschram@uoguelph.ca</a>) or <a href="mailto:myoosefz@uoguelph.ca" class="email-link">myoosefz@uoguelph.ca</a> for any inquiries regarding the breeding program.</p>
 
- 
   <!-- Previous Openings Section -->
   <section class="previous-openings">
     <h2>Previous Openings</h2>
- 
+
+    <div class="opening-box">
+      <h3>Master’s Graduate Research Assistantship in Multi-Omics Approaches to Map Seed Coat Color Stability in Dry Beans</h3>
+      <p><strong>Department:</strong> Plant Agriculture, Ontario Agricultural College (OAC), University of Guelph<br>
+         <strong>In collaboration with:</strong> Department of Biological Sciences, University of Toronto Scarborough<br>
+         <strong>Start Date:</strong> Fall 2025<br>
+         <strong>Positions:</strong> 2</p>
+      <p><strong>Key Responsibilities:</strong></p>
+      <ul>
+        <li>Analyze genome and methylome sequencing data from a diverse panel of cranberry and pinto bean varieties with a broad range of darkening phenotypes.</li>
+        <li>Conduct genome-wide association studies (GWAS) and epigenome-wide association studies (EWAS) to identify candidate genes and epigenetic modifications linked to seed coat darkening and stability.</li>
+        <li>Utilize hyperspectral reflectance phenotyping to quantify and monitor seed coat color changes over time under controlled experimental conditions.</li>
+        <li>Integrate genetic, epigenetic, and phenotypic data using advanced bioinformatics tools to uncover regulatory networks influencing seed coat color.</li>
+        <li>Assist in the development, validation, and application of molecular and epigenetic markers for selection of stable, non-darkening bean varieties.</li>
+        <li>Contribute to the design, implementation, and analysis of greenhouse and experiments related to seed coat darkening.</li>
+        <li>Prepare research findings for publication, present results at scientific conferences, and participate in multidisciplinary team meetings.</li>
+      </ul>
+      <p><strong>Qualifications:</strong></p>
+      <ul>
+        <li>Bachelor’s degree in Genetics, Molecular Biology, Plant Science, Bioinformatics, Computational Biology, or a closely related field.</li>
+        <li>Demonstrated interest or experience in genomics, epigenetics, or plant breeding, with familiarity in genome and/or methylome sequencing preferred.</li>
+        <li>Experience with bioinformatics tools and statistical software for the analysis of high-throughput genetic and epigenetic data (e.g., GWAS, EWAS) is an asset.</li>
+        <li>Knowledge of or interest in hyperspectral phenotyping and integration of multi-omics datasets.</li>
+        <li>Strong analytical and problem-solving skills, with the ability to work independently and collaboratively in an interdisciplinary environment.</li>
+        <li>Excellent written and oral communication skills, with a commitment to contributing to scholarly publications and scientific presentations.</li>
+      <a href="/assets/pdf/Master seed coat darkening.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link">View Full Details (PDF)</a>
+    </div>
+
     <div class="opening-box">
       <h3>Postdoctoral Researcher in Computational Dry Bean Breeding</h3>
       <p><strong>Department:</strong> Plant Agriculture, Ontario Agricultural College (OAC), University of Guelph<br>
@@ -48,7 +74,7 @@ permalink: /join-us/
         <li>Conducting indoor/outdoor experiments in phenomics, genomics, and transcriptomics.</li>
         <li>Publishing research papers and presenting at conferences.</li>
       </ul>
-      <a href="/assets/pdf/PostDoc Position.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link">View Full Details (PDF)</a>
+      <a href="/assets/pdf/PostDoc_Position.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link">View Full Details (PDF)</a>
     </div>
 
     <div class="opening-box">
@@ -64,12 +90,10 @@ permalink: /join-us/
         <li>Using spectral imaging for rapid, high-throughput screening in early growth stages.</li>
         <li>Enhancing dry bean resilience with molecular markers.</li>
       </ul>
-      <a href="/assets/pdf/Master Announcement.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link">View Full Details (PDF)</a>
+      <a href="/assets/pdf/Master_Announcement.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link">View Full Details (PDF)</a>
     </div>
   </section>
 </div>
-
-
 
 <style>
   /* Header Styling */
