@@ -54,6 +54,16 @@ accent_image: /assets/img/Introdcution.jpg
 
 Our ongoing projects bring these research areas to life, addressing critical challenges with innovative solutions:
 
+### Multi-Omics Approaches to Map Seed Coat Colour Stability in Dry Beans
+<div class="gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 2rem 0;">
+  <figure style="margin: 0; position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <img src="/assets/img/R4.jpg" alt= "Multi-Omics Approaches to Map Seed Coat Colour Stability in Dry Beans" style="width: 100%; height: auto; transition: transform 0.3s;">
+    <figcaption style="position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.7); color: white; padding: 0.5rem; text-align: center; opacity: 0; transition: opacity 0.3s;">Multi-Omics Approaches to Map Seed Coat Colour Stability in Dry Beans</figcaption>
+  </figure>
+</div>
+<p style="font-size: 1.1rem; line-height: 1.6; color: #444; padding: 1rem; background: rgba(255, 255, 255, 0.9); border-radius: 8px;"> Seed coat darkening is a critical quality concern for cranberry and pinto beans, significantly impacting market value, consumer acceptance, and storage life. While non-darkening and slow-darkening varieties exist, the complex genetic and epigenetic mechanisms driving gradual darkening are still not fully understood. This project will employ an integrated multi-omics approach, including genome sequencing, genome-wide association mapping, methylome (DNA methylation) profiling, and hyperspectral reflectance phenotyping, to uncover both the genetic loci and epigenetic modifications regulating seed coat color stability and darkening over time. The research will directly enhance breeding programs by identifying precise genetic and epigenetic markers for seed coat stability, paving the way to develop bean varieties with improved resistance to darkening and superior quality.</p>
+
+
 ### Boosting Anthracnose Resistance in Dry Beans
 <div class="gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 2rem 0;">
   <figure style="margin: 0; position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
