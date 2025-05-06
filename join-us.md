@@ -75,7 +75,7 @@ permalink: /join-us/
         <li>Conducting indoor/outdoor experiments in phenomics, genomics, and transcriptomics.</li>
         <li>Publishing research papers and presenting at conferences.</li>
       </ul>
-      <a href="/assets/pdf/PostDoc_Position.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link" aria-label="View full details for Postdoctoral Researcher in Computational Dry Bean Breeding">View Full Details (PDF)</a>
+      <a href="/assets/pdf/PostDoc Position.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link" aria-label="View full details for Postdoctoral Researcher in Computational Dry Bean Breeding">View Full Details (PDF)</a>
     </article>
 
     <article class="opening-box">
@@ -91,7 +91,7 @@ permalink: /join-us/
         <li>Using spectral imaging for rapid, high-throughput screening in early growth stages.</li>
         <li>Enhancing dry bean resilience with molecular markers.</li>
       </ul>
-      <a href="/assets/pdf/Master_Announcement.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link" aria-label="View full details for Master’s Graduate Research Assistantship in Genomics/Phenomics-Assisted Dry Bean Breeding">View Full Details (PDF)</a>
+      <a href="/assets/pdf/Master Announcement.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link" aria-label="View full details for Master’s Graduate Research Assistantship in Genomics/Phenomics-Assisted Dry Bean Breeding">View Full Details (PDF)</a>
     </article>
   </section>
 </main>
