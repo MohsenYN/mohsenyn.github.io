@@ -60,7 +60,7 @@ permalink: /join-us/
         <li>Strong analytical and problem-solving skills, with the ability to work independently and collaboratively in an interdisciplinary environment.</li>
         <li>Excellent written and oral communication skills, with a commitment to contributing to scholarly publications and scientific presentations.</li>
       </ul>
-      <a href="/assets/pdf/Master_seed_coat_darkening.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link" aria-label="View full details for Master’s Graduate Research Assistantship in Multi-Omics Approaches">View Full Details (PDF)</a>
+      <a href="/assets/pdf/Master seed coat darkening.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link" aria-label="View full details for Master’s Graduate Research Assistantship in Multi-Omics Approaches">View Full Details (PDF)</a>
     </article>
 
     <article class="opening-box">
