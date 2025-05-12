@@ -113,13 +113,16 @@ Our ongoing projects bring these research areas to life, addressing critical cha
       <img src="/assets/img/Tier1.png" alt="Sponsor 2 Logo" style="width: 100%; height: auto; transition: transform 0.3s;">
     </div>
     <div style="max-width: 200px;">
-      <img src="/assets/img/agilent.png" alt="Sponsor 1 Logo" style="width: 100%; height: auto; transition: transform 0.3s;">
+      <img src="/assets/img/agilent.png" alt="Sponsor 3 Logo" style="width: 100%; height: auto; transition: transform 0.3s;">
     </div>
     <div style="max-width: 200px;">
-      <img src="/assets/img/hensal.png" alt="Sponsor 1 Logo" style="width: 100%; height: auto; transition: transform 0.3s;">
+      <img src="/assets/img/hensal.png" alt="Sponsor 4 Logo" style="width: 100%; height: auto; transition: transform 0.3s;">
     </div>
     <div style="max-width: 200px;">
-      <img src="/assets/img/ARIO.png" alt="Sponsor 1 Logo" style="width: 100%; height: auto; transition: transform 0.3s;">
+      <img src="/assets/img/ARIO.png" alt="Sponsor 5 Logo" style="width: 100%; height: auto; transition: transform 0.3s;">
+    </div>
+    <div style="max-width: 200px;">
+      <img src="/assets/img/NSERC.png" alt="Sponsor 6 Logo" style="width: 100%; height: auto; transition: transform 0.3s;">
     </div>
   </div>
 </div>
