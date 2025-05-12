@@ -36,6 +36,25 @@ permalink: /join-us/
     <h2 id="previous-openings-heading">Previous Openings</h2>
 
     <article class="opening-box">
+      <h3>PhD Graduate Research Assistantship in AI-Powered Canning Quality Assessment for Dry Bean Breeding</h3>
+      <p><strong>Department:</strong> Plant Agriculture, Ontario Agricultural College (OAC), University of Guelph<br>
+         <strong>In collaboration with:</strong> Department of Food Science, University of Guelph<br>
+         <strong>Start Date:</strong> Fall 2025<br>
+         <strong>Positions:</strong> 1</p>
+      <p><strong>Key Responsibilities:</strong></p>
+      <ul>
+        <li>Develop and optimize deep learning algorithms (e.g., convolutional neural networks, recurrent neural networks) to predict canning quality based on seed imaging and sensory rankings.</li>
+        <li>Collect and preprocess high-quality datasets, including spectral and regular imaging of dry bean seeds, agronomic data, and lab-based canning quality metrics.</li>
+        <li>Collaborate with the Department of Food Science to standardize canning protocols and sensory analysis, including training and coordinating an advisory panel for sensory evaluations.</li>
+        <li>Integrate multi-dimensional datasets (agronomic, imaging, lab, sensory) to identify key features influencing canning quality using feature importance methods.</li>
+        <li>Assist in field trials, including data collection on disease resistance and agronomic traits, to support the selection of top-performing bean lines.</li>
+        <li>Prepare research findings for publication in peer-reviewed journals, present results at national and international conferences (e.g., Bean Improvement Cooperative Meeting), and contribute to knowledge dissemination through workshops and field days.</li>
+        <li>Engage with industry partners, growers, and the Ontario Pulse Crop Committee to ensure alignment with registration requirements and market needs.</li>
+      </ul>
+      <a href="/assets/pdf/PhD_AI_Canning_Quality.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link" aria-label="View full details for PhD Graduate Research Assistantship in AI-Powered Canning Quality Assessment">View Full Details (PDF)</a>
+    </article>
+
+    <article class="opening-box">
       <h3>Master’s Graduate Research Assistantship in Multi-Omics Approaches to Map Seed Coat Color Stability in Dry Beans</h3>
       <p><strong>Department:</strong> Plant Agriculture, Ontario Agricultural College (OAC), University of Guelph<br>
          <strong>In collaboration with:</strong> Department of Biological Sciences, University of Toronto Scarborough<br>
