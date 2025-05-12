@@ -118,6 +118,9 @@ Our ongoing projects bring these research areas to life, addressing critical cha
     <div style="max-width: 200px;">
       <img src="/assets/img/hensal.png" alt="Sponsor 1 Logo" style="width: 100%; height: auto; transition: transform 0.3s;">
     </div>
+    <div style="max-width: 200px;">
+      <img src="/assets/img/ARIO.png" alt="Sponsor 1 Logo" style="width: 100%; height: auto; transition: transform 0.3s;">
+    </div>
   </div>
 </div>
 
