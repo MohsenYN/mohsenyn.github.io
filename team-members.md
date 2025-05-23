@@ -6,7 +6,7 @@ accent_image: /assets/img/Introdcution.jpg
 
 <div class="intro-box" style="background: linear-gradient(135deg, rgba(255,204,0,0.2), rgba(255,255,255,0.9)); border: 2px solid rgb(150,0,0); border-radius: 12px; padding: 2rem; margin: 2rem auto; box-shadow: 0 6px 12px rgba(0,0,0,0.15); text-align: center; max-width: 90%; position: relative;">
   <h1 style="color: rgb(150,0,0); font-size: 2.5rem; margin: 0 auto 1rem; font-weight: 700; letter-spacing: 1px; text-align: center; width: 100%; display: block;">Our Team</h1>
-  <img src="/assets/img/dry-bean-field.jpg" alt="Team Members" style="max-width: 100%; width: 500px; border-radius: 10px; box-shadow: 0 6px 12px rgba(0,0,0,0.2); margin: 0 auto 1rem; display: block;">
+  <img src="/assets/img/Group.jpg" alt="Team Members" style="max-width: 100%; width: 500px; border-radius: 10px; box-shadow: 0 6px 12px rgba(0,0,0,0.2); margin: 0 auto 1rem; display: block;">
   <p style="font-size: 1.2rem; line-height: 1.6; color: rgb(0,0,0); font-style: italic; margin: 0 auto;">The Dry Bean Breeding & Computational Biology Program thrives thanks to our diverse, passionate team. Together, we’re cultivating innovation in agriculture.</p>
 </div>
 
