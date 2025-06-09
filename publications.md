@@ -15,6 +15,10 @@ accent_image: /assets/img/Introdcution.jpg
 
 <div class="publications-list" style="margin: 3rem 0; max-width: 900px; margin-left: auto; margin-right: auto;">
   <div style="padding: 2rem; background: rgba(255, 255, 255, 0.95); border-left: 8px solid rgb(150,0,0); border-radius: 10px; margin-bottom: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); transition: transform 0.3s, box-shadow 0.3s;">
+    <h3 style="color: rgb(150,0,0); font-size: 1.6rem; margin-bottom: 0.75rem; font-weight: 600; letter-spacing: 0.5px;"><a href="https://link.springer.com/article/10.1007/s10462-025-11274-y" style="color: rgb(150,0,0); text-decoration: none; transition: color 0.3s;" target="_blank">Machine learning after a decade: is it still a missing keystone in genomic-based plant breeding?</a></h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: #444; font-style: italic;"><em> Artificial Intelligence Review </em>.</p>
+  </div>
+   <div style="padding: 2rem; background: rgba(255, 255, 255, 0.95); border-left: 8px solid rgb(150,0,0); border-radius: 10px; margin-bottom: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); transition: transform 0.3s, box-shadow 0.3s;">
     <h3 style="color: rgb(150,0,0); font-size: 1.6rem; margin-bottom: 0.75rem; font-weight: 600; letter-spacing: 0.5px;"><a href="https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2025.1583344/full" style="color: rgb(150,0,0); text-decoration: none; transition: color 0.3s;" target="_blank">From text to traits: exploring the role of large language models in plant breeding</a></h3>
     <p style="font-size: 1.15rem; line-height: 1.7; color: #444; font-style: italic;"><em>Frontiers in Plant Science</em>.</p>
   </div>
