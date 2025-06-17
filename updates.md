@@ -25,20 +25,22 @@ permalink: /updates/
 </header>
 
 <main class="news-grid" role="main">
-  <article class="news-item" aria-labelledby="news-2025-04-29">
-    <h2 class="news-date" id="news-2025-04-29">April 29, 2025</h2>
-    <p><strong>Welcome to Our Team, Aashvi!</strong><br>
-    We are very happy to announce that Aashvi Patel has joined our team as a Master’s student, starting May 1, 2025, working on the genomics side of the anthacnose project. </p>
-    <p> Aashvi brings a strong background in molecular genetics and a passion for agriculture, rooted in her family’s farming heritage. Her interest in our lab’s work on dry bean plant breeding and the application of omics approaches to enhance anthracnose resistance aligns perfectly with our mission to boost dry bean production in Ontario. Aashvi aims to discover molecular markers that will enable the breeding of stronger, more resilient dry bean varieties, contributing meaningful research to Canada’s agricultural community. </p>
-     <blockquote>
-     <strong> In her own words: </strong><br>
-     I am excited to further my knowledge in genetics and genomics while working on the anthracnose resistance project. The integration of bioinformatics with agriculture resonates with me, and I am eager to contribute to the advancement of dry bean cultivation. </blockquote>
-       <p><strong> Please join us in welcoming Aashvi to the team! </strong></p>
-    <figure>
-      <img src="/assets/img/news/Aashvi2.jpg" alt="Aashvi" loading="lazy">
-    </figure>
+  
+  <article class="news-item" aria-labelledby="news-2025-06-06">
+  <h2 class="news-date" id="news-2025-06-06">June 6, 2025</h2>
+  <p><strong>Bean There, Planted That!</strong><br>
+    Despite the unpredictable weather patterns this season, our team successfully completed planting on schedule. Their commitment and coordinated efforts ensured that all work was done efficiently and perfectly, even under challenging conditions. We are now looking forward to stable weather for the remainder of the growing season and are excited to soon see our dry beans emerging across the field! </p>
+  <figure>
+    <img src="/assets/img/team/Planting1.jpg" alt="Planting1" loading="lazy">
+    <img src="/assets/img/team/Planting2.jpg" alt="Planting2" loading="lazy">
+    <img src="/assets/img/team/Planting3.jpg" alt="Planting3" loading="lazy">
+    <video controls>
+      <source src="/assets/videos/Planting1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </figure>
   </article>
-
+  
   <article class="news-item" aria-labelledby="news-2025-04-21">
     <h2 class="news-date" id="news-2025-04-21">April 21, 2025</h2>
     <p><strong>Welcome to Our Team, Trinity!</strong><br>
