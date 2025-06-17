@@ -31,11 +31,11 @@ permalink: /updates/
   <p><strong>Bean There, Planted That!</strong><br>
     Despite the unpredictable weather patterns this season, our team successfully completed planting on schedule. Their commitment and coordinated efforts ensured that all work was done efficiently and perfectly, even under challenging conditions. We are now looking forward to stable weather for the remainder of the growing season and are excited to soon see our dry beans emerging across the field! </p>
   <figure>
-    <img src="/assets/img/team/Planting1.jpg" alt="Planting1" loading="lazy">
-    <img src="/assets/img/team/Planting2.jpg" alt="Planting2" loading="lazy">
-    <img src="/assets/img/team/Planting3.jpg" alt="Planting3" loading="lazy">
+    <img src="/assets/img/news/Planting1.jpg" alt="Planting1" loading="lazy">
+    <img src="/assets/img/news/Planting2.jpg" alt="Planting2" loading="lazy">
+    <img src="/assets/img/news/Planting3.jpg" alt="Planting3" loading="lazy">
     <video controls>
-      <source src="/assets/videos/Planting1.mp4" type="video/mp4">
+      <source src="/assets/img/news/Planting1.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
   </figure>
