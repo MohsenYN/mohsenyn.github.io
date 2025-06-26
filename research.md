@@ -13,8 +13,8 @@ accent_image: /assets/img/Introdcution.jpg
 
 <div class="gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 2rem 0;">
   <figure style="margin: 0; position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    <img src="/assets/img/R0.jpg" alt="Canning Quality Analysis" style="width: 100%; height: auto; transition: transform 0.3s;">
-    <figcaption style="position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.7); color: white; padding: 0.5rem; text-align: center; opacity: 0; transition: opacity 0.3s;">AI-Powered Canning Assessment</figcaption>
+    <img src="/assets/img/ResearchIntro.jpg" alt="ResearchIntro" style="width: 100%; height: auto; transition: transform 0.3s;">
+    <figcaption style="position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.7); color: white; padding: 0.5rem; text-align: center; opacity: 0; transition: opacity 0.3s;">ResearchIntro</figcaption>
   </figure>
 </div>
 
