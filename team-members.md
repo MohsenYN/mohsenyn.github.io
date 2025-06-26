@@ -29,6 +29,7 @@ accent_image: /assets/img/Introdcution.jpg
       <a href="https://scholar.google.ca/citations?user=WJs0cQ0AAAAJ&hl=en" target="_blank" class="social-link"><img src="/assets/img/icons/google-scholar.png" alt="Google Scholar" class="social-icon"></a>
       <a href="https://x.com/Mohsen1080" target="_blank" class="social-link"><img src="/assets/img/icons/x.png" alt="X" class="social-icon"></a>
       <a href="https://www.plant.uoguelph.ca/myoosefz" target="_blank" class="social-link"><img src="/assets/img/icons/website.png" alt="Personal Website" class="social-icon"></a>
+      <a href="https://www.openaccessgovernment.org/contributor_profile/mohsen-yoosefzadeh-najafabadi-university-of-guelph/" target="_blank" class="social-link"><img src="/assets/img/icons/website.png" alt="Short Bio" class="social-icon"></a>
     </div>
   </div>
 </div>
