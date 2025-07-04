@@ -26,7 +26,29 @@ permalink: /updates/
 </header>
 
 <main class="news-grid" role="main">
-  
+
+  <article class="news-item" aria-labelledby="news-2025-06-25">
+  <h2 class="news-date" id="news-2025-06-25">June 25, 2025</h2>
+  <p><strong>The Pulse of Progress: Canada’s Leadership in Global Crop Innovation.</strong><br>
+    Ongoing support for breeding programs is of paramount importance if we want to keep pace with innovation and maintain productivity, while sustaining our competitive position in global crop export markets. At the CSHS & CSA 2025 Joint Society Conference (held June 23–25, 2025, in Kelowna, BC), Dr. Mohsen Yoosefzadeh Najafabadi addressed these challenges in his presentation, "The Pulse of Progress: Canada’s Leadership in Global Crop Innovation." Dr. Yoosefzadeh Najafabadi spoke about the critical role of pulses, especially dry beans, in Canada’s agricultural landscape. He discussed recent developments in funding for breeding programs and highlighted what needs to be done going forward—such as establishing a dedicated breeding committee—to enable better engagement with government bodies and address emerging issues more effectively. </p>
+  <figure>
+    <img src="/assets/img/news/P1.jpg" alt="Presentation1" loading="lazy">
+  </figure>
+  </article>
+
+
+  <article class="news-item" aria-labelledby="news-2025-06-10">
+  <h2 class="news-date" id="news-2025-06-10">June 10, 2025</h2>
+  <p><strong>French Embassy Delegates Visit U of G Bean Breeding and Computational Biology Program</strong><br>
+    It was a pleasure to welcome guests from the French Embassy in Canada/US, Marie Beaux and Charles Martins Ferreira, Deputy Agricultural Counsellor, to visit our research stations as part of the University of Guelph/Agriculture Research and Innovation Ontario (ARIO) partnership. It was a wonderful opportunity to introduce them to our work in dry bean breeding and computational biology, and we had an excellent discussion on how we are integrating genomics and multi-omics approaches with big data analytics in our breeding program. Many thanks to Stuart McCook for capturing and sharing such wonderful photos. </p>
+  <figure>
+    <img src="/assets/img/news/V1.jpg" alt="V1" loading="lazy">
+    <img src="/assets/img/news/V2.jpg" alt="V2" loading="lazy">
+    <img src="/assets/img/news/V3.jpg" alt="V3" loading="lazy">
+    <img src="/assets/img/news/V4.jpg" alt="V4" loading="lazy">
+  </figure>
+  </article>
+
   <article class="news-item" aria-labelledby="news-2025-06-06">
   <h2 class="news-date" id="news-2025-06-06">June 6, 2025</h2>
   <p><strong>Bean There, Planted That!</strong><br>
