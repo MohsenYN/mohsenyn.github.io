@@ -1,6 +1,7 @@
 ---
 layout: list
 permalink: /updates/
+accent_image: /assets/img/Introduction.jpg
 ---
 
 <header class="page-header">
