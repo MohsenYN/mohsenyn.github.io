@@ -1,7 +1,7 @@
 ---
 layout: list
 permalink: /publications/
-accent_image: /assets/img/Introdcution.jpg
+accent_image: /assets/img/Introduction.jpg
 ---
 
 <div class="intro-box" style="background: linear-gradient(135deg, rgba(150,0,0,0.1), rgba(255,255,255,0.9)); border: 2px solid rgb(150,0,0); border-radius: 12px; padding: 2rem; margin: 2rem 0; box-shadow: 0 6px 12px rgba(0,0,0,0.15); text-align: center;">
