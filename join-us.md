@@ -1,7 +1,7 @@
 ---
 layout: list
 permalink: /join-us/
-accent_image: /assets/img/Introductionn.jpg
+accent_image: /assets/img/Introdcutionn.jpg
 ---
 
 <header class="page-header" role="banner">
