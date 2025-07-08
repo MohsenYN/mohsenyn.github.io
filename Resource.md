@@ -13,45 +13,36 @@ permalink: /Resource/
     <p>We’re excited to announce the upcoming release of dry bean varieties developed through advanced computational breeding at the University of Guelph. These varieties offer enhanced yield, disease resistance, and adaptability to diverse environmental conditions, supporting sustainable agriculture for growers across North America.</p>
     <div class="variety-grid">
       <div class="variety-box">
-        <img src="/assets/Lines/Bechamel.jpg" alt="OAC Bechamel" class="variety-img">
-        <h3>OAC Bechamel</h3>
+        <img src="/assets/Lines/OAC-1.png" alt="OAC23-1" class="variety-img">
+        <h3>OAC 23-1</h3>
         <ul>
-          <li>Full Maturity</li>
-          <li>Excellent Yield</li>
+          <li>Very early maturity</li>
           <li>Anthracnose race 73 resistant</li>
-          <li>Excellent Upright Plant Architecture for Direct Combining</li>
+          <li>Marker for resistance to Common Bacterial Blight</li>
+          <li>I gene for Bean Common Mosaic Virus Resistance</li>
+          <li>Good harvestability</li>
         </ul>
       </div>
       <div class="variety-box">
-        <img src="/assets/Lines/Resilient.jpg" alt="OAC Resilient" class="variety-img">
-        <h3>OAC Resilient</h3>
+        <img src="/assets/Lines/OAC23-B1.png" alt="OAC23-B1" class="variety-img">
+        <h3>OAC 23-B1</h3>
         <ul>
-          <li>Full Maturity</li>
-          <li>Excellent Yield</li>
+          <li>Early maturity</li>
           <li>Anthracnose race 73 resistant</li>
-          <li>Very Good Upright Plant Architecture for Direct Combining</li>
+          <li>Moderate resistant to Common Bacterial Blight</li>
+          <li>I gene for Bean Common Mosaic Virus Resistance</li>
+          <li>Excellent harvestability</li>
         </ul>
       </div>
       <div class="variety-box">
-        <img src="/assets/Lines/Plasma.jpg" alt="OAC Plasma" class="variety-img">
-        <h3>OAC Plasma</h3>
+        <img src="/assets/Lines/OAC23-D1.png" alt="OAC23-D1" class="variety-img">
+        <h3>OAC 23-D1</h3>
         <ul>
-          <li>Mid Maturity</li>
-          <li>High Yield</li>
+          <li>Full maturity</li>
+          <li>Large seed size </li>
           <li>Anthracnose race 73 resistant</li>
-          <li>Tolerant to common bacterial blight</li>
-          <li>Excellent Upright Plant Architecture for Direct Combining</li>
-        </ul>
-      </div>
-      <div class="variety-box">
-        <img src="/assets/Lines/Storm.jpg" alt="OAC Storm" class="variety-img">
-        <h3>OAC Storm</h3>
-        <ul>
-          <li>Full Maturity</li>
-          <li>Excellent Yield</li>
-          <li>Anthracnose race 73 resistant</li>
-          <li>Tolerant to common bacterial blight</li>
-          <li>Excellent Upright Plant Architecture for Direct Combining</li>
+          <li>I gene for Bean Common Mosaic Virus Resistance</li>
+          <li>Good harvestability</li>
         </ul>
       </div>
       <div class="variety-box">
@@ -64,71 +55,6 @@ permalink: /Resource/
           <li>Good Yield</li>
           <li>Anthracnose race 73 resistant</li>
           <li>Very Good Cooking Quality and Excellent Upright Plant Architecture</li>
-        </ul>
-      </div>
-      <div class="variety-box">
-        <img src="/assets/Lines/Agate.jpg" alt="OAC Agate" class="variety-img">
-        <h3>OAC Agate</h3>
-        <ul>
-          <li>Mid Maturity</li>
-          <li>Very Good Yield</li>
-          <li>Anthracnose race 73 resistant</li>
-          <li>Very Good Cooking Quality</li>
-          <li>Very Good upright Plant Architecture for Direct Combining</li>
-        </ul>
-      </div>
-      <div class="variety-box">
-        <img src="/assets/Lines/Candycane.jpg" alt="OAC Candycane" class="variety-img">
-        <h3>OAC Candycane</h3>
-        <ul>
-          <li>Mid Maturity</li>
-          <li>Excellent Yield</li>
-          <li>Good Seed Size</li>
-        </ul>
-      </div>
-      <div class="variety-box">
-        <img src="/assets/Lines/Volterra.jpg" alt="OAC Volterra" class="variety-img">
-        <h3>OAC Volterra</h3>
-        <ul>
-          <li>Mid Maturity</li>
-          <li>Excellent Yield</li>
-          <li>Anthracnose race 73 resistant</li>
-          <li>Excellent Upright Plant Architecture for Direct Combining</li>
-        </ul>
-      </div>
-      <div class="variety-box">
-        <img src="/assets/Lines/Firebrand.jpg" alt="OAC Firebrand" class="variety-img">
-        <h3>OAC Firebrand</h3>
-        <ul>
-          <li>Light Red</li>
-          <li>Full Maturity</li>
-          <li>Excellent Yield</li>
-          <li>Anthracnose race 73 resistant</li>
-          <li>Excellent Upright Plant Architecture for Direct Combining</li>
-          <li>Good Seed Size</li>
-        </ul>
-      </div>
-      <div class="variety-box">
-        <img src="/assets/Lines/Jasper.jpg" alt="OAC Jasper" class="variety-img">
-        <h3>OAC Jasper</h3>
-        <ul>
-          <li>Dark Red</li>
-          <li>Mid Maturity</li>
-          <li>Good Yield</li>
-          <li>Anthracnose race 73 resistant</li>
-          <li>Good Upright Plant Architecture for Direct Combining</li>
-          <li>Large Seed Size</li>
-        </ul>
-      </div>
-      <div class="variety-box">
-        <img src="/assets/Lines/o18hr0037.jpg" alt="O18HR003y" class="variety-img">
-        <h3>O18HR003y</h3>
-        <ul>
-          <li>Full Maturity</li>
-          <li>Excellent Yield</li>
-          <li>Anthracnose race 73 resistant</li>
-          <li>Tolerant to common bacterial blight</li>
-          <li>Good Upright Plant Architecture for Direct Combining</li>
         </ul>
       </div>
       <div class="variety-box">
