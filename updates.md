@@ -27,6 +27,15 @@ permalink: /updates/
 
 <main class="news-grid" role="main">
 
+  <article class="news-item" aria-labelledby="news-2025-07-07">
+  <h2 class="news-date" id="news-2025-07-07">July 07, 2025</h2>
+  <p><strong>Dry Beans Progress After One Month</strong><br>
+    It’s amazing to see how quickly the dry beans are growing! The first photo was taken on June 7th, just two days after planting. Now, about a month later, you can really see the progress. Stay tuned for more updates and pictures from our dry bean breeding fields! </p>
+  <figure>
+    <img src="/assets/img/news/F1.png" alt="Field1" loading="lazy">
+  </figure>
+  </article>
+
   <article class="news-item" aria-labelledby="news-2025-06-25">
   <h2 class="news-date" id="news-2025-06-25">June 25, 2025</h2>
   <p><strong>The Pulse of Progress: Canada’s Leadership in Global Crop Innovation.</strong><br>
@@ -35,7 +44,6 @@ permalink: /updates/
     <img src="/assets/img/news/P1.jpg" alt="Presentation1" loading="lazy">
   </figure>
   </article>
-
 
   <article class="news-item" aria-labelledby="news-2025-06-10">
   <h2 class="news-date" id="news-2025-06-10">June 10, 2025</h2>
