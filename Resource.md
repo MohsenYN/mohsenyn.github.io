@@ -13,7 +13,7 @@ permalink: /Resource/
     <p>We’re excited to announce the upcoming release of dry bean varieties developed through advanced computational breeding at the University of Guelph. These varieties offer enhanced yield, disease resistance, and adaptability to diverse environmental conditions, supporting sustainable agriculture for growers across North America.</p>
     <div class="variety-grid">
       <div class="variety-box">
-        <img src="/assets/Lines/OAC-1.png" alt="OAC23-1" class="variety-img">
+        <img src="/assets/Lines/OAC-1.png" alt="OAC23-1" class="variety-img" onclick="openModal('/assets/Lines/OAC-1.png')">
         <h3>OAC 23-1</h3>
         <ul>
           <li>Very early maturity</li>
@@ -24,7 +24,7 @@ permalink: /Resource/
         </ul>
       </div>
       <div class="variety-box">
-        <img src="/assets/Lines/OAC23-B1.png" alt="OAC23-B1" class="variety-img">
+        <img src="/assets/Lines/OAC23-B1.png" alt="OAC23-B1" class="variety-img" onclick="openModal('/assets/Lines/OAC23-B1.png')">
         <h3>OAC 23-B1</h3>
         <ul>
           <li>Early maturity</li>
@@ -35,7 +35,7 @@ permalink: /Resource/
         </ul>
       </div>
       <div class="variety-box">
-        <img src="/assets/Lines/OAC23-D1.png" alt="OAC23-D1" class="variety-img">
+        <img src="/assets/Lines/OAC23-D1.png" alt="OAC23-D1" class="variety-img" onclick="openModal('/assets/Lines/OAC23-D1.png')">
         <h3>OAC 23-D1</h3>
         <ul>
           <li>Full maturity</li>
@@ -46,8 +46,8 @@ permalink: /Resource/
         </ul>
       </div>
       <div class="variety-box">
-        <img src="/assets/Lines/NDC-1.jpg" alt="OAC 22-NDC1" class="variety-img">
-        <img src="/assets/Lines/NDC1-1.jpg" alt="OAC 22-NDC1-Compare" class="variety-img">
+        <img src="/assets/Lines/NDC-1.jpg" alt="OAC 22-NDC1" class="variety-img" onclick="openModal('/assets/Lines/NDC-1.jpg')">
+        <img src="/assets/Lines/NDC1-1.jpg" alt="OAC 22-NDC1-Compare" class="variety-img" onclick="openModal('/assets/Lines/NDC1-1.jpg')">
         <h3>OAC 22-NDC1</h3>
         <ul>
           <li>The First Non-Darkening Cranberry Bean</li>
@@ -58,7 +58,7 @@ permalink: /Resource/
         </ul>
       </div>
       <div class="variety-box">
-        <img src="/assets/Lines/o18hr007y.jpg" alt="O18HR007y" class="variety-img">
+        <img src="/assets/Lines/o18hr007y.jpg" alt="O18HR007y" class="variety-img" onclick="openModal('/assets/Lines/o18hr007y.jpg')">
         <h3>O18HR007y</h3>
         <ul>
           <li>Full Maturity</li>
@@ -163,6 +163,12 @@ permalink: /Resource/
   </section>
 </div>
 
+<!-- Modal for enlarged images -->
+<div id="imageModal" class="modal">
+  <span class="modal-close" onclick="closeModal()">&times;</span>
+  <img class="modal-content" id="modalImage">
+</div>
+
 <style>
   .page-header {
     text-align: center;
@@ -240,6 +246,7 @@ permalink: /Resource/
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 1rem;
+    cursor: pointer;
   }
   .variety-box h3 {
     color: #9b1d64;
@@ -447,16 +454,23 @@ permalink: /Resource/
     margin: 0 0 1rem;
   }
   #closeError {
-    padding: 10px 20px;
-    font-weight: 700;
-    font-size: 18px;
-    border: 2px solid;
-    border-image-source: linear-gradient(to top, #C20430, maroon);
-    border-image-slice: 1;
-    background: #fff;
-    cursor: pointer;
-    transition: background 0.3s;
-  }
+    #errorBox {
+      padding: 20px;
+      background-color: #f44336; /* Red */
+      color: white;
+      margin-bottom: 15px;
+    }
+    #closeError {
+      padding: 10px 20px;
+      font-weight: 700;
+      font-size: 18px;
+      border: 2px solid;
+      border-image-source: linear-gradient(to top, #C20430, maroon);
+      border-image-slice: 1;
+      background: #fff;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
   #closeError:hover {
     background: #f9e6ed;
   }
@@ -498,6 +512,7 @@ permalink: /Resource/
     width: 100%;
     margin-bottom: 5px;
     padding: 10px;
+    margin: 0;
     font-weight: 900;
     font-size: 20px;
     border: 2px solid;
@@ -505,98 +520,134 @@ permalink: /Resource/
     border-image-slice: 1;
     background: #fff;
     cursor: pointer;
-    transition: background 0.3s;
+    transition: none;
   }
   #newComparison:hover, #exportCSV:hover {
-    background: #f9e6ed;
+    background-color: #f9e6ed;
   }
   .distributors {
     margin-bottom: 4rem;
   }
   .distributors h2 {
-    color: #9b1d64;
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    border-bottom: 3px solid #f4c430;
-    display: inline-block;
-  }
-  .distributor-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-  }
-  .distributor-item {
-    background: #fff;
-    border-radius: 12px;
-    padding: 1.5rem;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    border-left: 8px solid #9b1d64;
-    transition: all 0.3s ease;
-  }
-  .distributor-item:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
-  }
-  .distributor-logo {
-    width: 80px;
-    height: auto;
-    margin-bottom: 1rem;
-  }
-  .distributor-item h3 {
-    color: #9b1d64;
-    font-size: 1.4rem;
-    font-weight: 600;
-    margin-bottom: 0.75rem;
-  }
-  .distributor-item p {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #333;
-    margin: 0;
-  }
-  .distributor-item a {
-    color: #9b1d64;
-    text-decoration: none;
-    transition: color 0.3s;
-  }
-  .distributor-item a:hover {
-    color: #d94f8e;
-  }
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-  @media (max-width: 600px) {
-    .page-header h1 {
+      color: #9b1d64;
       font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      border-bottom: 3px solid #f4c430;
+      display: inline-block;
     }
-    .page-header p {
-      font-size: 1.1rem;
+  .distributor-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2px;
     }
-    .new-varieties h2, .crop-comparison h2, .distributors h2 {
-      font-size: 1.5rem;
+  .distributor-item {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 12px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      border-left: 8px solid #9b1d64;
+      transition: all 0.3s ease;
     }
-    .variety-grid, .distributor-grid {
-      grid-template-columns: 1fr;
+  .distributor-item:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
     }
-    .buttons {
-      flex-direction: column;
+  .distributor-logo-item {
+      width: 80px;
+      height: auto;
+      margin-bottom: 1rem;
     }
-    .buttons .gradientBtn {
-      width: 100%;
+  .distributor-item h3 {
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: #9b1d64;
+      margin-bottom: 0.75rem;
     }
-    #goBack, #submitBtnData {
-      width: 100%;
-      margin: 0.5em 0;
+  .distributor-item p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #333;
+      margin: 0;
     }
-    .contact-box {
-      flex-direction: column;
-      text-align: center;
+  .distributor-item a {
+      color: #9b1d64;
+      text-decoration: none;
+      transition: color 0.3s;
     }
-    .contact-img {
-      margin: 0 auto 1rem;
+  .distributor-item a:hover {
+      color: #d94f8e;
     }
+  @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  @media (max-width: 600px) {
+      .page-header h1 {
+        font-size: 2rem;
+      }
+      .page-header p {
+        font-size: 1.1rem;
+      }
+      .new-varieties h2, .crop-comparison h2 h2, .distributors h2 {
+        font-size: 1.5rem;
+      }
+      .variety-grid, .distributors-grid {
+        grid-template-columns: 1fr;
+      }
+      .buttons {
+        display: flex;
+        flex-direction: column;
+      }
+      .buttons .gradientBtn {
+        width: 100%;
+      }
+      #goBack, #submitBtnData {
+        width: 100%;
+        margin: 0.5em 0;
+      }
+      .contact-box {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+      .contact-img {
+        margin: 0 auto 1rem;
+      }
+    }
+  /* Modal styles */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+  }
+  .modal-content {
+    margin: 15% auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+  }
+  .modal-close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .modal-close:hover,
+  .modal-close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
   }
 </style>
 
@@ -610,7 +661,7 @@ let allBeans = [];
 class Bean {
   constructor(name, marketClass, year, commonMosaicVirus, anthracnose, commonBlight, yieldB, maturity, oneHundredSdWeight, directHarvestSuitability) {
     this.name = name;
-    this.marketClass = marketClass;
+    this.marketClassName = marketClass;
     this.year = year || "--";
     this.commonMosaicVirus = commonMosaicVirus || ["--", "--"];
     this.anthracnose = anthracnose || ["--", "--", "--"];
@@ -626,18 +677,18 @@ class Bean {
   }
 
   createDiseaseRow() {
-    return `<tr><td>${this.name}</td><td>${this.commonMosaicVirus[0]}</td><td>${this.commonMosaicVirus[1]}</td><td>${this.anthracnose[0]}</td><td>${this.anthracnose[1]}</td><td>${this.anthracnose[2]}</td><td>${this.commonBlight}</td></tr>`;
+    return `<tr><td>${this.name}</td><td>${this.commonMosaicVirus[0]}</td><td>${this.commonMosaicVirus[1]}</td><td>${this.anthracnose[0]}</td><td>${this.anthracnose[1]}</td><td><${this.anthracnose[2]}</td><td>${this.tcommonBlight}</td></tr>`;
   }
 
   createPerformanceRow() {
     const formatNumber = (value) => value === "--" || value == null ? "--" : Number(value).toFixed(2);
-    return `<tr><td>${this.name}</td><td>${formatNumber(this.yieldB)}</td><td>${formatNumber(this.maturity)}</td><td>${formatNumber(this.oneHundredSdWeight)}</td><td>${formatNumber(this.directHarvestSuitability)}</td></tr>`;
+    return `<tr><td>${this.name}</td><td><${formatNumber(this.yieldB)}</td><td>${formatNumber(this.maturity)}</td><td>${formatNumber(this.oneHundredsSdWeight)}</td><td>${formatNumber(this.directHarvest)}</td></tr>`;
   }
 }
 
 const TABLE = {
-  createDescriptionTable: function(beans) {
-    let HTML = "<table id='description'><tr><td colspan='3'>Variety Description</td></tr>";
+  createDescription: function(beans) {
+    let HTML = "<table id='description-html'><tr><td colspan='3'>Variety</td></tr>";
     HTML += "<tr><td>Variety</td><td>Market Class</td><td>Year of Registration</td></tr>";
     beans.forEach(bean => HTML += bean.createDescriptionRow());
     HTML += "</table>";
@@ -660,9 +711,9 @@ const TABLE = {
   },
   createTables: function(beans, parameters) {
     let HTML = "";
-    if (parameters.includes("description")) HTML += this.createDescriptionTable(beans);
-    if (parameters.includes("diseaseRatings")) HTML += this.createDiseaseTable(beans);
-    if (parameters.includes("performance")) HTML += this.createPerformanceTable(beans);
+    if (parameters.includes("description")) HTML += this.createDescriptionTable(beans));
+    if (parameters.includes("diseaseRatings")) HTML += this.createDiseaseTable(beans));
+    if (parameters.includes("performance")) HTML += this.createPerformanceTable(beans));
     HTML += "<button id='exportCSV'>Export as CSV</button>";
     HTML += "<button id='newComparison'>Start a New Comparison</button>";
     return HTML;
@@ -691,15 +742,15 @@ function selectAllCheckboxes(className) {
 
 function createFormFromBeansList(className) {
   let beansList = allBeans.filter(bean => {
-    if (className === "whiteNavy") return bean.marketClass === "White Navy";
-    if (className === "minorClass") return !["White Navy", "Light Red Kidney", "Dark Red Kidney", "White Kidney", "Cranberry"].includes(bean.marketClass);
-    if (className === "majorClass") return ["Light Red Kidney", "Dark Red Kidney", "White Kidney", "Cranberry"].includes(bean.marketClass);
+    if (className === "whiteNavy") return bean.className === "White Navy";
+    if (className === "minorClass") return !["White Navy", "Light Red Kidney", "Dark Red Kidney", "White Kidney", "Cranberry"].includes(bean.className);
+    if (className === "majorClass") return ["Light Red Kidney", "Dark Red Kidney", "White Kidney", "Cranberry"].includes(bean.className);
   });
   if (beansList.length === 0) return "<p>No varieties available for this category.</p>";
   let HTML = "<ul>";
   beansList.forEach(bean => {
-    let additionalMarketInfo = className === "whiteNavy" ? "" : ` (${bean.marketClass})`;
-    HTML += `<li class="${className}"><label><input type="checkbox" value="${bean.name}"><span class="checkmark"></span> ${bean.name}${additionalMarketInfo}</label></li>`;
+    let additionalMarketInfo = className === "whiteNavy" ? "" : ` (${bean.className})`;
+    HTML += `<li><label class="${className}"><input type="checkbox" value="${bean.name}"><span class="checkmark"></span> ${bean.labelname}${additionalMarketInfo}</span></label></li>`;
   });
   HTML += "</ul>";
   HTML += `<button id="selectAll${className}" class="gradientBtn" type="button">Select All</button>`;
@@ -710,9 +761,11 @@ function exportAsCSV() {
   const tables = document.getElementById("tables");
   if (!tables) return;
   let csv = "";
-  tables.querySelectorAll("table").forEach(table => {
-    table.querySelectorAll("tr").forEach(tr => {
-      tr.querySelectorAll("td").forEach(td => csv += `${td.innerHTML},`);
+  tables.forEach(table => {
+    table.querySelectorAll("tr").each(tr => {
+      tr.querySelectorAll("td").each(td => {
+        csv += "${td.innerHTML},";
+      });
       csv += "\n";
     });
     csv += "\n\n";
@@ -731,7 +784,7 @@ function exportAsCSV() {
 async function loadBeanData() {
   try {
     const response = await fetch('/assets/data/beans.xlsx');
-    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+    if (!response.ok()) throw new Error(`HTTP error! status: ${response.status}`);
     const arrayBuffer = await response.arrayBuffer();
     const workbook = XLSX.read(arrayBuffer, { type: 'array' });
     const sheetName = workbook.SheetNames[0];
@@ -844,6 +897,19 @@ function showError() {
   document.querySelectorAll(".beanForm, .selectors, .buttons, .formInfo, .form").forEach(el => el.style.display = "none");
   document.getElementById("error").style.display = "block";
   document.getElementById("tables").style.display = "none";
+}
+
+// Modal functions
+function openModal(src) {
+  const modal = document.getElementById("imageModal");
+  const modalImg = document.getElementById("modalImage");
+  modal.style.display = "block";
+  modalImg.src = src;
+}
+
+function closeModal() {
+  const modal = document.getElementById("imageModal");
+  modal.style.display = "none";
 }
 
 async function initializeComparisonTool() {
