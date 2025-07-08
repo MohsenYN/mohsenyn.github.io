@@ -1,7 +1,7 @@
 ---
 layout: list  # Using 'front' for Hydejack homepage (adjust to 'default' if needed)
 title: Welcome to the Dry Bean Breeding & Computational Biology Program
-accent_image: /assets/img/Introduction.jpg
+accent_image: /assets/img/Introductionn.jpg
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
