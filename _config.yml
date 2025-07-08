@@ -35,7 +35,7 @@ plugins:
 # Hydejack-specific settings
 accent_color: rgb(150,0,0)    # University of Guelph red
 theme_color: rgb(150,0,0)     # Changed from gold to red for consistency (adjust as needed)
-accent_image: /assets/img/Introductionn.jpg  # Local image for background or accent
+accent_image: /assets/img/Introdcutionn.jpg  # Local image for background or accent
 
 # Author information
 author:
