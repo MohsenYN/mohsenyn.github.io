@@ -1,7 +1,7 @@
 ---
 layout: list
 permalink: /Resource/
-accent_image: /assets/img/Introductionn.jpg
+accent_image: /assets/img/Introdcutionn.jpg
 ---
 <header class="page-header">
   <h1 style="font-size: 2.5rem; margin: 0 auto 1rem; font-weight: 700; letter-spacing: 1px; text-align: center; width: 100%; display: block;">Resources</h1>
