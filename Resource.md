@@ -25,8 +25,8 @@ accent_image: /assets/img/Introdcutionn.jpg
         </ul>
       </div>
       <div class="variety-box">
-        <img src="/assets/Lines/OAC23-B1.png" alt="OAC23-B1" class="variety-img">
-        <h3>OAC 23-B1</h3>
+        <img src="/assets/Lines/OAC23-B1.png" alt="OAC22-B1" class="variety-img">
+        <h3>OAC 22-B1</h3>
         <ul>
           <li>Early maturity</li>
           <li>Anthracnose race 73 resistant</li>
