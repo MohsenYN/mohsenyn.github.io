@@ -731,7 +731,7 @@ function exportAsCSV() {
 
 async function loadBeanData() {
   try {
-    const response = await fetch('/assets/data/beans.xlsx');
+    const response = await fetch('/assets/beans.xlsx');
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     const arrayBuffer = await response.arrayBuffer();
     const workbook = XLSX.read(arrayBuffer, { type: 'array' });
