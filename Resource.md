@@ -693,7 +693,7 @@ function selectAllCheckboxes(className) {
 function createFormFromBeansList(className) {
   let beansList = allBeans.filter(bean => {
     if (className === "whiteNavy") return bean.marketClass === "White Navy";
-    if (className === "minorClass") return !["White Navy", "Light Red Kidney", "Dark Red Kidney", "White Kidney", "Cranberry"].includes(bean.marketClass);
+    if (className === "minorClass") return !["Otebo", "Yellow", "Black", "Non-darkening Pinto", "Pinto", "Small Red"].includes(bean.marketClass);
     if (className === "majorClass") return ["Light Red Kidney", "Dark Red Kidney", "White Kidney", "Cranberry"].includes(bean.marketClass);
   });
   if (beansList.length === 0) return "<p>No varieties available for this category.</p>";
