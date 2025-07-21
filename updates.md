@@ -28,6 +28,19 @@ accent_image: /assets/img/Introdcutionn.jpg
 
 <main class="news-grid" role="main">
 
+  <article class="news-item" aria-labelledby="news-2025-07-21">
+  <h2 class="news-date" id="news-2025-07-21">July 21, 2025</h2>
+  <p><strong>Curious about how tradition and innovation come together in plant breeding and computational biology?</strong><br>
+    Join us for the 2025 Dry Bean Breeding and Computational Biology Program Open House at the University of Guelph’s Elora Research Station!
+🗓 Date: August 21, 2025
+🕐 Time: 1:00 PM
+📍 Location: Elora Crops Research Station Lunchroom
+Come meet our research team, tour the plots, and learn how we’re bridging cutting-edge computational approaches with hands-on plant breeding. Enjoy lunch, see our work in action, and discover how you can get involved in the future of dry bean research.</p>
+  <figure>
+    <img src="/assets/img/news/Open House 2025.jpg" alt="Open House 2025" loading="lazy">
+  </figure>
+  </article>
+
   <article class="news-item" aria-labelledby="news-2025-07-07">
   <h2 class="news-date" id="news-2025-07-07">July 07, 2025</h2>
   <p><strong>Dry Beans Progress After One Month</strong><br>
