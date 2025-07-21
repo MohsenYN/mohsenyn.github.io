@@ -13,6 +13,7 @@ accent_image: /assets/img/Introdcutionn.jpg
     <div class="linkedin-scroll-frame">
       <!-- Embed for first LinkedIn post -->
       <div class="linkedin-post">
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7353164138962980865?collapsed=1" height="637" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7344077938520113154?collapsed=1" height="669" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7336405967481270273?collapsed=1" height="609" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7335681269361537027?collapsed=1" height="547" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
@@ -20,7 +21,6 @@ accent_image: /assets/img/Introdcutionn.jpg
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7328529520574058496?collapsed=1" height="610" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7327758948533489664?collapsed=1" height="534" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7325636394058416128?collapsed=1" height="534" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7323090311147069440?collapsed=1" height="544" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
       </div>
     </div>
   </div>
