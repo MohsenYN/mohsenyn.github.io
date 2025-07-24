@@ -2,7 +2,7 @@
 layout: list
 title: About Us
 permalink: /about-us/
-accent_image: /assets/img/JoinUs.jpg
+accent_image: /assets/img/AboutUs.png
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
