@@ -1,7 +1,7 @@
 ---
 layout: list
 permalink: /updates/
-accent_image: /assets/img/Introdcutionn.jpg
+accent_image: /assets/img/LabNews.png
 ---
 
 <header class="page-header">
