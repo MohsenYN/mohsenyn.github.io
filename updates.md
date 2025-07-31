@@ -13,6 +13,7 @@ accent_image: /assets/img/LabNews.png
     <div class="linkedin-scroll-frame">
       <!-- Embed for first LinkedIn post -->
       <div class="linkedin-post">
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7356033908490035202?collapsed=1" height="671" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7353164138962980865?collapsed=1" height="637" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7344077938520113154?collapsed=1" height="669" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7336405967481270273?collapsed=1" height="609" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
