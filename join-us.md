@@ -36,6 +36,22 @@ accent_image: /assets/img/JoinUs.png
     <h2 id="previous-openings-heading">Previous Openings</h2>
 
     <article class="opening-box">
+      <h3>Two PhD Graduate Research Assistantship Positions</h3>
+      <p>
+      <strong>Department:</strong> Plant Agriculture, Ontario Agricultural College (OAC), University of Guelph<br>
+      <strong>Start Date:</strong> Winter 2025<br>
+      <strong>Positions Available:</strong> 2
+      </p>
+      <p>
+      Are you interested in working in a multidisciplinary research environment that bridges plant breeding, food science, artificial intelligence, and multi-omics? The Dry Bean Breeding & Computational Biology Lab at the University of Guelph is now accepting applications for two fully funded PhD positions starting in Winter 2025. These opportunities are part of a dynamic research program aimed at advancing sustainable agriculture and agri-food innovation in Canada. Successful candidates will engage in collaborative, high-impact research with strong support from industry and government partners, and will benefit from comprehensive training in both field and computational techniques. Applicants from all backgrounds are encouraged to apply.
+     </p>
+     <p><strong>How to Apply:</strong></p>
+     <p>
+     Please send your cover letter, CV, and contact information for three references to <a href="mailto:myoosefz@uoguelph.ca">Dr. Mohsen Yoosefzadeh Najafabadi</a> with the subject line “PhD Application – YOUR NAME”. All applications are welcome.
+     </p>
+    </article>
+
+    <article class="opening-box">
       <h3>PhD Graduate Research Assistantship in AI-Powered Canning Quality Assessment for Dry Bean Breeding</h3>
       <p><strong>Department:</strong> Plant Agriculture, Ontario Agricultural College (OAC), University of Guelph<br>
          <strong>In collaboration with:</strong> Department of Food Science, University of Guelph<br>
