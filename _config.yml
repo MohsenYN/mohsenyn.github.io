@@ -79,6 +79,8 @@ menu:
       url: /updates/
     - title: Resources
       url: /Resource/
+    - title: BeanGPT
+      url: /BeanGPT/
     - title: Join Us
       url: /join-us/
 
