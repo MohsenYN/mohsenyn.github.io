@@ -5,81 +5,87 @@ permalink: /apps/
 ---
 
 <section class="apps-container">
-  <h1>Our Tools</h1>
-  <div class="app-cards">
-    <a href="https://www.beangpt.ca" class="app-card bean-gpt" target="_blank" rel="noopener noreferrer">
-      <div class="icon"></div>
-      <div class="label">BeanGPT</div>
-    </a>
-    <a href="https://github.com/MohsenYN/AllInOne" class="app-card all-in-one" target="_blank" rel="noopener noreferrer">
-      <div class="icon"></div>
-      <div class="label">AllInOne Pre-processing</div>
-    </a>
+  <div class="app-card" onclick="window.open('https://www.beangpt.ca','_blank')">
+    <div class="icon" style="background-image: url('https://via.placeholder.com/100?text=GPT');"></div>
+    <div class="info">
+      <h2>BeanGPT</h2>
+      <p>
+        Your AI-powered partner for bean breeding and computational biology. 
+        Trained on 300k+ peer-reviewed papers, OPCC field trial data, and multi-omics resources, BeanGPT supports 
+        literature synthesis, trait exploration, field trial analysis, predictions, and breeding guidance — accelerating 
+        crop improvement for Phaseolus and beyond.
+      </p>
+    </div>
+  </div>
+
+  <div class="app-card" onclick="window.open('https://allinone.shinyapps.io/AllInOne/','_blank')">
+    <div class="icon" style="background-image: url('https://via.placeholder.com/100?text=AIO');"></div>
+    <div class="info">
+      <h2>AllInOne Pre-processing</h2>
+      <p>
+        An open-source R-Shiny package for pre-processing phenotypic datasets. 
+        Offers missing data detection & imputation (MICE), visualization tools, outlier detection, correlation & 
+        normalization (bestNormalize), spatial analysis (SpATS), BLUE/BLUP estimation, heritability calculation, and 
+        live dataset editing — all in an interactive environment.
+      </p>
+    </div>
   </div>
 </section>
 
 <style>
+  body {
+    background: #f9f9f9;
+  }
+
   .apps-container {
-    text-align: center;
-    padding: 4rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    padding: 4rem 2rem;
     font-family: Arial, sans-serif;
   }
-  .apps-container h1 {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-    color: #333;
-  }
-  .app-cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-  }
+
   .app-card {
-    width: 200px;
-    height: 200px;
-    border-radius: 1rem;
-    color: white;
-    text-decoration: none;
-    position: relative;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    cursor: pointer;
     transition: transform 0.2s, box-shadow 0.2s;
   }
-  .app-card .icon {
-    width: 80px;
-    height: 80px;
-    margin-bottom: 1rem;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
+
   .app-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
   }
-  .bean-gpt {
-    background: linear-gradient(135deg, #8e44ad, #c0392b);
+
+  .icon {
+    flex-shrink: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 0.75rem;
+    background-size: cover;
+    background-position: center;
   }
-  .bean-gpt .icon {
-    background-image: url('https://via.placeholder.com/80?text=GPT');
+
+  .info {
+    flex: 1;
   }
-  .all-in-one {
-    background: linear-gradient(135deg, #16a085, #27ae60);
+
+  .info h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.5rem;
+    color: #333;
   }
-  .all-in-one .icon {
-    background-image: url('https://via.placeholder.com/80?text=AIO');
-  }
-  .label {
-    font-size: 1.25rem;
-    font-weight: bold;
-  }
-  @media (max-width: 600px) {
-    .app-cards {
-      flex-direction: column;
-      gap: 1.5rem;
-    }
+
+  .info p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.4;
+    text-align: justify;
   }
 </style>
