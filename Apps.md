@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Apps
 permalink: /apps/
+accent_image: /assets/img/Resources.png
 ---
 
 <section class="apps-container">
