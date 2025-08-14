@@ -31,7 +31,8 @@ accent_image: /assets/img/Resources.png
         normalization (bestNormalize), spatial analysis (SpATS), BLUE/BLUP estimation, heritability calculation, and 
         live dataset editing, all in an interactive environment.
       </p>
-      <a href="https://www.sciencedirect.com/science/article/pii/S2352711023001607" class="paper-link" target="_blank" onclick="event.stopPropagation();">📄 Read the Research Paper</a>
+      <div class="paper-link-container">
+       <a href="https://www.sciencedirect.com/science/article/pii/S2352711023001607" class="paper-link" target="_blank" onclick="event.stopPropagation();">📄 Read the Research Paper</a>
     </div>
   </div>
 
