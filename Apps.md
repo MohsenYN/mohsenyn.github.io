@@ -36,8 +36,6 @@ accent_image: /assets/img/Resources.png
     </div>
   </div>
 
-</section>
-
 <style>
   body {
     background: #f5f5f5;
