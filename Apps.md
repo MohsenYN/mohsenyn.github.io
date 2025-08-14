@@ -8,7 +8,7 @@ accent_image: /assets/img/Resources.png
 
   <!-- BeanGPT -->
   <div class="app-box beangpt" onclick="window.open('https://www.beangpt.ca','_blank')">
-    <div class="icon" style="background-image: url('/assets/icons/beangpt-logo.png');"></div>
+    <div class="icon" style="background-image: url('/assets/icon/beangpt-logo.png');"></div>
     <div class="info">
       <h2>BeanGPT</h2>
       <p>
@@ -22,7 +22,7 @@ accent_image: /assets/img/Resources.png
 
   <!-- AllInOne -->
   <div class="app-box allinone" onclick="window.open('https://allinone.shinyapps.io/AllInOne/','_blank')">
-    <div class="icon" style="background-image: url('/assets/icons/allinone-logo.png');"></div>
+    <div class="icon" style="background-image: url('/assets/icon/allinone-logo.png');"></div>
     <div class="info">
       <h2>AllInOne Pre-processing</h2>
       <p>
