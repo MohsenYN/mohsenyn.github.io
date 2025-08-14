@@ -1,86 +1,85 @@
 ---
 layout: list
-title: BeanGPT
-permalink: /beangpt/
+title: Apps
+permalink: /apps/
 ---
 
-<div id="embed-container">
-  <iframe 
-    id="beangpt-frame" 
-    src="https://www.beangpt.ca" 
-    allowfullscreen 
-    title="BeanGPT Embedded Site">
-  </iframe>
-</div>
-
-<div id="fallback">
-  <p>Sorry, BeanGPT cannot be displayed here. Please open it directly:</p>
-  <a href="https://www.beangpt.ca" target="_blank" rel="noopener noreferrer">
-    Go to BeanGPT
-  </a>
-</div>
-
-<script>
-  const iframe = document.getElementById('beangpt-frame');
-
-  iframe.addEventListener('error', showFallback);
-
-  setTimeout(() => {
-    try {
-      if (!iframe.contentWindow || iframe.contentWindow.length === 0) {
-        showFallback();
-      }
-    } catch (e) {
-      showFallback();
-    }
-  }, 2000);
-
-  function showFallback() {
-    document.getElementById('embed-container').style.display = 'none';
-    document.getElementById('fallback').style.display = 'flex';
-  }
-</script>
+<section class="apps-container">
+  <h1>Our Tools</h1>
+  <div class="app-cards">
+    <a href="https://www.beangpt.ca" class="app-card bean-gpt" target="_blank" rel="noopener noreferrer">
+      <div class="icon"></div>
+      <div class="label">BeanGPT</div>
+    </a>
+    <a href="https://github.com/MohsenYN/AllInOne" class="app-card all-in-one" target="_blank" rel="noopener noreferrer">
+      <div class="icon"></div>
+      <div class="label">AllInOne Pre-processing</div>
+    </a>
+  </div>
+</section>
 
 <style>
-  html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: hidden;
-  }
-
-  /* Full screen iframe container */
-  #embed-container {
-    width: 100vw;
-    height: 100vh;
-    background: #000;
-  }
-
-  #beangpt-frame {
-    width: 1920px; /* Force desktop width */
-    height: 1080px;
-    border: none;
-    transform: scale(calc(100vw / 1920));
-    transform-origin: top left;
-  }
-
-  /* Fallback message style */
-  #fallback {
-    display: none;
-    height: 100vh;
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
+  .apps-container {
     text-align: center;
+    padding: 4rem 1rem;
     font-family: Arial, sans-serif;
-    padding: 2rem;
-    background-color: #fff;
+  }
+  .apps-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
     color: #333;
   }
-
-  #fallback a {
-    color: #6b3e8e;
+  .app-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .app-card {
+    width: 200px;
+    height: 200px;
+    border-radius: 1rem;
+    color: white;
     text-decoration: none;
-    font-weight: 500;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .app-card .icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .app-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  .bean-gpt {
+    background: linear-gradient(135deg, #8e44ad, #c0392b);
+  }
+  .bean-gpt .icon {
+    background-image: url('https://via.placeholder.com/80?text=GPT');
+  }
+  .all-in-one {
+    background: linear-gradient(135deg, #16a085, #27ae60);
+  }
+  .all-in-one .icon {
+    background-image: url('https://via.placeholder.com/80?text=AIO');
+  }
+  .label {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  @media (max-width: 600px) {
+    .app-cards {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
   }
 </style>
