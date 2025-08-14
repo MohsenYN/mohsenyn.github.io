@@ -4,42 +4,40 @@ title: BeanGPT
 permalink: /beangpt/
 ---
 
-<div id="embed-container" style="width:100%; height:100vh;">
+<div id="embed-container">
   <iframe 
     id="beangpt-frame" 
     src="https://www.beangpt.ca" 
-    style="width:100%; height:100%; border:none;" 
     allowfullscreen 
     title="BeanGPT Embedded Site">
   </iframe>
 </div>
 
-<div id="fallback" style="display:none; text-align:center; font-family:Arial, sans-serif; padding:2rem;">
+<div id="fallback">
   <p>Sorry, BeanGPT cannot be displayed here. Please open it directly:</p>
-  <a href="https://www.beangpt.ca" 
-     target="_blank" 
-     rel="noopener noreferrer" 
-     style="color:#6b3e8e; text-decoration:none; font-weight:500;">
-     Go to BeanGPT
+  <a href="https://www.beangpt.ca" target="_blank" rel="noopener noreferrer">
+    Go to BeanGPT
   </a>
 </div>
 
 <script>
-  // Detect iframe load failure
   const iframe = document.getElementById('beangpt-frame');
+
   iframe.addEventListener('error', showFallback);
-  
-  // If the site uses X-Frame-Options and blocks embedding,
-  // this will still be triggered after a delay
+
   setTimeout(() => {
-    if (!iframe.contentWindow || iframe.contentWindow.length === 0) {
+    try {
+      if (!iframe.contentWindow || iframe.contentWindow.length === 0) {
+        showFallback();
+      }
+    } catch (e) {
       showFallback();
     }
   }, 2000);
 
   function showFallback() {
     document.getElementById('embed-container').style.display = 'none';
-    document.getElementById('fallback').style.display = 'block';
+    document.getElementById('fallback').style.display = 'flex';
   }
 </script>
 
@@ -49,5 +47,40 @@ permalink: /beangpt/
     padding: 0;
     height: 100%;
     overflow: hidden;
+  }
+
+  /* Full screen iframe container */
+  #embed-container {
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+  }
+
+  #beangpt-frame {
+    width: 1920px; /* Force desktop width */
+    height: 1080px;
+    border: none;
+    transform: scale(calc(100vw / 1920));
+    transform-origin: top left;
+  }
+
+  /* Fallback message style */
+  #fallback {
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    background-color: #fff;
+    color: #333;
+  }
+
+  #fallback a {
+    color: #6b3e8e;
+    text-decoration: none;
+    font-weight: 500;
   }
 </style>
