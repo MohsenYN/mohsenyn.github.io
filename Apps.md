@@ -1,6 +1,6 @@
 ---
 layout: list
-permalink: /apps/
+permalink: /AI & Analysis Hub/
 accent_image: /assets/img/Resources.png
 ---
 
