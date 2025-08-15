@@ -7,7 +7,7 @@ accent_image: /assets/img/Resources.png
 <section class="apps-container">
 
   <!-- BeanGPT -->
-  <div class="app-box beangpt" onclick="window.open('https://www.beangpt.ca','_blank')">
+  <div class="app-box beangpt" onclick="window.open('https://beangpt.ca','_blank')">
     <div class="icon" style="background-image: url('/assets/icon/beangpt-logo.png');"></div>
     <div class="info">
       <h2>BeanGPT</h2>
