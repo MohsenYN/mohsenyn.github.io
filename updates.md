@@ -32,12 +32,13 @@ accent_image: /assets/img/LabNews.png
   <article class="news-item" aria-labelledby="news-2025-07-21">
   <h2 class="news-date" id="news-2025-08-18">August 18, 2025</h2>
   <p><strong>New Team Member Announcement: Dr. Masoud Maleki</strong><br>
-    I am happy to welcome Dr. Masoud Maleki, a new postdoc joining the Dry Bean Breeding and Computational Biology Lab. Dr. Maleki will be involved in several aspects of our program, from designing new genomics tools to analyzing multi-omics data to help make our breeding decisions more accurate.
+    We are happy to welcome Dr. Masoud Maleki, a new postdoc joining the Dry Bean Breeding and Computational Biology Lab. Dr. Maleki will be involved in several aspects of our program, from designing new genomics tools to analyzing multi-omics data to help make our breeding decisions more accurate.
   </p>
     <blockquote>
     <strong>In his own words:</strong><br>
-    "Dr. Maleki is interested in dry bean breeding and computational biology because ..." </blockquote>
-    <p><strong> Fun fact: Dr. Maleki .... </strong></p>
+    Dr. Maleki is interested in dry bean breeding and computational biology because "beans are the unsung heroes of global food security, packed with protein, adaptable to diverse diets, and critical for smallholder farmers. By merging cutting-edge high-throughput omics with computational tools, we can unlock their full potential to thrive in a changing climate, bridging the gap between lab science and real-world impact."</blockquote>
+    <p><strong> Fun fact: I once spent days troubleshooting a PCR protocol, only to realize my lab’s distilled water was the culprit… proving that in science (and life), sometimes the smallest variables have the biggest impact! 💧😅
+Please join me in welcoming Dr. Maleki to our team. </strong></p>
         <p><strong> Please join me in welcoming Dr. Maleki to our team. </strong></p>
   <figure>
     <img src="/assets/img/news/MasoudMaleki.jpg" alt="Dr.Masoud Maleki" loading="lazy">
