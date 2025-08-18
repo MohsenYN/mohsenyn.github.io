@@ -94,8 +94,6 @@ Come meet our research team, tour the plots, and learn how we’re bridging cutt
     <blockquote>
     <strong>In her own words:</strong><br>
     "Hello, my name is Trinity Solinger! I am an undergraduate student here at the University of Guelph, entering my second year of Environmental Sciences. In my free time, I enjoy hiking, camping, baking, and wildlife photography, all hobbies that have inspired my love for conservation and the environment. I am excited to join this team as I believe their work is incredibly valuable and connects well with my field of study. Working towards increasing both stress resistance and yields of dry beans is vital to ensure continued food security through the climate crisis. This unique opportunity will not only allow me to expand my knowledge of genetics and plant breeding but also gain hands-on experience in agricultural research." </blockquote>
-    <p><strong><em>Fun fact: In her free time, Aashvi enjoys exploring creative hobbies such as painting and crafting little trinkets out of clay!</em></strong><br>
-      We are excited to have Aashvi’s enthusiasm and expertise in our lab as we work together to fortify Ontario’s agri-food sector.</p>
         <p><strong> Please join us in welcoming Trinity to the team! </strong></p>
     <figure>
       <img src="/assets/img/team/Trinity.jpg" alt="Trinity" loading="lazy">
