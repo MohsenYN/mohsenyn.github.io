@@ -30,6 +30,21 @@ accent_image: /assets/img/LabNews.png
 <main class="news-grid" role="main">
 
   <article class="news-item" aria-labelledby="news-2025-07-21">
+  <h2 class="news-date" id="news-2025-08-18">August 18, 2025</h2>
+  <p><strong>New Team Member Announcement: Dr. Masoud Maleki</strong><br>
+    I am happy to welcome Dr. Masoud Maleki, a new postdoc joining the Dry Bean Breeding and Computational Biology Lab. Dr. Maleki will be involved in several aspects of our program, from designing new genomics tools to analyzing multi-omics data to help make our breeding decisions more accurate.
+  </p>
+    <blockquote>
+    <strong>In his own words:</strong><br>
+    "Dr. Maleki is interested in dry bean breeding and computational biology because ..." </blockquote>
+    <p><strong> Fun fact: Dr. Maleki .... </strong></p>
+        <p><strong> Please join me in welcoming Dr. Maleki to our team. </strong></p>
+  <figure>
+    <img src="/assets/img/news/MasoudMaleki.jpg" alt="Dr.Masoud Maleki" loading="lazy">
+  </figure>
+  </article>
+
+  <article class="news-item" aria-labelledby="news-2025-07-21">
   <h2 class="news-date" id="news-2025-07-21">July 21, 2025</h2>
   <p><strong>Curious about how tradition and innovation come together in plant breeding and computational biology?</strong><br>
     Join us for the 2025 Dry Bean Breeding and Computational Biology Program Open House at the University of Guelph’s Elora Research Station!
