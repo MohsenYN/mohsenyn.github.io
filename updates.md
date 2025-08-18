@@ -40,7 +40,7 @@ accent_image: /assets/img/LabNews.png
     <p><strong> Fun fact: Dr. Maleki .... </strong></p>
         <p><strong> Please join me in welcoming Dr. Maleki to our team. </strong></p>
   <figure>
-    <img src="/assets/img/news/MasoudMaleki.jpg" alt="Dr.Masoud Maleki" loading="lazy">
+    <img src="/assets/img/team/MasoudMaleki.jpg" alt="Dr.Masoud Maleki" loading="lazy">
   </figure>
   </article>
 
