@@ -72,6 +72,7 @@ accent_image: /assets/img/TeamMembers.png
     <div style="text-align: center; margin-top: 1rem;">
       <a href="mailto:m.maleki2012@gmail.com" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
       <a href="https://www.linkedin.com/in/masoud-maleki-b342bb143/" target="_blank" class="social-link"><img src="/assets/img/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
+    </div>
   </div>
 </div>
 
