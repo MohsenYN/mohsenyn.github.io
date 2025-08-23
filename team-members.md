@@ -257,7 +257,6 @@ accent_image: /assets/img/TeamMembers.png
     <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">2025</p>
   </div>
  </div>
-</div>
 ---
 
 ## Join Our Team
