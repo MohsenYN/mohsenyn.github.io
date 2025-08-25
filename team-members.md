@@ -59,6 +59,16 @@ accent_image: /assets/img/TeamMembers.png
       <a href="mailto:schaefea@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
     </div>
   </div>
+  <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(255,204,0); transition: transform 0.3s, box-shadow 0.3s;">
+    <img src="/assets/img/team/sajal.jpg" alt="Sajal Ahlawat" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="color: rgb(0,102,51); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Sajal Ahlawat</h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Research Assistant</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">Exploring Advanced Breeding Techniques.</p>
+    <div style="text-align: center; margin-top: 1rem;">
+      <a href="mailto:sahlawat@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
+      <a href="https://www.linkedin.com/in/sajal-ahlawat/" target="_blank" class="social-link"><img src="/assets/img/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
+      </div>
+  </div>
 </div>
 
 ## Postdoctoral Fellows
@@ -89,6 +99,16 @@ accent_image: /assets/img/TeamMembers.png
       <a href="https://www.linkedin.com/in/aashvi-patel-b86802224/" target="_blank" class="social-link"><img src="/assets/img/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
     </div>
   </div>
+    <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,51); transition: transform 0.3s, box-shadow 0.3s;">
+    <img src="/assets/img/team/Philip.jpg" alt="Philip Lorenc" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="color: rgb(0,102,51); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Philip Lorenc</h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Master Student</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">Researching Phenomics-Based Selection for Anthracnose Resistance.</p>
+    <div style="text-align: center; margin-top: 1rem;">
+      <a href="mailto:plorenc@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
+      <a href="https://www.linkedin.com/in/philip-lorenc-12935b204/" target="_blank" class="social-link"><img src="/assets/img/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
+    </div>
+  </div>
   <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,51); transition: transform 0.3s, box-shadow 0.3s;">
     <img src="/assets/img/team/Mehdi.jpg" alt="Mehdi Babaei" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <h3 style="color: rgb(0,102,51); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Mehdi Babaei</h3>
@@ -99,16 +119,6 @@ accent_image: /assets/img/TeamMembers.png
       <a href="https://www.linkedin.com/in/mehdi-babaei-31750372/" target="_blank" class="social-link"><img src="/assets/img/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
       <a href="https://github.com/Mehdibabaeii" target="_blank" class="social-link"><img src="/assets/img/icons/github.png" alt="GitHub" class="social-icon"></a>
       <a href="https://scholar.google.ca/citations?user=9RKQ8nYAAAAJ&hl=en&oi=sra" target="_blank" class="social-link"><img src="/assets/img/icons/google-scholar.png" alt="Google Scholar" class="social-icon"></a>
-    </div>
-  </div>
-  <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,51); transition: transform 0.3s, box-shadow 0.3s;">
-    <img src="/assets/img/team/sajal.jpg" alt="Sajal Ahlawat" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    <h3 style="color: rgb(0,102,51); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Sajal Ahlawat</h3>
-    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Master-Internship Student</p>
-    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">Exploring Advanced Breeding Techniques.</p>
-    <div style="text-align: center; margin-top: 1rem;">
-      <a href="mailto:sahlawat@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
-      <a href="https://www.linkedin.com/in/sajal-ahlawat/" target="_blank" class="social-link"><img src="/assets/img/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
     </div>
   </div>
 </div>
