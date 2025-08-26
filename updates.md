@@ -29,7 +29,24 @@ accent_image: /assets/img/LabNews.png
 
 <main class="news-grid" role="main">
 
-  <article class="news-item" aria-labelledby="news-2025-07-21">
+  <article class="news-item" aria-labelledby="news-2025-08-21">
+  <h2 class="news-date" id="news-2025-08-21">August 21, 2025</h2>
+  <p><strong>Last week, we had the pleasure of hosting our 11th Bean Breeding Open House—and for the first time, we included computational biology as part of the event. This was a new experience for us at the University of Guelph, and it was wonderful to see such a fantastic turnout. We welcomed guests from all corners of Ontario’s bean world: growers, industry professionals, government representatives, and members of academia. It was truly great to see so much interest in helping shape the future of our program.
+We kicked off the day with an overview of our breeding plots and enjoyed sharing how our breeding program is developing. One of the highlights for us was the All-Star Trial, where we showcased every dry bean cultivar that’s been developed so far at the University of Guelph. We even put out samples of all the different seeds, giving everyone a chance to see the results up close.
+We were fortunate to have engaging presentations from Meghan Moran and Emily Boylan from OMAFA and ARIO, who brought some excellent insights to the group. After that, we made our way into the experimental trials. It was great to see our students talking about their projects and sharing what they’ve learned—Aashvi and Philip are making impressive progress, and Kiarash, Niki, and Koosha also shared valuable updates. Kiarash introduced BeanGPT, which we’re excited to highlight more in a future post.
+We then moved on to the nitrogen fixation trials, where Dr. K. Peter Pauls and his team spoke about the important work that’s been accomplished. We appreciated how Mohammad and Yarmilla explained the latest developments in nitrogen fixation and molecular markers, and we also enjoyed excellent recaps from Maryam, Sajida, and Ujomonigho.
+There are so many more people we could mention, but we want to give a special thanks to Lyndsay, Sajal, Alec, Trinity, and everyone else who helped make the day a success. We’re also thankful to the Ontario Bean Growers and all the industry partners who continue to support our work.
+It was truly a fun and inspiring day for all of us. We’re already looking forward to next year’s open house, so go ahead and mark your calendars! Our lab will have plenty of exciting news to share by then.
+  </p>
+  <figure>
+    <img src="/assets/img/news/Openhouse1.jpg" alt="Openhouse1" loading="lazy">
+    <img src="/assets/img/news/Openhouse2.jpg" alt="Openhouse2" loading="lazy">
+    <img src="/assets/img/news/Openhouse3.jpg" alt="Openhouse3" loading="lazy">
+    <img src="/assets/img/news/Openhouse4.jpg" alt="Openhouse4" loading="lazy">
+  </figure>
+  </article>
+
+  <article class="news-item" aria-labelledby="news-2025-08-18">
   <h2 class="news-date" id="news-2025-08-18">August 18, 2025</h2>
   <p><strong>New Team Member Announcement: Dr. Masoud Maleki</strong><br>
     We are happy to welcome Dr. Masoud Maleki, a new postdoc joining the Dry Bean Breeding and Computational Biology Lab. Dr. Maleki will be involved in several aspects of our program, from designing new genomics tools to analyzing multi-omics data to help make our breeding decisions more accurate.
