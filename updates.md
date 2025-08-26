@@ -28,8 +28,7 @@ accent_image: /assets/img/LabNews.png
 </header>
 
 <main class="news-grid" role="main">
-
-  <article class="news-item" aria-labelledby="news-2025-08-21">
+<article class="news-item" aria-labelledby="news-2025-08-21">
   <h2 class="news-date" id="news-2025-08-21">August 21, 2025</h2>
   <p><strong>Last week, we had the pleasure of hosting our 11th Bean Breeding Open House—and for the first time, we included computational biology as part of the event. This was a new experience for us at the University of Guelph, and it was wonderful to see such a fantastic turnout. We welcomed guests from all corners of Ontario’s bean world: growers, industry professionals, government representatives, and members of academia. It was truly great to see so much interest in helping shape the future of our program.
 We kicked off the day with an overview of our breeding plots and enjoyed sharing how our breeding program is developing. One of the highlights for us was the All-Star Trial, where we showcased every dry bean cultivar that’s been developed so far at the University of Guelph. We even put out samples of all the different seeds, giving everyone a chance to see the results up close.
