@@ -39,7 +39,7 @@ accent_image: /assets/img/JoinUs.png
       <h3>Two PhD Graduate Research Assistantship Positions</h3>
       <p>
       <strong>Department:</strong> Plant Agriculture, Ontario Agricultural College (OAC), University of Guelph<br>
-      <strong>Start Date:</strong> Winter 2025<br>
+      <strong>Start Date:</strong> Winter 2026<br>
       <strong>Positions Available:</strong> 2
       </p>
       <p>
