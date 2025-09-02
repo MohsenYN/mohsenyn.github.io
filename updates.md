@@ -39,7 +39,7 @@ P.S. Philip has promised us that from now on, he’ll be taking his photos with 
   </p>
   <figure>
     <img src="/assets/img/team/Philip.jpg" alt="Philip Lorenc" loading="lazy">
-    <img src="/assets/img/team/Ryan.jpg" alt="Ryan Male" loading="lazy">
+    <img src="/assets/img/team/Ryan.jpeg" alt="Ryan Male" loading="lazy">
   </figure>
   </article>
   
