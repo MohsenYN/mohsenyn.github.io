@@ -28,6 +28,21 @@ accent_image: /assets/img/LabNews.png
 </header>
 
 <main class="news-grid" role="main">
+  <article class="news-item" aria-labelledby="news-2025-09-02">
+  <h2 class="news-date" id="news-2025-09-02">September 2, 2025</h2>
+  <p><strong>Welcoming Philip Lorence and Ryan Male to Our Team!</strong><br>
+    We are very happy to announce that two talented students are joining our group: Philip Lorence and Ryan Male.
+Philip Lorence is beginning his Master’s degree and will be working on phenomics-based anthracnose screening. As Philip shared: “I completed my Bachelor’s in Crop Science at the University of Guelph and have gained experience in both research and practical farm management. Outside of work, I enjoy fitness and playing guitar. I took the opportunity to join this team because it not only fulfills my passion to increase food accessibility and environmental sustainability, but it also allows me to contribute to the bean breeding community with more innovative approaches to agriculture. I look forward to contributing to ongoing projects while learning from others.”
+Ryan Male is joining us as a research assistant, and he will be supporting our technicians with harvesting, data collection, and seed processing activities. In his own words: “I am a 4th-year Environmental Science Co-op student at the University of Guelph. In my free time, I enjoy going to the gym, playing hockey and chess, and spending time with friends and family. Through my previous co-op work with the weeds department at the University of Guelph, I gained an interest in the research processes associated with herbicide testing and became curious about other research performed by the University. Learning more about the bean breeding process will enhance my knowledge and interest in the various branches of environmental science research.”
+On behalf of the Dry Bean Breeding and Computational Biology team, I would like to congratulate both Philip and Ryan on joining our program. We look forward to working with you and seeing your contributions to our projects!
+P.S. Philip has promised us that from now on, he’ll be taking his photos with beans, not corn anymore! 😊
+  </p>
+  <figure>
+    <img src="/assets/img/team/Philip.jpg" alt="Philip Lorenc" loading="lazy">
+    <img src="/assets/img/team/Ryan.jpg" alt="Ryan Male" loading="lazy">
+  </figure>
+  </article>
+  
   <article class="news-item" aria-labelledby="news-2025-08-21">
   <h2 class="news-date" id="news-2025-08-21">August 21, 2025</h2>
   <p><strong>Bringing Together the Bean Community: Highlights from Our Open House Event</strong><br>
