@@ -16,6 +16,11 @@ accent_image: /assets/img/Publication.png
 <div class="publications-list" style="margin: 3rem 0; max-width: 900px; margin-left: auto; margin-right: auto;">
  
   <div style="padding: 2rem; background: rgba(255, 255, 255, 0.95); border-left: 8px solid rgb(150,0,0); border-radius: 10px; margin-bottom: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); transition: transform 0.3s, box-shadow 0.3s;">
+    <h3 style="color: rgb(150,0,0); font-size: 1.6rem; margin-bottom: 0.75rem; font-weight: 600; letter-spacing: 0.5px;"><a href="https://www.sciencedirect.com/science/article/pii/S1360138525002377#f0010" style="color: rgb(150,0,0); text-decoration: none; transition: color 0.3s;" target="_blank">Hybrid AI in synthetic biology: next era in agriculture</a></h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: #444; font-style: italic;"><em> Trends in Plant Science </em>.</p>
+  </div>
+
+  <div style="padding: 2rem; background: rgba(255, 255, 255, 0.95); border-left: 8px solid rgb(150,0,0); border-radius: 10px; margin-bottom: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); transition: transform 0.3s, box-shadow 0.3s;">
     <h3 style="color: rgb(150,0,0); font-size: 1.6rem; margin-bottom: 0.75rem; font-weight: 600; letter-spacing: 0.5px;"><a href="https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiaf355/8228642?searchresult=1&login=false" style="color: rgb(150,0,0); text-decoration: none; transition: color 0.3s;" target="_blank">Merging traditional practices and modern technology through computational plant breeding</a></h3>
     <p style="font-size: 1.15rem; line-height: 1.7; color: #444; font-style: italic;"><em> Plant Physiology </em>.</p>
   </div>
