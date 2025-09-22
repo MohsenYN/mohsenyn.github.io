@@ -38,7 +38,7 @@ accent_image: /assets/img/LabNews.png
   </p>
   <figure>
     <img src="/assets/img/news/MohsenandLyndsay.jpg" alt="MohsenandLyndsay" loading="lazy">
-    </p> Photo Credit: Scott Carter and Farhad Omarzad </p>
+    Photo Credit: Scott Carter and Farhad Omarzad
   </figure>
 </article>
   
