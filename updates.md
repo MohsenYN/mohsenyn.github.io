@@ -29,6 +29,19 @@ accent_image: /assets/img/LabNews.png
 </header>
 
 <main class="news-grid" role="main">
+  <article class="news-item" aria-labelledby="news-2025-09-22">
+  <h2 class="news-date" id="news-2025-09-22">September 22, 2025</h2>
+  <p><strong>OAC Features Advances in AI in Dry Bean Breeding</strong><br>
+    Agricultural science has entered a data-rich era. From drones capturing field images to genomic sequencing and environmental sensors, plant breeders now have access to more information than ever before. The sheer volume of data can be overwhelming for researchers trying to identify traits that produce the most resilient, high-yielding crops. That’s where artificial intelligence steps in.  
+    OAC’s Dr. Mohsen Yoosefzadeh Najafabadi, who leads the Dry Bean Breeding & Computational Biology Lab, is applying AI in a novel way. The platform, <strong>BeanGPT</strong>, combines advanced logic and autonomous capabilities with generative AI to help breeders ask more insightful questions, predict outcomes, and uncover patterns that would be difficult to identify without AI assistance.  
+    To read the full story, please visit <a href="https://www.uoguelph.ca/oac/news/plant-science-prof-launches-new-ai-platform-bean-breeding" target="_blank" rel="noopener noreferrer">OAC News</a>.
+  </p>
+  <figure>
+    <img src="/assets/img/news/MohsenandLyndsay.jpg" alt="MohsenandLyndsay" loading="lazy">
+    </p> Photo Credit: Scott Carter and Farhad Omarzad </p>
+  </figure>
+</article>
+  
   <article class="news-item" aria-labelledby="news-2025-09-02">
   <h2 class="news-date" id="news-2025-09-02">September 2, 2025</h2>
   <p><strong>Welcoming Philip Lorenc and Ryan Male to Our Team!</strong><br>
