@@ -121,6 +121,15 @@ accent_image: /assets/img/TeamMembers.png
       <a href="https://scholar.google.ca/citations?user=9RKQ8nYAAAAJ&hl=en&oi=sra" target="_blank" class="social-link"><img src="/assets/img/icons/google-scholar.png" alt="Google Scholar" class="social-icon"></a>
     </div>
   </div>
+  <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,51); transition: transform 0.3s, box-shadow 0.3s;">
+    <img src="/assets/img/team/Sarika.jpg" alt="Sarika Saini" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="color: rgb(0,102,51); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Sarika Saini</h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">PhD Student</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">Co-advised with Dr. Istvan Rajcan.</p>
+    <div style="text-align: center; margin-top: 1rem;">
+      <a href="mailto:sarika@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
+    </div>
+  </div>
 </div>
 
 ---
