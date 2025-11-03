@@ -30,22 +30,6 @@ accent_image: /assets/img/LabNews.png
 </header>
 
 <main class="news-grid" role="main">
-  <article class="news-item" aria-labelledby="news-2025-10-10">
-  <h2 class="news-date" id="news-2025-10-10">October 10, 2025</h2>
-  <p><strong>Harvest Season in Full Swing: Teamwork, Teaching, and Thanksgiving</strong><br>
-    October is always one of the busiest months in our lab, and this year is no exception!
-We’re right in the middle of harvest season, which means long days in the field, lots of coordination, and a fair bit of excitement. Our main focus, of course, is getting dry beans harvested as soon as possible. Leaving them in the field for too long is never a good idea, so we’ve been pushing to wrap things up quickly and efficiently.
-At the same time, my teaching schedule is in full swing. Between classes, meetings, and hiring tasks, my days are packed, but it’s all part of the rewarding rhythm of this time of year.
-In the middle of all this busyness, it’s such a pleasure to receive photos from the team in the field. They’re almost done with the harvesting, just a few adzuki beans left, which always take a bit more time. The only thing left on our side is the single plant selection, which we plan to finish up next week.
-So, just before the Canadian Thanksgiving weekend, we’re wrapping up harvest season, tagging, collecting, drying, and feeling grateful for the teamwork that makes it all possible.
-Here are a few snapshots from the field showing our progress, from the harvest itself to the drying process.
-Wishing everyone a wonderful Thanksgiving weekend ahead, take some time to relax, recharge, and enjoy the season.
-  </p>
-  <figure>
-    <img src="/assets/img/news/Harvest.jpg" alt="Harvesting" loading="lazy">
-  </figure>
-</article>
-
   <article class="news-item" aria-labelledby="news-2025-10-29">
   <h2 class="news-date" id="news-2025-10-29">October 29, 2025</h2>
   <p><strong>5,000 lbs. of beans used for research at the University of Guelph donated to food bank</strong><br>
@@ -83,6 +67,22 @@ For more than 40 years, researchers at the university have worked to advance dry
       </li>
     </ul>
   </div>
+
+  <article class="news-item" aria-labelledby="news-2025-10-10">
+  <h2 class="news-date" id="news-2025-10-10">October 10, 2025</h2>
+  <p><strong>Harvest Season in Full Swing: Teamwork, Teaching, and Thanksgiving</strong><br>
+    October is always one of the busiest months in our lab, and this year is no exception!
+We’re right in the middle of harvest season, which means long days in the field, lots of coordination, and a fair bit of excitement. Our main focus, of course, is getting dry beans harvested as soon as possible. Leaving them in the field for too long is never a good idea, so we’ve been pushing to wrap things up quickly and efficiently.
+At the same time, my teaching schedule is in full swing. Between classes, meetings, and hiring tasks, my days are packed, but it’s all part of the rewarding rhythm of this time of year.
+In the middle of all this busyness, it’s such a pleasure to receive photos from the team in the field. They’re almost done with the harvesting, just a few adzuki beans left, which always take a bit more time. The only thing left on our side is the single plant selection, which we plan to finish up next week.
+So, just before the Canadian Thanksgiving weekend, we’re wrapping up harvest season, tagging, collecting, drying, and feeling grateful for the teamwork that makes it all possible.
+Here are a few snapshots from the field showing our progress, from the harvest itself to the drying process.
+Wishing everyone a wonderful Thanksgiving weekend ahead, take some time to relax, recharge, and enjoy the season.
+  </p>
+  <figure>
+    <img src="/assets/img/news/Harvest.jpg" alt="Harvesting" loading="lazy">
+  </figure>
+</article>
 
   <article class="news-item" aria-labelledby="news-2025-09-22">
   <h2 class="news-date" id="news-2025-09-22">September 22, 2025</h2>
