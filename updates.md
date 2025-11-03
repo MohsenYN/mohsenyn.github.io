@@ -13,6 +13,7 @@ accent_image: /assets/img/LabNews.png
     <div class="linkedin-scroll-frame">
       <!-- Embed for first LinkedIn post -->
       <div class="linkedin-post">
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7389703303548366848?collapsed=1" height="593" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7370792206460182529?collapsed=1" height="619" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7356033908490035202?collapsed=1" height="671" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7353164138962980865?collapsed=1" height="637" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
@@ -44,6 +45,44 @@ Wishing everyone a wonderful Thanksgiving weekend ahead, take some time to relax
     <img src="/assets/img/news/Harvest.jpg" alt="Harvesting" loading="lazy">
   </figure>
 </article>
+
+  <article class="news-item" aria-labelledby="news-2025-10-29">
+  <h2 class="news-date" id="news-2025-10-29">October 29, 2025</h2>
+  <p><strong>5,000 lbs. of beans used for research at the University of Guelph donated to food bank</strong><br>
+    Thousands of pounds of beans grown for research purposes at the University of Guelph (U of G) could have gone to waste but, instead, they’re getting a second life.
+“We have pinto beans, cranberry beans, black beans, navy beans,” said Mohsen Yoosefzadeh Najafabadi, a computational biologist and assistant professor at U of G.
+For more than 40 years, researchers at the university have worked to advance dry bean varieties.
+“We go to the field and make crosses between different potential parental lines, create the population and, after that, we grow this population for a couple of years to make them genetically stable,” explained Yoosefzadeh Najafabadi.
+  </p>
+  <div class="related-links">
+    <h3>Related Links</h3>
+    <ul>
+      <li>
+        <strong>University of Guelph:</strong>
+        <a href="https://news.uoguelph.ca/2025/10/u-of-g-bean-breeders-to-feed-community-through-food-bank-donations/" target="_blank" rel="noopener noreferrer">U of G Bean Breeders to Feed Community Through Food Bank Donations</a>
+      </li>
+      <li>
+        <strong>CBC:</strong>
+        <ul>
+          <li><a href="https://www.cbc.ca/listen/live-radio/1-104-the-morning-edition-k-w/clip/16178074-guelph-researchers-spill-beans-1k-pound-donation-food" target="_blank" rel="noopener noreferrer">Guelph researchers spill the beans on 1K pound donation to food bank</a></li>
+          <li><a href="https://lnkd.in/ggPX4pnP" target="_blank" rel="noopener noreferrer">CBC Coverage (Additional Link)</a></li>
+          <li><a href="https://www.cbc.ca/news/canada/kitchener-waterloo/university-of-guelph-donate-beans-guelph-food-bank-1.6955029" target="_blank" rel="noopener noreferrer">University of Guelph donates beans to Guelph food bank</a></li>
+        </ul>
+      </li>
+      <li>
+        <strong>CTV:</strong>
+        <a href="https://kitchener.ctvnews.ca/5-000-lbs-of-beans-used-for-research-at-the-university-of-guelph-donated-to-food-bank-1.6955029" target="_blank" rel="noopener noreferrer">5,000 lbs. of beans used for research at the University of Guelph donated to food bank</a>
+      </li>
+      <li>
+        <strong>Farmtario:</strong>
+        <a href="https://farmtario.com/news/bean-research-breeds-community-giving/" target="_blank" rel="noopener noreferrer">Bean Research Breeds Community Giving</a>
+      </li>
+      <li>
+        <strong>OBG:</strong>
+        <a href="https://mailchi.mp/ontariobeans/obg-communications-eblast-oct2025?e=7af94ae453" target="_blank" rel="noopener noreferrer">OBG Communications Eblast (October 2025)</a>
+      </li>
+    </ul>
+  </div>
 
   <article class="news-item" aria-labelledby="news-2025-09-22">
   <h2 class="news-date" id="news-2025-09-22">September 22, 2025</h2>
