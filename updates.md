@@ -49,13 +49,13 @@ For more than 40 years, researchers at the university have worked to advance dry
         <strong>CBC:</strong>
         <ul>
           <li><a href="https://www.cbc.ca/listen/live-radio/1-104-the-morning-edition-k-w/clip/16178074-guelph-researchers-spill-beans-1k-pound-donation-food" target="_blank" rel="noopener noreferrer">Guelph researchers spill the beans on 1K pound donation to food bank</a></li>
-          <li><a href="https://lnkd.in/ggPX4pnP" target="_blank" rel="noopener noreferrer">CBC Coverage (Additional Link)</a></li>
-          <li><a href="https://www.cbc.ca/news/canada/kitchener-waterloo/university-of-guelph-donate-beans-guelph-food-bank-1.6955029" target="_blank" rel="noopener noreferrer">University of Guelph donates beans to Guelph food bank</a></li>
+          <li><a href="https://www.cbc.ca/player/play/video/9.6958501" target="_blank" rel="noopener noreferrer">CBC Coverage (Additional Link)</a></li>
+          <li><a href="https://www.cbc.ca/news/canada/kitchener-waterloo/university-of-guelph-donate-beans-guelph-food-bank-9.6955029" target="_blank" rel="noopener noreferrer">University of Guelph donates beans to Guelph food bank</a></li>
         </ul>
       </li>
       <li>
         <strong>CTV:</strong>
-        <a href="https://kitchener.ctvnews.ca/5-000-lbs-of-beans-used-for-research-at-the-university-of-guelph-donated-to-food-bank-1.6955029" target="_blank" rel="noopener noreferrer">5,000 lbs. of beans used for research at the University of Guelph donated to food bank</a>
+        <a href="https://www.ctvnews.ca/kitchener/article/5000-lbs-of-beans-used-for-research-at-the-university-of-guelph-donated-to-food-bank/" target="_blank" rel="noopener noreferrer">5,000 lbs. of beans used for research at the University of Guelph donated to food bank</a>
       </li>
       <li>
         <strong>Farmtario:</strong>
