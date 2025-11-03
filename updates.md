@@ -68,7 +68,7 @@ For more than 40 years, researchers at the university have worked to advance dry
     </ul>
     </div>
 
-  <article class="news-item" aria-labelledby="news-2025-10-10">
+   <article class="news-item" aria-labelledby="news-2025-10-10">
   <h2 class="news-date" id="news-2025-10-10">October 10, 2025</h2>
   <p><strong>Harvest Season in Full Swing: Teamwork, Teaching, and Thanksgiving</strong><br>
     October is always one of the busiest months in our lab, and this year is no exception!
