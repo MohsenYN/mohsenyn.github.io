@@ -66,7 +66,7 @@ For more than 40 years, researchers at the university have worked to advance dry
         <a href="https://mailchi.mp/ontariobeans/obg-communications-eblast-oct2025?e=7af94ae453" target="_blank" rel="noopener noreferrer">OBG Communications Eblast (October 2025)</a>
       </li>
     </ul>
-</div>
+    </div>
 
   <article class="news-item" aria-labelledby="news-2025-10-10">
   <h2 class="news-date" id="news-2025-10-10">October 10, 2025</h2>
