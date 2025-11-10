@@ -40,7 +40,7 @@ We’re very happy to have Paul and Ruby join our growing team. Please join us a
   </p>
   <figure>
     <img src="/assets/img/team/Ruby.jpg" alt="Harvesting" loading="lazy">
-    <img src="/assets/img/news/Harvest.jpg" alt="Harvesting" loading="lazy">
+    <img src="/assets/img/team/Paul.jpg" alt="Harvesting" loading="lazy">
   </figure>
 </article>
 
