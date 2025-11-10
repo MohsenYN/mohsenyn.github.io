@@ -39,7 +39,7 @@ Ruby Rogers is a fifth-year Biochemistry Co-op student with a strong passion for
 We’re very happy to have Paul and Ruby join our growing team. Please join us and welcome these two wonderful new members to our team!
   </p>
   <figure>
-    <img src="/assets/img/news/Harvest.jpg" alt="Harvesting" loading="lazy">
+    <img src="/assets/img/team/Ruby.jpg" alt="Harvesting" loading="lazy">
     <img src="/assets/img/news/Harvest.jpg" alt="Harvesting" loading="lazy">
   </figure>
 </article>
