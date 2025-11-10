@@ -30,6 +30,20 @@ accent_image: /assets/img/LabNews.png
 </header>
 
 <main class="news-grid" role="main">
+  <article class="news-item" aria-labelledby="news-2025-10-10">
+  <h2 class="news-date" id="news-2025-11-10">November 10, 2025</h2>
+  <p><strong>Welcoming Our New Team Members: Paul Dosekun and Ruby Rogers</strong><br>
+    It’s always great to see growing interest in the intersection of dry bean breeding and computational biology. Our program continues to attract enthusiastic and diverse talent, and we’re excited to welcome two new volunteer researchers, Paul Dosekun and Ruby Rogers, to the Dry Bean Breeding and Computational Biology team.
+Paul Dosekun is a graduate student in the Master of Sustainable Agriculture program. With over a decade of experience in agricultural management and fisheries, Paul brings a deep understanding of sustainable food production systems and resource management. His academic interests focus on crop improvement, sustainability, and data-driven agricultural innovation. He shared that joining the dry bean breeding program offers him an opportunity to gain hands-on experience in plant breeding research and to deepen his understanding of sustainable crop production systems. Outside of research, Paul enjoys reading and visiting local farms to explore different agricultural practices, experiences that continually inspire his vision for sustainable agriculture.
+Ruby Rogers is a fifth-year Biochemistry Co-op student with a strong passion for science and discovery. Originally from Toronto, Ruby has called Guelph home since her first year at the university. Her previous research in the Shapiro Lab focused on studying CRISPR systems in fungi, and she is now eager to broaden her scientific perspective by exploring plant breeding and genetics. Ruby noted that her love of beans, both as a food and a fascinating biological system, drew her to the program. When she’s not in the lab, Ruby enjoys cooking, baking, playing pickleball, and teaching herself to sew, with the creative goal of one day making her own “BEANie.”
+We’re very happy to have Paul and Ruby join our growing team. Please join us and welcome these two wonderful new members to our team!
+  </p>
+  <figure>
+    <img src="/assets/img/news/Harvest.jpg" alt="Harvesting" loading="lazy">
+    <img src="/assets/img/news/Harvest.jpg" alt="Harvesting" loading="lazy">
+  </figure>
+</article>
+
   <article class="news-item" aria-labelledby="news-2025-10-29">
   <h2 class="news-date" id="news-2025-10-29">October 29, 2025</h2>
   <p><strong>5,000 lbs. of beans used for research at the University of Guelph donated to food bank</strong><br>
