@@ -19,6 +19,7 @@ accent_image: /assets/img/TeamMembers.png
     <img src="/assets/img/team/MohsenYN.jpg" alt="Dr. Mohsen Yoosefzadeh Najafabadi" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <h3 style="color: rgb(150,0,0); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Dr. Mohsen Yoosefzadeh Najafabadi</h3>
     <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Principal Investigator</p>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Head of the AI-Driven Plant Breeding and Computational Biology in <a href="https://ai4food.ai/" target="_blank" style="color: #1a0dab; text-decoration: underline;">AI4Food</a></p>
     <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">2024–Present</p>
     <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;"> Overseeing the dry bean breeding and computational biology program. </p>
     <div style="text-align: center; margin-top: 1rem;">
