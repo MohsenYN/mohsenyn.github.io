@@ -25,13 +25,27 @@ In 2009, we partnered with Agriculture and Agri-Food Canada (AAFC), the Ontario 
 
 ## Our Mission Today
 
-Our program employs a **recurrent selection** strategy within a dynamic germplasm pool. Each year, we:
-- Make 250+ crosses to introduce genetic diversity.
-- Advance 800 F2-F5 families and 3,500 single-plant rows.
-- Conduct 14 preliminary and advanced yield trials (40-60 lines each) across two locations.
-- Collaborate on Ontario Registration and Performance Trials to register new varieties.
+Our breeding program implements a modified single-plant selection system designed to efficiently identify elite genotypes from thousands of segregating individuals across multiple bean market classes. Each year, we:
 
-This pipeline ensures continuous improvement of navy, black, cranberry, kidney (dark/light red, white), Yellow, and pinto market classes as well as Adzuki beans.
+-- Make 200–250 crosses spanning navy, black, cranberry, kidney (light, dark, and white), pinto, yellow, and adzuki beans to introduce new combinations of alleles.
+
+-- Advance populations from F2 to F5, maintaining broad genetic diversity until the onset of intensive selection.
+
+-- Initiate single-plant selection at the F5 stage, using a two-step process:
+
+ - Round 1 (Field): Select up to 5,000 single plants based on plant architecture, maturity, lodging resistance, disease reaction, pod load, and overall visual appearance.
+
+ - Round 2 (Lab): From these, select up to 3,500 single plants based on seed traits including colour, size, shape, brightness, uniformity, and market-class characteristics.
+
+-- Grow and evaluate headrows the following year, discarding off-types and retaining only uniform, true-breeding lines.
+
+-- Progress superior lines into preliminary and advanced yield trials over multiple locations, assessing >50 agronomic, disease, and quality traits per line.
+
+-- Conduct two years of official Ontario Registration and Performance Trials, ensuring agronomic merit, stability, and market acceptance.
+
+--  Collaborate closely with OPCC and other provincial partners to advance, release, and register new cultivars for Ontario growers.
+
+This multi-stage pipeline enables continuous improvement and rapid development of high-performing cultivars tailored to diverse Ontario environments and end-use requirements.
 
 ### Breeding Pipeline
 **Figure 1:** Workflow and co-ordination of information in the bean breeding and computational biology program at the University of Guelph. 
