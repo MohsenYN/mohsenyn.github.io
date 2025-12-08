@@ -13,6 +13,7 @@ accent_image: /assets/img/LabNews.png
     <div class="linkedin-scroll-frame">
       <!-- Embed for first LinkedIn post -->
       <div class="linkedin-post">
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7396571721451085824?collapsed=1" height="737" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7389703303548366848?collapsed=1" height="593" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7370792206460182529?collapsed=1" height="619" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7356033908490035202?collapsed=1" height="671" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
@@ -30,7 +31,38 @@ accent_image: /assets/img/LabNews.png
 </header>
 
 <main class="news-grid" role="main">
-  <article class="news-item" aria-labelledby="news-2025-10-10">
+
+  <article class="news-item" aria-labelledby="news-2025-12-05">
+  <h2 class="news-date" id="news-2025-12-05">December 5, 2025</h2>
+  <p><strong>Dr. Mohsen Yoosefzadeh Najafabadi Presents Computational Breeding Advances at Costa Rica Dry Bean Symposium</strong><br>
+    This year, Dr. Mohsen Yoosefzadeh Najafabadi travelled to Costa Rica as an invited speaker at the Dry Bean Symposium, an event focused on breeding, quality, and consumption of dry beans. He delivered a talk on computational plant breeding approaches, highlighting how data-driven methods can improve selection accuracy and accelerate the breeding pipeline. His presentation emphasized the power of integrating genomics, phenomics, and advanced analytics to support faster and more precise decision-making in modern dry bean improvement.
+  </p>
+  <figure>
+    <img src="/assets/img/news/CostaRica1.jpg" alt="CostaRica1" loading="lazy">
+    <img src="/assets/img/news/CostaRica2.jpg" alt="CostaRica2" loading="lazy">
+    <img src="/assets/img/news/CostaRica3.jpg" alt="CostaRica3" loading="lazy">
+  </figure>
+</article>
+
+  <article class="news-item" aria-labelledby="news-2025-11-21">
+  <h2 class="news-date" id="news-2025-11-21">November 21, 2025</h2>
+  <p><strong>Spotlight: Call for Papers: Transformative Computational Approaches for Plant Growth Prediction </strong><br>
+   This year, Dr. Mohsen Yoosefzadeh Najafabadi, Dr. Diego Jarquin (University of Florida), Dr. Nacho Vilchez (Universidade Nova de Lisboa) launched a new Research Topic in Frontiers in Plant Science titled “Transformative Computational Approaches for Predicting Plant Growth and Development.” With rapid advances in computational biology, multi-omics, and high-throughput omics, plant science is entering a new era of prediction. Researchers now have the ability to integrate diverse datasets and build models that forecast growth, development, and stress responses with increasing accuracy. However, key challenges remain, including the integration of heterogeneous data, model robustness, and translating predictions into biologically meaningful and actionable insights. This Research Topic aims to highlight innovative computational frameworks, such as AI-driven models, digital twins, hybrid simulations, and multi-scale integrative tools, that strengthen links between genotype and phenotype and support real-world decisions in plant breeding, crop management, and sustainable agriculture. We would be very happy to receive your submission. Please feel free to reach out if you have any questions.
+   please visit <a https://www.frontiersin.org/research-topics/75569/transformative-computational-approaches-for-predicting-plant-growth-and-development" target="_blank" rel="noopener noreferrer">Here</a>
+  </p>
+</article>
+
+  <article class="news-item" aria-labelledby="news-2025-11-11">
+  <h2 class="news-date" id="news-2025-11-11">November 11, 2025</h2>
+  <p><strong>Spotlight: Aashvi’s Anthracnose GWAS Poster at BIC 2026</strong><br>
+    Our lab’s ambassador this year is Aashvi, who presented her first research poster titled “Genome-Wide Association Mapping of Anthracnose Resistance and Related Traits in Ontario Dry Beans.” Aashvi has been working on the genomic side of the anthracnose project, exploring how genetic variation affects disease resistance and other agronomic traits in a dry bean GWAS panel. She’s done a great job putting together preliminary results, combining genotypic data, phenotypic evaluation, and much more, all linked to resistance. She decided to showcase this as a poster so she can share her findings and get feedback from the broader bean community.
+  </p>
+  <figure>
+    <img src="/assets/img/news/BIC2026.jpg" alt="BIC2026" loading="lazy">
+  </figure>
+</article>
+
+  <article class="news-item" aria-labelledby="news-2025-11-10">
   <h2 class="news-date" id="news-2025-11-10">November 10, 2025</h2>
   <p><strong>Welcoming Our New Team Members: Paul Dosekun and Ruby Rogers</strong><br>
     It’s always great to see growing interest in the intersection of dry bean breeding and computational biology. Our program continues to attract enthusiastic and diverse talent, and we’re excited to welcome two new volunteer researchers, Paul Dosekun and Ruby Rogers, to the Dry Bean Breeding and Computational Biology team.
