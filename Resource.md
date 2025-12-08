@@ -14,28 +14,6 @@ accent_image: /assets/img/Resources.png
     <p>We’re excited to announce the upcoming release of dry bean varieties developed through advanced computational breeding at the University of Guelph. These varieties offer enhanced yield, disease resistance, and adaptability to diverse environmental conditions, supporting sustainable agriculture for growers across North America.</p>
     <div class="variety-grid">
       <div class="variety-box">
-        <img src="/assets/Lines/OAC-1.png" alt="OAC23-1" class="variety-img">
-        <h3>OAC 23-1</h3>
-        <ul>
-          <li>Very early maturity</li>
-          <li>Anthracnose race 73 resistant</li>
-          <li>Marker for resistance to Common Bacterial Blight</li>
-          <li>I gene for Bean Common Mosaic Virus Resistance</li>
-          <li>Good harvestability</li>
-        </ul>
-      </div>
-      <div class="variety-box">
-        <img src="/assets/Lines/OAC23-B1.png" alt="OAC22-B1" class="variety-img">
-        <h3>OAC 22-B1</h3>
-        <ul>
-          <li>Early maturity</li>
-          <li>Anthracnose race 73 resistant</li>
-          <li>Moderate resistant to Common Bacterial Blight</li>
-          <li>I gene for Bean Common Mosaic Virus Resistance</li>
-          <li>Excellent harvestability</li>
-        </ul>
-      </div>
-      <div class="variety-box">
         <img src="/assets/Lines/OAC23-D1.png" alt="OAC23-D1" class="variety-img">
         <h3>OAC 23-D1</h3>
         <ul>
