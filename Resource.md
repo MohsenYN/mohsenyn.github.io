@@ -116,7 +116,7 @@ accent_image: /assets/img/Resources.png
       <div class="distributor-item">
         <img src="/assets/img/dist/TV.jpg" alt="Treasure Valley Seed Co. Logo" class="distributor-logo">
         <h3>Treasure Valley Seed Co.</h3>
-        <p>4633 E. River Road<br>Freeland, MI 48623<br><a href="https://tvseed.com" target="_blank" rel="noopener noreferrer">tvseed.com</a></p>
+        <p>17781 Hwy 95<br>Wilder, Idaho 83676<br><a href="https://tvseed.com" target="_blank" rel="noopener noreferrer">tvseed.com</a></p>
       </div>
       <div class="distributor-item">
         <img src="/assets/img/dist/MS.png" alt="Meridian Seeds Logo" class="distributor-logo">
