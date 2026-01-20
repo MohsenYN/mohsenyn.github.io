@@ -32,6 +32,23 @@ accent_image: /assets/img/LabNews.png
 
 <main class="news-grid" role="main">
 
+  <article class="news-item" aria-labelledby="news-2026-01-20">
+  <h2 class="news-date" id="news-2026-01-20">January 20, 2026</h2>
+  <p><strong>Welcoming Our New Team Members: Arwa Sheheryar, Taiya Moreau, and Chloe Chen</strong><br>
+    I am very happy to introduce the wonderful new members who have recently joined our team. It is always great to welcome new people, and even more so when they bring such diverse experiences, perspectives, and enthusiasm.
+First, I am very happy to welcome Arwa Sheheryar, who has recently joined us for her master’s project in bioinformatics. Arwa is a Master of Bioinformatics student at the University of Guelph with a strong background in biotechnology and applied biological research. Her previous work at Agriculture and Agri-Food Canada focused on developing bacteriophage-based alternatives to antibiotics for food safety, an experience that shaped her interest in computational biology as a way to generate insight and prediction in research. Outside the lab, she enjoys travelling and experiencing different cultures, something that clearly feeds into her curiosity and love for interdisciplinary collaboration.
+We are also very excited to have Taiya M. join us as a volunteer this winter semester. Taiya is a third-year Molecular Biology and Genetics student at the University of Guelph, with a minor in Studio Art. She enjoys drawing, reading, and going for walks, and she brings a really nice blend of scientific and creative energy to the group. Her interest in joining the lab came from a desire to gain hands-on experience in bioinformatics, and she will be helping with data analysis as well as designing product labels and promotional posters. We are very happy to have someone who can bridge science and art so naturally.
+Finally, I would like to welcome Chloe (Chujun Chen), who has joined us as a volunteer from Wilfrid Laurier University. Chloe graduated with a BSc in Biology and a minor in Chemistry, with training in plant biology and genetically modified agriculture. She is interested in developing her skills in plant genetic improvement and experimental design, and she sees our work as highly relevant to future food security in a rapidly changing environment. She is eager to gain hands-on experience with advanced plant science techniques and the day-to-day workflow of an agricultural research lab. Outside the lab, she also enjoys exploring AI-based vocal synthesis tools for music production, which adds yet another creative dimension to our team.
+Please join me in welcoming Arwa, Taiya, and Chloe. We are very happy to have them, and I am very excited about what we will build together. More updates and news will be coming soon, so please stay tuned!
+  </p>
+  <figure>
+    <img src="/assets/img/team/Arwa.jpg" alt="Arwa" loading="lazy">
+    <img src="/assets/img/team/Taiya.jpg" alt="Taiya" loading="lazy">
+    <img src="/assets/img/team/Chloe.jpg" alt="Chloe" loading="lazy">
+  </figure>
+</article>
+  
+  
   <article class="news-item" aria-labelledby="news-2025-12-05">
   <h2 class="news-date" id="news-2025-12-05">December 5, 2025</h2>
   <p><strong>Dr. Mohsen Yoosefzadeh Najafabadi Presents Computational Breeding Advances at Costa Rica Dry Bean Symposium</strong><br>
