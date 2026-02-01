@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bean Variety Catalog
-permalink: /Seed.Catalog/
+permalink: /Seed Catalogue/
 ---
 
 <!--
@@ -647,4 +647,5 @@ function labelForMetric(k){
 plotBtn.addEventListener('click', ()=>{ setTimeout(plotRadar, 300); });
 
 </script>
+
 
