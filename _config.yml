@@ -79,10 +79,13 @@ menu:
       url: /updates/
     - title: Resources
       url: /Resource/
+    - title: Seed.Catalog
+      url: /Seed.Catalog/
     - title: AI & Analysis Hub
       url: /AI & Analysis Hub/
     - title: Join Us
       url: /join-us/
+      
 
 # Dark mode settings
 dark_mode:
