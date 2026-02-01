@@ -3,6 +3,179 @@ layout: list
 permalink: /Resource/
 accent_image: /assets/img/Resources.png
 ---
+---
+layout: default
+title: Bean Variety Catalog
+permalink: /seed-catalog/
+---
+
+<style>
+/* (same CSS as earlier; paste this entire block) */
+body {
+    font-family: Arial, sans-serif;
+}
+.filters {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+input, select {
+    padding: 10px;
+    font-size: 16px;
+}
+.catalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+.card {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+}
+.modal-content {
+    background: white;
+    max-width: 700px;
+    width: 90%;
+    padding: 25px;
+    border-radius: 8px;
+    max-height: 90vh;
+    overflow: auto;
+}
+.close {
+    float: right;
+    cursor: pointer;
+    font-size: 22px;
+}
+</style>
+
+<h1>Bean Variety Catalog</h1>
+
+<div class="filters">
+  <input type="text" id="search" placeholder="Search variety...">
+  <select id="classFilter">
+    <option value="">All Market Classes</option>
+    <option value="Navy">Navy</option>
+    <option value="Cranberry">Cranberry</option>
+    <option value="Black">Black</option>
+    <option value="Kidney">Kidney</option>
+  </select>
+  <select id="maturityFilter">
+    <option value="">All Maturity</option>
+    <option value="Early">Early</option>
+    <option value="Mid">Mid</option>
+    <option value="Late">Late</option>
+  </select>
+</div>
+
+<div class="catalog" id="catalog"></div>
+
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script>
+const varieties = [
+  {
+    name: "OAC 24-C1",
+    class: "Cranberry",
+    maturity: "Mid",
+    yield: "2657 kg/ha",
+    days: "84",
+    traits: ["Non-darkening","High canning quality"],
+    disease: ["BCMV","Rust"],
+    description: "High yielding cranberry bean with stable seed coat color.",
+    breeder: "University of Guelph",
+    release: "2024"
+  },
+  {
+    name: "OAC Thunder",
+    class: "Navy",
+    maturity: "Early",
+    yield: "2900 kg/ha",
+    days: "78",
+    traits: ["Upright plant","Excellent whiteness"],
+    disease: ["White mold tolerance"],
+    description: "Early maturing navy bean for Ontario conditions.",
+    breeder: "University of Guelph",
+    release: "2023"
+  }
+];
+
+function renderCatalog() {
+  const search = document.getElementById("search").value.toLowerCase();
+  const classF = document.getElementById("classFilter").value;
+  const matF = document.getElementById("maturityFilter").value;
+
+  const container = document.getElementById("catalog");
+  container.innerHTML = "";
+
+  varieties
+    .filter(v =>
+      v.name.toLowerCase().includes(search) &&
+      (classF === "" || v.class === classF) &&
+      (matF === "" || v.maturity === matF)
+    )
+    .forEach(v => {
+      const el = document.createElement("div");
+      el.className = "card";
+      el.innerHTML = `
+        <h3>${v.name}</h3>
+        <p><strong>Class:</strong> ${v.class}</p>
+        <p><strong>Maturity:</strong> ${v.maturity}</p>`;
+      el.onclick = () => openModal(v);
+      container.appendChild(el);
+    });
+}
+
+function openModal(v) {
+  document.getElementById("modalBody").innerHTML = `
+    <h2>${v.name}</h2>
+    <p><strong>Class:</strong> ${v.class}</p>
+    <p><strong>Maturity:</strong> ${v.maturity}</p>
+    <p><strong>Yield:</strong> ${v.yield}</p>
+    <p><strong>Days to maturity:</strong> ${v.days}</p>
+    <p><strong>Breeder:</strong> ${v.breeder}</p>
+    <p><strong>Release:</strong> ${v.release}</p>
+    <h4>Traits</h4><ul>${v.traits.map(t=>`<li>${t}</li>`).join("")}</ul>
+    <h4>Disease response</h4><ul>${v.disease.map(d=>`<li>${d}</li>`).join("")}</ul>
+    <p>${v.description}</p>`;
+  document.getElementById("modal").style.display = "flex";
+}
+
+function closeModal() {
+  document.getElementById("modal").style.display = "none";
+}
+
+document.getElementById("search").oninput = renderCatalog;
+document.getElementById("classFilter").onchange = renderCatalog;
+document.getElementById("maturityFilter").onchange = renderCatalog;
+
+renderCatalog();
+</script>
+
+
+
+
+
+
+
+
+
+
 <header class="page-header">
   <h1 style="font-size: 2.5rem; margin: 0 auto 1rem; font-weight: 700; letter-spacing: 1px; text-align: center; width: 100%; display: block;">Resources</h1>
   <p>Explore our latest dry bean varieties and connect with distributors for licensing and inquiries.</p>
