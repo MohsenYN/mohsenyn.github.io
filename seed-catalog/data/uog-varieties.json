@@ -1,0 +1,62 @@
+[
+  {
+    "id": "UG-001",
+    "name": "Guelph Early",
+    "marketClass": "pinto",
+    "seedWeight": 0.45,
+    "protein": 23.5,
+    "yield": 3200,
+    "diseaseScore": 7,
+    "maturityDays": 85,
+    "imageUrl": "/seed-catalog/images/UG-001.jpg",
+    "description": "Early maturity pinto with stable seed coat and stable yield."
+  },
+  {
+    "id": "UG-002",
+    "name": "Guelph Dark",
+    "marketClass": "kidney",
+    "seedWeight": 0.78,
+    "protein": 22.1,
+    "yield": 2950,
+    "diseaseScore": 8,
+    "maturityDays": 92,
+    "imageUrl": "/seed-catalog/images/UG-002.jpg",
+    "description": "Dark red kidney variety for processing and canning."
+  },
+  {
+    "id": "UG-003",
+    "name": "Guelph Runner",
+    "marketClass": "navy",
+    "seedWeight": 0.28,
+    "protein": 24.2,
+    "yield": 3400,
+    "diseaseScore": 6,
+    "maturityDays": 78,
+    "imageUrl": "/seed-catalog/images/UG-003.jpg",
+    "description": "High-yield navy type suitable for milling and export markets."
+  },
+  {
+    "id": "UG-004",
+    "name": "Guelph High Protein",
+    "marketClass": "pinto",
+    "seedWeight": 0.52,
+    "protein": 26.8,
+    "yield": 2800,
+    "diseaseScore": 5,
+    "maturityDays": 88,
+    "imageUrl": "/seed-catalog/images/UG-004.jpg",
+    "description": "Breeding line selected for high seed protein content."
+  },
+  {
+    "id": "UG-005",
+    "name": "Guelph Black",
+    "marketClass": "black",
+    "seedWeight": 0.36,
+    "protein": 21.0,
+    "yield": 3100,
+    "diseaseScore": 9,
+    "maturityDays": 90,
+    "imageUrl": "/seed-catalog/images/UG-005.jpg",
+    "description": "Black-seeded line for specialty food markets."
+  }
+]
