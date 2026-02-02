@@ -38,7 +38,7 @@ input, select { padding:8px; border-radius:6px; border:1px solid #ccc; }
 
 .compare { margin-top:30px; background:white; padding:15px; border-radius:10px; }
 
-#plot { height:400px; }
+#plot, #radar { height:400px; margin-top:20px; }
 </style>
 
 <div class="uog">
@@ -53,7 +53,7 @@ input, select { padding:8px; border-radius:6px; border:1px solid #ccc; }
 <div class="grid" id="catalog"></div>
 
 <div class="compare">
-<h3>Compare selected</h3>
+<h3>Compare selected varieties</h3>
 <button onclick="plot()">Plot</button>
 <select id="x"></select>
 <select id="y"></select>
@@ -69,20 +69,48 @@ input, select { padding:8px; border-radius:6px; border:1px solid #ccc; }
 let varieties = [];
 let selected = new Set();
 
-fetch("/assets/beans.xlsx")
-.then(r => r.arrayBuffer())
+// LOAD EXCEL
+fetch("{{ site.baseurl }}/assets/beans.xlsx")
+.then(r => {
+  if(!r.ok) throw new Error("Excel file not found");
+  return r.arrayBuffer();
+})
 .then(data => {
   const wb = XLSX.read(data);
   const sheet = wb.Sheets[wb.SheetNames[0]];
   varieties = XLSX.utils.sheet_to_json(sheet);
+
+  // Force numeric columns
+  const numericCols = [
+    "Yield (lbs/acre)",
+    "Yield (kg/ha)",
+    "Maturity (days)",
+    "100 Sd Weight (g)",
+    "Direct Harvest Suitability"
+  ];
+
+  varieties.forEach(v=>{
+    numericCols.forEach(c=>{
+      if(v[c] !== undefined && v[c] !== ""){
+        v[c] = Number(v[c]);
+      }
+    });
+  });
+
   initFilters();
   initAxes();
   render();
+})
+.catch(err=>{
+  document.getElementById("catalog").innerHTML =
+   "<b style='color:red'>Excel failed to load: "+err.message+"</b>";
 });
 
+// FILTERS
 function initFilters(){
  const classes = [...new Set(varieties.map(v=>v["Market Class"]))];
  const sel = document.getElementById("classFilter");
+ sel.innerHTML = `<option value="">All classes</option>`;
  classes.forEach(c=>{
    const o = document.createElement("option");
    o.value=c; o.textContent=c;
@@ -90,11 +118,20 @@ function initFilters(){
  });
 }
 
+// AXES
 function initAxes(){
- const fields = Object.keys(varieties[0]).filter(k=>typeof varieties[0][k]=="number");
+ const numericCols = [
+  "Yield (lbs/acre)",
+  "Yield (kg/ha)",
+  "Maturity (days)",
+  "100 Sd Weight (g)",
+  "Direct Harvest Suitability"
+ ];
+
  const x = document.getElementById("x");
  const y = document.getElementById("y");
- fields.forEach(f=>{
+ x.innerHTML=""; y.innerHTML="";
+ numericCols.forEach(f=>{
    x.innerHTML += `<option>${f}</option>`;
    y.innerHTML += `<option>${f}</option>`;
  });
@@ -102,6 +139,7 @@ function initAxes(){
  y.value = "Yield (lbs/acre)";
 }
 
+// RENDER CARDS
 function render(){
  const q = document.getElementById("search").value.toLowerCase();
  const cls = document.getElementById("classFilter").value;
@@ -112,11 +150,11 @@ function render(){
    return (!cls || v["Market Class"]==cls) &&
           (!q || v["Name"].toLowerCase().includes(q));
  }).forEach(v=>{
-   const slug = v["Name"].toLowerCase().replace(/\s+/g,"-");
+   const slug = v["Name"].toLowerCase().replace(/[^a-z0-9]+/g,"-");
    const card = document.createElement("div");
    card.className="card";
    card.innerHTML=`
-   <img src="/assets/images/varieties/${slug}.jpg"
+   <img src="{{ site.baseurl }}/assets/images/varieties/${slug}.jpg"
         onerror="this.src='https://via.placeholder.com/400x200?text=No+image'">
    <div class="card-body">
      <h3>${v["Name"]}</h3>
@@ -132,16 +170,24 @@ function render(){
  });
 }
 
+// SELECT
 function toggle(name){
  if(selected.has(name)) selected.delete(name);
  else selected.add(name);
 }
 
+// PLOTS
 function plot(){
  const xs = document.getElementById("x").value;
  const ys = document.getElementById("y").value;
  const sel = varieties.filter(v=>selected.has(v["Name"]));
 
+ if(sel.length===0){
+   alert("Select at least one variety");
+   return;
+ }
+
+ // Scatter
  const trace = {
    x: sel.map(v=>v[xs]),
    y: sel.map(v=>v[ys]),
@@ -157,7 +203,13 @@ function plot(){
  });
 
  // Radar
- const metrics = ["Yield (lbs/acre)","Maturity (days)","100 Sd Weight (g)"];
+ const metrics = [
+     "Yield (lbs/acre)",
+     "Maturity (days)",
+     "100 Sd Weight (g)",
+     "Direct Harvest Suitability"
+ ];
+
  const radar = sel.map(v=>({
    type:"scatterpolar",
    r: metrics.map(m=>v[m]),
