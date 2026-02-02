@@ -1,0 +1,1370 @@
+[
+  {
+    "id": 1,
+    "name": "OAC Thunder",
+    "marketClass": "White Navy",
+    "year": 1977,
+    "yield_kg_ha": 3015.5,
+    "maturity_days": 93.74,
+    "seed_weight_g": 22.72,
+    "harvestability": 2.65,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "S",
+      "Anthracnose_R23": "S",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "S"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Ex Rico 23",
+    "marketClass": "White Navy",
+    "year": 1980,
+    "yield_kg_ha": 2634,
+    "maturity_days": 99,
+    "seed_weight_g": 19.8,
+    "harvestability": null,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "R",
+      "Anthracnose_R23": "S",
+      "Anthracnose_R73": "N/A",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 3,
+    "name": "OAC Seaforth",
+    "marketClass": "White Navy",
+    "year": 1983,
+    "yield_kg_ha": 2027,
+    "maturity_days": 90,
+    "seed_weight_g": 20.1,
+    "harvestability": null,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "R",
+      "Anthracnose_R23": "R",
+      "Anthracnose_R73": "N/A",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 4,
+    "name": "OAC Rico",
+    "marketClass": "White Navy",
+    "year": 1983,
+    "yield_kg_ha": 2483,
+    "maturity_days": 100,
+    "seed_weight_g": 20.2,
+    "harvestability": null,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "R",
+      "Anthracnose_R23": "R",
+      "Anthracnose_R73": "N/A",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 5,
+    "name": "OAC Gryphon",
+    "marketClass": "White Navy",
+    "year": 1988,
+    "yield_kg_ha": 3254,
+    "maturity_days": 96,
+    "seed_weight_g": 20.4,
+    "harvestability": 4,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "R",
+      "Anthracnose_R23": "R",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 6,
+    "name": "OAC Cygnus",
+    "marketClass": "White Navy",
+    "year": 1988,
+    "yield_kg_ha": null,
+    "maturity_days": null,
+    "seed_weight_g": null,
+    "harvestability": null,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": null,
+      "CMV_R15": null,
+      "Anthracnose_R17": null,
+      "Anthracnose_R23": null,
+      "Anthracnose_R73": null,
+      "CommonBlight": null
+    }
+  },
+  {
+    "id": 7,
+    "name": "OAC Sprint",
+    "marketClass": "White Navy",
+    "year": 1988,
+    "yield_kg_ha": null,
+    "maturity_days": null,
+    "seed_weight_g": null,
+    "harvestability": null,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": null,
+      "CMV_R15": null,
+      "Anthracnose_R17": null,
+      "Anthracnose_R23": null,
+      "Anthracnose_R73": null,
+      "CommonBlight": null
+    }
+  },
+  {
+    "id": 8,
+    "name": "OAC Laser",
+    "marketClass": "White Navy",
+    "year": 1991,
+    "yield_kg_ha": null,
+    "maturity_days": null,
+    "seed_weight_g": null,
+    "harvestability": null,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": null,
+      "CMV_R15": null,
+      "Anthracnose_R17": null,
+      "Anthracnose_R23": null,
+      "Anthracnose_R73": null,
+      "CommonBlight": null
+    }
+  },
+  {
+    "id": 9,
+    "name": "OAC Speedvale",
+    "marketClass": "White Navy",
+    "year": 1991,
+    "yield_kg_ha": null,
+    "maturity_days": null,
+    "seed_weight_g": null,
+    "harvestability": null,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": null,
+      "CMV_R15": null,
+      "Anthracnose_R17": null,
+      "Anthracnose_R23": null,
+      "Anthracnose_R73": null,
+      "CommonBlight": null
+    }
+  },
+  {
+    "id": 10,
+    "name": "OAC Tomahawk",
+    "marketClass": "Pinto",
+    "year": 1993,
+    "yield_kg_ha": null,
+    "maturity_days": null,
+    "seed_weight_g": null,
+    "harvestability": null,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": null,
+      "CMV_R15": null,
+      "Anthracnose_R17": null,
+      "Anthracnose_R23": null,
+      "Anthracnose_R73": null,
+      "CommonBlight": null
+    }
+  },
+  {
+    "id": 11,
+    "name": "OAC Silvercreek",
+    "marketClass": "White Navy",
+    "year": 1998,
+    "yield_kg_ha": 3172.5,
+    "maturity_days": 95,
+    "seed_weight_g": 21.43,
+    "harvestability": 3.75,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "R",
+      "Anthracnose_R23": "R",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 12,
+    "name": "OAC Rex",
+    "marketClass": "White Navy",
+    "year": 2002,
+    "yield_kg_ha": 3191,
+    "maturity_days": 98.33,
+    "seed_weight_g": 21.54,
+    "harvestability": 2.68,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "S",
+      "Anthracnose_R23": "S",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "R"
+    }
+  },
+  {
+    "id": 13,
+    "name": "OAC Redstar",
+    "marketClass": "Dark Red Kidney",
+    "year": 2008,
+    "yield_kg_ha": 2398,
+    "maturity_days": 97,
+    "seed_weight_g": 59.25,
+    "harvestability": null,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "R",
+      "Anthracnose_R23": "S",
+      "Anthracnose_R73": "N/A",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 14,
+    "name": "OAC Lyrik",
+    "marketClass": "Light Red Kidney",
+    "year": 2008,
+    "yield_kg_ha": 2304.17,
+    "maturity_days": 89.57,
+    "seed_weight_g": 66.83,
+    "harvestability": null,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "R",
+      "Anthracnose_R23": "S",
+      "Anthracnose_R73": "N/A",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Lightning",
+    "marketClass": "White Navy",
+    "year": 2008,
+    "yield_kg_ha": 2844.86,
+    "maturity_days": 93.86,
+    "seed_weight_g": 21.95,
+    "harvestability": 2.15,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "S",
+      "Anthracnose_R23": "S",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "S"
+    }
+  },
+  {
+    "id": 16,
+    "name": "OAC Dublin",
+    "marketClass": "White Navy",
+    "year": 2009,
+    "yield_kg_ha": 2965,
+    "maturity_days": 96.75,
+    "seed_weight_g": 21.3,
+    "harvestability": 3.12,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "S",
+      "Anthracnose_R17": "S",
+      "Anthracnose_R23": "S",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "S"
+    }
+  },
+  {
+    "id": 17,
+    "name": "OAC Inferno",
+    "marketClass": "Light Red Kidney",
+    "year": 2011,
+    "yield_kg_ha": 2549.67,
+    "maturity_days": 99.83,
+    "seed_weight_g": 65,
+    "harvestability": 3.36,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "S",
+      "Anthracnose_R17": "R",
+      "Anthracnose_R23": "S",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Dynasty",
+    "marketClass": "Dark Red Kidney",
+    "year": 2012,
+    "yield_kg_ha": 2398.64,
+    "maturity_days": 94.25,
+    "seed_weight_g": 64.64,
+    "harvestability": 2.9,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "S",
+      "Anthracnose_R17": "R",
+      "Anthracnose_R23": "S",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Yeti",
+    "marketClass": "White Kidney",
+    "year": 2013,
+    "yield_kg_ha": 2161.5,
+    "maturity_days": 95.5,
+    "seed_weight_g": 58.5,
+    "harvestability": 2.78,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "S",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Mist",
+    "marketClass": "White Navy",
+    "year": 2013,
+    "yield_kg_ha": 3162.78,
+    "maturity_days": 97.22,
+    "seed_weight_g": 23.2,
+    "harvestability": 1.86,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "S",
+      "Anthracnose_R23": "S",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "R"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Bolt",
+    "marketClass": "White Navy",
+    "year": 2013,
+    "yield_kg_ha": 2777,
+    "maturity_days": 91.7,
+    "seed_weight_g": 24.49,
+    "harvestability": 1.68,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "S",
+      "Anthracnose_R23": "S",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "S"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Fathom",
+    "marketClass": "White Navy",
+    "year": 2014,
+    "yield_kg_ha": 2762.2,
+    "maturity_days": 97.4,
+    "seed_weight_g": 23.33,
+    "harvestability": 2.28,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "R"
+    }
+  },
+  {
+    "id": 23,
+    "name": "OAC Rosito",
+    "marketClass": "Small Red",
+    "year": 2017,
+    "yield_kg_ha": 3326.83,
+    "maturity_days": 96.17,
+    "seed_weight_g": 24.07,
+    "harvestability": 1.97,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "S"
+    }
+  },
+  {
+    "id": 24,
+    "name": "OAC Vortex",
+    "marketClass": "Black",
+    "year": 2019,
+    "yield_kg_ha": 3669.2,
+    "maturity_days": 97,
+    "seed_weight_g": 23.86,
+    "harvestability": 2.28,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "R"
+    }
+  },
+  {
+    "id": 25,
+    "name": "OAC Racer",
+    "marketClass": "Cranberry",
+    "year": 2019,
+    "yield_kg_ha": 2002.67,
+    "maturity_days": 85.67,
+    "seed_weight_g": 65,
+    "harvestability": 2.83,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "N/A",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 26,
+    "name": "OAC Plasma",
+    "marketClass": "White Navy",
+    "year": 2019,
+    "yield_kg_ha": 3541,
+    "maturity_days": 94,
+    "seed_weight_g": 22.33,
+    "harvestability": 2.4,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "R"
+    }
+  },
+  {
+    "id": 27,
+    "name": "OAC Jewel",
+    "marketClass": "Light Red Kidney",
+    "year": 2019,
+    "yield_kg_ha": 2161.67,
+    "maturity_days": 93.33,
+    "seed_weight_g": 64.33,
+    "harvestability": 2.6,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "N/A",
+      "CMV_R15": "N/A",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 28,
+    "name": "OAC Candycane",
+    "marketClass": "Cranberry",
+    "year": 2019,
+    "yield_kg_ha": 2348,
+    "maturity_days": 90.67,
+    "seed_weight_g": 67.33,
+    "harvestability": 2.27,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 29,
+    "name": "Rogue",
+    "marketClass": "White Navy",
+    "year": 2020,
+    "yield_kg_ha": 3250.25,
+    "maturity_days": 97,
+    "seed_weight_g": 20.43,
+    "harvestability": 3.28,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "R"
+    }
+  },
+  {
+    "id": 30,
+    "name": "OAC Snowshoe",
+    "marketClass": "White Kidney",
+    "year": 2020,
+    "yield_kg_ha": 2357,
+    "maturity_days": 92,
+    "seed_weight_g": 62.67,
+    "harvestability": 2.9,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 31,
+    "name": "OAC Navabi",
+    "marketClass": "Cranberry",
+    "year": 2020,
+    "yield_kg_ha": 2225.67,
+    "maturity_days": 83.25,
+    "seed_weight_g": 61.25,
+    "harvestability": 2.33,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 32,
+    "name": "OAC Jasper",
+    "marketClass": "Dark Red Kidney",
+    "year": 2020,
+    "yield_kg_ha": 1859.5,
+    "maturity_days": 90.5,
+    "seed_weight_g": 64,
+    "harvestability": 2.7,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 33,
+    "name": "OAC Firestripe",
+    "marketClass": "Cranberry",
+    "year": 2020,
+    "yield_kg_ha": 2212.5,
+    "maturity_days": 89,
+    "seed_weight_g": 68.5,
+    "harvestability": 2.2,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 34,
+    "name": "Gallantry",
+    "marketClass": "Dark Red Kidney",
+    "year": 2020,
+    "yield_kg_ha": 2303.25,
+    "maturity_days": 88.25,
+    "seed_weight_g": 58,
+    "harvestability": 2.53,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "N/A",
+      "CMV_R15": "N/A",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 35,
+    "name": "OAC Marker",
+    "marketClass": "White Navy",
+    "year": 2021,
+    "yield_kg_ha": 3384,
+    "maturity_days": 93,
+    "seed_weight_g": 21.7,
+    "harvestability": 2.2,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "N/A",
+      "CMV_R15": "N/A",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "N/A",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 36,
+    "name": "OAC Iceberg",
+    "marketClass": "White Kidney",
+    "year": 2021,
+    "yield_kg_ha": 2160,
+    "maturity_days": 94,
+    "seed_weight_g": 56,
+    "harvestability": 2.9,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "N/A",
+      "CMV_R15": "N/A",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 37,
+    "name": "OAC Fusion",
+    "marketClass": "White Navy",
+    "year": 2021,
+    "yield_kg_ha": 2962,
+    "maturity_days": 90,
+    "seed_weight_g": 20,
+    "harvestability": 1.9,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "N/A",
+      "CMV_R15": "N/A",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "S"
+    }
+  },
+  {
+    "id": 38,
+    "name": "OAC Firebrand",
+    "marketClass": "Light Red Kidney",
+    "year": 2021,
+    "yield_kg_ha": 2518.33,
+    "maturity_days": 91,
+    "seed_weight_g": 55.33,
+    "harvestability": 2.8,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "N/A",
+      "CMV_R15": "N/A",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 39,
+    "name": "OAC Equinox",
+    "marketClass": "White Navy",
+    "year": 2021,
+    "yield_kg_ha": 3711,
+    "maturity_days": 97,
+    "seed_weight_g": 25.8,
+    "harvestability": 1.8,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "N/A",
+      "CMV_R15": "N/A",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 40,
+    "name": "OAC Charm",
+    "marketClass": "White Navy",
+    "year": 2021,
+    "yield_kg_ha": 3271,
+    "maturity_days": 93.67,
+    "seed_weight_g": 23,
+    "harvestability": 2.05,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "N/A",
+      "CMV_R15": "N/A",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "R"
+    }
+  },
+  {
+    "id": 41,
+    "name": "OAC Award",
+    "marketClass": "White Navy",
+    "year": 2021,
+    "yield_kg_ha": 3703,
+    "maturity_days": 97,
+    "seed_weight_g": 23.1,
+    "harvestability": 2.4,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "N/A",
+      "CMV_R15": "N/A",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 42,
+    "name": "OAC Seal",
+    "marketClass": "White Navy",
+    "year": 2022,
+    "yield_kg_ha": 2936,
+    "maturity_days": 98,
+    "seed_weight_g": 23.7,
+    "harvestability": 2.7,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "N/A",
+      "CMV_R15": "N/A",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "N/A",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 43,
+    "name": "OAC Souper",
+    "marketClass": "White Navy",
+    "year": 2022,
+    "yield_kg_ha": 3355.49,
+    "maturity_days": 102.6,
+    "seed_weight_g": 22.1,
+    "harvestability": 2.8,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "MR"
+    }
+  },
+  {
+    "id": 44,
+    "name": "Stavros",
+    "marketClass": "Cranberry",
+    "year": 2022,
+    "yield_kg_ha": 2349.11,
+    "maturity_days": 85.1,
+    "seed_weight_g": 51.7,
+    "harvestability": 1.8,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "MR"
+    }
+  },
+  {
+    "id": 45,
+    "name": "OAC Sunrise",
+    "marketClass": "Kintoki",
+    "year": 2022,
+    "yield_kg_ha": 2618.99,
+    "maturity_days": 95,
+    "seed_weight_g": 60.6,
+    "harvestability": 3.4,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "N/A",
+      "CMV_R15": "N/A",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "S"
+    }
+  },
+  {
+    "id": 46,
+    "name": "OAC Blaze",
+    "marketClass": "Non-darkening Pinto",
+    "year": 2022,
+    "yield_kg_ha": 2383.63,
+    "maturity_days": 87.55,
+    "seed_weight_g": 39.38,
+    "harvestability": 2.6,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "N/A",
+      "CMV_R15": "N/A",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 47,
+    "name": "XPT One",
+    "marketClass": "Non-darkening Pinto",
+    "year": 2022,
+    "yield_kg_ha": 2495.34,
+    "maturity_days": 88.07,
+    "seed_weight_g": 40.17,
+    "harvestability": 2.12,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "N/A",
+      "CMV_R15": "N/A",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 48,
+    "name": "OAC Paint",
+    "marketClass": "Non-darkening Pinto",
+    "year": 2022,
+    "yield_kg_ha": 2744.75,
+    "maturity_days": 97.08,
+    "seed_weight_g": 37.05,
+    "harvestability": 3.11,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "N/A",
+      "CMV_R15": "N/A",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "S"
+    }
+  },
+  {
+    "id": 49,
+    "name": "Umbra",
+    "marketClass": "Black",
+    "year": 2023,
+    "yield_kg_ha": 3710,
+    "maturity_days": 98,
+    "seed_weight_g": 23.5,
+    "harvestability": 1.9,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "S"
+    }
+  },
+  {
+    "id": 50,
+    "name": "Steam",
+    "marketClass": "White Navy",
+    "year": 2023,
+    "yield_kg_ha": 3533,
+    "maturity_days": 97,
+    "seed_weight_g": 22.2,
+    "harvestability": 1.9,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "S"
+    }
+  },
+  {
+    "id": 51,
+    "name": "OAC Volterra",
+    "marketClass": "Cranberry",
+    "year": 2023,
+    "yield_kg_ha": 2754,
+    "maturity_days": 86,
+    "seed_weight_g": 66,
+    "harvestability": 2,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 52,
+    "name": "OAC Resilient",
+    "marketClass": "White Navy",
+    "year": 2023,
+    "yield_kg_ha": 3469,
+    "maturity_days": 97,
+    "seed_weight_g": 18.9,
+    "harvestability": 2,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "S"
+    }
+  },
+  {
+    "id": 53,
+    "name": "OAC Bechamel",
+    "marketClass": "White Navy",
+    "year": 2023,
+    "yield_kg_ha": 3430,
+    "maturity_days": 97,
+    "seed_weight_g": 20.9,
+    "harvestability": 2.5,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "R"
+    }
+  },
+  {
+    "id": 54,
+    "name": "OAC Agate",
+    "marketClass": "Cranberry",
+    "year": 2023,
+    "yield_kg_ha": 2757,
+    "maturity_days": 85,
+    "seed_weight_g": 61,
+    "harvestability": 2.3,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 55,
+    "name": "Blast",
+    "marketClass": "White Navy",
+    "year": 2023,
+    "yield_kg_ha": 3446,
+    "maturity_days": 95,
+    "seed_weight_g": 21.7,
+    "harvestability": 2,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "S"
+    }
+  },
+  {
+    "id": 56,
+    "name": "Bannock",
+    "marketClass": "Black",
+    "year": 2023,
+    "yield_kg_ha": 3785,
+    "maturity_days": 98,
+    "seed_weight_g": 23.5,
+    "harvestability": 1.6,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "S"
+    }
+  },
+  {
+    "id": 57,
+    "name": "OAC Tong",
+    "marketClass": "Dark Red Kidney",
+    "year": 2023,
+    "yield_kg_ha": 1840.3,
+    "maturity_days": 89.4,
+    "seed_weight_g": 72.9,
+    "harvestability": 2.9,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "S",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "S"
+    }
+  },
+  {
+    "id": 58,
+    "name": "Eternal",
+    "marketClass": "Non-darkening Pinto",
+    "year": 2023,
+    "yield_kg_ha": 1984.03,
+    "maturity_days": 89.9,
+    "seed_weight_g": 36.4,
+    "harvestability": 3.3,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "N/A",
+      "CMV_R15": "N/A",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "S"
+    }
+  },
+  {
+    "id": 59,
+    "name": "OAC Endeavour",
+    "marketClass": "Dark Red Kidney",
+    "year": 2023,
+    "yield_kg_ha": 1911.23,
+    "maturity_days": 92,
+    "seed_weight_g": 73.6,
+    "harvestability": 2.9,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "S"
+    }
+  },
+  {
+    "id": 60,
+    "name": "OAC Marzen",
+    "marketClass": "Light Red Kidney",
+    "year": 2023,
+    "yield_kg_ha": 1900.79,
+    "maturity_days": 92,
+    "seed_weight_g": 68.4,
+    "harvestability": 4.4,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "S",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "S"
+    }
+  },
+  {
+    "id": 61,
+    "name": "OAC Toast",
+    "marketClass": "Pinto",
+    "year": 2023,
+    "yield_kg_ha": 3742.96,
+    "maturity_days": 89.9,
+    "seed_weight_g": 42,
+    "harvestability": 3.1,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "MS"
+    }
+  },
+  {
+    "id": 62,
+    "name": "OAC Clever",
+    "marketClass": "White Navy",
+    "year": 2024,
+    "yield_kg_ha": 3253.96,
+    "maturity_days": 91.1,
+    "seed_weight_g": 19.8,
+    "harvestability": 2.1,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "MR"
+    }
+  },
+  {
+    "id": 63,
+    "name": "OAC Storm",
+    "marketClass": "White Navy",
+    "year": 2024,
+    "yield_kg_ha": 3005.75,
+    "maturity_days": 89.3,
+    "seed_weight_g": 19.5,
+    "harvestability": 1.8,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "MR"
+    }
+  },
+  {
+    "id": 64,
+    "name": "OAC Spades",
+    "marketClass": "Black",
+    "year": 2024,
+    "yield_kg_ha": 3376.18,
+    "maturity_days": 92.3,
+    "seed_weight_g": 24.3,
+    "harvestability": 1.5,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "MR"
+    }
+  },
+  {
+    "id": 65,
+    "name": "OAC Rev",
+    "marketClass": "Dark Red Kidney",
+    "year": 2024,
+    "yield_kg_ha": 2974.61,
+    "maturity_days": 98.1,
+    "seed_weight_g": 69.8,
+    "harvestability": 3.5,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "N/A",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "S"
+    }
+  },
+  {
+    "id": 66,
+    "name": "Sundust",
+    "marketClass": "Otebo",
+    "year": 2025,
+    "yield_kg_ha": 1954.92,
+    "maturity_days": 95.25,
+    "seed_weight_g": 27.64,
+    "harvestability": 3.83,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "N/A",
+      "CMV_R15": "N/A",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 67,
+    "name": "Stardust",
+    "marketClass": "Otebo",
+    "year": 2025,
+    "yield_kg_ha": 2616.56,
+    "maturity_days": 101.75,
+    "seed_weight_g": 28.98,
+    "harvestability": 3.25,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "N/A",
+      "CMV_R15": "N/A",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 68,
+    "name": "OAC Glacier",
+    "marketClass": "Otebo",
+    "year": 2025,
+    "yield_kg_ha": 2335.84,
+    "maturity_days": 101.5,
+    "seed_weight_g": 27.03,
+    "harvestability": 2.63,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "N/A",
+      "CMV_R15": "N/A",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 69,
+    "name": "Yolk",
+    "marketClass": "Yellow",
+    "year": 2025,
+    "yield_kg_ha": 3276.46,
+    "maturity_days": 107.67,
+    "seed_weight_g": 61.46,
+    "harvestability": 3.79,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "N/A",
+      "CMV_R15": "N/A",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 70,
+    "name": "Yak",
+    "marketClass": "Yellow",
+    "year": 2025,
+    "yield_kg_ha": 2792.34,
+    "maturity_days": 102.42,
+    "seed_weight_g": 57.59,
+    "harvestability": 3.13,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "N/A",
+      "CMV_R15": "N/A",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 71,
+    "name": "Wake",
+    "marketClass": "White Navy",
+    "year": 2025,
+    "yield_kg_ha": 3088.81,
+    "maturity_days": 88.5,
+    "seed_weight_g": 22.3,
+    "harvestability": 2.8,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "S",
+      "CommonBlight": "N/A"
+    }
+  },
+  {
+    "id": 72,
+    "name": "OAC Copperhead",
+    "marketClass": "Light Red Kidney",
+    "year": 2025,
+    "yield_kg_ha": 2359.99,
+    "maturity_days": 89.6,
+    "seed_weight_g": 49.4,
+    "harvestability": 4.1,
+    "imageUrl": "",
+    "resistance": {
+      "CMV_R1": "R",
+      "CMV_R15": "R",
+      "Anthracnose_R17": "N/A",
+      "Anthracnose_R23": "N/A",
+      "Anthracnose_R73": "R",
+      "CommonBlight": "N/A"
+    }
+  }
+]
