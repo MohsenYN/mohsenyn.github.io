@@ -39,6 +39,16 @@ input, select { padding:8px; border-radius:6px; border:1px solid #ccc; }
 .compare { margin-top:30px; background:white; padding:15px; border-radius:10px; }
 
 #plot, #radar { height:400px; margin-top:20px; }
+
+.debug {
+ background:#222;
+ color:#0f0;
+ padding:10px;
+ font-family:monospace;
+ font-size:0.85rem;
+ margin-top:20px;
+ white-space:pre-wrap;
+}
 </style>
 
 <div class="uog">
@@ -50,6 +60,7 @@ input, select { padding:8px; border-radius:6px; border:1px solid #ccc; }
   <button onclick="render()">Clear</button>
 </div>
 
+<div id="status"></div>
 <div class="grid" id="catalog"></div>
 
 <div class="compare">
@@ -60,101 +71,108 @@ input, select { padding:8px; border-radius:6px; border:1px solid #ccc; }
 <div id="plot"></div>
 <div id="radar"></div>
 </div>
+
+<div class="debug" id="debug"></div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/xlsx@0.19.3/dist/xlsx.full.min.js"></script>
 <script src="https://cdn.plot.ly/plotly-2.26.0.min.js"></script>
 
 <script>
+const BASE = window.location.origin;
+const EXCEL_PATH = BASE + "/assets/beans.xlsx";
+
 let varieties = [];
 let selected = new Set();
 
-// LOAD EXCEL
-fetch("{{ site.baseurl }}/assets/beans.xlsx")
-.then(r => {
-  if(!r.ok) throw new Error("Excel file not found");
+log("Trying to load: " + EXCEL_PATH);
+
+fetch(EXCEL_PATH)
+.then(r=>{
+  if(!r.ok) throw new Error("HTTP " + r.status);
   return r.arrayBuffer();
 })
-.then(data => {
-  const wb = XLSX.read(data);
+.then(buf=>{
+  const wb = XLSX.read(buf, {type:"array"});
   const sheet = wb.Sheets[wb.SheetNames[0]];
   varieties = XLSX.utils.sheet_to_json(sheet);
+  log("Loaded rows: " + varieties.length);
 
-  // Force numeric columns
-  const numericCols = [
+  normalize();
+  initFilters();
+  initAxes();
+  render();
+})
+.catch(err=>{
+  error("FAILED TO LOAD EXCEL\n" + err.message);
+});
+
+function normalize(){
+  const numeric = [
     "Yield (lbs/acre)",
     "Yield (kg/ha)",
     "Maturity (days)",
     "100 Sd Weight (g)",
     "Direct Harvest Suitability"
   ];
-
   varieties.forEach(v=>{
-    numericCols.forEach(c=>{
-      if(v[c] !== undefined && v[c] !== ""){
-        v[c] = Number(v[c]);
+    numeric.forEach(k=>{
+      if(v[k]!==undefined && v[k]!==""){
+        v[k]=Number(v[k]);
       }
     });
   });
+}
 
-  initFilters();
-  initAxes();
-  render();
-})
-.catch(err=>{
-  document.getElementById("catalog").innerHTML =
-   "<b style='color:red'>Excel failed to load: "+err.message+"</b>";
-});
-
-// FILTERS
 function initFilters(){
- const classes = [...new Set(varieties.map(v=>v["Market Class"]))];
- const sel = document.getElementById("classFilter");
- sel.innerHTML = `<option value="">All classes</option>`;
+ const classes=[...new Set(varieties.map(v=>v["Market Class"]))];
+ const sel=document.getElementById("classFilter");
+ sel.innerHTML='<option value="">All classes</option>';
  classes.forEach(c=>{
-   const o = document.createElement("option");
+   const o=document.createElement("option");
    o.value=c; o.textContent=c;
    sel.appendChild(o);
  });
 }
 
-// AXES
 function initAxes(){
- const numericCols = [
+ const cols=[
   "Yield (lbs/acre)",
   "Yield (kg/ha)",
   "Maturity (days)",
   "100 Sd Weight (g)",
   "Direct Harvest Suitability"
  ];
-
- const x = document.getElementById("x");
- const y = document.getElementById("y");
- x.innerHTML=""; y.innerHTML="";
- numericCols.forEach(f=>{
-   x.innerHTML += `<option>${f}</option>`;
-   y.innerHTML += `<option>${f}</option>`;
+ const x=document.getElementById("x");
+ const y=document.getElementById("y");
+ cols.forEach(c=>{
+   x.innerHTML+=`<option>${c}</option>`;
+   y.innerHTML+=`<option>${c}</option>`;
  });
- x.value = "Maturity (days)";
- y.value = "Yield (lbs/acre)";
+ x.value="Maturity (days)";
+ y.value="Yield (lbs/acre)";
 }
 
-// RENDER CARDS
 function render(){
- const q = document.getElementById("search").value.toLowerCase();
- const cls = document.getElementById("classFilter").value;
- const box = document.getElementById("catalog");
+ const q=document.getElementById("search").value.toLowerCase();
+ const cls=document.getElementById("classFilter").value;
+ const box=document.getElementById("catalog");
  box.innerHTML="";
 
- varieties.filter(v=>{
-   return (!cls || v["Market Class"]==cls) &&
-          (!q || v["Name"].toLowerCase().includes(q));
- }).forEach(v=>{
-   const slug = v["Name"].toLowerCase().replace(/[^a-z0-9]+/g,"-");
-   const card = document.createElement("div");
+ const filtered=varieties.filter(v=>{
+   return (!cls||v["Market Class"]===cls) &&
+          (!q||v["Name"].toLowerCase().includes(q));
+ });
+
+ document.getElementById("status").innerHTML =
+   `<b>${filtered.length}</b> varieties shown`;
+
+ filtered.forEach(v=>{
+   const slug=v["Name"].toLowerCase().replace(/[^a-z0-9]+/g,"-");
+   const card=document.createElement("div");
    card.className="card";
    card.innerHTML=`
-   <img src="{{ site.baseurl }}/assets/images/varieties/${slug}.jpg"
+   <img src="/assets/images/varieties/${slug}.jpg"
         onerror="this.src='https://via.placeholder.com/400x200?text=No+image'">
    <div class="card-body">
      <h3>${v["Name"]}</h3>
@@ -170,57 +188,53 @@ function render(){
  });
 }
 
-// SELECT
 function toggle(name){
  if(selected.has(name)) selected.delete(name);
  else selected.add(name);
 }
 
-// PLOTS
 function plot(){
- const xs = document.getElementById("x").value;
- const ys = document.getElementById("y").value;
- const sel = varieties.filter(v=>selected.has(v["Name"]));
+ const xs=document.getElementById("x").value;
+ const ys=document.getElementById("y").value;
+ const sel=varieties.filter(v=>selected.has(v["Name"]));
+ if(sel.length===0){ alert("Select varieties"); return; }
 
- if(sel.length===0){
-   alert("Select at least one variety");
-   return;
- }
-
- // Scatter
- const trace = {
-   x: sel.map(v=>v[xs]),
-   y: sel.map(v=>v[ys]),
-   text: sel.map(v=>v["Name"]),
-   mode:"markers+text",
-   type:"scatter"
- };
-
- Plotly.newPlot("plot",[trace],{
+ Plotly.newPlot("plot",[{
+   x:sel.map(v=>v[xs]),
+   y:sel.map(v=>v[ys]),
+   text:sel.map(v=>v["Name"]),
+   mode:"markers+text"
+ }],{
+   title:`${ys} vs ${xs}`,
    xaxis:{title:xs},
-   yaxis:{title:ys},
-   title:`${ys} vs ${xs}`
+   yaxis:{title:ys}
  });
 
- // Radar
- const metrics = [
-     "Yield (lbs/acre)",
-     "Maturity (days)",
-     "100 Sd Weight (g)",
-     "Direct Harvest Suitability"
+ const metrics=[
+   "Yield (lbs/acre)",
+   "Maturity (days)",
+   "100 Sd Weight (g)",
+   "Direct Harvest Suitability"
  ];
 
- const radar = sel.map(v=>({
+ Plotly.newPlot("radar",
+ sel.map(v=>({
    type:"scatterpolar",
-   r: metrics.map(m=>v[m]),
-   theta: metrics,
+   r:metrics.map(m=>v[m]),
+   theta:metrics,
    fill:"toself",
    name:v["Name"]
- }));
+ })),
+ {title:"Profile comparison"});
+}
 
- Plotly.newPlot("radar", radar, {
-   polar:{radialaxis:{visible:true}},
-   title:"Profile comparison"
- });
+function log(msg){
+ document.getElementById("debug").textContent += msg + "\n";
+}
+
+function error(msg){
+ document.getElementById("debug").textContent += "ERROR: " + msg + "\n";
+ document.getElementById("status").innerHTML =
+   "<b style='color:red'>FAILED TO LOAD DATA</b>";
 }
 </script>
