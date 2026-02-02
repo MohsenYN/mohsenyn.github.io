@@ -39,16 +39,6 @@ input, select { padding:8px; border-radius:6px; border:1px solid #ccc; }
 .compare { margin-top:30px; background:white; padding:15px; border-radius:10px; }
 
 #plot, #radar { height:400px; margin-top:20px; }
-
-.debug {
- background:#222;
- color:#0f0;
- padding:10px;
- font-family:monospace;
- font-size:0.85rem;
- margin-top:20px;
- white-space:pre-wrap;
-}
 </style>
 
 <div class="uog">
@@ -60,7 +50,6 @@ input, select { padding:8px; border-radius:6px; border:1px solid #ccc; }
   <button onclick="render()">Clear</button>
 </div>
 
-<div id="status"></div>
 <div class="grid" id="catalog"></div>
 
 <div class="compare">
@@ -71,63 +60,40 @@ input, select { padding:8px; border-radius:6px; border:1px solid #ccc; }
 <div id="plot"></div>
 <div id="radar"></div>
 </div>
-
-<div class="debug" id="debug"></div>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/xlsx@0.19.3/dist/xlsx.full.min.js"></script>
 <script src="https://cdn.plot.ly/plotly-2.26.0.min.js"></script>
 
 <script>
-const BASE = window.location.origin;
-const EXCEL_PATH = BASE + "/assets/beans.xlsx";
+// =========================
+// HARD-CODED DATA
+// =========================
+const varieties = [
+ {name:"OAC Thunder", class:"White Navy", year:1977, yield:3015, maturity:94, weight:22.7, dhs:2.6},
+ {name:"OAC Gryphon", class:"White Navy", year:1988, yield:3254, maturity:96, weight:20.4, dhs:4.0},
+ {name:"OAC Rex", class:"White Navy", year:2002, yield:3191, maturity:98, weight:21.5, dhs:2.7},
+ {name:"Lightning", class:"White Navy", year:2008, yield:2845, maturity:94, weight:22.0, dhs:2.1},
+ {name:"Mist", class:"White Navy", year:2013, yield:3163, maturity:97, weight:23.2, dhs:1.9},
+ {name:"OAC Vortex", class:"Black", year:2019, yield:3669, maturity:97, weight:23.9, dhs:2.3},
+ {name:"OAC Racer", class:"Cranberry", year:2019, yield:2003, maturity:86, weight:65.0, dhs:2.8},
+ {name:"OAC Plasma", class:"White Navy", year:2019, yield:3541, maturity:94, weight:22.3, dhs:2.4},
+ {name:"OAC Souper", class:"White Navy", year:2022, yield:3355, maturity:103, weight:22.1, dhs:2.8},
+ {name:"Umbra", class:"Black", year:2023, yield:3710, maturity:98, weight:23.5, dhs:1.9},
+ {name:"Blast", class:"White Navy", year:2023, yield:3446, maturity:95, weight:21.7, dhs:2.0},
+ {name:"Bannock", class:"Black", year:2023, yield:3785, maturity:98, weight:23.5, dhs:1.6},
+ {name:"OAC Toast", class:"Pinto", year:2023, yield:3743, maturity:90, weight:42.0, dhs:3.1},
+ {name:"OAC Clever", class:"White Navy", year:2024, yield:3254, maturity:91, weight:19.8, dhs:2.1},
+ {name:"Wake", class:"White Navy", year:2025, yield:3089, maturity:89, weight:22.3, dhs:2.8}
+];
 
-let varieties = [];
 let selected = new Set();
 
-log("Trying to load: " + EXCEL_PATH);
-
-fetch(EXCEL_PATH)
-.then(r=>{
-  if(!r.ok) throw new Error("HTTP " + r.status);
-  return r.arrayBuffer();
-})
-.then(buf=>{
-  const wb = XLSX.read(buf, {type:"array"});
-  const sheet = wb.Sheets[wb.SheetNames[0]];
-  varieties = XLSX.utils.sheet_to_json(sheet);
-  log("Loaded rows: " + varieties.length);
-
-  normalize();
-  initFilters();
-  initAxes();
-  render();
-})
-.catch(err=>{
-  error("FAILED TO LOAD EXCEL\n" + err.message);
-});
-
-function normalize(){
-  const numeric = [
-    "Yield (lbs/acre)",
-    "Yield (kg/ha)",
-    "Maturity (days)",
-    "100 Sd Weight (g)",
-    "Direct Harvest Suitability"
-  ];
-  varieties.forEach(v=>{
-    numeric.forEach(k=>{
-      if(v[k]!==undefined && v[k]!==""){
-        v[k]=Number(v[k]);
-      }
-    });
-  });
-}
-
+// =========================
+// INIT
+// =========================
 function initFilters(){
- const classes=[...new Set(varieties.map(v=>v["Market Class"]))];
+ const classes=[...new Set(varieties.map(v=>v.class))];
  const sel=document.getElementById("classFilter");
- sel.innerHTML='<option value="">All classes</option>';
  classes.forEach(c=>{
    const o=document.createElement("option");
    o.value=c; o.textContent=c;
@@ -136,51 +102,42 @@ function initFilters(){
 }
 
 function initAxes(){
- const cols=[
-  "Yield (lbs/acre)",
-  "Yield (kg/ha)",
-  "Maturity (days)",
-  "100 Sd Weight (g)",
-  "Direct Harvest Suitability"
- ];
  const x=document.getElementById("x");
  const y=document.getElementById("y");
- cols.forEach(c=>{
-   x.innerHTML+=`<option>${c}</option>`;
-   y.innerHTML+=`<option>${c}</option>`;
+ ["yield","maturity","weight","dhs"].forEach(f=>{
+   x.innerHTML+=`<option value="${f}">${f}</option>`;
+   y.innerHTML+=`<option value="${f}">${f}</option>`;
  });
- x.value="Maturity (days)";
- y.value="Yield (lbs/acre)";
+ x.value="maturity";
+ y.value="yield";
 }
 
+// =========================
+// RENDER
+// =========================
 function render(){
  const q=document.getElementById("search").value.toLowerCase();
  const cls=document.getElementById("classFilter").value;
  const box=document.getElementById("catalog");
  box.innerHTML="";
 
- const filtered=varieties.filter(v=>{
-   return (!cls||v["Market Class"]===cls) &&
-          (!q||v["Name"].toLowerCase().includes(q));
- });
-
- document.getElementById("status").innerHTML =
-   `<b>${filtered.length}</b> varieties shown`;
-
- filtered.forEach(v=>{
-   const slug=v["Name"].toLowerCase().replace(/[^a-z0-9]+/g,"-");
+ varieties.filter(v=>{
+   return (!cls||v.class===cls) &&
+          (!q||v.name.toLowerCase().includes(q));
+ }).forEach(v=>{
+   const slug=v.name.toLowerCase().replace(/[^a-z0-9]+/g,"-");
    const card=document.createElement("div");
    card.className="card";
    card.innerHTML=`
    <img src="/assets/images/varieties/${slug}.jpg"
         onerror="this.src='https://via.placeholder.com/400x200?text=No+image'">
    <div class="card-body">
-     <h3>${v["Name"]}</h3>
-     <span class="badge">${v["Market Class"]}</span>
-     <p>Year: ${v["Year"]}</p>
-     <p>Yield: ${v["Yield (lbs/acre)"]}</p>
+     <h3>${v.name}</h3>
+     <span class="badge">${v.class}</span>
+     <p>Year: ${v.year}</p>
+     <p>Yield: ${v.yield}</p>
      <label>
-       <input type="checkbox" onchange="toggle('${v["Name"]}')">
+       <input type="checkbox" onchange="toggle('${v.name}')">
        Compare
      </label>
    </div>`;
@@ -188,53 +145,48 @@ function render(){
  });
 }
 
+// =========================
+// SELECT
+// =========================
 function toggle(name){
  if(selected.has(name)) selected.delete(name);
  else selected.add(name);
 }
 
+// =========================
+// PLOT
+// =========================
 function plot(){
  const xs=document.getElementById("x").value;
  const ys=document.getElementById("y").value;
- const sel=varieties.filter(v=>selected.has(v["Name"]));
+ const sel=varieties.filter(v=>selected.has(v.name));
  if(sel.length===0){ alert("Select varieties"); return; }
 
  Plotly.newPlot("plot",[{
    x:sel.map(v=>v[xs]),
    y:sel.map(v=>v[ys]),
-   text:sel.map(v=>v["Name"]),
+   text:sel.map(v=>v.name),
    mode:"markers+text"
  }],{
-   title:`${ys} vs ${xs}`,
-   xaxis:{title:xs},
-   yaxis:{title:ys}
+   title:`${ys} vs ${xs}`
  });
 
- const metrics=[
-   "Yield (lbs/acre)",
-   "Maturity (days)",
-   "100 Sd Weight (g)",
-   "Direct Harvest Suitability"
- ];
-
+ const metrics=["yield","maturity","weight","dhs"];
  Plotly.newPlot("radar",
  sel.map(v=>({
    type:"scatterpolar",
    r:metrics.map(m=>v[m]),
    theta:metrics,
    fill:"toself",
-   name:v["Name"]
+   name:v.name
  })),
  {title:"Profile comparison"});
 }
 
-function log(msg){
- document.getElementById("debug").textContent += msg + "\n";
-}
-
-function error(msg){
- document.getElementById("debug").textContent += "ERROR: " + msg + "\n";
- document.getElementById("status").innerHTML =
-   "<b style='color:red'>FAILED TO LOAD DATA</b>";
-}
+// =========================
+// START
+// =========================
+initFilters();
+initAxes();
+render();
 </script>
