@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/seed-catalog/static/js/main.534f5386.js",
+    "main.js": "/seed-catalog/static/js/main.775a6d18.js",
     "index.html": "/seed-catalog/index.html",
-    "main.534f5386.js.map": "/seed-catalog/static/js/main.534f5386.js.map"
+    "main.775a6d18.js.map": "/seed-catalog/static/js/main.775a6d18.js.map"
   },
   "entrypoints": [
-    "static/js/main.534f5386.js"
+    "static/js/main.775a6d18.js"
   ]
 }
