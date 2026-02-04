@@ -8,7 +8,8 @@
     "maturity_days": 93.74,
     "seed_weight_g": 22.72,
     "harvestability": 2.65,
-    "imageUrl": "",
+	"image": "OAC-Thunder.jpg",
+	"pdf": "OACThunder.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -27,7 +28,8 @@
     "maturity_days": 99,
     "seed_weight_g": 19.8,
     "harvestability": null,
-    "imageUrl": "",
+	"image": "Ex-Rico-23.jpg",
+	"pdf": "ExRico23.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -46,7 +48,8 @@
     "maturity_days": 90,
     "seed_weight_g": 20.1,
     "harvestability": null,
-    "imageUrl": "",
+	"image": "OAC-Seaforth.jpg",
+	"pdf": "OACSeaforth.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -65,7 +68,8 @@
     "maturity_days": 100,
     "seed_weight_g": 20.2,
     "harvestability": null,
-    "imageUrl": "",
+	"image": "OAC-Rico.jpg",
+	"pdf": "OACRico.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -84,7 +88,7 @@
     "maturity_days": 96,
     "seed_weight_g": 20.4,
     "harvestability": 4,
-    "imageUrl": "",
+	"image": "OAC-Gryphon.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -103,7 +107,7 @@
     "maturity_days": null,
     "seed_weight_g": null,
     "harvestability": null,
-    "imageUrl": "",
+    "image": "OAC-Cygnus.jpg",
     "resistance": {
       "CMV_R1": null,
       "CMV_R15": null,
@@ -122,7 +126,7 @@
     "maturity_days": null,
     "seed_weight_g": null,
     "harvestability": null,
-    "imageUrl": "",
+    "image": "OAC-Sprint.jpg",
     "resistance": {
       "CMV_R1": null,
       "CMV_R15": null,
@@ -141,7 +145,7 @@
     "maturity_days": null,
     "seed_weight_g": null,
     "harvestability": null,
-    "imageUrl": "",
+    "image": "OAC-Laser.jpg",
     "resistance": {
       "CMV_R1": null,
       "CMV_R15": null,
@@ -160,7 +164,7 @@
     "maturity_days": null,
     "seed_weight_g": null,
     "harvestability": null,
-    "imageUrl": "",
+    "image": "OAC-Speedvale.jpg",
     "resistance": {
       "CMV_R1": null,
       "CMV_R15": null,
@@ -179,7 +183,7 @@
     "maturity_days": null,
     "seed_weight_g": null,
     "harvestability": null,
-    "imageUrl": "",
+    "image": "OAC-Tomahawk.jpg",
     "resistance": {
       "CMV_R1": null,
       "CMV_R15": null,
@@ -198,7 +202,7 @@
     "maturity_days": 95,
     "seed_weight_g": 21.43,
     "harvestability": 3.75,
-    "imageUrl": "",
+    "image": "OAC-Silvercreek.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -217,7 +221,8 @@
     "maturity_days": 98.33,
     "seed_weight_g": 21.54,
     "harvestability": 2.68,
-    "imageUrl": "",
+    "image": "OAC-Rex.jpg",
+	"pdf": "OACRex.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -236,7 +241,8 @@
     "maturity_days": 97,
     "seed_weight_g": 59.25,
     "harvestability": null,
-    "imageUrl": "",
+    "image": "OAC-Redstar.jpg",
+	"pdf": "OACRedstar.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -255,7 +261,8 @@
     "maturity_days": 89.57,
     "seed_weight_g": 66.83,
     "harvestability": null,
-    "imageUrl": "",
+    "image": "OAC-Lyrik.jpg",
+	"pdf": "OACLyrik.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -274,7 +281,8 @@
     "maturity_days": 93.86,
     "seed_weight_g": 21.95,
     "harvestability": 2.15,
-    "imageUrl": "",
+    "image": "Lightning.jpg",
+	"pdf": "Lightning.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -293,7 +301,8 @@
     "maturity_days": 96.75,
     "seed_weight_g": 21.3,
     "harvestability": 3.12,
-    "imageUrl": "",
+    "image": "OAC-Dublin.jpg",
+	"pdf": "OACDublin.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "S",
@@ -312,7 +321,8 @@
     "maturity_days": 99.83,
     "seed_weight_g": 65,
     "harvestability": 3.36,
-    "imageUrl": "",
+    "image": "OAC-Inferno.jpg",
+	"pdf": "OACInferno.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "S",
@@ -331,7 +341,8 @@
     "maturity_days": 94.25,
     "seed_weight_g": 64.64,
     "harvestability": 2.9,
-    "imageUrl": "",
+    "image": "Dynasty.jpg",
+	"pdf": "Dynasty.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "S",
@@ -350,7 +361,8 @@
     "maturity_days": 95.5,
     "seed_weight_g": 58.5,
     "harvestability": 2.78,
-    "imageUrl": "",
+    "image": "Yeti.jpg",
+	"pdf": "Yeti.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -369,7 +381,8 @@
     "maturity_days": 97.22,
     "seed_weight_g": 23.2,
     "harvestability": 1.86,
-    "imageUrl": "",
+    "image": "Mist.jpg",
+	"pdf": "Mist.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -388,7 +401,8 @@
     "maturity_days": 91.7,
     "seed_weight_g": 24.49,
     "harvestability": 1.68,
-    "imageUrl": "",
+    "image": "Bolt.jpg",
+	"pdf": "Bolt.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -407,7 +421,8 @@
     "maturity_days": 97.4,
     "seed_weight_g": 23.33,
     "harvestability": 2.28,
-    "imageUrl": "",
+    "image": "Fathom.jpg",
+	"pdf": "Fathom.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -426,7 +441,8 @@
     "maturity_days": 96.17,
     "seed_weight_g": 24.07,
     "harvestability": 1.97,
-    "imageUrl": "",
+    "image": "OAC-Rosito.jpg",
+	"pdf": "OACRosito.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -445,7 +461,7 @@
     "maturity_days": 97,
     "seed_weight_g": 23.86,
     "harvestability": 2.28,
-    "imageUrl": "",
+    "image": "OAC-Vortex.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -464,7 +480,8 @@
     "maturity_days": 85.67,
     "seed_weight_g": 65,
     "harvestability": 2.83,
-    "imageUrl": "",
+    "image": "OAC-Racer.jpg",
+	"pdf": "OACRacer.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -483,7 +500,8 @@
     "maturity_days": 94,
     "seed_weight_g": 22.33,
     "harvestability": 2.4,
-    "imageUrl": "",
+    "image": "OAC-Plasma.jpg",
+	"pdf": "OACPlasma.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -502,7 +520,8 @@
     "maturity_days": 93.33,
     "seed_weight_g": 64.33,
     "harvestability": 2.6,
-    "imageUrl": "",
+    "image": "OAC-Jewel.jpg",
+	"pdf": "OACJewel.pdf",
     "resistance": {
       "CMV_R1": "N/A",
       "CMV_R15": "N/A",
@@ -521,7 +540,8 @@
     "maturity_days": 90.67,
     "seed_weight_g": 67.33,
     "harvestability": 2.27,
-    "imageUrl": "",
+    "image": "OAC-Candycane.jpg",
+	"pdf": "OACCandycane.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -540,7 +560,8 @@
     "maturity_days": 97,
     "seed_weight_g": 20.43,
     "harvestability": 3.28,
-    "imageUrl": "",
+    "image": "Rogue.jpg",
+	"pdf": "Rogue.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -559,7 +580,8 @@
     "maturity_days": 92,
     "seed_weight_g": 62.67,
     "harvestability": 2.9,
-    "imageUrl": "",
+    "image": "OAC-Snowshoe.jpg",
+	"pdf": "OACSnowshoe.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -578,7 +600,8 @@
     "maturity_days": 83.25,
     "seed_weight_g": 61.25,
     "harvestability": 2.33,
-    "imageUrl": "",
+    "image": "OAC-Navabi.jpg",
+	"pdf": "OACNavabi.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -597,7 +620,8 @@
     "maturity_days": 90.5,
     "seed_weight_g": 64,
     "harvestability": 2.7,
-    "imageUrl": "",
+    "image": "OAC-Jasper.jpg",
+	"pdf": "OACJasper.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -616,7 +640,8 @@
     "maturity_days": 89,
     "seed_weight_g": 68.5,
     "harvestability": 2.2,
-    "imageUrl": "",
+    "image": "OAC-Firestripe.jpg",
+	"pdf": "OACFirestripe.pdf",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -635,7 +660,7 @@
     "maturity_days": 88.25,
     "seed_weight_g": 58,
     "harvestability": 2.53,
-    "imageUrl": "",
+    "image": "Gallantry.jpg",
     "resistance": {
       "CMV_R1": "N/A",
       "CMV_R15": "N/A",
@@ -654,7 +679,7 @@
     "maturity_days": 93,
     "seed_weight_g": 21.7,
     "harvestability": 2.2,
-    "imageUrl": "",
+    "image": "OAC-Marker.jpg",
     "resistance": {
       "CMV_R1": "N/A",
       "CMV_R15": "N/A",
@@ -673,7 +698,7 @@
     "maturity_days": 94,
     "seed_weight_g": 56,
     "harvestability": 2.9,
-    "imageUrl": "",
+    "image": "OAC-Iceberg.jpg",
     "resistance": {
       "CMV_R1": "N/A",
       "CMV_R15": "N/A",
@@ -692,7 +717,7 @@
     "maturity_days": 90,
     "seed_weight_g": 20,
     "harvestability": 1.9,
-    "imageUrl": "",
+    "image": "OAC-Fusion.jpg",
     "resistance": {
       "CMV_R1": "N/A",
       "CMV_R15": "N/A",
@@ -711,7 +736,7 @@
     "maturity_days": 91,
     "seed_weight_g": 55.33,
     "harvestability": 2.8,
-    "imageUrl": "",
+    "image": "OAC-Firebrand.jpg",
     "resistance": {
       "CMV_R1": "N/A",
       "CMV_R15": "N/A",
@@ -730,7 +755,7 @@
     "maturity_days": 97,
     "seed_weight_g": 25.8,
     "harvestability": 1.8,
-    "imageUrl": "",
+    "image": "OAC-Equinox.jpg",
     "resistance": {
       "CMV_R1": "N/A",
       "CMV_R15": "N/A",
@@ -749,7 +774,7 @@
     "maturity_days": 93.67,
     "seed_weight_g": 23,
     "harvestability": 2.05,
-    "imageUrl": "",
+    "image": "OAC-Charm.jpg",
     "resistance": {
       "CMV_R1": "N/A",
       "CMV_R15": "N/A",
@@ -768,7 +793,7 @@
     "maturity_days": 97,
     "seed_weight_g": 23.1,
     "harvestability": 2.4,
-    "imageUrl": "",
+    "image": "OAC-Award.jpg",
     "resistance": {
       "CMV_R1": "N/A",
       "CMV_R15": "N/A",
@@ -787,7 +812,7 @@
     "maturity_days": 98,
     "seed_weight_g": 23.7,
     "harvestability": 2.7,
-    "imageUrl": "",
+    "image": "OAC-Seal.jpg",
     "resistance": {
       "CMV_R1": "N/A",
       "CMV_R15": "N/A",
@@ -806,7 +831,7 @@
     "maturity_days": 102.6,
     "seed_weight_g": 22.1,
     "harvestability": 2.8,
-    "imageUrl": "",
+    "image": "OAC-Souper.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -825,7 +850,7 @@
     "maturity_days": 85.1,
     "seed_weight_g": 51.7,
     "harvestability": 1.8,
-    "imageUrl": "",
+    "image": "Stavros.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -844,7 +869,7 @@
     "maturity_days": 95,
     "seed_weight_g": 60.6,
     "harvestability": 3.4,
-    "imageUrl": "",
+    "image": "OAC-Sunrise.jpg",
     "resistance": {
       "CMV_R1": "N/A",
       "CMV_R15": "N/A",
@@ -863,7 +888,7 @@
     "maturity_days": 87.55,
     "seed_weight_g": 39.38,
     "harvestability": 2.6,
-    "imageUrl": "",
+    "image": "OAC-Blaze.jpg",
     "resistance": {
       "CMV_R1": "N/A",
       "CMV_R15": "N/A",
@@ -882,7 +907,7 @@
     "maturity_days": 88.07,
     "seed_weight_g": 40.17,
     "harvestability": 2.12,
-    "imageUrl": "",
+    "image": "XPT-One.jpg",
     "resistance": {
       "CMV_R1": "N/A",
       "CMV_R15": "N/A",
@@ -901,7 +926,7 @@
     "maturity_days": 97.08,
     "seed_weight_g": 37.05,
     "harvestability": 3.11,
-    "imageUrl": "",
+    "image": "OAC-Paint.jpg",
     "resistance": {
       "CMV_R1": "N/A",
       "CMV_R15": "N/A",
@@ -920,7 +945,7 @@
     "maturity_days": 98,
     "seed_weight_g": 23.5,
     "harvestability": 1.9,
-    "imageUrl": "",
+    "image": "Umbra.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -939,7 +964,7 @@
     "maturity_days": 97,
     "seed_weight_g": 22.2,
     "harvestability": 1.9,
-    "imageUrl": "",
+    "image": "Steam.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -958,7 +983,7 @@
     "maturity_days": 86,
     "seed_weight_g": 66,
     "harvestability": 2,
-    "imageUrl": "",
+    "image": "OAC-Volterra.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -977,7 +1002,7 @@
     "maturity_days": 97,
     "seed_weight_g": 18.9,
     "harvestability": 2,
-    "imageUrl": "",
+    "image": "OAC-Resilient.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -996,7 +1021,7 @@
     "maturity_days": 97,
     "seed_weight_g": 20.9,
     "harvestability": 2.5,
-    "imageUrl": "",
+    "image": "OAC-Bechamel.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -1015,7 +1040,7 @@
     "maturity_days": 85,
     "seed_weight_g": 61,
     "harvestability": 2.3,
-    "imageUrl": "",
+    "image": "OAC-Agate.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -1034,7 +1059,7 @@
     "maturity_days": 95,
     "seed_weight_g": 21.7,
     "harvestability": 2,
-    "imageUrl": "",
+    "image": "Blast.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -1053,7 +1078,7 @@
     "maturity_days": 98,
     "seed_weight_g": 23.5,
     "harvestability": 1.6,
-    "imageUrl": "",
+    "image": "Bannock.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -1072,7 +1097,7 @@
     "maturity_days": 89.4,
     "seed_weight_g": 72.9,
     "harvestability": 2.9,
-    "imageUrl": "",
+    "image": "OAC-Tong.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "S",
@@ -1091,7 +1116,7 @@
     "maturity_days": 89.9,
     "seed_weight_g": 36.4,
     "harvestability": 3.3,
-    "imageUrl": "",
+    "image": "Eternal.jpg",
     "resistance": {
       "CMV_R1": "N/A",
       "CMV_R15": "N/A",
@@ -1110,7 +1135,7 @@
     "maturity_days": 92,
     "seed_weight_g": 73.6,
     "harvestability": 2.9,
-    "imageUrl": "",
+    "image": "OAC-Endeavour.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -1129,7 +1154,7 @@
     "maturity_days": 92,
     "seed_weight_g": 68.4,
     "harvestability": 4.4,
-    "imageUrl": "",
+    "image": "OAC-Marzen.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "S",
@@ -1148,7 +1173,7 @@
     "maturity_days": 89.9,
     "seed_weight_g": 42,
     "harvestability": 3.1,
-    "imageUrl": "",
+    "image": "OAC-Toast.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -1167,7 +1192,7 @@
     "maturity_days": 91.1,
     "seed_weight_g": 19.8,
     "harvestability": 2.1,
-    "imageUrl": "",
+    "image": "OAC-Clever.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -1186,7 +1211,7 @@
     "maturity_days": 89.3,
     "seed_weight_g": 19.5,
     "harvestability": 1.8,
-    "imageUrl": "",
+    "image": "OAC-Storm.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -1205,7 +1230,7 @@
     "maturity_days": 92.3,
     "seed_weight_g": 24.3,
     "harvestability": 1.5,
-    "imageUrl": "",
+    "image": "OAC-Spades.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -1224,7 +1249,7 @@
     "maturity_days": 98.1,
     "seed_weight_g": 69.8,
     "harvestability": 3.5,
-    "imageUrl": "",
+    "image": "OAC-Rev.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "N/A",
@@ -1243,7 +1268,7 @@
     "maturity_days": 95.25,
     "seed_weight_g": 27.64,
     "harvestability": 3.83,
-    "imageUrl": "",
+    "image": "Sundust.jpg",
     "resistance": {
       "CMV_R1": "N/A",
       "CMV_R15": "N/A",
@@ -1262,7 +1287,7 @@
     "maturity_days": 101.75,
     "seed_weight_g": 28.98,
     "harvestability": 3.25,
-    "imageUrl": "",
+    "image": "Stardust.jpg",
     "resistance": {
       "CMV_R1": "N/A",
       "CMV_R15": "N/A",
@@ -1281,7 +1306,7 @@
     "maturity_days": 101.5,
     "seed_weight_g": 27.03,
     "harvestability": 2.63,
-    "imageUrl": "",
+    "image": "OAC-Glacier.jpg",
     "resistance": {
       "CMV_R1": "N/A",
       "CMV_R15": "N/A",
@@ -1300,7 +1325,7 @@
     "maturity_days": 107.67,
     "seed_weight_g": 61.46,
     "harvestability": 3.79,
-    "imageUrl": "",
+    "image": "Yolk.jpg",
     "resistance": {
       "CMV_R1": "N/A",
       "CMV_R15": "N/A",
@@ -1319,7 +1344,7 @@
     "maturity_days": 102.42,
     "seed_weight_g": 57.59,
     "harvestability": 3.13,
-    "imageUrl": "",
+    "image": "Yak.jpg",
     "resistance": {
       "CMV_R1": "N/A",
       "CMV_R15": "N/A",
@@ -1338,7 +1363,7 @@
     "maturity_days": 88.5,
     "seed_weight_g": 22.3,
     "harvestability": 2.8,
-    "imageUrl": "",
+    "image": "Wake.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
@@ -1357,7 +1382,7 @@
     "maturity_days": 89.6,
     "seed_weight_g": 49.4,
     "harvestability": 4.1,
-    "imageUrl": "",
+    "image": "OAC-Copperhead.jpg",
     "resistance": {
       "CMV_R1": "R",
       "CMV_R15": "R",
