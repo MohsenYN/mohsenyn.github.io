@@ -32,6 +32,17 @@ accent_image: /assets/img/LabNews.png
 
 <main class="news-grid" role="main">
 
+  <article class="news-item" aria-labelledby="news-2026-02-09">
+  <h2 class="news-date" id="news-2026-02-09">February 9, 2026</h2>
+  <p><strong>Supporting Student Pathways Through Research Connections</strong><br>
+    The dry bean breeding and computational biology team participated in the Research Connections event at the University of Guelph, where they connected with students from a wide range of academic backgrounds. The team enjoyed discussing research, sharing insights into plant breeding, and learning about students’ interests and aspirations. Supporting students as they explore their future paths has always been a meaningful part of the team’s work. The event provided a valuable opportunity to engage with many talented students, learn about their goals and interests, and consider how the team can support them as they navigate their academic journeys.
+  </p>
+  <figure>
+    <img src="/assets/img/news/ResearchC1.jpg" alt="ResearchC1" loading="lazy">
+    <img src="/assets/img/news/ResearchC2.jpg" alt="ResearchC2" loading="lazy">
+  </figure>
+</article>
+
   <article class="news-item" aria-labelledby="news-2026-01-20">
   <h2 class="news-date" id="news-2026-01-20">January 20, 2026</h2>
   <p><strong>Welcoming Our New Team Members: Arwa Sheheryar, Taiya Moreau, and Chloe Chen</strong><br>
