@@ -5,9 +5,7 @@ accent_image: /assets/img/LabNews.png
 ---
 
 <header class="page-header">
-  <h1 style="font-size: 2.5rem; margin: 0 auto 1rem; font-weight: 700; letter-spacing: 1px; text-align: center; width: 100%; display: block;">
-    Lab News
-  </h1>
+  <h1 class="page-title">Lab News</h1>
 
   <p class="page-subtitle">
     We regularly update our news here. For the latest updates, follow us on
@@ -16,48 +14,44 @@ accent_image: /assets/img/LabNews.png
     </a>.
   </p>
 
-  <!-- LinkedIn + YouTube Embed Card -->
+  <!-- LinkedIn + YouTube Card -->
   <div class="linkedin-embed">
     <p>
       <strong>Latest Updates from LinkedIn</strong><br>
       Scroll through our recent LinkedIn posts and watch featured video updates below.
     </p>
 
-    <!-- YouTube Featured Video -->
+    <!-- Featured YouTube Video -->
     <div class="youtube-embed youtube-embed--large">
       <iframe
         src="https://www.youtube.com/embed/NoPBEw5ewWs"
-       title="YouTube video player"
-       frameborder="0"
-       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-       allowfullscreen>
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
       </iframe>
-   </div>
-    
-  <div class="linkedin-embed">
-    <p><strong>Latest Updates from LinkedIn</strong><br>
-      Scroll through our recent LinkedIn posts for the latest lab updates!</p>
+    </div>
+
+    <!-- Scrollable LinkedIn Feed -->
     <div class="linkedin-scroll-frame">
-      <!-- Embed for first LinkedIn post -->
       <div class="linkedin-post">
-        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7426787750223220737?collapsed=1" height="628" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7396571721451085824?collapsed=1" height="737" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7389703303548366848?collapsed=1" height="593" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7370792206460182529?collapsed=1" height="619" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7356033908490035202?collapsed=1" height="671" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7353164138962980865?collapsed=1" height="637" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7344077938520113154?collapsed=1" height="669" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7336405967481270273?collapsed=1" height="609" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7335681269361537027?collapsed=1" height="547" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7332815324544671744?collapsed=1" height="636" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7328529520574058496?collapsed=1" height="610" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7327758948533489664?collapsed=1" height="534" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7426787750223220737?collapsed=1" height="628" allowfullscreen></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7396571721451085824?collapsed=1" height="737" allowfullscreen></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7389703303548366848?collapsed=1" height="593" allowfullscreen></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7370792206460182529?collapsed=1" height="619" allowfullscreen></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7356033908490035202?collapsed=1" height="671" allowfullscreen></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7353164138962980865?collapsed=1" height="637" allowfullscreen></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7344077938520113154?collapsed=1" height="669" allowfullscreen></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7336405967481270273?collapsed=1" height="609" allowfullscreen></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7335681269361537027?collapsed=1" height="547" allowfullscreen></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7332815324544671744?collapsed=1" height="636" allowfullscreen></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7328529520574058496?collapsed=1" height="610" allowfullscreen></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7327758948533489664?collapsed=1" height="534" allowfullscreen></iframe>
       </div>
     </div>
   </div>
 </header>
 
- <main class="news-grid" role="main">
+<main class="news-grid" role="main">
 
   <article class="news-item" aria-labelledby="news-2026-02-09">
   <h2 class="news-date" id="news-2026-02-09">February 9, 2026</h2>
