@@ -24,15 +24,15 @@ accent_image: /assets/img/LabNews.png
     </p>
 
     <!-- YouTube Featured Video -->
-    <div class="youtube-embed">
+    <div class="youtube-embed youtube-embed--large">
       <iframe
         src="https://www.youtube.com/embed/NoPBEw5ewWs"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen>
+       title="YouTube video player"
+       frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+       allowfullscreen>
       </iframe>
-    </div>>
+   </div>
     
   <div class="linkedin-embed">
     <p><strong>Latest Updates from LinkedIn</strong><br>
@@ -57,7 +57,7 @@ accent_image: /assets/img/LabNews.png
   </div>
 </header>
 
-<main class="news-grid" role="main">
+ <main class="news-grid" role="main">
 
   <article class="news-item" aria-labelledby="news-2026-02-09">
   <h2 class="news-date" id="news-2026-02-09">February 9, 2026</h2>
