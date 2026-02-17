@@ -51,6 +51,27 @@ accent_image: /assets/img/JoinUs.png
      </p>
     </article>
 
+     <article class="opening-box">
+      <h3>Full-Time Lab Technician (Molecular Biology & Genetics)</h3>
+      <p><strong>Department:</strong> Plant Agriculture, Ontario Agricultural College (OAC), University of Guelph<br>
+         <strong>Start Date:</strong> Summer 2026<br>
+         <strong>Positions:</strong> 1</p>
+      <p><strong>Key Responsibilities:</strong></p>
+      <ul>
+        <li>Organize, maintain, and manage daily laboratory operations.</li>
+        <li>Ensure compliance with laboratory safety regulations and standard operating procedures.</li>
+        <li>Manage laboratory inventory, supplies, and ordering.</li>
+        <li>Conduct high-throughput molecular analyses, including but not limited to: DNA and RNA extraction, PCR and qPCR, Genotyping and testing of diverse molecular markers, and handling large numbers of genotypes.</li>
+        <li>Perform data analysis related to DNA, RNA, and molecular marker datasets.</li>
+        <li>Assist with genome-wide association studies (GWAS) and other molecular analyses.</li>
+        <li>Prepare detailed laboratory reports and maintain accurate experimental records.</li>
+        <li>Provide hands-on support and training to undergraduate and graduate students in laboratory techniques.</li>
+        <li>Assist with sample processing and data collection from field, greenhouse, and growth chamber experiments.</li>
+        <li>Contribute to scientific writing, including reports, manuscripts, and grant-related documentation (optional but encouraged).</li>
+      </ul>
+      <a href="/assets/pdf/Lab Tech.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link" aria-label="View full details for Full-Time Lab Technician">View Full Details (PDF)</a>
+    </article>
+
     <article class="opening-box">
       <h3>PhD Graduate Research Assistantship in AI-Powered Canning Quality Assessment for Dry Bean Breeding</h3>
       <p><strong>Department:</strong> Plant Agriculture, Ontario Agricultural College (OAC), University of Guelph<br>
