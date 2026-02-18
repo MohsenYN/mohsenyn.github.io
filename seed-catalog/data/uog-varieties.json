@@ -1642,7 +1642,7 @@
 {
   "id": 87,
   "name": "OAC 23-1",
-  "marketClass": "White",
+  "marketClass": "White Navy",
   "year": 2025,
   "yield_kg_ha": 3163.9,
   "maturity_days": 74.9,
@@ -1661,7 +1661,7 @@
 {
   "id": 88,
   "name": "OAC 24-1",
-  "marketClass": "White",
+  "marketClass": "White Navy",
   "year": 2025,
   "yield_kg_ha": 3616.3,
   "maturity_days": 81.6,
@@ -1680,7 +1680,7 @@
 {
   "id": 89,
   "name": "OAC 24-2",
-  "marketClass": "White",
+  "marketClass": "White Navy",
   "year": 2025,
   "yield_kg_ha": 3571.7,
   "maturity_days": 83.0,
@@ -1699,7 +1699,7 @@
 {
   "id": 90,
   "name": "OAC 24-4",
-  "marketClass": "White",
+  "marketClass": "White Navy",
   "year": 2025,
   "yield_kg_ha": 3362.7,
   "maturity_days": 79.0,
@@ -1718,7 +1718,7 @@
 {
   "id": 91,
   "name": "OAC 25-1",
-  "marketClass": "White",
+  "marketClass": "White Navy",
   "year": 2026,
   "yield_kg_ha": 3487.6,
   "maturity_days": 85.7,
@@ -1737,7 +1737,7 @@
 {
   "id": 92,
   "name": "OAC 25-2",
-  "marketClass": "White",
+  "marketClass": "White Navy",
   "year": 2026,
   "yield_kg_ha": 3279.8,
   "maturity_days": 84.8,
