@@ -1688,8 +1688,8 @@
   "harvestability": 2.8,
   "image": "OAC-24-2.JPG",
   "resistance": {
-    "CMV_R1": "N/A",
-    "CMV_R15": "N/A",
+    "CMV_R1": "R",
+    "CMV_R15": "R",
     "Anthracnose_R17": "N/A",
     "Anthracnose_R23": "N/A",
     "Anthracnose_R73": "R",
@@ -1707,8 +1707,8 @@
   "harvestability": 2.2,
   "image": "OAC-24-4.JPG",
   "resistance": {
-    "CMV_R1": "N/A",
-    "CMV_R15": "N/A",
+    "CMV_R1": "R",
+    "CMV_R15": "R",
     "Anthracnose_R17": "N/A",
     "Anthracnose_R23": "N/A",
     "Anthracnose_R73": "R",
@@ -1726,8 +1726,8 @@
   "harvestability": 2.3,
   "image": "OAC-25-1.JPG",
   "resistance": {
-    "CMV_R1": "N/A",
-    "CMV_R15": "N/A",
+    "CMV_R1": "R",
+    "CMV_R15": "R",
     "Anthracnose_R17": "N/A",
     "Anthracnose_R23": "N/A",
     "Anthracnose_R73": "R",
@@ -1745,8 +1745,8 @@
   "harvestability": 2.1,
   "image": "OAC-25-2.JPG",
   "resistance": {
-    "CMV_R1": "N/A",
-    "CMV_R15": "N/A",
+    "CMV_R1": "R",
+    "CMV_R15": "R",
     "Anthracnose_R17": "N/A",
     "Anthracnose_R23": "N/A",
     "Anthracnose_R73": "S",
