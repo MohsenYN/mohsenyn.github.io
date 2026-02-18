@@ -1401,7 +1401,7 @@
   "maturity_days": 83.7,
   "seed_weight_g": 52.9,
   "harvestability": 2.4,
-  "image": "OAC-24-C1.jpg",
+  "image": "OAC-24-C1.JPG",
   "resistance": {
     "CMV_R1": "R",
     "CMV_R15": "R",
@@ -1420,7 +1420,7 @@
   "maturity_days": 86.3,
   "seed_weight_g": 47.9,
   "harvestability": 2.5,
-  "image": "OAC-25-W1.jpg",
+  "image": "OAC-25-W1.JPG",
   "resistance": {
     "CMV_R1": "R",
     "CMV_R15": "R",
@@ -1439,7 +1439,7 @@
   "maturity_days": 80.0,
   "seed_weight_g": 57.6,
   "harvestability": 1.9,
-  "image": "OAC-25-C1.jpg",
+  "image": "OAC-25-C1.JPG",
   "resistance": {
     "CMV_R1": "R",
     "CMV_R15": "R",
@@ -1458,7 +1458,7 @@
   "maturity_days": 77.8,
   "seed_weight_g": 52.7,
   "harvestability": 2.0,
-  "image": "OAC-24-D1.jpg",
+  "image": "OAC-24-D1.JPG",
   "resistance": {
     "CMV_R1": "R",
     "CMV_R15": "R",
@@ -1477,7 +1477,7 @@
   "maturity_days": 80.6,
   "seed_weight_g": 59.6,
   "harvestability": 2.3,
-  "image": "OAC-23-D1.jpg",
+  "image": "OAC-23-D1.JPG",
   "resistance": {
     "CMV_R1": "R",
     "CMV_R15": "R",
@@ -1496,7 +1496,7 @@
   "maturity_days": 80.9,
   "seed_weight_g": 52.8,
   "harvestability": 2.0,
-  "image": "OAC-24-W1.jpg",
+  "image": "OAC-24-W1.JPG",
   "resistance": {
     "CMV_R1": "N/A",
     "CMV_R15": "N/A",
@@ -1515,7 +1515,7 @@
   "maturity_days": 83.4,
   "seed_weight_g": 49.6,
   "harvestability": 2.8,
-  "image": "OAC-22-NDC1.jpg",
+  "image": "OAC-22-NDC1.JPG",
   "resistance": {
     "CMV_R1": "R",
     "CMV_R15": "R",
@@ -1534,7 +1534,7 @@
   "maturity_days": 84.4,
   "seed_weight_g": 23.6,
   "harvestability": 2.3,
-  "image": "OAC-22-B1.jpg",
+  "image": "OAC-22-B1.JPG",
   "resistance": {
     "CMV_R1": "R",
     "CMV_R15": "R",
@@ -1553,7 +1553,7 @@
   "maturity_days": 81.4,
   "seed_weight_g": 22.5,
   "harvestability": 2.3,
-  "image": "OAC-23-B1.jpg",
+  "image": "OAC-23-B1.JPG",
   "resistance": {
     "CMV_R1": "R",
     "CMV_R15": "R",
@@ -1572,7 +1572,7 @@
   "maturity_days": 83.3,
   "seed_weight_g": 21.7,
   "harvestability": 2.7,
-  "image": "OAC-24-B2.jpg",
+  "image": "OAC-24-B2.JPG",
   "resistance": {
     "CMV_R1": "R",
     "CMV_R15": "R",
@@ -1591,7 +1591,7 @@
   "maturity_days": 83.9,
   "seed_weight_g": 21.7,
   "harvestability": 2.6,
-  "image": "OAC-25-B1.jpg",
+  "image": "OAC-25-B1.JPG",
   "resistance": {
     "CMV_R1": "R",
     "CMV_R15": "R",
@@ -1610,7 +1610,7 @@
   "maturity_days": 82.8,
   "seed_weight_g": 34.0,
   "harvestability": 2.4,
-  "image": "OAC-25-P1.jpg",
+  "image": "OAC-25-P1.JPG",
   "resistance": {
     "CMV_R1": "R",
     "CMV_R15": "R",
@@ -1629,7 +1629,7 @@
   "maturity_days": 84.8,
   "seed_weight_g": 36.2,
   "harvestability": 2.5,
-  "image": "OAC-25-P2.jpg",
+  "image": "OAC-25-P2.JPG",
   "resistance": {
     "CMV_R1": "R",
     "CMV_R15": "R",
@@ -1648,7 +1648,7 @@
   "maturity_days": 74.9,
   "seed_weight_g": 18.3,
   "harvestability": 1.9,
-  "image": "OAC-23-1.jpg",
+  "image": "OAC-23-1.JPG",
   "resistance": {
     "CMV_R1": "R",
     "CMV_R15": "R",
@@ -1667,7 +1667,7 @@
   "maturity_days": 81.6,
   "seed_weight_g": 19.4,
   "harvestability": 2.7,
-  "image": "OAC-24-1.jpg",
+  "image": "OAC-24-1.JPG",
   "resistance": {
     "CMV_R1": "R",
     "CMV_R15": "R",
@@ -1686,7 +1686,7 @@
   "maturity_days": 83.0,
   "seed_weight_g": 19.6,
   "harvestability": 2.8,
-  "image": "OAC-24-2.jpg",
+  "image": "OAC-24-2.JPG",
   "resistance": {
     "CMV_R1": "N/A",
     "CMV_R15": "N/A",
@@ -1705,7 +1705,7 @@
   "maturity_days": 79.0,
   "seed_weight_g": 22.0,
   "harvestability": 2.2,
-  "image": "OAC-24-4.jpg",
+  "image": "OAC-24-4.JPG",
   "resistance": {
     "CMV_R1": "N/A",
     "CMV_R15": "N/A",
@@ -1724,7 +1724,7 @@
   "maturity_days": 85.7,
   "seed_weight_g": 22.4,
   "harvestability": 2.3,
-  "image": "OAC-25-1.jpg",
+  "image": "OAC-25-1.JPG",
   "resistance": {
     "CMV_R1": "N/A",
     "CMV_R15": "N/A",
@@ -1743,7 +1743,7 @@
   "maturity_days": 84.8,
   "seed_weight_g": 20.9,
   "harvestability": 2.1,
-  "image": "OAC-25-2.jpg",
+  "image": "OAC-25-2.JPG",
   "resistance": {
     "CMV_R1": "N/A",
     "CMV_R15": "N/A",
