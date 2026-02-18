@@ -1391,5 +1391,366 @@
       "Anthracnose_R73": "R",
       "CommonBlight": "N/A"
     }
+  },
+  {
+  "id": 74,
+  "name": "OAC 24-C1",
+  "marketClass": "Cranberry",
+  "year": 2025,
+  "yield_kg_ha": 2657.1,
+  "maturity_days": 83.7,
+  "seed_weight_g": 52.9,
+  "harvestability": 2.4,
+  "image": "OAC-24-C1.jpg",
+  "resistance": {
+    "CMV_R1": "R",
+    "CMV_R15": "R",
+    "Anthracnose_R17": "N/A",
+    "Anthracnose_R23": "N/A",
+    "Anthracnose_R73": "R",
+    "CommonBlight": "S"
   }
+},
+{
+  "id": 75,
+  "name": "OAC 25-W1",
+  "marketClass": "White Kidney",
+  "year": 2026,
+  "yield_kg_ha": 2424.6,
+  "maturity_days": 86.3,
+  "seed_weight_g": 47.9,
+  "harvestability": 2.5,
+  "image": "OAC-25-W1.jpg",
+  "resistance": {
+    "CMV_R1": "R",
+    "CMV_R15": "R",
+    "Anthracnose_R17": "N/A",
+    "Anthracnose_R23": "N/A",
+    "Anthracnose_R73": "R",
+    "CommonBlight": "S"
+  }
+},
+{
+  "id": 76,
+  "name": "OAC 25-C1",
+  "marketClass": "Cranberry",
+  "year": 2026,
+  "yield_kg_ha": 2419.7,
+  "maturity_days": 80.0,
+  "seed_weight_g": 57.6,
+  "harvestability": 1.9,
+  "image": "OAC-25-C1.jpg",
+  "resistance": {
+    "CMV_R1": "R",
+    "CMV_R15": "R",
+    "Anthracnose_R17": "N/A",
+    "Anthracnose_R23": "N/A",
+    "Anthracnose_R73": "N/A",
+    "CommonBlight": "N/A"
+  }
+},
+{
+  "id": 77,
+  "name": "OAC 24-D1",
+  "marketClass": "Dark Red Kidney",
+  "year": 2025,
+  "yield_kg_ha": 2386.1,
+  "maturity_days": 77.8,
+  "seed_weight_g": 52.7,
+  "harvestability": 2.0,
+  "image": "OAC-24-D1.jpg",
+  "resistance": {
+    "CMV_R1": "R",
+    "CMV_R15": "R",
+    "Anthracnose_R17": "N/A",
+    "Anthracnose_R23": "N/A",
+    "Anthracnose_R73": "R",
+    "CommonBlight": "MR"
+  }
+},
+{
+  "id": 78,
+  "name": "OAC 23-D1",
+  "marketClass": "Dark Red Kidney",
+  "year": 2024,
+  "yield_kg_ha": 2294.1,
+  "maturity_days": 80.6,
+  "seed_weight_g": 59.6,
+  "harvestability": 2.3,
+  "image": "OAC-23-D1.jpg",
+  "resistance": {
+    "CMV_R1": "R",
+    "CMV_R15": "R",
+    "Anthracnose_R17": "N/A",
+    "Anthracnose_R23": "N/A",
+    "Anthracnose_R73": "R",
+    "CommonBlight": "S"
+  }
+},
+{
+  "id": 79,
+  "name": "OAC 24-W1",
+  "marketClass": "White Kidney",
+  "year": 2025,
+  "yield_kg_ha": 2255.4,
+  "maturity_days": 80.9,
+  "seed_weight_g": 52.8,
+  "harvestability": 2.0,
+  "image": "OAC-24-W1.jpg",
+  "resistance": {
+    "CMV_R1": "N/A",
+    "CMV_R15": "N/A",
+    "Anthracnose_R17": "N/A",
+    "Anthracnose_R23": "N/A",
+    "Anthracnose_R73": "R",
+    "CommonBlight": "MR"
+  }
+},
+{
+  "id": 80,
+  "name": "OAC 22-NDC1",
+  "marketClass": "Cranberry",
+  "year": 2023,
+  "yield_kg_ha": 2698.4,
+  "maturity_days": 83.4,
+  "seed_weight_g": 49.6,
+  "harvestability": 2.8,
+  "image": "OAC-22-NDC1.jpg",
+  "resistance": {
+    "CMV_R1": "R",
+    "CMV_R15": "R",
+    "Anthracnose_R17": "N/A",
+    "Anthracnose_R23": "N/A",
+    "Anthracnose_R73": "R",
+    "CommonBlight": "MR"
+  }
+},
+{
+  "id": 81,
+  "name": "OAC 22-B1",
+  "marketClass": "Black",
+  "year": 2023,
+  "yield_kg_ha": 3869.0,
+  "maturity_days": 84.4,
+  "seed_weight_g": 23.6,
+  "harvestability": 2.3,
+  "image": "OAC-22-B1.jpg",
+  "resistance": {
+    "CMV_R1": "R",
+    "CMV_R15": "R",
+    "Anthracnose_R17": "N/A",
+    "Anthracnose_R23": "N/A",
+    "Anthracnose_R73": "N/A",
+    "CommonBlight": "N/A"
+  }
+},
+{
+  "id": 82,
+  "name": "OAC 23-B1",
+  "marketClass": "Black",
+  "year": 2025,
+  "yield_kg_ha": 3703.2,
+  "maturity_days": 81.4,
+  "seed_weight_g": 22.5,
+  "harvestability": 2.3,
+  "image": "OAC-23-B1.jpg",
+  "resistance": {
+    "CMV_R1": "R",
+    "CMV_R15": "R",
+    "Anthracnose_R17": "N/A",
+    "Anthracnose_R23": "N/A",
+    "Anthracnose_R73": "R",
+    "CommonBlight": "MR"
+  }
+},
+{
+  "id": 83,
+  "name": "OAC 24-B2",
+  "marketClass": "Black",
+  "year": 2025,
+  "yield_kg_ha": 3548.1,
+  "maturity_days": 83.3,
+  "seed_weight_g": 21.7,
+  "harvestability": 2.7,
+  "image": "OAC-24-B2.jpg",
+  "resistance": {
+    "CMV_R1": "R",
+    "CMV_R15": "R",
+    "Anthracnose_R17": "N/A",
+    "Anthracnose_R23": "N/A",
+    "Anthracnose_R73": "R",
+    "CommonBlight": "MRR"
+  }
+},
+{
+  "id": 84,
+  "name": "OAC 25-B1",
+  "marketClass": "Black",
+  "year": 2026,
+  "yield_kg_ha": 3817.6,
+  "maturity_days": 83.9,
+  "seed_weight_g": 21.7,
+  "harvestability": 2.6,
+  "image": "OAC-25-B1.jpg",
+  "resistance": {
+    "CMV_R1": "R",
+    "CMV_R15": "R",
+    "Anthracnose_R17": "N/A",
+    "Anthracnose_R23": "N/A",
+    "Anthracnose_R73": "R",
+    "CommonBlight": "MR"
+  }
+},
+{
+  "id": 85,
+  "name": "OAC 25-P1",
+  "marketClass": "Pinto",
+  "year": 2026,
+  "yield_kg_ha": 3093.0,
+  "maturity_days": 82.8,
+  "seed_weight_g": 34.0,
+  "harvestability": 2.4,
+  "image": "OAC-25-P1.jpg",
+  "resistance": {
+    "CMV_R1": "R",
+    "CMV_R15": "R",
+    "Anthracnose_R17": "N/A",
+    "Anthracnose_R23": "N/A",
+    "Anthracnose_R73": "R",
+    "CommonBlight": "N/A"
+  }
+},
+{
+  "id": 86,
+  "name": "OAC 25-P2",
+  "marketClass": "Pinto",
+  "year": 2026,
+  "yield_kg_ha": 3268.6,
+  "maturity_days": 84.8,
+  "seed_weight_g": 36.2,
+  "harvestability": 2.5,
+  "image": "OAC-25-P2.jpg",
+  "resistance": {
+    "CMV_R1": "R",
+    "CMV_R15": "R",
+    "Anthracnose_R17": "N/A",
+    "Anthracnose_R23": "N/A",
+    "Anthracnose_R73": "S",
+    "CommonBlight": "N/A"
+  }
+},
+{
+  "id": 87,
+  "name": "OAC 23-1",
+  "marketClass": "White",
+  "year": 2025,
+  "yield_kg_ha": 3163.9,
+  "maturity_days": 74.9,
+  "seed_weight_g": 18.3,
+  "harvestability": 1.9,
+  "image": "OAC-23-1.jpg",
+  "resistance": {
+    "CMV_R1": "R",
+    "CMV_R15": "R",
+    "Anthracnose_R17": "N/A",
+    "Anthracnose_R23": "N/A",
+    "Anthracnose_R73": "S",
+    "CommonBlight": "MR"
+  }
+},
+{
+  "id": 88,
+  "name": "OAC 24-1",
+  "marketClass": "White",
+  "year": 2025,
+  "yield_kg_ha": 3616.3,
+  "maturity_days": 81.6,
+  "seed_weight_g": 19.4,
+  "harvestability": 2.7,
+  "image": "OAC-24-1.jpg",
+  "resistance": {
+    "CMV_R1": "R",
+    "CMV_R15": "R",
+    "Anthracnose_R17": "N/A",
+    "Anthracnose_R23": "N/A",
+    "Anthracnose_R73": "S",
+    "CommonBlight": "MR"
+  }
+},
+{
+  "id": 89,
+  "name": "OAC 24-2",
+  "marketClass": "White",
+  "year": 2025,
+  "yield_kg_ha": 3571.7,
+  "maturity_days": 83.0,
+  "seed_weight_g": 19.6,
+  "harvestability": 2.8,
+  "image": "OAC-24-2.jpg",
+  "resistance": {
+    "CMV_R1": "N/A",
+    "CMV_R15": "N/A",
+    "Anthracnose_R17": "N/A",
+    "Anthracnose_R23": "N/A",
+    "Anthracnose_R73": "R",
+    "CommonBlight": "MR"
+  }
+},
+{
+  "id": 90,
+  "name": "OAC 24-4",
+  "marketClass": "White",
+  "year": 2025,
+  "yield_kg_ha": 3362.7,
+  "maturity_days": 79.0,
+  "seed_weight_g": 22.0,
+  "harvestability": 2.2,
+  "image": "OAC-24-4.jpg",
+  "resistance": {
+    "CMV_R1": "N/A",
+    "CMV_R15": "N/A",
+    "Anthracnose_R17": "N/A",
+    "Anthracnose_R23": "N/A",
+    "Anthracnose_R73": "R",
+    "CommonBlight": "MR"
+  }
+},
+{
+  "id": 91,
+  "name": "OAC 25-1",
+  "marketClass": "White",
+  "year": 2026,
+  "yield_kg_ha": 3487.6,
+  "maturity_days": 85.7,
+  "seed_weight_g": 22.4,
+  "harvestability": 2.3,
+  "image": "OAC-25-1.jpg",
+  "resistance": {
+    "CMV_R1": "N/A",
+    "CMV_R15": "N/A",
+    "Anthracnose_R17": "N/A",
+    "Anthracnose_R23": "N/A",
+    "Anthracnose_R73": "R",
+    "CommonBlight": "MR"
+  }
+},
+{
+  "id": 92,
+  "name": "OAC 25-2",
+  "marketClass": "White",
+  "year": 2026,
+  "yield_kg_ha": 3279.8,
+  "maturity_days": 84.8,
+  "seed_weight_g": 20.9,
+  "harvestability": 2.1,
+  "image": "OAC-25-2.jpg",
+  "resistance": {
+    "CMV_R1": "N/A",
+    "CMV_R15": "N/A",
+    "Anthracnose_R17": "N/A",
+    "Anthracnose_R23": "N/A",
+    "Anthracnose_R73": "S",
+    "CommonBlight": "MR"
+  }
+}	
 ]
