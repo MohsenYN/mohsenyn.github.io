@@ -901,7 +901,7 @@
   {
     "id": 47,
     "name": "XPT One",
-    "marketClass": "Non-darkening Pinto",
+    "marketClass": "Pinto",
     "year": 2022,
     "yield_kg_ha": 2495.34,
     "maturity_days": 88.07,
