@@ -150,9 +150,47 @@ accent_image: /assets/img/TeamMembers.png
       <a href="mailto:ashehery@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
     </div>
   </div>
+    <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,51); transition: transform 0.3s, box-shadow 0.3s;">
+    <img src="/assets/img/team/YifeiZhou.jpg" alt="Yifei Zhou" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="color: rgb(0,102,51); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Yifei Zhou</h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Master Student</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">Co-advised with Dr. Yan Yan.</p>
+    <div style="text-align: center; margin-top: 1rem;">
+      <a href="mailto:yzhou22@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
+    </div>
+  </div>
 </div>
 
 ---
+
+## Visiting Scholars & Faculty
+<div class="team-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 3rem 0;">
+  
+  <div style="background: linear-gradient(135deg, rgba(0,102,153,0.08), rgba(0,153,153,0.08)); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,153); transition: transform 0.3s, box-shadow 0.3s;">
+    <img src="/assets/img/team/Douglas.jpg" alt="Douglas de Oliveira Maciel" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">  
+    <h3 style="color: rgb(0,102,153); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;"> Douglas de Oliveira Maciel </h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;"> Visiting Research Scholar </p>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;"> Universidade Federal de Goiás </p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;"> Screening a Dry Bean GWAS Panel for Resistance to Two Contrasting HG Types of Soybean Cyst Nematode (SCN). </p>
+    <div style="text-align: center; margin-top: 1rem;">
+      <a href="mailto:dmaciel@uoguelph.ca" class="social-link">
+        <img src="/assets/img/icons/email.png" alt="Email" class="social-icon">
+      </a>
+    </div>
+  </div>
+    <div style="background: linear-gradient(135deg, rgba(0,102,153,0.08), rgba(0,153,153,0.08)); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,153); transition: transform 0.3s, box-shadow 0.3s;">
+    <img src="/assets/img/team/MarcErnso.jpg" alt="Marc Ernso GEORGES" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">  
+    <h3 style="color: rgb(0,102,153); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;"> Marc Ernso GEORGES </h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;"> Visiting Research Scholar </p>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;"> Universidade Estadual de Santa Cruz </p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;"> Screening a Dry Bean GWAS Panel for Resistance to Two Contrasting HG Types of Soybean Cyst Nematode (SCN). </p>
+    <div style="text-align: center; margin-top: 1rem;">
+      <a href="mailto:georgesernso@gmail.com" class="social-link">
+        <img src="/assets/img/icons/email.png" alt="Email" class="social-icon">
+      </a>
+    </div>
+  </div>
+</div>
 
 ## Undergraduate Students
 
