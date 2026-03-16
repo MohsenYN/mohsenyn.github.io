@@ -68,7 +68,7 @@ accent_image: /assets/img/LabNews.png
   </p>
   <figure>
     <img src="/assets/img/team/Douglas.jpg" alt="Douglas de Oliveira Maciel" loading="lazy">
-    <img src="/assets/img/team/Marc.jpg" alt="Marc Ernso Georges" loading="lazy">
+    <img src="/assets/img/team/MarcErnso.jpg" alt="Marc Ernso Georges" loading="lazy">
     <img src="/assets/img/team/Yifei.jpg" alt="Yifei Zhou" loading="lazy">
   </figure>
 </article>
