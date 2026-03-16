@@ -34,6 +34,8 @@ accent_image: /assets/img/LabNews.png
     <!-- Scrollable LinkedIn Feed -->
     <div class="linkedin-scroll-frame">
       <div class="linkedin-post">
+         
+         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7434357340809920512?collapsed=1" height="634" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7426787750223220737?collapsed=1" height="628" allowfullscreen></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7396571721451085824?collapsed=1" height="737" allowfullscreen></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7389703303548366848?collapsed=1" height="593" allowfullscreen></iframe>
