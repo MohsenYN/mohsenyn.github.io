@@ -53,6 +53,45 @@ accent_image: /assets/img/LabNews.png
 
 <main class="news-grid" role="main">
 
+ <article class="news-item" aria-labelledby="news-2026-03-09">
+  <h2 class="news-date" id="news-2026-03-09">March 9, 2026</h2>
+  <p><strong>Welcoming New Researchers to the Dry Bean Breeding and Computational Biology Lab</strong><br>
+    March marks not only the beginning of a new season, but also a season of growth for the Dry Bean Breeding and Computational Biology Lab at the University of Guelph, Ontario Agricultural College. The team is very happy to welcome three outstanding new members whose diverse backgrounds and expertise will contribute to the lab’s expanding research activities.
+    <br><br>
+    Douglas de Oliveira Maciel joins the lab from Goiás, Brazil. Douglas is an agronomist and a PhD candidate in Plant Genetics and Breeding at the Universidade Federal de Goiás. His previous work includes recommending upland rice lines for the Goiás region, and his research now focuses on understanding nematode resistance in common beans. Motivated by curiosity for new scientific methodologies and international collaboration, Douglas travelled to Canada to expand his research experience and explore new approaches in plant genetics. Outside the lab, he enjoys soccer and listening to Brazilian sertanejo and pagode music.
+    <br><br>
+    Marc Ernso Georges joins the team as a visiting student and brings an international perspective shaped by his academic journey from Haiti to Brazil. Marc earned his MSc in Plant Breeding from the Universidade Estadual de Santa Cruz with a research focus on cacao. He is currently continuing his PhD research on evaluating new cacao clones and applying data driven approaches to plant genetics. His interests strongly align with the lab’s goal of integrating traditional plant breeding with computational biology to develop sustainable and productive crop systems. Beyond research, Marc enjoys soccer, CrossFit, volleyball, and community service activities.
+    <br><br>
+    The team also welcomes Yifei Zhou, a Master of Bioinformatics student at the University of Guelph who is co supervised with Dr. Yan Yan. Yifei has a strong interdisciplinary background that connects biology, analytical chemistry, and computer programming. His expertise in LC MS MS analysis and his growing interest in computational biology and machine learning make him an excellent addition to the lab’s research efforts. Outside academic work, Yifei enjoys sports, playing poker, and learning fishing.
+    <br><br>
+    As the team continues to grow, the lab looks forward to the new ideas, collaborations, and discoveries that will emerge from this diverse group of researchers. The Dry Bean Breeding and Computational Biology Lab warmly welcomes Douglas, Marc, and Yifei and looks forward to the exciting work ahead.
+  </p>
+  <figure>
+    <img src="/assets/img/team/Douglas.jpg" alt="Douglas de Oliveira Maciel" loading="lazy">
+    <img src="/assets/img/team/Marc.jpg" alt="Marc Ernso Georges" loading="lazy">
+    <img src="/assets/img/team/Yifei.jpg" alt="Yifei Zhou" loading="lazy">
+  </figure>
+</article>
+
+
+<article class="news-item" aria-labelledby="news-2026-02-16">
+  <h2 class="news-date" id="news-2026-02-16">February 16, 2026</h2>
+  <p><strong>Recognition from the North American Plant Phenotyping Network</strong><br>
+    The Dry Bean Breeding and Computational Biology Lab is proud to share that Dr. Mohsen Yoosefzadeh has been selected as the recipient of the 2026 North American Plant Phenotyping Network Early Career Award. The news arrived on a cold February day during an ordinary grocery trip, turning a routine moment into a memorable milestone.
+    <br><br>
+    The recognition reflects several years of involvement with the plant phenotyping community. The journey began in 2021 at an early North American Plant Phenotyping Network meeting, where research from the lab was presented and where participation in organizing activities through the Corteva Plant Science Student Council helped strengthen connections within the research community.
+    <br><br>
+    More importantly, this recognition reflects the support and encouragement of many colleagues, collaborators, and mentors who have contributed along the way. It also belongs to the students and team members in the lab whose dedication in both field and laboratory work continues to drive innovation and discovery. Their curiosity, commitment, and teamwork are at the heart of the lab’s progress.
+    <br><br>
+    The award represents more than an individual achievement. It reflects the strength of a supportive scientific community and the collaborative efforts that make meaningful research possible. The team is deeply grateful for this recognition and looks forward to continuing its work in advancing plant phenotyping, dry bean breeding, and computational biology.
+  </p>
+  <figure>
+    <img src="/assets/img/news/NAPPN1.jpg" alt="North American Plant Phenotyping Network Award" loading="lazy">
+    <img src="/assets/img/news/NAPPN2.jpg" alt="NAPPN recognition announcement" loading="lazy">
+  </figure>
+</article>
+  
+  
   <article class="news-item" aria-labelledby="news-2026-02-09">
   <h2 class="news-date" id="news-2026-02-09">February 9, 2026</h2>
   <p><strong>Supporting Student Pathways Through Research Connections</strong><br>
