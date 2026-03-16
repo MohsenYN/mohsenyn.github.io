@@ -86,8 +86,7 @@ accent_image: /assets/img/LabNews.png
     The award represents more than an individual achievement. It reflects the strength of a supportive scientific community and the collaborative efforts that make meaningful research possible. The team is deeply grateful for this recognition and looks forward to continuing its work in advancing plant phenotyping, dry bean breeding, and computational biology.
   </p>
   <figure>
-    <img src="/assets/img/news/NAPPN1.jpg" alt="North American Plant Phenotyping Network Award" loading="lazy">
-    <img src="/assets/img/news/NAPPN2.jpg" alt="NAPPN recognition announcement" loading="lazy">
+    <img src="/assets/img/news/AwardECANAPPN.jpg" alt="North American Plant Phenotyping Network Award" loading="lazy">
   </figure>
 </article>
   
