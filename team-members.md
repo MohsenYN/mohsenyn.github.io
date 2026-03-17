@@ -253,16 +253,6 @@ accent_image: /assets/img/TeamMembers.png
     </div>
   </div>
   <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(255,204,0); transition: transform 0.3s, box-shadow 0.3s;">
-    <img src="/assets/img/team/Niki.jpg" alt="Niki Esmaeili" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    <h3 style="color: rgb(255,204,0); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Niki Esmaeili</h3>
-    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Volunteer</p>
-    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">Developing Predictive AI algorithms for the dry bean breeding program.</p>
-    <div style="text-align: center; margin-top: 1rem;">
-      <a href="mailto:esmaeiln@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
-      <a href="https://www.linkedin.com/in/niki-esmaeili-91a6ab2bb/" target="_blank" class="social-link"><img src="/assets/img/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
-    </div>
-  </div>
-  <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(255,204,0); transition: transform 0.3s, box-shadow 0.3s;">
     <img src="/assets/img/team/Paul.jpg" alt="Paul Dosekun" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <h3 style="color: rgb(255,204,0); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Paul Dosekun</h3>
     <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Volunteer</p>
@@ -296,6 +286,12 @@ accent_image: /assets/img/TeamMembers.png
 ## Alumni
 <div class="team-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 3rem 0;">
    <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,0,0); transition: transform 0.3s, box-shadow 0.3s;">
+    <img src="/assets/img/team/Niki.jpg" alt="Niki Esmaeili" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="color: rgb(0,0,0); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Niki Esmaeili</h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Former Volunteer</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">2025-2026</p>
+  </div> 
+  <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,0,0); transition: transform 0.3s, box-shadow 0.3s;">
     <img src="/assets/img/team/Ryan.jpeg" alt="Ryan Male" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <h3 style="color: rgb(0,0,0); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Ryan Male</h3>
     <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Former Undergraduate Student</p>
