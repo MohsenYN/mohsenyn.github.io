@@ -55,7 +55,40 @@ accent_image: /assets/img/LabNews.png
 
 <main class="news-grid" role="main">
 
- <article class="news-item" aria-labelledby="news-2026-03-09">
+<article class="news-item" aria-labelledby="news-2026-03-23">
+  <h2 class="news-date" id="news-2026-03-23">March 23, 2026</h2>
+
+  <p>
+    <strong>College Royal Showcases Beans and Innovation at the University of Guelph</strong><br><br>
+
+    The annual College Royal at the University of Guelph once again brought the campus to life, welcoming families, students, and visitors to explore, learn, and engage with a wide range of exhibits across campus. The event continues to be a space where science, community, and curiosity come together in a welcoming and interactive environment.
+    <br><br>
+
+    This year, the Dry Bean Breeding and Computational Biology team hosted a vibrant booth showcasing beans in a wide range of shapes and colours alongside growing plants. The display highlighted the diversity of bean varieties and gave visitors the opportunity to take a closer look and learn more about ongoing work in plant breeding. Many attendees stopped by to ask questions and explore the different types on display, creating meaningful and engaging conversations throughout the event.
+    <br><br>
+
+    A key feature of the booth was the introduction of a bean kit designed for those interested in growing beans at home. The kit provided a simple and accessible way for visitors to continue the experience beyond College Royal and try growing beans themselves. The initiative was well received and helped extend the impact of the booth beyond the event.
+    <br><br>
+
+    The booth saw strong attendance throughout the day, with many visitors expressing interest and enthusiasm. The interactive nature of the display helped spark curiosity and encouraged people to learn more about plant science and hands on growing.
+    <br><br>
+
+    Although only briefly present on Sunday, the team acknowledges the important contributions of everyone who supported the booth. Special thanks are extended to head technician Lyndsay for helping coordinate and co host the College Royal activities within the department.
+    <br><br>
+
+    A short recap of the booth experience, created with thanks to Abby, is available below and can also be viewed on the lab’s YouTube page.
+  </p>
+
+  <figure>
+    <a href="https://youtu.be/1LADrg27OKM?si=DUlrg5B7x9RaMb3z" target="_blank" rel="noopener">
+      <img src="https://img.youtube.com/vi/1LADrg27OKM/hqdefault.jpg" alt="College Royal Bean Booth Recap Video" loading="lazy">
+    </a>
+    <figcaption>Watch the full recap on YouTube.</figcaption>
+  </figure>
+
+</article>
+
+<article class="news-item" aria-labelledby="news-2026-03-09">
   <h2 class="news-date" id="news-2026-03-09">March 9, 2026</h2>
   <p><strong>Welcoming New Researchers to the Dry Bean Breeding and Computational Biology Lab</strong><br>
     March marks not only the beginning of a new season, but also a season of growth for the Dry Bean Breeding and Computational Biology Lab at the University of Guelph, Ontario Agricultural College. The team is very happy to welcome three outstanding new members whose diverse backgrounds and expertise will contribute to the lab’s expanding research activities.
