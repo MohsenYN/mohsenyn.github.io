@@ -73,9 +73,6 @@ accent_image: /assets/img/LabNews.png
     The booth saw strong attendance throughout the day, with many visitors expressing interest and enthusiasm. The interactive nature of the display helped spark curiosity and encouraged people to learn more about plant science and hands on growing.
     <br><br>
 
-    Although only briefly present on Sunday, the team acknowledges the important contributions of everyone who supported the booth. Special thanks are extended to head technician Lyndsay for helping coordinate and co host the College Royal activities within the department.
-    <br><br>
-
     A short recap of the booth experience, created with thanks to Abby, is available below and can also be viewed on the lab’s YouTube page.
   </p>
 
