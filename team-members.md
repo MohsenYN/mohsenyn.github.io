@@ -86,13 +86,13 @@ accent_image: /assets/img/TeamMembers.png
 
 <div class="team-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 3rem 0;">
  <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(255,204,0); transition: transform 0.3s, box-shadow 0.3s;">
-    <img src="/assets/img/team/MasoudMalekiP.jpg" alt="Masoud Maleki" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    <h3 style="color: rgb(255,204,0); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Dr. Masoud Maleki</h3>
-    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Post Doctoral Researcher</p>
-    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">2025–Present</p>
+    <img src="/assets/img/team/" alt="" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="color: rgb(255,204,0); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;"></h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;"></p>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;"></p>
     <div style="text-align: center; margin-top: 1rem;">
-      <a href="mailto:m.maleki2012@gmail.com" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
-      <a href="https://www.linkedin.com/in/masoud-maleki-b342bb143/" target="_blank" class="social-link"><img src="/assets/img/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
+      <a href="mailto:" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
+      <a href="" target="_blank" class="social-link"><img src="/assets/img/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
     </div>
   </div>
 </div>
@@ -290,6 +290,12 @@ accent_image: /assets/img/TeamMembers.png
     <h3 style="color: rgb(0,0,0); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;"Abrienna Mills</h3>
     <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Former Undergraduate Student</p>
     <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">2024-2026</p>
+  </div> 
+   <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,0,0); transition: transform 0.3s, box-shadow 0.3s;">
+    <img src="/assets/img/team/MasoudMalekiP.jpg" alt="Masoud Maleki" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="color: rgb(0,0,0); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;"Abrienna Mills</h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Former Post Doctoral Researcher</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">2025-2026</p>
   </div> 
     <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,0,0); transition: transform 0.3s, box-shadow 0.3s;">
     <img src="/assets/img/team/Niki.jpg" alt="Niki Esmaeili" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
