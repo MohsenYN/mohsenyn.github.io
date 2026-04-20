@@ -161,7 +161,7 @@ accent_image: /assets/img/TeamMembers.png
     </div>
   </div>
    <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,51); transition: transform 0.3s, box-shadow 0.3s;">
-    <img src="/assets/img/team/Indhu_Ayyappan.jpeg" alt="Indhu Ayyappan" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <img src="/assets/img/team/Indhu_Ayyappan.jpg" alt="Indhu Ayyappan" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <h3 style="color: rgb(0,102,51); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Indhu Ayyappan</h3>
     <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Master Student</p>
     <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;"> CFIA collaborative projects studying E. coli and antimicrobial resistance in food systems using genomic analysis.</p>
