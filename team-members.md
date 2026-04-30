@@ -4,9 +4,17 @@ permalink: /team-members/
 accent_image: /assets/img/TeamMembers.png
 ---
 
-<div class="intro-box" style="background: linear-gradient(135deg, rgba(255,204,0,0.2), rgba(255,255,255,0.9)); border: 2px solid rgb(150,0,0); border-radius: 12px; padding: 2rem; margin: 2rem auto; box-shadow: 0 6px 12px rgba(0,0,0,0.15); text-align: center; max-width: 90%; position: relative;">
+<section class="fx-page-hero">
+  <canvas class="fx-neural"></canvas>
+  <span class="fx-eyebrow">// Team</span>
+  <h1>The Beans with the Genes</h1>
+  <p class="fx-lead" style="max-width:760px; margin: 0 auto; color:var(--fx-text-dim);">
+    A diverse, passionate team of breeders, geneticists, computational biologists, and AI engineers
+    cultivating the future of agriculture from the University of Guelph.
+  </p>
+</section>
 
-  <h1 style="color: rgb(150,0,0); font-size: 2.5rem; margin: 0 auto 1rem; font-weight: 700; letter-spacing: 1px; text-align: center; width: 100%; display: block;">Our Team</h1>
+<div class="intro-box" style="background: var(--fx-panel); border: 1px solid var(--fx-panel-border); border-radius: 16px; padding: 2rem; margin: 2rem auto; text-align: center; backdrop-filter: blur(12px);">
     <!-- Featured YouTube Video -->
 <div class="youtube-embed youtube-embed--large">
   <iframe
@@ -17,7 +25,7 @@ accent_image: /assets/img/TeamMembers.png
   </iframe>
 </div>
   <img src="/assets/img/TeamFeb6.jpg" alt="Team Members" style="max-width: 100%; width: 500px; border-radius: 10px; box-shadow: 0 6px 12px rgba(0,0,0,0.2); margin: 0 auto 1rem; display: block;">
-  <p style="font-size: 1.2rem; line-height: 1.6; color: rgb(0,0,0); font-style: italic; margin: 0 auto;">The Dry Bean Breeding & Computational Biology Program thrives thanks to our diverse, passionate team. Together, we’re cultivating innovation in agriculture.</p>
+  <p style="font-size: 1.15rem; line-height: 1.6; color: var(--fx-text); font-style: italic; margin: 1rem auto 0;">The Dry Bean Breeding & Computational Biology Program thrives thanks to our diverse, passionate team. Together, we're cultivating innovation in agriculture.</p>
 </div>
 
 ---

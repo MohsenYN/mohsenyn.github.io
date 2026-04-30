@@ -5,11 +5,19 @@ collection: research
 accent_image: /assets/img/Research.png
 ---
 
-<div class="intro-box" style="background: linear-gradient(135deg, rgba(150,0,0,0.1), rgba(255,255,255,0.9)); border: 2px solid rgb(150,0,0); border-radius: 12px; padding: 2rem; margin: 2rem 0; box-shadow: 0 6px 12px rgba(0,0,0,0.15); text-align: center;">
-  <h1 style="color: rgb(150,0,0); font-size: 2.5rem; margin: 0 auto 1rem; font-weight: 700; letter-spacing: 1px; text-align: center; width: 100%; display: block;">Research Interests</h1>
-  <p style="font-size: 1.2rem; line-height: 1.6; color: #333;"> “Our research primarily focuses on developing dry bean cultivars that offer significant benefits to farmers and growers. We leverage advanced high-throughput technologies to enhance breeding efficiency and employ computational biology approaches to analyze and interpret results more effectively. By integrating these methodologies, we aim to create resilient and high-yielding dry bean varieties that meet the evolving needs of the agricultural community across various regions.”</p>
-  <p class="page-subtitle">For more information about the past and present of the dry bean breeding at the University of Guelph, please click  <a href="https://www.openaccessgovernment.org/article/bean-breeding-and-at-the-university-of-guelph-past-and-present/194297/" target="_blank" rel="noopener noreferrer"><strong>Here</strong></a>.</p>
-</div>
+<section class="fx-page-hero">
+  <canvas class="fx-neural"></canvas>
+  <span class="fx-eyebrow">// Research Program</span>
+  <h1>Cultivars Engineered<br>by Data &amp; Discipline</h1>
+  <p class="fx-lead" style="max-width:760px; margin: 0 auto; color:var(--fx-text-dim);">
+    Our research focuses on developing dry bean cultivars that benefit farmers and growers worldwide.
+    We leverage advanced high&#8209;throughput technologies and computational biology to build
+    resilient, high&#8209;yielding varieties for evolving agricultural systems.
+  </p>
+  <div class="fx-hero-cta" style="margin-top:1.2rem;">
+    <a class="fx-btn fx-btn-ghost" href="https://www.openaccessgovernment.org/article/bean-breeding-and-at-the-university-of-guelph-past-and-present/194297/" target="_blank" rel="noopener">Past &amp; Present at U of G</a>
+  </div>
+</section>
 
 <div class="gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 2rem 0;">
   <figure style="margin: 0; position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">

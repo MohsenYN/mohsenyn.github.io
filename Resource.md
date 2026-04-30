@@ -3,10 +3,14 @@ layout: list
 permalink: /Resource/
 accent_image: /assets/img/Resources.png
 ---
-<header class="page-header">
-  <h1 style="font-size: 2.5rem; margin: 0 auto 1rem; font-weight: 700; letter-spacing: 1px; text-align: center; width: 100%; display: block;">Resources</h1>
-  <p>Explore our latest dry bean varieties and connect with distributors for licensing and inquiries.</p>
-</header>
+<section class="fx-page-hero">
+  <canvas class="fx-neural"></canvas>
+  <span class="fx-eyebrow">// Resources</span>
+  <h1>Varieties, Datasets &amp; Distributors</h1>
+  <p class="fx-lead" style="max-width:760px; margin: 0 auto; color:var(--fx-text-dim);">
+    Explore our latest dry bean varieties and connect with distributors for licensing and inquiries.
+  </p>
+</section>
 
 <div class="resource-container">
   <section class="new-varieties">

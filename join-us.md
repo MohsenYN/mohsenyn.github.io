@@ -4,10 +4,18 @@ permalink: /join-us/
 accent_image: /assets/img/JoinUs.png
 ---
 
-<header class="page-header" role="banner">
-  <h1 style="font-size: 2.5rem; margin: 0 auto 1rem; font-weight: 700; letter-spacing: 1px; text-align: center; width: 100%; display: block;">Join Our Team</h1>
-  <p>Be a part of dry bean breeding & computational biology at the University of Guelph.</p>
-</header>
+<section class="fx-page-hero">
+  <canvas class="fx-neural"></canvas>
+  <span class="fx-eyebrow">// Join Us</span>
+  <h1>Build the Future of Beans</h1>
+  <p class="fx-lead" style="max-width:760px; margin: 0 auto; color:var(--fx-text-dim);">
+    Be a part of dry bean breeding &amp; computational biology at the University of Guelph.
+    Open positions, graduate opportunities, and industry collaborations.
+  </p>
+  <div class="fx-hero-cta" style="margin-top:1.2rem;">
+    <a class="fx-btn fx-btn-primary" href="mailto:myoosefz@uoguelph.ca">Email the PI</a>
+  </div>
+</section>
 
 <main class="join-us-container" role="main">
   <!-- Opportunities Section -->

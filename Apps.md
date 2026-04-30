@@ -1,131 +1,99 @@
 ---
-layout: list
+layout: page
+title: AI & Analysis Hub
 permalink: /AI & Analysis Hub/
-accent_image: /assets/img/Resources.png
+hide_description: true
 ---
 
-<section class="apps-container">
+<section class="fx-page-hero">
+  <canvas class="fx-neural"></canvas>
+  <span class="fx-eyebrow">// AI &amp; Analysis Hub</span>
+  <h1>Tools Built by the Lab,<br>For the World.</h1>
+  <p class="fx-lead" style="max-width:760px; margin: 0 auto; color:var(--fx-text-dim);">
+    Production&#8209;grade AI and statistical software developed in&#8209;house at the
+    University of Guelph Dry Bean Breeding &amp; Computational Biology Program.
+  </p>
+</section>
 
-  <!-- BeanGPT -->
-  <div class="app-box beangpt" onclick="window.open('https://beangpt.ca','_blank')">
-    <div class="icon" style="background-image: url('/assets/icon/beangpt-logo.png');"></div>
-    <div class="info">
-      <h2>BeanGPT</h2>
-      <p>
-        Your AI-powered partner for bean breeding and computational biology. 
-        Trained on 300k+ peer-reviewed papers, OPCC field trial data, and multi-omics resources, BeanGPT supports 
-        literature synthesis, trait exploration, field trial analysis, predictions, and breeding tips, accelerating 
-        crop improvement for Phaseolus and beyond.
-      </p>
-    </div>
+<section class="fx-section fx-reveal">
+  <div class="fx-bento">
+    <a class="fx-tile fx-feat-ai fx-w-12 fx-tilt" href="https://beangpt.ca" target="_blank" rel="noopener" style="min-height: 420px;">
+      <div class="fx-tilt-inner" style="display:flex; gap:2rem; align-items:center; flex-wrap:wrap;">
+        <div class="fx-app-icon" style="background-image:url('/assets/icon/beangpt-logo.png'); width:140px; height:140px;"></div>
+        <div style="flex:1; min-width:260px;">
+          <div class="fx-app-tag">// Generative AI · LLM</div>
+          <h3 style="font-size: 2.4rem !important; margin: .2rem 0 1rem !important;">BeanGPT</h3>
+          <p style="font-size:1.05rem; color: rgba(255,255,255,0.85); line-height:1.7;">
+            Your AI&#8209;powered partner for bean breeding and computational biology. Trained on
+            <strong>300k+ peer&#8209;reviewed papers</strong>, OPCC field trial data, and multi&#8209;omics
+            resources, BeanGPT supports literature synthesis, trait exploration, field trial
+            analysis, predictions, and breeding tips — accelerating crop improvement for
+            <em>Phaseolus</em> and beyond.
+          </p>
+          <div class="fx-tags" style="margin-top:1rem;">
+            <span class="fx-tag">Large Language Model</span>
+            <span class="fx-tag">Multi-Omics</span>
+            <span class="fx-tag">Trait Prediction</span>
+            <span class="fx-tag">Literature Mining</span>
+            <span class="fx-tag">Breeding Decisions</span>
+          </div>
+          <div style="margin-top:1.5rem;">
+            <span class="fx-btn fx-btn-primary">Launch BeanGPT →</span>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a class="fx-tile fx-feat-bio fx-w-12 fx-tilt" href="https://allinone.shinyapps.io/AllInOne/" target="_blank" rel="noopener" style="min-height: 420px;">
+      <div class="fx-tilt-inner" style="display:flex; gap:2rem; align-items:center; flex-wrap:wrap;">
+        <div class="fx-app-icon" style="background-image:url('/assets/icon/allinone-logo.png'); width:140px; height:140px;"></div>
+        <div style="flex:1; min-width:260px;">
+          <div class="fx-app-tag">// R&#8209;Shiny · Open Source</div>
+          <h3 style="font-size: 2.4rem !important; margin: .2rem 0 1rem !important;">AllInOne Pre&#8209;processing</h3>
+          <p style="font-size:1.05rem; color: rgba(255,255,255,0.9); line-height:1.7;">
+            An open&#8209;source R&#8209;Shiny package for pre&#8209;processing phenotypic datasets. Offers
+            missing&#8209;data detection &amp; imputation (MICE), visualization tools, outlier
+            detection, correlation &amp; normalization (bestNormalize), spatial analysis (SpATS),
+            BLUE/BLUP estimation, heritability calculation, and live dataset editing — all in
+            an interactive environment.
+          </p>
+          <div class="fx-tags" style="margin-top:1rem;">
+            <span class="fx-tag">R-Shiny</span>
+            <span class="fx-tag">MICE</span>
+            <span class="fx-tag">SpATS</span>
+            <span class="fx-tag">BLUP / BLUE</span>
+            <span class="fx-tag">Heritability</span>
+          </div>
+          <div style="margin-top:1.5rem; display:flex; gap:.8rem; flex-wrap:wrap;">
+            <span class="fx-btn fx-btn-primary">Launch AllInOne →</span>
+            <a class="fx-btn fx-btn-ghost" href="https://www.sciencedirect.com/science/article/pii/S2352711023001607" target="_blank" rel="noopener" onclick="event.stopPropagation();">Read the Paper</a>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="fx-section fx-reveal">
+  <div class="fx-section-head">
+    <div class="fx-section-eyebrow">// What's Inside</div>
+    <h2 class="fx-section-title">Capabilities at a Glance</h2>
   </div>
 
-  <!-- AllInOne -->
-  <div class="app-box allinone" onclick="window.open('https://allinone.shinyapps.io/AllInOne/','_blank')">
-    <div class="icon" style="background-image: url('/assets/icon/allinone-logo.png');"></div>
-    <div class="info">
-      <h2>AllInOne Pre-processing</h2>
-      <p>
-        An open-source R-Shiny package for pre-processing phenotypic datasets. 
-        Offers missing data detection & imputation (MICE), visualization tools, outlier detection, correlation & 
-        normalization (bestNormalize), spatial analysis (SpATS), BLUE/BLUP estimation, heritability calculation, and 
-        live dataset editing, all in an interactive environment.
-      </p>
-      <div class="paper-link-container">
-       <a href="https://www.sciencedirect.com/science/article/pii/S2352711023001607" class="paper-link" target="_blank" onclick="event.stopPropagation();">📄 Read the Research Paper</a>
-    </div>
+  <div class="fx-bento">
+    <div class="fx-tile fx-w-3"><div class="fx-emoji">📚</div><h3>Literature</h3><p>Synthesize across 300k+ papers in seconds.</p></div>
+    <div class="fx-tile fx-w-3"><div class="fx-emoji">🧪</div><h3>Trait Lookup</h3><p>Query traits, QTL, and gene&#8209;trait associations.</p></div>
+    <div class="fx-tile fx-w-3"><div class="fx-emoji">📈</div><h3>Trial Analysis</h3><p>Spatial models, BLUPs, and heritability estimates.</p></div>
+    <div class="fx-tile fx-w-3"><div class="fx-emoji">🎯</div><h3>Predictions</h3><p>GEBV, GP models, and selection candidates.</p></div>
+    <div class="fx-tile fx-w-3"><div class="fx-emoji">🧹</div><h3>Imputation</h3><p>MICE&#8209;based handling of missing phenotypes.</p></div>
+    <div class="fx-tile fx-w-3"><div class="fx-emoji">🚨</div><h3>Outlier Detection</h3><p>Robust filters for cleaner training sets.</p></div>
+    <div class="fx-tile fx-w-3"><div class="fx-emoji">📐</div><h3>Normalization</h3><p>bestNormalize transforms, automated.</p></div>
+    <div class="fx-tile fx-w-3"><div class="fx-emoji">🗺</div><h3>Spatial Analysis</h3><p>SpATS&#8209;driven field heterogeneity correction.</p></div>
   </div>
+</section>
 
-<style>
-  body {
-    background: #f5f5f5;
-    font-family: Arial, sans-serif;
-  }
-
-  .apps-container {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    padding: 3rem 1rem;
-    max-width: 900px;
-    margin: auto;
-  }
-
-  .app-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-    padding: 2rem;
-    border-radius: 1.5rem;
-    color: white;
-    cursor: pointer;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-
-  .app-box:hover {
-    transform: translateY(-6px) scale(1.02);
-    box-shadow: 0 12px 28px rgba(0,0,0,0.25);
-  }
-
-  .beangpt {
-    background: linear-gradient(135deg, #8e44ad, #c0392b);
-  }
-
-  .allinone {
-    background: linear-gradient(135deg, #16a085, #27ae60);
-  }
-
-  .icon {
-    width: 120px;
-    height: 120px;
-    border-radius: 1rem;
-    background-size: cover;
-    background-position: center;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  }
-
-  .info {
-    text-align: center;
-    max-width: 700px;
-  }
-
-  .info h2 {
-    font-size: 2rem;
-    margin-bottom: 0.75rem;
-  }
-
-  .info p {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    color: rgba(255,255,255,0.9);
-  }
-
-  .paper-link {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.6rem 1.2rem;
-    background: rgba(255,255,255,0.15);
-    border: 1px solid rgba(255,255,255,0.3);
-    border-radius: 0.5rem;
-    color: #fff;
-    font-weight: bold;
-    text-decoration: none;
-    transition: background 0.3s, transform 0.2s;
-  }
-
-  .paper-link:hover {
-    background: rgba(255,255,255,0.25);
-    transform: scale(1.05);
-  }
-
-  @media (max-width: 600px) {
-    .info h2 {
-      font-size: 1.5rem;
-    }
-    .info p {
-      font-size: 1rem;
-    }
-  }
-</style>
+<section class="fx-section fx-reveal" style="text-align:center;">
+  <div class="fx-section-eyebrow">// Coming Soon</div>
+  <h2 class="fx-section-title">More Tools in the Pipeline</h2>
+  <p class="fx-section-sub">Computer&#8209;vision phenotyping, automated GWAS, and a public genomic&#8209;selection API are next on our roadmap. Stay tuned.</p>
+</section>

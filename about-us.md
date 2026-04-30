@@ -5,11 +5,21 @@ permalink: /about-us/
 accent_image: /assets/img/AboutUs.png
 ---
 
-<div style="text-align: center; margin: 2rem 0;">
-  <img src="/assets/img/BWG.jpg" alt="The Beans with the Genes" style="max-width: 300px; margin: 0 1rem;">
-</div>
+<section class="fx-page-hero">
+  <canvas class="fx-neural"></canvas>
+  <span class="fx-eyebrow">// About Us</span>
+  <h1>48 Years of Breeding.<br>Reborn for the AI Era.</h1>
+  <p class="fx-lead" style="max-width:760px; margin: 0 auto; color:var(--fx-text-dim);">
+    The Dry Bean Breeding &amp; Computational Biology Program at the University of Guelph
+    is a cornerstone of agricultural innovation. Since 1977, we've combined decades of
+    breeding expertise with modern computational tools to deliver resilient, high&#8209;quality
+    beans for Ontario growers and global markets.
+  </p>
+</section>
 
-The Dry Bean Breeding & Computational Biology Program at the University of Guelph is a cornerstone of agricultural innovation. Since 1977, we have been dedicated to advancing dry bean varieties. We combine decades of breeding expertise with modern computational tools to deliver resilient, high-quality beans for Ontario growers and global markets.
+<div style="text-align: center; margin: 2rem 0;">
+  <img src="/assets/img/BWG.jpg" alt="The Beans with the Genes" style="max-width: 300px; margin: 0 1rem; border-radius: 16px; box-shadow: 0 20px 50px rgba(0,212,255,0.2);">
+</div>
 
 ---
 

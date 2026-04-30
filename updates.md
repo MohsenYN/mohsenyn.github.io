@@ -4,15 +4,19 @@ permalink: /updates/
 accent_image: /assets/img/LabNews.png
 ---
 
-<header class="page-header">
-  <h1 style="font-size: 2.5rem; margin: 0 auto 1rem; font-weight: 700; letter-spacing: 1px; text-align: center; width: 100%; display: block;">Lab News</h1>
-
-  <p class="page-subtitle">
-    We regularly update our news here. For the latest updates, follow us on
-    <a href="https://www.linkedin.com/in/mohsen-yoosefzadeh-n-82365bb2/" target="_blank" rel="noopener noreferrer">
-      <strong>LinkedIn</strong>
-    </a>.
+<section class="fx-page-hero">
+  <canvas class="fx-neural"></canvas>
+  <span class="fx-eyebrow">// Lab News</span>
+  <h1>Awards. Releases.<br>Field Days. Frontiers.</h1>
+  <p class="fx-lead" style="max-width:760px; margin: 0 auto; color:var(--fx-text-dim);">
+    The pulse of the Yoosefzadeh Lab. Follow us on
+    <a href="https://www.linkedin.com/in/mohsen-yoosefzadeh-n-82365bb2/" target="_blank" rel="noopener noreferrer"><strong>LinkedIn</strong></a>
+    for live updates.
   </p>
+</section>
+
+<header class="page-header" style="display:none;">
+  <p></p>
 
   <!-- LinkedIn + YouTube Card -->
   <div class="linkedin-embed">
