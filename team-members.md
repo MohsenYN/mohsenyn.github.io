@@ -101,26 +101,6 @@ accent_image: /assets/img/TeamMembers.png
 
 <div class="team-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 3rem 0;">
   <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,51); transition: transform 0.3s, box-shadow 0.3s;">
-    <img src="/assets/img/team/Aashvi.jpg" alt="Aashvi Patel" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    <h3 style="color: rgb(0,102,51); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Aashvi Patel</h3>
-    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Master Student</p>
-    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">Researching Genomics-Based Selection for Anthracnose Resistance.</p>
-    <div style="text-align: center; margin-top: 1rem;">
-      <a href="mailto:a442patel@uwaterloo.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
-      <a href="https://www.linkedin.com/in/aashvi-patel-b86802224/" target="_blank" class="social-link"><img src="/assets/img/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
-    </div>
-  </div>
-    <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,51); transition: transform 0.3s, box-shadow 0.3s;">
-    <img src="/assets/img/team/Philip.jpg" alt="Philip Lorenc" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    <h3 style="color: rgb(0,102,51); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Philip Lorenc</h3>
-    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Master Student</p>
-    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">Researching Phenomics-Based Selection for Anthracnose Resistance.</p>
-    <div style="text-align: center; margin-top: 1rem;">
-      <a href="mailto:plorenc@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
-      <a href="https://www.linkedin.com/in/philip-lorenc-12935b204/" target="_blank" class="social-link"><img src="/assets/img/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
-    </div>
-  </div>
-  <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,51); transition: transform 0.3s, box-shadow 0.3s;">
     <img src="/assets/img/team/Mehdi.jpg" alt="Mehdi Babaei" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <h3 style="color: rgb(0,102,51); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Mehdi Babaei</h3>
     <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">PhD Student</p>
@@ -141,13 +121,24 @@ accent_image: /assets/img/TeamMembers.png
       <a href="mailto:sarika@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
     </div>
   </div>
-    <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,51); transition: transform 0.3s, box-shadow 0.3s;">
-    <img src="/assets/img/team/Arwa.jpg" alt="Arwa Sheheryar" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    <h3 style="color: rgb(0,102,51); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Arwa Sheheryar</h3>
+  <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,51); transition: transform 0.3s, box-shadow 0.3s;">
+    <img src="/assets/img/team/Aashvi.jpg" alt="Aashvi Patel" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="color: rgb(0,102,51); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Aashvi Patel</h3>
     <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Master Student</p>
-    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">Co-advised with Dr. Yan Yan.</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">Researching Genomics-Based Selection for Anthracnose Resistance.</p>
     <div style="text-align: center; margin-top: 1rem;">
-      <a href="mailto:ashehery@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
+      <a href="mailto:a442patel@uwaterloo.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
+      <a href="https://www.linkedin.com/in/aashvi-patel-b86802224/" target="_blank" class="social-link"><img src="/assets/img/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
+    </div>
+  </div>
+    <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,51); transition: transform 0.3s, box-shadow 0.3s;">
+    <img src="/assets/img/team/Philip.jpg" alt="Philip Lorenc" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="color: rgb(0,102,51); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Philip Lorenc</h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Master Student</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">Researching Phenomics-Based Selection for Anthracnose Resistance.</p>
+    <div style="text-align: center; margin-top: 1rem;">
+      <a href="mailto:plorenc@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
+      <a href="https://www.linkedin.com/in/philip-lorenc-12935b204/" target="_blank" class="social-link"><img src="/assets/img/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
     </div>
   </div>
    <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,51); transition: transform 0.3s, box-shadow 0.3s;">
@@ -158,6 +149,25 @@ accent_image: /assets/img/TeamMembers.png
     <div style="text-align: center; margin-top: 1rem;">
       <a href="mailto:chinl@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
       <a href="https://www.linkedin.com/in/leah-chin-0ba210263/" target="_blank" class="social-link"><img src="/assets/img/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
+    </div>
+  </div>
+  <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,51); transition: transform 0.3s, box-shadow 0.3s;">
+    <img src="/assets/img/team/Ketherine.jpg" alt="Katherine Chinchilla Hidalgo" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="color: rgb(0,102,51); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Katherine Chinchilla Hidalgo</h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Master Student</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">Phenomics-Driven Strategies to Enhance Resistance to Soybean Cyst Nematode and Bacterial Blights in Adzuki Beans</p>
+    <div style="text-align: center; margin-top: 1rem;">
+      <a href="mailto:kchinchi@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
+      <a href="https://www.linkedin.com/in/kath-chinchilla/" target="_blank" class="social-link"><img src="/assets/img/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
+    </div>
+  </div>
+  <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,51); transition: transform 0.3s, box-shadow 0.3s;">
+    <img src="/assets/img/team/Arwa.jpg" alt="Arwa Sheheryar" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="color: rgb(0,102,51); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Arwa Sheheryar</h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Master Student</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">Co-advised with Dr. Yan Yan.</p>
+    <div style="text-align: center; margin-top: 1rem;">
+      <a href="mailto:ashehery@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
     </div>
   </div>
    <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,51); transition: transform 0.3s, box-shadow 0.3s;">
@@ -179,6 +189,33 @@ accent_image: /assets/img/TeamMembers.png
       <a href="mailto:yzhou22@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
     </div>
   </div>
+   <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,51); transition: transform 0.3s, box-shadow 0.3s;">
+    <img src="/assets/img/team/Rui.jpg" alt="Rui Wang" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="color: rgb(0,102,51); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Rui Wang</h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Master Student</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;"> Co-advised with Dr. Yan Yan.</p>
+    <div style="text-align: center; margin-top: 1rem;">
+      <a href="mailto:rwang29@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
+    </div>
+  </div>
+   <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,51); transition: transform 0.3s, box-shadow 0.3s;">
+    <img src="/assets/img/team/Iro.jpg" alt="Iroayo Toki" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="color: rgb(0,102,51); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Iroayo Toki</h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Master Student</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;"> Co-advised with Dr. Yan Yan.</p>
+    <div style="text-align: center; margin-top: 1rem;">
+      <a href="mailto:itoki@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
+    </div>
+  </div>
+   <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,51); transition: transform 0.3s, box-shadow 0.3s;">
+    <img src="/assets/img/team/Paul.jpg" alt="Paul Dosekun" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="color: rgb(0,102,51); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Paul Dosekun</h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Master Intern</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;"> Screening a Dry Bean GWAS Panel for Resistance to Two Contrasting HG Types of Soybean Cyst Nematode (SCN).</p>
+    <div style="text-align: center; margin-top: 1rem;">
+      <a href="mailto:adosekun@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
+    </div>
+  </div>
 </div>
 
 ---
@@ -186,6 +223,30 @@ accent_image: /assets/img/TeamMembers.png
 ## Visiting Scholars & Faculty
 <div class="team-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 3rem 0;">
   
+  <div style="background: linear-gradient(135deg, rgba(0,102,153,0.08), rgba(0,153,153,0.08)); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,153); transition: transform 0.3s, box-shadow 0.3s;">
+    <img src="/assets/img/team/Thiago.jpg" alt="Thiago A. S. Gilio" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">  
+    <h3 style="color: rgb(0,102,153); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;"> Dr. Thiago A. S. Gilio </h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;"> Visiting Professor </p>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;"> UFederal University of Mato Grosso (UFMT) </p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;"> Screening a Dry Bean GWAS Panel for Resistance of Soybean Cyst Nematode (SCN). </p>
+    <div style="text-align: center; margin-top: 1rem;">
+      <a href="mailto:thiago.gilio@ufmt.br" class="social-link">
+        <img src="/assets/img/icons/email.png" alt="Email" class="social-icon">
+      </a>
+    </div>
+  </div>
+    <div style="background: linear-gradient(135deg, rgba(0,102,153,0.08), rgba(0,153,153,0.08)); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,153); transition: transform 0.3s, box-shadow 0.3s;">
+    <img src="/assets/img/team/Kelly.jpg" alt="Kelly Lana Araujo" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">  
+    <h3 style="color: rgb(0,102,153); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;"> Dr. Kelly Lana Araujo </h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;"> Visiting Professor </p>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;"> State University of Mato Grosso (UNEMAT) </p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;"> Screening a Dry Bean GWAS Panel for Resistance of Soybean Cyst Nematode (SCN). </p>
+    <div style="text-align: center; margin-top: 1rem;">
+      <a href="mailto:klanaara@uoguelph.ca" class="social-link">
+        <img src="/assets/img/icons/email.png" alt="Email" class="social-icon">
+      </a>
+    </div>
+  </div>
   <div style="background: linear-gradient(135deg, rgba(0,102,153,0.08), rgba(0,153,153,0.08)); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(0,102,153); transition: transform 0.3s, box-shadow 0.3s;">
     <img src="/assets/img/team/Douglas.jpg" alt="Douglas de Oliveira Maciel" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">  
     <h3 style="color: rgb(0,102,153); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;"> Douglas de Oliveira Maciel </h3>
@@ -225,12 +286,12 @@ accent_image: /assets/img/TeamMembers.png
     </div>
   </div>
   <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(255,255,255); transition: transform 0.3s, box-shadow 0.3s;">
-    <img src="/assets/img/team/Abby.jpg" alt="Abrienna Mills" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    <h3 style="color: rgb(0,0,0); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Abrienna Mills </h3>
+    <img src="/assets/img/team/Lucas.jpg" alt="Lucas Rupert" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3 style="color: rgb(0,0,0); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Lucas Rupert </h3>
     <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Undergraduate Student</p>
-    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">Developing an Image Processing Pipeline for High-Throughput Analysis of Drone Images.</p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">Participate in field work and Managing BeanTube</p>
     <div style="text-align: center; margin-top: 1rem;">
-      <a href="mailto:abrienna@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
+      <a href="mailto:lrupert@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
     </div>
   </div>
 </div> 
@@ -259,15 +320,6 @@ accent_image: /assets/img/TeamMembers.png
     <div style="text-align: center; margin-top: 1rem;">
       <a href="mailto:krokhzad@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
       <a href="https://www.linkedin.com/in/koosha-rokhzadi-058062128/" target="_blank" class="social-link"><img src="/assets/img/icons/linkedin.png" alt="LinkedIn" class="social-icon"></a>
-    </div>
-  </div>
-  <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(255,204,0); transition: transform 0.3s, box-shadow 0.3s;">
-    <img src="/assets/img/team/Paul.jpg" alt="Paul Dosekun" style="width: 100%; max-width: 200px; border-radius: 50%; margin: 0 auto 1rem; display: block; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    <h3 style="color: rgb(255,204,0); font-size: 1.6rem; font-weight: 600; margin-bottom: 0.5rem; text-align: center;">Paul Dosekun</h3>
-    <p style="font-size: 1.15rem; line-height: 1.7; color: rgb(0,0,0); text-align: center; font-style: italic;">Volunteer</p>
-    <p style="font-size: 1.1rem; line-height: 1.6; color: rgb(0,0,0); text-align: center;">Assisting with field and lab research.</p>
-    <div style="text-align: center; margin-top: 1rem;">
-      <a href="mailto:adosekun@uoguelph.ca" class="social-link"><img src="/assets/img/icons/email.png" alt="Email" class="social-icon"></a>
     </div>
   </div>
     <div style="background: rgba(255, 255, 255, 0.95); border-radius: 10px; padding: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); border-left: 8px solid rgb(255,204,0); transition: transform 0.3s, box-shadow 0.3s;">
