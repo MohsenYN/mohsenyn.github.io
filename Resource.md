@@ -3,51 +3,6 @@ layout: list
 permalink: /Resource/
 accent_image: /assets/img/Resources.png
 ---
-<header class="page-header">
-  <h1 style="font-size: 2.5rem; margin: 0 auto 1rem; font-weight: 700; letter-spacing: 1px; text-align: center; width: 100%; display: block;">Resources</h1>
-  <p>Explore our latest dry bean varieties and connect with distributors for licensing and inquiries.</p>
-</header>
-
-<div class="resource-container">
-  <section class="new-varieties">
-    <h2>New Dry Bean Varieties</h2>
-    <p>We’re excited to announce the upcoming release of dry bean varieties developed through advanced computational breeding at the University of Guelph. These varieties offer enhanced yield, disease resistance, and adaptability to diverse environmental conditions, supporting sustainable agriculture for growers across North America.</p>
-    <div class="variety-grid">
-      <div class="variety-box">
-        <img src="/assets/Lines/OAC23-D1.png" alt="OAC23-D1" class="variety-img">
-        <h3>OAC 23-D1</h3>
-        <ul>
-          <li>Full maturity</li>
-          <li>Large seed size </li>
-          <li>Anthracnose race 73 resistant</li>
-          <li>I gene for Bean Common Mosaic Virus Resistance</li>
-          <li>Good harvestability</li>
-        </ul>
-      </div>
-      <div class="variety-box">
-        <img src="/assets/Lines/NDC-1.jpg" alt="OAC 22-NDC1" class="variety-img">
-        <img src="/assets/Lines/NDC1-1.jpg" alt="OAC 22-NDC1-Compare" class="variety-img">
-        <h3>OAC 22-NDC1</h3>
-        <ul>
-          <li>The First Non-Darkening Cranberry Bean</li>
-          <li>Mid Maturity</li>
-          <li>Good Yield</li>
-          <li>Anthracnose race 73 resistant</li>
-          <li>Very Good Cooking Quality and Excellent Upright Plant Architecture</li>
-        </ul>
-      </div>
-      <div class="variety-box">
-        <img src="/assets/Lines/o18hr007y.jpg" alt="O18HR007y" class="variety-img">
-        <h3>O18HR007y</h3>
-        <ul>
-          <li>Full Maturity</li>
-          <li>Excellent Yield</li>
-          <li>Anthracnose race 73 resistant</li>
-          <li>Tolerant to common bacterial blight</li>
-          <li>Good Upright Plant Architecture for Direct Combining</li>
-        </ul>
-      </div>
-    </div>
     <p>For detailed licensing information, download our <a href="/assets/pdf/drybeanslicensing-smr2025-final.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link">Call for Licensing PDF</a> or contact the <a href="https://www.uoguelph.ca/research/innovation/" target="_blank" rel="noopener noreferrer" class="pdf-link">Research Innovation Office</a>.</p>
     <div class="contact-box">
       <img src="/assets/img/team/Steve.jpg" alt="Steve Dinka" class="contact-img">
