@@ -56,6 +56,75 @@ accent_image: /assets/img/LabNews.png
 
 <main class="news-grid" role="main">
 
+<article class="news-item" aria-labelledby="news-2026-05-04">
+  <h2 class="news-date" id="news-2026-05-04">May 4, 2026</h2>
+  <p><strong>How AI and Drone Technologies Are Supporting the Future of Agriculture</strong><br>
+    Technology is rapidly transforming modern agriculture, and across Ontario, artificial intelligence, drones, and smart agriculture tools are beginning to play an increasingly important role in real farming decisions and crop management strategies.
+    <br><br>
+    Recently, the University of Guelph highlighted how agricultural technologies are helping farmers manage increasingly difficult growing conditions, particularly during seasons marked by excessive rainfall, unpredictable weather, and environmental stress. The story featured ongoing research activities within the Dry Bean Breeding & Computational Biology Lab, where drone technologies, high resolution imaging systems, and AI powered analytics are being used to better understand crop performance and support faster, smarter decision making in agricultural systems.
+    <br><br>
+    Within the program, drones have evolved far beyond experimental tools. They are now becoming an essential part of precision agriculture and computational breeding workflows. Using UAV based imaging and advanced computational analysis, the lab is able to monitor plant health, evaluate crop stress, detect early disease symptoms, estimate canopy development, and better understand how dry bean varieties respond to changing environmental conditions throughout the growing season.
+    <br><br>
+    By combining field based imagery with artificial intelligence and computational biology approaches, the research aims to support the development of more resilient, efficient, and sustainable dry bean breeding systems. These technologies also provide valuable opportunities to improve agricultural efficiency, reduce labour demands, and generate real time insights that can directly support growers and the broader agri food sector when field conditions become challenging.
+    <br><br>
+    One of the most exciting aspects of this work is seeing how innovations developed through research are increasingly becoming practical tools that can create direct impacts for farmers and agricultural stakeholders. The continued integration of AI and smart agriculture technologies represents an important step toward strengthening food production systems and supporting future agricultural sustainability.
+    <br><br>
+    The lab is very grateful for the continued support of collaborators, students, growers, industry partners, and organizations investing in agricultural innovation and technology development. It is inspiring to see Ontario agriculture embracing modern technologies while remaining closely connected to real field challenges and grower needs.
+    <br><br>
+    The full University of Guelph news story can be read here:
+    <br>
+    <a href="https://news.uoguelph.ca/2026/05/how-ag-tech-is-helping-manage-difficult-growing-conditions/" target="_blank" rel="noopener noreferrer">How Ag-Tech is Helping Manage Difficult Growing Conditions</a>
+  </p>
+
+</article>
+
+<article class="news-item" aria-labelledby="news-2026-04-30">
+  <h2 class="news-date" id="news-2026-04-30">April 30, 2026</h2>
+  <p><strong>The Future of Agriculture and Food is Here</strong><br>
+    Agriculture is rapidly entering a new era where artificial intelligence, computational biology, drone technologies, and data science are becoming essential tools for addressing some of the biggest challenges facing global food systems. As climate change continues to create unpredictable growing conditions and increasing pressure on crop production, researchers are exploring innovative ways to build more resilient and sustainable agricultural systems for the future.
+    <br><br>
+    Dr. Mohsen Yoosefzadeh Najafabadi from the University of Guelph recently joined the Future Herd podcast to discuss how emerging technologies are transforming plant breeding and agricultural research. The conversation highlighted the growing role of AI driven tools, predictive analytics, remote sensing, and computational approaches in helping researchers and growers better understand crop performance under changing environmental conditions.
+    <br><br>
+    During the episode, Dr. Mohsen discussed how modern agriculture is becoming increasingly interdisciplinary, bringing together genetics, plant breeding, artificial intelligence, and data science to support the development of stronger and more climate resilient crop varieties. The discussion also emphasized the importance of creating practical technologies that directly support farmers, breeders, and the agri food industry through smarter and faster decision making systems.
+    <br><br>
+    The podcast also highlighted ongoing research activities at the University of Guelph and the Ontario Agricultural College, where advanced imaging systems, UAV based phenotyping, machine learning models, and computational biology tools are being integrated into dry bean breeding and food security research initiatives. These efforts aim to improve efficiency, sustainability, and resilience within agricultural production systems while preparing agriculture for future environmental and economic challenges.
+    <br><br>
+    This conversation reflects the growing momentum within Canadian agriculture toward adopting innovative technologies that can strengthen food systems and support future generations of growers and researchers. The Future Herd podcast continues to showcase leaders and emerging ideas that are helping shape the future of agriculture across Canada and beyond.
+    <br><br>
+    Episode 18 of the Future Herd podcast is now available online at:
+    <br>
+    <a href="https://www.thefutureherd.ca" target="_blank" rel="noopener noreferrer">www.thefutureherd.ca</a>
+  </p>
+</article>
+
+<article class="news-item" aria-labelledby="news-2026-04-15">
+  <h2 class="news-date" id="news-2026-04-15">April 15, 2026</h2>
+  <p><strong>Welcoming New Students to the Dry Bean Breeding & Computational Biology Lab</strong><br>
+    April has brought another wave of fresh energy and excitement into the Dry Bean Breeding & Computational Biology Lab at the University of Guelph. The team is very happy to welcome two outstanding new students whose unique backgrounds, experiences, and research interests are helping expand the lab’s growing activities in computational biology, food science, and agricultural innovation.
+    <br><br>
+    The lab is excited to welcome Leah Chin, who joins the team as a Master’s student. Leah completed her undergraduate studies at the University of Guelph, where she discovered a strong passion for plant agriculture and research. During her studies, she became increasingly interested in the important role beans play across different cultures around the world, not only as a nutritious and affordable food source, but also as an important part of sustainable food systems. That curiosity and passion naturally led her to join the lab.
+    <br><br>
+    Leah’s research focuses on combining artificial intelligence with sensory panel evaluations to better understand canning quality traits in dry beans. Her work aims to bridge food science, consumer perception, and AI driven analysis to support the development of improved dry bean varieties for the food industry. Outside of research, Leah enjoys collecting art and music, discussing movies, exploring new restaurants, and spending time with her rescue dog, Plum, at the dog park.
+    <br><br>
+    The lab also warmly welcomes Indhu Ayyappan, who joins as a Master’s intern working on projects connected with the Canadian Food Inspection Agency. Indhu is currently studying Bioinformatics at the University of Guelph and brings a strong interdisciplinary background in Biological Engineering and Biotechnology. Her previous experience and interests focus on understanding bacteria, antimicrobial resistance, and gene movement between microbial populations.
+    <br><br>
+    In the lab, Indhu is contributing to research focused on E. coli and other food related bacteria using genomic and computational approaches. Her work supports broader efforts to better understand food safety and microbial systems through modern bioinformatics tools. Outside of academics and research, Indhu enjoys reading and spending time with her two cats, Tobi and Freya.
+    <br><br>
+    Welcoming new students is always one of the most exciting parts of the year for the lab. Every student brings new ideas, perspectives, curiosity, and energy that help shape the collaborative environment within the team. The lab looks forward to supporting Leah and Indhu as they continue to grow as researchers and contribute to exciting new discoveries and innovations.
+    <br><br>
+    Please join us in giving Leah and Indhu a very warm welcome to the team. The Dry Bean Breeding & Computational Biology Lab is excited for the journey ahead and grateful to have them as part of the group.
+    <br><br>
+    Welcome to the lab, Leah and Indhu. We are very happy to have you with us.
+    <br><br>
+    <a href="https://www.uogbeans.com" target="_blank" rel="noopener noreferrer">www.uogbeans.com</a>
+  </p>
+
+  <figure>
+    <img src="/assets/img/team/Leah_Chin.jpeg" alt="Leah Chin" loading="lazy">
+    <img src="/assets/img/team/Indhu_Ayyappan.jpg" alt="Indhu Ayyappan" loading="lazy">
+  </figure>
+</article>
+
 <article class="news-item" aria-labelledby="news-2026-03-23">
   <h2 class="news-date" id="news-2026-03-23">March 23, 2026</h2>
 
