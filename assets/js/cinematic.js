@@ -132,9 +132,12 @@
     reveals.forEach(el => el.classList.add('in'));
   }
 
-  /* ---------- Bean-tree tooltip ---------- */
+  /* ---------- Bean-tree tooltip ----------
+     Pods are now native SVG <a class="bean-pod" href="..."> anchors, so
+     click/keyboard navigation works for free. We only enhance with a
+     mouse-following label tooltip. */
   const tip = document.querySelector('.tree-tip');
-  const treeNodes = document.querySelectorAll('.bean-pod, .bean-leaf');
+  const treeNodes = document.querySelectorAll('.bean-pod');
   if (tip && treeNodes.length) {
     treeNodes.forEach(node => {
       node.addEventListener('mouseenter', () => {
@@ -147,19 +150,8 @@
       node.addEventListener('mousemove', (e) => {
         tip.style.transform = `translate(${e.clientX}px, ${e.clientY - 18}px) translate(-50%, -100%)`;
       });
-      node.addEventListener('click', () => {
-        const href = node.getAttribute('data-href');
-        if (href) window.location.href = href;
-      });
-      node.setAttribute('tabindex', '0');
-      node.setAttribute('role', 'link');
-      node.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          const href = node.getAttribute('data-href');
-          if (href) window.location.href = href;
-        }
-      });
+      /* Hide tooltip on focus blur (keyboard users) */
+      node.addEventListener('blur',  () => tip.classList.remove('show'));
     });
   }
 })();

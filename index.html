@@ -124,192 +124,240 @@ sitemap: true
   </div>
 
   <div class="tree-stage">
-    <svg viewBox="0 0 1100 760" xmlns="http://www.w3.org/2000/svg" aria-label="Dry bean plant navigation tree">
+    <!--
+      Botanical dry-bean plant rendered from scratch to match the
+      uploaded gold-on-black illustration: symmetric trunk, 5 paired
+      rows of pods, leaf clusters, curling tendrils, faint crimson
+      glow halo. Each pod is directly clickable; on hover the pod
+      glows gold and its surrounding tendril shimmers.
+    -->
+    <svg class="bean-tree" viewBox="0 0 1100 940" xmlns="http://www.w3.org/2000/svg"
+         preserveAspectRatio="xMidYMid meet"
+         role="navigation" aria-label="Dry bean plant navigation tree">
+
       <defs>
+        <!-- Soft crimson halo behind the plant -->
+        <radialGradient id="halo" cx="50%" cy="55%" r="42%">
+          <stop offset="0%"  stop-color="#5a0a0a" stop-opacity="0.45"/>
+          <stop offset="60%" stop-color="#2a0404" stop-opacity="0.18"/>
+          <stop offset="100%" stop-color="#000"   stop-opacity="0"/>
+        </radialGradient>
         <linearGradient id="trunk-grad" x1="0" x2="0" y1="0" y2="1">
-          <stop offset="0%" stop-color="#5a4a25"/>
-          <stop offset="100%" stop-color="#2a2210"/>
+          <stop offset="0%" stop-color="#d4af6a"/>
+          <stop offset="100%" stop-color="#7a5a25"/>
         </linearGradient>
-        <radialGradient id="pod-grad" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" stop-color="#3a1010"/>
-          <stop offset="100%" stop-color="#1a0606"/>
+        <radialGradient id="bean-fill" cx="50%" cy="50%" r="50%">
+          <stop offset="0%"  stop-color="#f5ecd2"/>
+          <stop offset="100%" stop-color="#c9a961"/>
         </radialGradient>
-        <radialGradient id="leaf-grad" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" stop-color="#1f3a1c"/>
-          <stop offset="100%" stop-color="#0a1a08"/>
-        </radialGradient>
+        <linearGradient id="pod-stroke" x1="0" x2="0" y1="0" y2="1">
+          <stop offset="0%" stop-color="#e8c878"/>
+          <stop offset="100%" stop-color="#8a6a25"/>
+        </linearGradient>
+        <linearGradient id="leaf-stroke" x1="0" x2="0" y1="0" y2="1">
+          <stop offset="0%" stop-color="#d4af6a"/>
+          <stop offset="100%" stop-color="#6a4a15"/>
+        </linearGradient>
+        <!-- A single bean shape reused inside every pod -->
+        <symbol id="bean" viewBox="-10 -7 20 14" overflow="visible">
+          <ellipse cx="0" cy="0" rx="7.2" ry="4.4" fill="url(#bean-fill)" stroke="#8a6a25" stroke-width="0.6"/>
+          <path d="M-3,-0.8 C-2,-2.6 2,-2.6 3,-0.8" stroke="#8a6a25" stroke-width="0.4" fill="none" opacity="0.6"/>
+        </symbol>
+        <!-- A reusable leaf with veining -->
+        <symbol id="leaf" viewBox="-22 -38 44 38" overflow="visible">
+          <path d="M0,0 C-14,-6 -20,-22 -10,-34 C-2,-38 6,-38 14,-30 C22,-20 16,-6 0,0 Z"
+                fill="none" stroke="url(#leaf-stroke)" stroke-width="1.4" stroke-linejoin="round"/>
+          <path d="M0,0 C-2,-10 -3,-22 -2,-32" stroke="url(#leaf-stroke)" stroke-width="0.8" fill="none"/>
+          <path d="M-2,-10 C-7,-12 -11,-14 -13,-18" stroke="url(#leaf-stroke)" stroke-width="0.5" fill="none" opacity="0.85"/>
+          <path d="M-2,-18 C-7,-22 -10,-24 -12,-28" stroke="url(#leaf-stroke)" stroke-width="0.5" fill="none" opacity="0.85"/>
+          <path d="M-2,-26 C-4,-30 -6,-32 -8,-34" stroke="url(#leaf-stroke)" stroke-width="0.5" fill="none" opacity="0.85"/>
+          <path d="M-2,-10 C2,-12 6,-14 9,-18"  stroke="url(#leaf-stroke)" stroke-width="0.5" fill="none" opacity="0.85"/>
+          <path d="M-2,-18 C3,-22 7,-24 10,-28" stroke="url(#leaf-stroke)" stroke-width="0.5" fill="none" opacity="0.85"/>
+          <path d="M-2,-26 C1,-30 4,-32 6,-34"  stroke="url(#leaf-stroke)" stroke-width="0.5" fill="none" opacity="0.85"/>
+        </symbol>
+        <!-- A curling tendril -->
+        <symbol id="tendril" viewBox="-30 -30 60 60" overflow="visible">
+          <path d="M-28,0 C-18,-4 -8,-2 0,4 C8,10 14,8 18,2 C22,-4 18,-10 12,-10 C6,-10 4,-4 8,-2"
+                fill="none" stroke="url(#leaf-stroke)" stroke-width="1.2" stroke-linecap="round"/>
+        </symbol>
       </defs>
 
-      <!-- Soil -->
-      <path d="M0,720 Q550,690 1100,720 L1100,760 L0,760 Z" fill="#1a0c04" opacity="0.95"/>
-      <g stroke="#3a2410" stroke-width="0.6" opacity="0.6">
-        <path d="M0,728 Q550,700 1100,728"/>
-        <path d="M0,742 Q550,714 1100,742"/>
+      <!-- Halo behind the plant -->
+      <ellipse cx="550" cy="510" rx="430" ry="430" fill="url(#halo)"/>
+
+      <!-- ============================================================
+           TRUNK (single straight line, gentle taper)
+           ============================================================ -->
+      <g class="bean-tree-sway">
+        <path d="M550,920 L550,60"
+              stroke="url(#trunk-grad)" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+
+        <!-- Central leaf clusters along the trunk -->
+        <g transform="translate(550,820)"><use href="#leaf" transform="translate(-12,8)  rotate(-18) scale(1.0)"/><use href="#leaf" transform="translate(12,8)   rotate(18)  scale(-1,1)"/></g>
+        <g transform="translate(550,700)"><use href="#leaf" transform="translate(-14,4)  rotate(-25) scale(1.1)"/><use href="#leaf" transform="translate(14,4)   rotate(25)  scale(-1.1,1.1)"/><use href="#leaf" transform="translate(0,-22) scale(0.9)"/></g>
+        <g transform="translate(550,560)"><use href="#leaf" transform="translate(-14,4)  rotate(-25) scale(1.1)"/><use href="#leaf" transform="translate(14,4)   rotate(25)  scale(-1.1,1.1)"/><use href="#leaf" transform="translate(0,-22) scale(0.9)"/></g>
+        <g transform="translate(550,420)"><use href="#leaf" transform="translate(-14,4)  rotate(-25) scale(1.1)"/><use href="#leaf" transform="translate(14,4)   rotate(25)  scale(-1.1,1.1)"/><use href="#leaf" transform="translate(0,-22) scale(0.9)"/></g>
+        <g transform="translate(550,280)"><use href="#leaf" transform="translate(-14,4)  rotate(-25) scale(1.1)"/><use href="#leaf" transform="translate(14,4)   rotate(25)  scale(-1.1,1.1)"/><use href="#leaf" transform="translate(0,-22) scale(0.9)"/></g>
+        <g transform="translate(550,140)"><use href="#leaf" transform="translate(-10,4)  rotate(-25) scale(0.95)"/><use href="#leaf" transform="translate(10,4)   rotate(25)  scale(-0.95,0.95)"/><use href="#leaf" transform="translate(0,-18) scale(0.9)"/></g>
+
+        <!-- ==============================
+             ROW 1 (bottom, foundational)
+             LEFT  – 01 About Us
+             RIGHT – 02 Research
+             ============================== -->
+        <g class="pod-group" style="--row-y:820px">
+          <!-- branches -->
+          <path d="M548,820 C460,820 320,830 220,810" stroke="url(#trunk-grad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <path d="M552,820 C640,820 780,830 880,810" stroke="url(#trunk-grad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <use href="#tendril" transform="translate(330,810) scale(0.75)"/>
+          <use href="#tendril" transform="translate(770,810) scale(-0.75,0.75)"/>
+
+          <a class="bean-pod" data-label="About Us" data-sub="Mission · History" href="/about-us/">
+            <g transform="translate(168,808) rotate(-12)">
+              <path class="pod-shape" d="M-78,0 C-78,-22 -40,-32 0,-32 C40,-32 78,-22 78,0 C78,22 40,32 0,32 C-40,32 -78,22 -78,0 Z"
+                    fill="#0c0606" stroke="url(#pod-stroke)" stroke-width="1.8"/>
+              <use href="#bean" x="-50" y="0"/><use href="#bean" x="-25" y="0"/><use href="#bean" x="0" y="0"/><use href="#bean" x="25" y="0"/><use href="#bean" x="50" y="0"/>
+            </g>
+            <text x="168" y="870" text-anchor="middle" class="pod-label">About Us</text>
+          </a>
+
+          <a class="bean-pod" data-label="Research" data-sub="Phenomics · Genomics · AI" href="/research/">
+            <g transform="translate(932,808) rotate(12)">
+              <path class="pod-shape" d="M-78,0 C-78,-22 -40,-32 0,-32 C40,-32 78,-22 78,0 C78,22 40,32 0,32 C-40,32 -78,22 -78,0 Z"
+                    fill="#0c0606" stroke="url(#pod-stroke)" stroke-width="1.8"/>
+              <use href="#bean" x="-50" y="0"/><use href="#bean" x="-25" y="0"/><use href="#bean" x="0" y="0"/><use href="#bean" x="25" y="0"/><use href="#bean" x="50" y="0"/>
+            </g>
+            <text x="932" y="870" text-anchor="middle" class="pod-label">Research</text>
+          </a>
+        </g>
+
+        <!-- ==============================
+             ROW 2 – 03 Publications, 04 Team
+             ============================== -->
+        <g class="pod-group" style="--row-y:670px">
+          <path d="M548,680 C460,680 330,690 230,670" stroke="url(#trunk-grad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <path d="M552,680 C640,680 770,690 870,670" stroke="url(#trunk-grad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <use href="#tendril" transform="translate(340,670) scale(0.7)"/>
+          <use href="#tendril" transform="translate(760,670) scale(-0.7,0.7)"/>
+
+          <a class="bean-pod" data-label="Publications" data-sub="Papers · Pre-prints · Data" href="/publications/">
+            <g transform="translate(180,668) rotate(-12)">
+              <path class="pod-shape" d="M-72,0 C-72,-20 -36,-30 0,-30 C36,-30 72,-20 72,0 C72,20 36,30 0,30 C-36,30 -72,20 -72,0 Z"
+                    fill="#0c0606" stroke="url(#pod-stroke)" stroke-width="1.8"/>
+              <use href="#bean" x="-45" y="0"/><use href="#bean" x="-22" y="0"/><use href="#bean" x="0" y="0"/><use href="#bean" x="22" y="0"/><use href="#bean" x="45" y="0"/>
+            </g>
+            <text x="180" y="724" text-anchor="middle" class="pod-label">Publications</text>
+          </a>
+
+          <a class="bean-pod" data-label="Team Members" data-sub="Faculty · Students · Staff" href="/team-members/">
+            <g transform="translate(920,668) rotate(12)">
+              <path class="pod-shape" d="M-72,0 C-72,-20 -36,-30 0,-30 C36,-30 72,-20 72,0 C72,20 36,30 0,30 C-36,30 -72,20 -72,0 Z"
+                    fill="#0c0606" stroke="url(#pod-stroke)" stroke-width="1.8"/>
+              <use href="#bean" x="-45" y="0"/><use href="#bean" x="-22" y="0"/><use href="#bean" x="0" y="0"/><use href="#bean" x="22" y="0"/><use href="#bean" x="45" y="0"/>
+            </g>
+            <text x="920" y="724" text-anchor="middle" class="pod-label">Team</text>
+          </a>
+        </g>
+
+        <!-- ==============================
+             ROW 3 – 05 Lab News, 06 Resources
+             ============================== -->
+        <g class="pod-group" style="--row-y:530px">
+          <path d="M548,530 C460,530 340,540 240,520" stroke="url(#trunk-grad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <path d="M552,530 C640,530 760,540 860,520" stroke="url(#trunk-grad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <use href="#tendril" transform="translate(350,520) scale(0.65)"/>
+          <use href="#tendril" transform="translate(750,520) scale(-0.65,0.65)"/>
+
+          <a class="bean-pod" data-label="Lab News" data-sub="Updates · Field days · Awards" href="/updates/">
+            <g transform="translate(190,518) rotate(-12)">
+              <path class="pod-shape" d="M-66,0 C-66,-18 -32,-28 0,-28 C32,-28 66,-18 66,0 C66,18 32,28 0,28 C-32,28 -66,18 -66,0 Z"
+                    fill="#0c0606" stroke="url(#pod-stroke)" stroke-width="1.8"/>
+              <use href="#bean" x="-42" y="0"/><use href="#bean" x="-21" y="0"/><use href="#bean" x="0" y="0"/><use href="#bean" x="21" y="0"/><use href="#bean" x="42" y="0"/>
+            </g>
+            <text x="190" y="572" text-anchor="middle" class="pod-label">News</text>
+          </a>
+
+          <a class="bean-pod" data-label="Resources" data-sub="Protocols · Tools · Reading" href="/Resource/">
+            <g transform="translate(910,518) rotate(12)">
+              <path class="pod-shape" d="M-66,0 C-66,-18 -32,-28 0,-28 C32,-28 66,-18 66,0 C66,18 32,28 0,28 C-32,28 -66,18 -66,0 Z"
+                    fill="#0c0606" stroke="url(#pod-stroke)" stroke-width="1.8"/>
+              <use href="#bean" x="-42" y="0"/><use href="#bean" x="-21" y="0"/><use href="#bean" x="0" y="0"/><use href="#bean" x="21" y="0"/><use href="#bean" x="42" y="0"/>
+            </g>
+            <text x="910" y="572" text-anchor="middle" class="pod-label">Resources</text>
+          </a>
+        </g>
+
+        <!-- ==============================
+             ROW 4 – 07 Seed Catalogue, 08 AI Hub
+             ============================== -->
+        <g class="pod-group" style="--row-y:390px">
+          <path d="M548,390 C460,390 350,400 250,380" stroke="url(#trunk-grad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <path d="M552,390 C640,390 750,400 850,380" stroke="url(#trunk-grad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+          <use href="#tendril" transform="translate(360,380) scale(0.6)"/>
+          <use href="#tendril" transform="translate(740,380) scale(-0.6,0.6)"/>
+
+          <a class="bean-pod" data-label="Seed Catalogue" data-sub="OAC · Lines · Releases" href="/seed-catalogue/">
+            <g transform="translate(200,378) rotate(-12)">
+              <path class="pod-shape" d="M-60,0 C-60,-16 -28,-26 0,-26 C28,-26 60,-16 60,0 C60,16 28,26 0,26 C-28,26 -60,16 -60,0 Z"
+                    fill="#0c0606" stroke="url(#pod-stroke)" stroke-width="1.8"/>
+              <use href="#bean" x="-38" y="0"/><use href="#bean" x="-19" y="0"/><use href="#bean" x="0" y="0"/><use href="#bean" x="19" y="0"/><use href="#bean" x="38" y="0"/>
+            </g>
+            <text x="200" y="428" text-anchor="middle" class="pod-label">Seed Catalogue</text>
+          </a>
+
+          <a class="bean-pod" data-label="AI &amp; Analysis Hub" data-sub="Models · Pipelines · Notebooks" href="/research/">
+            <g transform="translate(900,378) rotate(12)">
+              <path class="pod-shape" d="M-60,0 C-60,-16 -28,-26 0,-26 C28,-26 60,-16 60,0 C60,16 28,26 0,26 C-28,26 -60,16 -60,0 Z"
+                    fill="#0c0606" stroke="url(#pod-stroke)" stroke-width="1.8"/>
+              <use href="#bean" x="-38" y="0"/><use href="#bean" x="-19" y="0"/><use href="#bean" x="0" y="0"/><use href="#bean" x="19" y="0"/><use href="#bean" x="38" y="0"/>
+            </g>
+            <text x="900" y="428" text-anchor="middle" class="pod-label">AI Hub</text>
+          </a>
+        </g>
+
+        <!-- ==============================
+             ROW 5 (top, the future) – 09 Join Us
+             A single special pod with sprout/flower
+             ============================== -->
+        <g class="pod-group" style="--row-y:230px">
+          <a class="bean-pod bean-pod--top" data-label="Join Us" data-sub="Open positions · Apply" href="/join-us/">
+            <!-- Stem connecting to the trunk -->
+            <path d="M550,260 L550,200" stroke="url(#trunk-grad)" stroke-width="2" fill="none"/>
+            <!-- Flower/sprout pod -->
+            <g transform="translate(550,160)">
+              <ellipse class="pod-shape" cx="0" cy="0" rx="34" ry="20" fill="#1a0606" stroke="url(#pod-stroke)" stroke-width="1.8"/>
+              <ellipse cx="-22" cy="-2" rx="12" ry="8" fill="#2a0a0a" stroke="url(#pod-stroke)" stroke-width="1.2" transform="rotate(-25 -22 -2)"/>
+              <ellipse cx="22"  cy="-2" rx="12" ry="8" fill="#2a0a0a" stroke="url(#pod-stroke)" stroke-width="1.2" transform="rotate(25 22 -2)"/>
+              <use href="#bean" x="-12" y="0"/><use href="#bean" x="0" y="0"/><use href="#bean" x="12" y="0"/>
+            </g>
+            <text x="550" y="210" text-anchor="middle" class="pod-label">Join Us</text>
+          </a>
+        </g>
       </g>
 
-      <!-- Trunk + branches as one swaying group -->
-      <g class="tree-trunk">
-        <!-- Main trunk -->
-        <path d="M550,720
-                 C545,650 555,580 548,500
-                 C542,420 558,340 550,260
-                 C544,180 555,110 552,40"
-              stroke="url(#trunk-grad)" stroke-width="10" fill="none" stroke-linecap="round"/>
-
-        <!-- Branches: 9 total. Alternating left / right. -->
-        <!-- Each branch defined as a path from trunk outward -->
-        <path d="M551,610 C500,605 440,600 380,580" stroke="url(#trunk-grad)" stroke-width="5" fill="none" stroke-linecap="round"/>
-        <path d="M551,560 C610,556 670,548 740,530" stroke="url(#trunk-grad)" stroke-width="5" fill="none" stroke-linecap="round"/>
-        <path d="M550,500 C490,492 420,478 360,450" stroke="url(#trunk-grad)" stroke-width="5" fill="none" stroke-linecap="round"/>
-        <path d="M551,448 C615,442 690,432 760,410" stroke="url(#trunk-grad)" stroke-width="5" fill="none" stroke-linecap="round"/>
-        <path d="M551,388 C500,378 430,360 370,330" stroke="url(#trunk-grad)" stroke-width="5" fill="none" stroke-linecap="round"/>
-        <path d="M553,336 C620,328 690,316 760,290" stroke="url(#trunk-grad)" stroke-width="5" fill="none" stroke-linecap="round"/>
-        <path d="M551,276 C500,268 440,254 380,224" stroke="url(#trunk-grad)" stroke-width="5" fill="none" stroke-linecap="round"/>
-        <path d="M553,222 C620,214 690,202 760,180" stroke="url(#trunk-grad)" stroke-width="5" fill="none" stroke-linecap="round"/>
-        <path d="M552,160 C530,140 510,118 500,90" stroke="url(#trunk-grad)" stroke-width="5" fill="none" stroke-linecap="round"/>
-
-        <!-- Small leaves decorating branches (decorative, non-clickable) -->
-        <g fill="#1f3a1c" opacity="0.65">
-          <ellipse cx="430" cy="585" rx="10" ry="5" transform="rotate(-15 430 585)"/>
-          <ellipse cx="690" cy="538" rx="10" ry="5" transform="rotate(20 690 538)"/>
-          <ellipse cx="420" cy="465" rx="10" ry="5" transform="rotate(-10 420 465)"/>
-          <ellipse cx="700" cy="420" rx="10" ry="5" transform="rotate(15 700 420)"/>
-          <ellipse cx="430" cy="345" rx="10" ry="5" transform="rotate(-12 430 345)"/>
-          <ellipse cx="700" cy="300" rx="10" ry="5" transform="rotate(18 700 300)"/>
-          <ellipse cx="430" cy="240" rx="10" ry="5" transform="rotate(-14 430 240)"/>
-          <ellipse cx="700" cy="190" rx="10" ry="5" transform="rotate(16 700 190)"/>
-        </g>
-
-        <!-- ===========================================================
-             INTERACTIVE NODES
-             =========================================================== -->
-
-        <!-- 01 About Us — pod -->
-        <g class="bean-pod" data-label="About Us" data-sub="Mission &middot; History &middot; People" data-href="/about-us/" transform="translate(360,580)">
-          <ellipse class="bean-pod__shape" cx="0" cy="0" rx="44" ry="20" fill="url(#pod-grad)" stroke="#c9a961" stroke-width="1.4" transform="rotate(-12)"/>
-          <g transform="rotate(-12)">
-            <circle cx="-20" cy="0" r="5" fill="#c9a961" opacity="0.85"/>
-            <circle cx="0"   cy="0" r="5" fill="#c9a961" opacity="0.85"/>
-            <circle cx="20"  cy="0" r="5" fill="#c9a961" opacity="0.85"/>
-          </g>
-          <text x="-44" y="44" font-family="Cormorant Garamond, serif" font-style="italic" font-size="16" fill="#f5f1e8">About</text>
-        </g>
-
-        <!-- 02 Research — pod -->
-        <g class="bean-pod" data-label="Research" data-sub="Phenomics &middot; Genomics &middot; AI" data-href="/research/" transform="translate(760,520)">
-          <ellipse class="bean-pod__shape" cx="0" cy="0" rx="48" ry="22" fill="url(#pod-grad)" stroke="#c9a961" stroke-width="1.4" transform="rotate(14)"/>
-          <g transform="rotate(14)">
-            <circle cx="-26" cy="0" r="6" fill="#c9a961" opacity="0.9"/>
-            <circle cx="-6"  cy="0" r="6" fill="#c9a961" opacity="0.9"/>
-            <circle cx="14"  cy="0" r="6" fill="#c9a961" opacity="0.9"/>
-            <circle cx="32"  cy="0" r="6" fill="#c9a961" opacity="0.9"/>
-          </g>
-          <text x="14" y="46" font-family="Cormorant Garamond, serif" font-style="italic" font-size="16" fill="#f5f1e8">Research</text>
-        </g>
-
-        <!-- 03 Publications — leaf -->
-        <g class="bean-leaf" data-label="Publications" data-sub="Papers &middot; Pre-prints &middot; Datasets" data-href="/publications/" transform="translate(340,440)">
-          <path class="bean-leaf__shape"
-                d="M0,0 C-20,-30 -10,-60 30,-65 C60,-68 70,-40 60,-10 C50,20 10,30 0,0 Z"
-                fill="url(#leaf-grad)" stroke="#c9a961" stroke-width="1.2"/>
-          <path d="M5,-5 C20,-25 35,-45 55,-55" stroke="#c9a961" stroke-width="0.8" fill="none" opacity="0.6"/>
-          <text x="-46" y="22" font-family="Cormorant Garamond, serif" font-style="italic" font-size="16" fill="#f5f1e8">Publications</text>
-        </g>
-
-        <!-- 04 Team Members — leaf -->
-        <g class="bean-leaf" data-label="Team Members" data-sub="Faculty &middot; Students &middot; Staff" data-href="/team-members/" transform="translate(770,400)">
-          <path class="bean-leaf__shape"
-                d="M0,0 C20,-30 10,-60 -30,-65 C-60,-68 -70,-40 -60,-10 C-50,20 -10,30 0,0 Z"
-                fill="url(#leaf-grad)" stroke="#c9a961" stroke-width="1.2"/>
-          <path d="M-5,-5 C-20,-25 -35,-45 -55,-55" stroke="#c9a961" stroke-width="0.8" fill="none" opacity="0.6"/>
-          <text x="-22" y="22" font-family="Cormorant Garamond, serif" font-style="italic" font-size="16" fill="#f5f1e8">Team</text>
-        </g>
-
-        <!-- 05 Lab News — pod (smaller) -->
-        <g class="bean-pod" data-label="Lab News" data-sub="Updates &middot; Field days &middot; Awards" data-href="/updates/" transform="translate(360,320)">
-          <ellipse class="bean-pod__shape" cx="0" cy="0" rx="40" ry="18" fill="url(#pod-grad)" stroke="#c9a961" stroke-width="1.4" transform="rotate(-15)"/>
-          <g transform="rotate(-15)">
-            <circle cx="-18" cy="0" r="5" fill="#c9a961" opacity="0.85"/>
-            <circle cx="0"   cy="0" r="5" fill="#c9a961" opacity="0.85"/>
-            <circle cx="18"  cy="0" r="5" fill="#c9a961" opacity="0.85"/>
-          </g>
-          <text x="-30" y="40" font-family="Cormorant Garamond, serif" font-style="italic" font-size="16" fill="#f5f1e8">News</text>
-        </g>
-
-        <!-- 06 Resources — leaf -->
-        <g class="bean-leaf" data-label="Resources" data-sub="Protocols &middot; Tools &middot; Reading" data-href="/Resource/" transform="translate(770,280)">
-          <path class="bean-leaf__shape"
-                d="M0,0 C20,-30 10,-60 -30,-65 C-60,-68 -70,-40 -60,-10 C-50,20 -10,30 0,0 Z"
-                fill="url(#leaf-grad)" stroke="#c9a961" stroke-width="1.2"/>
-          <path d="M-5,-5 C-20,-25 -35,-45 -55,-55" stroke="#c9a961" stroke-width="0.8" fill="none" opacity="0.6"/>
-          <text x="-44" y="22" font-family="Cormorant Garamond, serif" font-style="italic" font-size="16" fill="#f5f1e8">Resources</text>
-        </g>
-
-        <!-- 07 Seed Catalogue — pod (large, visually anchored) -->
-        <g class="bean-pod" data-label="Seed Catalogue" data-sub="OAC &middot; Lines &middot; Releases" data-href="/seed-catalogue/" transform="translate(360,210)">
-          <ellipse class="bean-pod__shape" cx="0" cy="0" rx="52" ry="22" fill="url(#pod-grad)" stroke="#c9a961" stroke-width="1.4" transform="rotate(-10)"/>
-          <g transform="rotate(-10)">
-            <circle cx="-30" cy="0" r="6" fill="#c9a961"/>
-            <circle cx="-10" cy="0" r="6" fill="#c9a961"/>
-            <circle cx="10"  cy="0" r="6" fill="#c9a961"/>
-            <circle cx="30"  cy="0" r="6" fill="#c9a961"/>
-          </g>
-          <text x="-58" y="46" font-family="Cormorant Garamond, serif" font-style="italic" font-size="16" fill="#f5f1e8">Seed Catalogue</text>
-        </g>
-
-        <!-- 08 AI & Analysis Hub — leaf with extra glow (links into Research / comp-bio) -->
-        <g class="bean-leaf" data-label="AI &amp; Analysis Hub" data-sub="Models &middot; Pipelines &middot; Notebooks" data-href="/research/" transform="translate(770,170)">
-          <path class="bean-leaf__shape"
-                d="M0,0 C20,-30 10,-60 -30,-65 C-60,-68 -70,-40 -60,-10 C-50,20 -10,30 0,0 Z"
-                fill="url(#leaf-grad)" stroke="#c9a961" stroke-width="1.4"/>
-          <path d="M-5,-5 C-20,-25 -35,-45 -55,-55" stroke="#c9a961" stroke-width="0.8" fill="none" opacity="0.7"/>
-          <!-- tiny circuit decoration -->
-          <g stroke="#c9a961" stroke-width="0.8" fill="#c9a961" opacity="0.85">
-            <circle cx="-30" cy="-40" r="1.6"/>
-            <circle cx="-20" cy="-30" r="1.6"/>
-            <circle cx="-40" cy="-30" r="1.6"/>
-            <line x1="-30" y1="-40" x2="-30" y2="-30" stroke="#c9a961" fill="none"/>
-            <line x1="-20" y1="-30" x2="-40" y2="-30" stroke="#c9a961" fill="none"/>
-          </g>
-          <text x="-30" y="22" font-family="Cormorant Garamond, serif" font-style="italic" font-size="16" fill="#f5f1e8">AI Hub</text>
-        </g>
-
-        <!-- 09 Join Us — flower at the very top -->
-        <g class="bean-pod" data-label="Join Us" data-sub="Open positions &middot; Apply" data-href="/join-us/" transform="translate(500,80)">
-          <!-- Flower / sprout -->
-          <g>
-            <path d="M0,0 L0,-26" stroke="#c9a961" stroke-width="1.4"/>
-            <ellipse class="bean-pod__shape" cx="0" cy="-30" rx="12" ry="8" fill="#8a0a0a" stroke="#c9a961" stroke-width="1.4"/>
-            <ellipse cx="-12" cy="-26" rx="8" ry="5" fill="#8a0a0a" stroke="#c9a961" stroke-width="1" transform="rotate(-30 -12 -26)"/>
-            <ellipse cx="12"  cy="-26" rx="8" ry="5" fill="#8a0a0a" stroke="#c9a961" stroke-width="1" transform="rotate(30 12 -26)"/>
-            <circle cx="0" cy="-30" r="3" fill="#c9a961"/>
-          </g>
-          <text x="-26" y="22" font-family="Cormorant Garamond, serif" font-style="italic" font-size="16" fill="#f5f1e8">Join Us</text>
-        </g>
-      </g>
-
-      <!-- Decorative dust -->
-      <g fill="#c9a961" opacity="0.3">
-        <circle cx="120" cy="120" r="1"/><circle cx="980" cy="80"  r="1.2"/>
-        <circle cx="200" cy="350" r="1"/><circle cx="900" cy="600" r="1"/>
-        <circle cx="60"  cy="500" r="1"/><circle cx="1040" cy="380" r="1.2"/>
-      </g>
+      <!-- Soil hint at the very bottom -->
+      <path d="M120,924 Q550,910 980,924" stroke="#3a2410" stroke-width="1.2" fill="none" opacity="0.7"/>
+      <path d="M180,932 Q550,920 920,932" stroke="#3a2410" stroke-width="0.8" fill="none" opacity="0.5"/>
     </svg>
   </div>
 
-  <!-- Accessible parallel grid nav -->
+  <!-- ============================================================
+       LUXURY INDEX — a 3x3 grid, hairline gold borders, no fills,
+       Cormorant italic subtitles, gold numerals. Accessible parallel
+       nav for screen readers and keyboard users.
+       ============================================================ -->
   <div class="container">
-    <div class="tree-grid reveal" role="navigation" aria-label="Quick links">
-      <a href="/about-us/">      <span class="num">01</span> About Us       <span class="sub">our mission</span></a>
-      <a href="/research/">      <span class="num">02</span> Research       <span class="sub">what we work on</span></a>
-      <a href="/publications/">  <span class="num">03</span> Publications   <span class="sub">papers &amp; data</span></a>
-      <a href="/team-members/">  <span class="num">04</span> Team Members   <span class="sub">the people</span></a>
-      <a href="/updates/">       <span class="num">05</span> Lab News       <span class="sub">latest from the field</span></a>
-      <a href="/Resource/">      <span class="num">06</span> Resources      <span class="sub">protocols &amp; tools</span></a>
-      <a href="/seed-catalogue/"><span class="num">07</span> Seed Catalogue <span class="sub">released lines</span></a>
-      <a href="/research/"><span class="num">08</span> AI &amp; Hub <span class="sub">models &amp; notebooks</span></a>
-      <a href="/join-us/">       <span class="num">09</span> Join Us        <span class="sub">open positions</span></a>
-    </div>
+    <nav class="luxe-index reveal" aria-label="Site sections">
+      <a href="/about-us/"      class="luxe-cell"><span class="lc-num">01</span><span class="lc-title">About Us</span><span class="lc-sub">our mission &amp; history</span></a>
+      <a href="/research/"      class="luxe-cell"><span class="lc-num">02</span><span class="lc-title">Research</span><span class="lc-sub">phenomics, genomics, AI</span></a>
+      <a href="/publications/"  class="luxe-cell"><span class="lc-num">03</span><span class="lc-title">Publications</span><span class="lc-sub">papers, pre-prints, data</span></a>
+      <a href="/team-members/"  class="luxe-cell"><span class="lc-num">04</span><span class="lc-title">Team</span><span class="lc-sub">faculty, students, staff</span></a>
+      <a href="/updates/"       class="luxe-cell"><span class="lc-num">05</span><span class="lc-title">Lab News</span><span class="lc-sub">latest from the field</span></a>
+      <a href="/Resource/"      class="luxe-cell"><span class="lc-num">06</span><span class="lc-title">Resources</span><span class="lc-sub">protocols &amp; tools</span></a>
+      <a href="/seed-catalogue/" class="luxe-cell"><span class="lc-num">07</span><span class="lc-title">Seed Catalogue</span><span class="lc-sub">released lines</span></a>
+      <a href="/research/"      class="luxe-cell"><span class="lc-num">08</span><span class="lc-title">AI &amp; Hub</span><span class="lc-sub">models &amp; notebooks</span></a>
+      <a href="/join-us/"       class="luxe-cell"><span class="lc-num">09</span><span class="lc-title">Join Us</span><span class="lc-sub">open positions</span></a>
+    </nav>
   </div>
 </section>
 
