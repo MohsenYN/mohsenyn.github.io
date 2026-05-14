@@ -137,7 +137,7 @@
      click/keyboard navigation works for free. We only enhance with a
      mouse-following label tooltip. */
   const tip = document.querySelector('.tree-tip');
-  const treeNodes = document.querySelectorAll('.bean-hot');
+  const treeNodes = document.querySelectorAll('.hub-node');
   if (tip && treeNodes.length) {
     treeNodes.forEach(node => {
       node.addEventListener('mouseenter', () => {
