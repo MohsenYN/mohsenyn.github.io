@@ -148,6 +148,85 @@ body::after {
 }
 .scene svg { width: min(92vw, 1200px); height: auto; max-height: 92vh; }
 
+/* ============================================================
+   HERO VIDEO — full-bleed, scroll-scrubbed
+   PDF Ch.05: muted + playsinline + preload="auto" + explicit
+   video.load() before seek so iOS Safari plays nice.
+   ============================================================ */
+.hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  z-index: 5;
+  pointer-events: none;
+  background: #000;
+}
+
+/* Tiny radial mask in the bottom-right corner that hides the AI watermark
+   sparkle. Tuned to the 1280x720 video — covers ~5% of the frame and
+   blends with the existing vignette so it's invisible. */
+.hero-watermark-mask {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 12vmin;
+  height: 12vmin;
+  max-width: 140px;
+  max-height: 140px;
+  z-index: 8;
+  background: radial-gradient(circle at 100% 100%,
+              #000 0%,
+              #000 45%,
+              rgba(0,0,0,0.85) 65%,
+              rgba(0,0,0,0) 100%);
+  pointer-events: none;
+}
+
+/* ============================================================
+   CAPTION TRACK — 5 timed captions, fade in/out by JS
+   ============================================================ */
+.caption-track {
+  position: absolute;
+  inset: 0;
+  z-index: 35;
+  pointer-events: none;
+}
+.scene-caption {
+  position: absolute;
+  left: 50%;
+  bottom: 9vh;
+  transform: translateX(-50%);
+  text-align: center;
+  width: min(90vw, 720px);
+  opacity: var(--cap-opacity, 0);
+  transition: opacity 0.55s var(--easing);
+}
+.scene-caption .eyebrow {
+  font-size: 0.7rem;
+  letter-spacing: 0.4em;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: 0.6rem;
+}
+.scene-caption .headline {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(1.5rem, 3.2vw, 2.4rem);
+  line-height: 1.18;
+  color: var(--cream);
+  margin: 0;
+  text-shadow: 0 2px 24px rgba(0,0,0,0.85);
+}
+.scene-caption .sub {
+  margin-top: 0.55rem;
+  font-size: 0.85rem;
+  color: var(--cream-dim);
+  text-shadow: 0 2px 12px rgba(0,0,0,0.85);
+}
+
 /* Caption strap that floats over the stage */
 .scene__caption {
   position: absolute;
@@ -476,14 +555,24 @@ section {
 
 /* ============================================================
    REDUCED MOTION
+   Users who prefer reduced motion get a static poster instead of
+   a scroll-scrubbed video, plus the captions stacked below it.
    ============================================================ */
 @media (prefers-reduced-motion: reduce) {
   .reel { height: auto; }
   .stage { position: relative; height: auto; min-height: 100vh; }
-  .scene { position: relative; opacity: 1 !important; transform: none !important; padding: 4rem 0; }
-  .scene + .scene { border-top: 1px solid var(--rule); }
   .intro { position: relative; opacity: 1 !important; padding: 6rem 1rem; }
   .hint, .scrub { display: none; }
+  .hero-video { display: none; }
+  .stage { background: url("/assets/video/hero-poster.jpg") center center / cover no-repeat, #000; }
+  .caption-track { position: relative; padding: 2rem 1rem 4rem; }
+  .scene-caption {
+    position: relative;
+    left: auto; bottom: auto;
+    transform: none;
+    opacity: 1 !important;
+    margin: 2.5rem auto;
+  }
 }
 
 /* ============================================================
