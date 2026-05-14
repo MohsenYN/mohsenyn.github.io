@@ -32,7 +32,7 @@ sitemap: true
     <!-- INTRO OVERLAY -->
     <div class="intro" aria-hidden="false">
       <div class="intro__inner">
-        <div class="intro__eyebrow">University of Guelph &middot; Est. 1977</div>
+        <div class="intro__eyebrow">University of Guelph</div>
         <h1 class="intro__title">
           From a single <em>plot</em><br>
           to the <em>genome</em> of a seed.
@@ -112,61 +112,143 @@ sitemap: true
      INTERACTIVE BEAN-TREE NAVIGATOR
      Each leaf / pod is a clickable nav node.
      ============================================================ -->
-<section class="tree-section" aria-label="Interactive site navigator">
-  <div class="tree-head reveal">
-    <div class="eyebrow">The Living Map</div>
-    <h2 class="section-title">Choose your branch.</h2>
+<section class="hub-section" aria-label="Interactive site navigator">
+  <div class="hub-head reveal">
+    <div class="eyebrow">The Network</div>
+    <h2 class="section-title">Nine destinations. One lab.</h2>
     <p class="section-lede">
-      The lab grows like a bean plant: a single trunk of curiosity, branching out
-      into research, people, publications, news, and the seeds themselves. Hover
-      a pod or leaf to peek &mdash; click to enter.
+      Every part of the lab connects to the others — field to genome, paper
+      to seed. Click any node to enter.
     </p>
   </div>
 
-  <div class="tree-stage">
+  <div class="hub-stage reveal">
     <!--
-      User-supplied botanical illustration drives the tree. Drop your
-      PNG at the path below, commit, and the page picks it up.
-      Until then the image will 404 and the section will be empty
-      except for the hotspots.
-    -->
-    <div class="bean-photo">
-      <img class="bean-photo__img"
-           src="/assets/img/cinematic/bean-tree.png"
-           alt="Dry bean plant — interactive navigation"
-           draggable="false">
+      Connected-circles hub. SVG layer draws the filigree connections
+      between nodes (with animated light pulses). HTML layer overlays
+      the actual <a> nodes at percentage coordinates so they stay
+      aligned to the SVG line endpoints at every screen size.
+      ============================================================ -->
+    <svg class="hub-net" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+      <defs>
+        <radialGradient id="hub-halo" cx="50%" cy="50%" r="55%">
+          <stop offset="0%"  stop-color="#5a0a0a" stop-opacity="0.32"/>
+          <stop offset="60%" stop-color="#2a0404" stop-opacity="0.12"/>
+          <stop offset="100%" stop-color="#000"   stop-opacity="0"/>
+        </radialGradient>
+      </defs>
 
-      <!-- Soft radial fade over the bottom-right corner of the image
-           to gently darken the AI-generation sparkle without a hard
-           crop or black square. Same technique as the hero video. -->
-      <div class="bean-photo__fade" aria-hidden="true"></div>
+      <!-- crimson glow behind the whole network -->
+      <ellipse cx="600" cy="400" rx="560" ry="380" fill="url(#hub-halo)"/>
 
-      <!-- 9 invisible hotspots, positioned via percentage coords that
-           match the pod centers in the illustration. Each is a true
-           <a> link so keyboard/screen-reader nav works natively. -->
-      <a class="bean-hot" style="--x:37%;--y:15%" href="/about-us/"
-         data-label="About Us" data-sub="Mission · History"><span>About Us</span></a>
-      <a class="bean-hot" style="--x:63%;--y:15%" href="/research/"
-         data-label="Research" data-sub="Phenomics · Genomics · AI"><span>Research</span></a>
+      <!-- scattered stars -->
+      <g class="hub-stars" fill="#c9a961">
+        <circle cx="120" cy="80"  r="1"  opacity="0.7"/>
+        <circle cx="280" cy="40"  r="0.8" opacity="0.6"/>
+        <circle cx="480" cy="20"  r="1.2" opacity="0.8"/>
+        <circle cx="780" cy="40"  r="0.8" opacity="0.6"/>
+        <circle cx="1080" cy="80" r="1"   opacity="0.7"/>
+        <circle cx="60"   cy="280" r="0.8" opacity="0.5"/>
+        <circle cx="1140" cy="300" r="1"   opacity="0.6"/>
+        <circle cx="40"   cy="600" r="1"   opacity="0.6"/>
+        <circle cx="1150" cy="640" r="0.8" opacity="0.5"/>
+        <circle cx="200"  cy="780" r="0.8" opacity="0.5"/>
+        <circle cx="600"  cy="790" r="1"   opacity="0.6"/>
+        <circle cx="1000" cy="780" r="0.8" opacity="0.5"/>
+      </g>
 
-      <a class="bean-hot" style="--x:31%;--y:28%" href="/publications/"
-         data-label="Publications" data-sub="Papers · Pre-prints · Data"><span>Publications</span></a>
-      <a class="bean-hot" style="--x:69%;--y:28%" href="/team-members/"
-         data-label="Team Members" data-sub="Faculty · Students · Staff"><span>Team</span></a>
+      <!-- ============================================================
+           Connection lines.
+           Node coords:
+             1  About        (220, 350)
+             2  Research     (980, 350)
+             3  Publications (200, 130)
+             4  Team         (1000, 130)
+             5  Lab News     (600, 70)
+             6  Resources    (200, 590)
+             7  Seed Cat     (1000, 590)
+             8  AI Hub       (600, 720)
+             9  Join Us      (600, 400)  — center
+           ============================================================ -->
+      <g class="hub-lines">
+        <!-- Spokes from center to all 8 outer nodes -->
+        <line class="hub-line" x1="600" y1="400" x2="220" y2="350"  style="--d:0s"/>
+        <line class="hub-line" x1="600" y1="400" x2="980" y2="350"  style="--d:0.4s"/>
+        <line class="hub-line" x1="600" y1="400" x2="200" y2="130"  style="--d:0.8s"/>
+        <line class="hub-line" x1="600" y1="400" x2="1000" y2="130" style="--d:1.2s"/>
+        <line class="hub-line" x1="600" y1="400" x2="600" y2="70"   style="--d:1.6s"/>
+        <line class="hub-line" x1="600" y1="400" x2="200" y2="590"  style="--d:2.0s"/>
+        <line class="hub-line" x1="600" y1="400" x2="1000" y2="590" style="--d:2.4s"/>
+        <line class="hub-line" x1="600" y1="400" x2="600" y2="720"  style="--d:2.8s"/>
 
-      <a class="bean-hot" style="--x:28%;--y:43%" href="/updates/"
-         data-label="Lab News" data-sub="Updates · Field days · Awards"><span>Lab News</span></a>
-      <a class="bean-hot" style="--x:72%;--y:43%" href="/Resource/"
-         data-label="Resources" data-sub="Protocols · Tools · Reading"><span>Resources</span></a>
+        <!-- Ring connections between adjacent outer nodes -->
+        <line class="hub-line hub-line--dim" x1="200" y1="130" x2="600" y2="70"   style="--d:3.2s"/>
+        <line class="hub-line hub-line--dim" x1="600" y1="70"  x2="1000" y2="130" style="--d:3.4s"/>
+        <line class="hub-line hub-line--dim" x1="1000" y1="130" x2="980" y2="350" style="--d:3.6s"/>
+        <line class="hub-line hub-line--dim" x1="980" y1="350"  x2="1000" y2="590" style="--d:3.8s"/>
+        <line class="hub-line hub-line--dim" x1="1000" y1="590" x2="600" y2="720"  style="--d:4.0s"/>
+        <line class="hub-line hub-line--dim" x1="600" y1="720"  x2="200" y2="590"  style="--d:4.2s"/>
+        <line class="hub-line hub-line--dim" x1="200" y1="590"  x2="220" y2="350"  style="--d:4.4s"/>
+        <line class="hub-line hub-line--dim" x1="220" y1="350"  x2="200" y2="130"  style="--d:4.6s"/>
+      </g>
+    </svg>
 
-      <a class="bean-hot" style="--x:28%;--y:62%" href="/seed-catalogue/"
-         data-label="Seed Catalogue" data-sub="OAC · Lines · Releases"><span>Seed Catalogue</span></a>
-      <a class="bean-hot" style="--x:72%;--y:62%" href="/research/"
-         data-label="AI &amp; Analysis Hub" data-sub="Models · Pipelines · Notebooks"><span>AI Hub</span></a>
-
-      <a class="bean-hot bean-hot--center" style="--x:50%;--y:80%" href="/join-us/"
-         data-label="Join Us" data-sub="Open positions · Apply"><span>Join Us</span></a>
-    </div>
+    <!-- HTML nodes overlaid at the same percentage coords as the SVG endpoints
+         Percentages = (svg-x / 1200) for left, (svg-y / 800) for top. -->
+    <a class="hub-node" style="--x:18.33%; --y:43.75%" href="/about-us/"
+       data-label="About Us" data-sub="Mission · History">
+      <span class="hub-num">01</span>
+      <span class="hub-title">About</span>
+      <span class="hub-sub">our mission</span>
+    </a>
+    <a class="hub-node" style="--x:81.67%; --y:43.75%" href="/research/"
+       data-label="Research" data-sub="Phenomics · Genomics · AI">
+      <span class="hub-num">02</span>
+      <span class="hub-title">Research</span>
+      <span class="hub-sub">what we work on</span>
+    </a>
+    <a class="hub-node" style="--x:16.67%; --y:16.25%" href="/publications/"
+       data-label="Publications" data-sub="Papers · Pre-prints · Data">
+      <span class="hub-num">03</span>
+      <span class="hub-title">Publications</span>
+      <span class="hub-sub">papers &amp; data</span>
+    </a>
+    <a class="hub-node" style="--x:83.33%; --y:16.25%" href="/team-members/"
+       data-label="Team" data-sub="Faculty · Students · Staff">
+      <span class="hub-num">04</span>
+      <span class="hub-title">Team</span>
+      <span class="hub-sub">the people</span>
+    </a>
+    <a class="hub-node" style="--x:50%; --y:8.75%" href="/updates/"
+       data-label="Lab News" data-sub="Updates · Field days · Awards">
+      <span class="hub-num">05</span>
+      <span class="hub-title">News</span>
+      <span class="hub-sub">latest from the field</span>
+    </a>
+    <a class="hub-node" style="--x:16.67%; --y:73.75%" href="/Resource/"
+       data-label="Resources" data-sub="Protocols · Tools · Reading">
+      <span class="hub-num">06</span>
+      <span class="hub-title">Resources</span>
+      <span class="hub-sub">protocols &amp; tools</span>
+    </a>
+    <a class="hub-node" style="--x:83.33%; --y:73.75%" href="/seed-catalogue/"
+       data-label="Seed Catalogue" data-sub="OAC · Lines · Releases">
+      <span class="hub-num">07</span>
+      <span class="hub-title">Seeds</span>
+      <span class="hub-sub">released lines</span>
+    </a>
+    <a class="hub-node" style="--x:50%; --y:90%" href="/research/"
+       data-label="AI &amp; Analysis Hub" data-sub="Models · Pipelines · Notebooks">
+      <span class="hub-num">08</span>
+      <span class="hub-title">AI Hub</span>
+      <span class="hub-sub">models &amp; notebooks</span>
+    </a>
+    <a class="hub-node hub-node--core" style="--x:50%; --y:50%" href="/join-us/"
+       data-label="Join Us" data-sub="Open positions · Apply">
+      <span class="hub-num">09</span>
+      <span class="hub-title">Join Us</span>
+      <span class="hub-sub">open positions</span>
+    </a>
   </div>
 </section>
 
@@ -178,10 +260,10 @@ sitemap: true
      CLOSING / FOOTER
      ============================================================ -->
 <footer class="cine-foot">
-  <div class="cine-foot__brand"><span class="accent">Guelph</span> &middot; Dry Bean &amp; Computational Biology</div>
+  <div class="cine-foot__brand">Dry Bean Breeding <span class="accent">&amp;</span> Computational Biology</div>
   <div class="cine-foot__rule"></div>
   <div class="cine-foot__meta">
-    University of Guelph &middot; Est. 1977 &middot;
+    University of Guelph &middot;
     <a href="mailto:myoosefz@uoguelph.ca">myoosefz@uoguelph.ca</a>
   </div>
 </footer>
