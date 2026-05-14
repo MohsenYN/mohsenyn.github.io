@@ -1,27 +1,42 @@
 /* ============================================================
-   GUELPH DRY BEAN — CINEMATIC SCROLL ENGINE
+   GUELPH DRY BEAN — CINEMATIC SCROLL ENGINE (video edition)
    Maps window scroll inside the .reel to a 0..1 timeline,
-   then fades + scales each .scene like a Kling-style camera
-   pull-back: tablet -> drones -> satellite/DNA -> AI -> beans.
-   No GSAP, no React — vanilla, tiny, GitHub-Pages friendly.
+   then drives video.currentTime so scroll IS the seek bar
+   (per PDF Ch.05: keyframe-per-frame encode + explicit
+   video.load() before seek on iOS Safari).
+   Vanilla JS, no GSAP, GitHub-Pages friendly.
    ============================================================ */
 
 (() => {
-  const reel  = document.querySelector('.reel');
-  const stage = document.querySelector('.stage');
+  const reel    = document.querySelector('.reel');
+  const stage   = document.querySelector('.stage');
   if (!reel || !stage) return;
 
-  const scenes  = Array.from(stage.querySelectorAll('.scene'));
+  const video   = stage.querySelector('.hero-video');
+  const captions= Array.from(document.querySelectorAll('.scene-caption'));
   const intro   = stage.querySelector('.intro');
   const hint    = stage.querySelector('.hint');
   const scrub   = document.querySelector('.scrub__bar');
   const nav     = document.querySelector('.cine-nav');
 
-  /* Each scene owns a slice of the 0..1 timeline.
-     Scenes overlap a little so transitions cross-dissolve. */
-  const N = scenes.length;
-  const span = 1 / N;          // base width per scene
-  const overlap = span * 0.45; // cross-fade region
+  /* ---------- Video setup (iOS Safari quirks live here) ---------- */
+  let videoReady = false;
+  if (video) {
+    video.muted = true;
+    video.playsInline = true;
+    video.preload = 'auto';
+    // iOS Safari needs an explicit load() before any seek will work.
+    try { video.load(); } catch (_) {}
+    const markReady = () => { videoReady = true; tick(); };
+    if (video.readyState >= 2) markReady();
+    else {
+      video.addEventListener('loadeddata', markReady, { once: true });
+      video.addEventListener('canplay',    markReady, { once: true });
+    }
+    // Some browsers (and posters with playsinline) try to autoplay; we
+    // want the video paused so currentTime stays under our control.
+    video.addEventListener('play', () => video.pause());
+  }
 
   /* Smoothstep easing for buttery transitions. */
   const smooth = (t) => {
@@ -30,37 +45,14 @@
     return t * t * (3 - 2 * t);
   };
 
-  /* For each scene compute opacity in [0,1] given timeline t.
-     Each scene rises in over (start..start+overlap) and falls
-     out over (end-overlap..end). The first scene starts visible,
-     the last stays visible at the end. */
-  const sceneOpacity = (idx, t) => {
-    const start = idx * span;
-    const end   = start + span;
-    const fadeIn  = idx === 0      ? 0 : smooth((t - start) / overlap);
-    const fadeOut = idx === N - 1  ? 0 : smooth((t - (end - overlap)) / overlap);
-    return Math.max(0, Math.min(1, fadeIn - fadeOut + (idx === 0 ? 1 : 0) - (idx === N - 1 ? 0 : 0)));
-  };
-
-  /* Cinematic zoom: each scene starts very large (we are inside it),
-     settles to scale 1 at its peak, then continues shrinking as we
-     pull further back. This gives the dolly-out feel. */
-  const sceneScale = (idx, t) => {
-    const center = idx * span + span * 0.5;
-    const d = (t - center) / span; // -0.5 .. +0.5 around its peak
-    // Scale from 1.6 (still zooming out from this layer) at d<0
-    // to 0.55 (we've left it behind) at d>0
-    const s = 1 - d * 0.9;
-    return Math.max(0.45, Math.min(1.7, s));
-  };
-
-  /* Caption visibility — show only when scene is mostly on. */
-  const captionOpacity = (idx, t) => {
-    const start = idx * span;
-    const end   = start + span;
-    const mid   = (start + end) / 2;
-    const dist  = Math.abs(t - mid) / (span / 2);
-    return Math.max(0, 1 - dist * 1.4);
+  /* Caption opacity from [data-in .. data-out] range with a 12% cross-fade. */
+  const captionOpacity = (cap, t) => {
+    const a = parseFloat(cap.dataset.in);
+    const b = parseFloat(cap.dataset.out);
+    const fade = Math.max(0.04, (b - a) * 0.12);
+    const fIn  = smooth((t - a) / fade);
+    const fOut = smooth((t - (b - fade)) / fade);
+    return Math.max(0, Math.min(1, fIn - fOut));
   };
 
   let progress = 0;
@@ -75,22 +67,30 @@
     if (!raf) raf = requestAnimationFrame(tick);
   };
 
-  /* Smoothing for the timeline so scroll feels filmic. */
+  /* Smoothed timeline + currentTime drive. */
   const tick = () => {
-    progress += (target - progress) * 0.18;
+    progress += (target - progress) * 0.22;
     if (Math.abs(target - progress) < 0.0005) progress = target;
 
     const t = progress;
-    const introOpacity = Math.max(0, 1 - t * 6); // gone fast after first nudge
 
+    // Intro and scroll-hint fade out as soon as the user starts scrolling.
+    const introOpacity = Math.max(0, 1 - t * 6);
     if (intro) intro.style.setProperty('--intro-opacity', introOpacity.toFixed(3));
-    if (hint)  hint.style.setProperty('--hint-opacity', (introOpacity * 0.9).toFixed(3));
+    if (hint)  hint.style.setProperty('--hint-opacity',   (introOpacity * 0.9).toFixed(3));
 
-    scenes.forEach((sc, i) => {
-      sc.style.setProperty('--scene-opacity', sceneOpacity(i, t).toFixed(3));
-      sc.style.setProperty('--scene-scale',   sceneScale(i, t).toFixed(3));
-      const cap = sc.querySelector('.scene__caption');
-      if (cap) cap.style.setProperty('--cap-opacity', captionOpacity(i, t).toFixed(3));
+    // Drive the video. duration may be NaN until metadata loads.
+    if (video && videoReady && isFinite(video.duration) && video.duration > 0) {
+      const seekTo = t * (video.duration - 0.03);  // tiny epsilon avoids end-of-stream black frame
+      // Only seek when noticeably different to spare CPU on dense scrolls.
+      if (Math.abs(seekTo - video.currentTime) > 1 / 60) {
+        try { video.currentTime = seekTo; } catch (_) {}
+      }
+    }
+
+    // Caption fades.
+    captions.forEach(cap => {
+      cap.style.setProperty('--cap-opacity', captionOpacity(cap, t).toFixed(3));
     });
 
     if (scrub) scrub.style.setProperty('--reel-progress', (t * 100).toFixed(1) + '%');
@@ -101,12 +101,6 @@
       raf = null;
     }
   };
-
-  /* Init scenes to a sane state on first paint. */
-  scenes.forEach((sc, i) => {
-    sc.style.setProperty('--scene-opacity', i === 0 ? '1' : '0');
-    sc.style.setProperty('--scene-scale',   '1');
-  });
 
   compute();
   window.addEventListener('scroll', compute, { passive: true });
@@ -157,7 +151,6 @@
         const href = node.getAttribute('data-href');
         if (href) window.location.href = href;
       });
-      /* Keyboard access */
       node.setAttribute('tabindex', '0');
       node.setAttribute('role', 'link');
       node.addEventListener('keydown', (e) => {
