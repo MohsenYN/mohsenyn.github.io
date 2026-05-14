@@ -116,6 +116,10 @@ body::after {
   position: relative;
   height: 600vh; /* total scroll length of the cinematic */
 }
+/* Use small-vh on mobile so iOS browser-chrome doesn't clip the stage. */
+@supports (height: 100svh) {
+  .stage { height: 100svh; }
+}
 .stage {
   position: sticky;
   top: 0;
@@ -577,9 +581,58 @@ section {
 
 /* ============================================================
    SMALL-SCREEN ADJUSTMENTS
+   On narrow / portrait viewports:
+   - Show the FULL video frame (object-fit: contain) instead of
+     cropping the sides off — fixes the "video doesn't fit phone" bug
+   - Shrink the reel so phone scrolling isn't endless
+   - Captions move just above the bottom letterbox, larger touch-safe text
+   - Center the watermark mask on the video's actual bottom-right
+     (which when contained on a portrait phone sits at the mid-band edge,
+     not the stage corner)
    ============================================================ */
 @media (max-width: 720px) {
   .scene__caption .headline { font-size: 1.4rem; }
   .scene__caption .sub { font-size: 0.78rem; }
   .intro__title { font-size: 2.4rem; }
+}
+
+@media (max-aspect-ratio: 1/1) {
+  /* The whole frame is visible, letterboxed top + bottom */
+  .hero-video { object-fit: contain; }
+
+  /* Shorter reel — 5 viewports instead of 6 — phones don't want to scroll forever */
+  .reel { height: 500vh; }
+
+  /* Captions sit just above the bottom letterbox bar so they overlap the
+     vignette, not the image content. Calculated as half the empty space
+     left between the contained 16:9 video and the viewport. */
+  .scene-caption {
+    bottom: calc(50% - 28vw - 6vh);
+    width: 92vw;
+    padding: 0 1rem;
+  }
+  .scene-caption .headline { font-size: clamp(1.2rem, 5vw, 1.6rem); }
+  .scene-caption .sub { font-size: 0.78rem; }
+  .scene-caption .eyebrow { font-size: 0.62rem; letter-spacing: 0.32em; }
+
+  /* On a contained portrait layout, the video's bottom-right corner sits
+     above the stage's bottom-right by half the letterbox height. Move
+     the mask up so it covers the baked-in black box. */
+  .hero-watermark-mask {
+    width: 16vw;
+    height: 9vw;     /* 16:9 of width so mask stays in-corner of the video */
+    right: 0;
+    bottom: calc(50% - 28vw);
+    max-width: none;
+    max-height: none;
+  }
+
+  .intro__title { font-size: clamp(1.9rem, 8vw, 2.6rem); }
+  .intro__sub   { font-size: 0.85rem; }
+}
+
+/* Very wide / ultrawide — pull the captions a little higher so they
+   don't get lost in the deep vignette pool at the bottom edge. */
+@media (min-aspect-ratio: 21/9) {
+  .scene-caption { bottom: 12vh; }
 }
