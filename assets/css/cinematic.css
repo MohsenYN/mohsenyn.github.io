@@ -501,6 +501,10 @@ section {
   background: radial-gradient(circle, rgba(201,169,97,0.34) 0%, rgba(201,169,97,0) 70%);
   opacity: 0;
   z-index: -1;
+  /* Purely decorative — never capture taps. Without this, on mobile
+     the halo escapes its (static-positioned) parent and covers the
+     whole .hub-stage, sending every tap to the last node in DOM. */
+  pointer-events: none;
   transition: opacity 0.45s var(--easing);
 }
 /* Hover & focus emphasis. Hover is GATED to real hover-capable
@@ -630,7 +634,11 @@ section {
   .hub-net { display: none; }
 
   .hub-node {
-    position: static;
+    /* `relative` (not `static`) so that ::before — which is
+       position:absolute inset:-8px — stays anchored to THIS node,
+       not to the whole .hub-stage. With `static`, the halo escaped
+       up to .hub-stage and made every tap route to the last node. */
+    position: relative;
     transform: none;
     width: 100%;
     max-width: none;
