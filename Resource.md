@@ -3,6 +3,8 @@ layout: list
 permalink: /Resource/
 accent_image: /assets/img/Resources.png
 ---
+<section class="licensing-contact">
+    <h2>Licensing & Commercialization</h2>
     <p>For detailed licensing information, download our <a href="/assets/pdf/drybeanslicensing-smr2025-final.pdf" target="_blank" rel="noopener noreferrer" class="pdf-link">Call for Licensing PDF</a> or contact the <a href="https://www.uoguelph.ca/research/innovation/" target="_blank" rel="noopener noreferrer" class="pdf-link">Research Innovation Office</a>.</p>
     <div class="contact-box">
       <img src="/assets/img/team/Steve.jpg" alt="Steve Dinka" class="contact-img">
