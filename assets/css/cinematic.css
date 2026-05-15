@@ -627,17 +627,17 @@ section {
     aspect-ratio: auto;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0.7rem;
-    padding: 0 0.6rem;
+    gap: 1.1rem;
+    padding: 0 1rem;
     margin: 1rem auto 3rem;
   }
   .hub-net { display: none; }
 
   .hub-node {
-    /* `relative` (not `static`) so that ::before — which is
-       position:absolute inset:-8px — stays anchored to THIS node,
-       not to the whole .hub-stage. With `static`, the halo escaped
-       up to .hub-stage and made every tap route to the last node. */
+    /* `relative` (not `static`) so that ::before stays anchored to
+       THIS node, not to the whole .hub-stage. With `static` the halo
+       escaped up to .hub-stage and made every tap route to the last
+       node. */
     position: relative;
     transform: none;
     width: 100%;
@@ -645,16 +645,28 @@ section {
     aspect-ratio: 1 / 1;
     margin: 0;
     animation: none;
+    /* Tighter box-shadow on mobile, the big 60px-wide black halo from
+       the desktop rule was crashing into the neighbouring cells when
+       the grid gap is small. Replace with a single subtle ring. */
+    box-shadow:
+      0 0 0 1px rgba(201,169,97, 0.28) inset,
+      0 0 14px rgba(138,10,10, 0.45);
     /* Larger touch target, no iOS tap delay */
     -webkit-tap-highlight-color: transparent;
     touch-action: manipulation;
   }
+  /* And tighten the gold halo too, so neighbours don't get nibbled. */
+  .hub-node::before { inset: -2px; }
   .hub-node--core {
     width: 100%;
     max-width: none;
     grid-column: auto;
     grid-row: auto;
     animation: none;
+    box-shadow:
+      0 0 0 1px rgba(201,169,97, 0.36) inset,
+      0 0 18px rgba(201,169,97, 0.32),
+      0 0 22px rgba(138,10,10, 0.50);
   }
 
   /* Tap feedback on touch — small inward scale on press */
