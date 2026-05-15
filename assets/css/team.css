@@ -1,0 +1,329 @@
+/* ============================================================
+   TEAM PAGE — Cinematic redesign
+   Shares variables / nav / footer with cinematic.css.
+   This file adds the team-specific hero, PI card, sections, and
+   member grid.
+   ============================================================ */
+
+/* Re-establish the design tokens here in case team.css is loaded
+   without cinematic.css (the cinematic layout already pulls
+   cinematic.css, so these are effectively a safety net). */
+:root {
+  --bg:        #000;
+  --crimson:   #8a0a0a;
+  --gold:      #c9a961;
+  --cream:     #f5f1e8;
+  --cream-dim: rgba(245, 241, 232, 0.65);
+  --rule:      rgba(201, 169, 97, 0.35);
+  --font-display: 'Cormorant Garamond', 'Garamond', serif;
+  --font-body:    'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono:    'JetBrains Mono', ui-monospace, monospace;
+  --easing: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* ------------------------------------------------------------
+   HERO
+   ------------------------------------------------------------ */
+.team-hero {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10rem 1.5rem 6rem;
+  background:
+    radial-gradient(ellipse at center, rgba(138,10,10,0.22) 0%, transparent 60%),
+    radial-gradient(ellipse at bottom, rgba(201,169,97,0.06) 0%, transparent 60%),
+    var(--bg);
+  position: relative;
+}
+.team-hero__inner { max-width: 880px; }
+.team-hero__eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.5em;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: 1.4rem;
+}
+.team-hero__title {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: clamp(2.6rem, 7vw, 5.5rem);
+  line-height: 1.02;
+  margin: 0 0 1.2rem;
+  color: var(--cream);
+}
+.team-hero__title em { font-style: italic; color: var(--gold); font-weight: 400; }
+.team-hero__rule { width: 80px; height: 1px; background: var(--gold); margin: 1.4rem auto; }
+.team-hero__sub {
+  font-size: 1.05rem;
+  color: var(--cream-dim);
+  max-width: 620px;
+  margin: 0 auto;
+  letter-spacing: 0.03em;
+  line-height: 1.65;
+}
+.team-hero__count {
+  margin-top: 2.4rem;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--gold);
+  letter-spacing: 0.4em;
+}
+
+/* Shared eyebrow utility (also defined in cinematic.css, here as fallback) */
+.eyebrow {
+  font-size: 0.7rem;
+  letter-spacing: 0.45em;
+  color: var(--gold);
+  text-transform: uppercase;
+}
+
+/* ------------------------------------------------------------
+   PI CARD
+   ------------------------------------------------------------ */
+.pi-section { padding: 5rem 1.5rem; max-width: 1200px; margin: 0 auto; }
+.pi-card {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 4rem;
+  align-items: center;
+  padding: 3rem;
+  border: 1px solid var(--rule);
+  background:
+    radial-gradient(ellipse at top left, rgba(138,10,10,0.16) 0%, transparent 65%),
+    rgba(8,4,4,0.6);
+  position: relative;
+}
+/* art-deco corner brackets */
+.pi-card::before,
+.pi-card::after {
+  content: '';
+  position: absolute;
+  width: 22px; height: 22px;
+}
+.pi-card::before {
+  top: 1rem; left: 1rem;
+  border-top: 1px solid var(--gold);
+  border-left: 1px solid var(--gold);
+}
+.pi-card::after {
+  bottom: 1rem; right: 1rem;
+  border-bottom: 1px solid var(--gold);
+  border-right: 1px solid var(--gold);
+}
+.pi-card__frame {
+  width: 320px; height: 320px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid var(--gold);
+  box-shadow: 0 0 60px rgba(138,10,10, 0.4);
+}
+.pi-card__photo {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: grayscale(0.18) contrast(1.04);
+  transition: filter 0.6s var(--easing);
+}
+.pi-card:hover .pi-card__photo { filter: none; }
+.pi-card__name {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  margin: 0.6rem 0 0.4rem;
+  color: var(--cream);
+  line-height: 1.1;
+}
+.pi-card__role {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+.pi-card__dates {
+  font-family: var(--font-display);
+  font-style: italic;
+  color: var(--cream-dim);
+  margin-top: 0.4rem;
+  font-size: 1rem;
+}
+.pi-card__blurb {
+  margin-top: 1.2rem;
+  color: var(--cream-dim);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  max-width: 56ch;
+}
+.pi-card__extra { margin: 0.35rem 0; color: var(--cream-dim); font-size: 0.92rem; }
+
+/* ------------------------------------------------------------
+   SECTIONS
+   ------------------------------------------------------------ */
+.people-section {
+  padding: 4.5rem 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.people-section__head {
+  display: flex;
+  align-items: baseline;
+  gap: 1.6rem;
+  margin-bottom: 3rem;
+}
+.people-section__num {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--gold);
+  letter-spacing: 0.3em;
+}
+.people-section__title {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(1.9rem, 4vw, 2.8rem);
+  margin: 0;
+  color: var(--cream);
+  line-height: 1;
+}
+.people-section__rule {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, var(--rule) 0%, transparent 100%);
+}
+
+/* ------------------------------------------------------------
+   MEMBER GRID
+   ------------------------------------------------------------ */
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 3rem 2rem;
+}
+.member { position: relative; }
+.member__frame {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border: 1px solid var(--rule);
+  margin-bottom: 1.1rem;
+  background: #0a0606;
+  position: relative;
+}
+.member__frame::after {
+  content: '';
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, transparent 60%, rgba(0,0,0, 0.55) 100%);
+  pointer-events: none;
+  transition: opacity 0.4s var(--easing);
+}
+.member__photo {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  filter: grayscale(0.3) contrast(1.02);
+  transition: filter 0.5s var(--easing), transform 0.6s var(--easing);
+}
+.member:hover .member__frame { border-color: var(--gold); }
+.member:hover .member__frame::after { opacity: 0; }
+.member:hover .member__photo { filter: none; transform: scale(1.04); }
+.member__name {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.35rem;
+  margin: 0 0 0.25rem;
+  color: var(--cream);
+  line-height: 1.15;
+}
+.member__role {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.35rem;
+}
+.member__dates {
+  font-family: var(--font-display);
+  font-style: italic;
+  color: var(--cream-dim);
+  font-size: 0.88rem;
+  margin-bottom: 0.6rem;
+}
+.member__blurb {
+  font-size: 0.85rem;
+  color: var(--cream-dim);
+  line-height: 1.6;
+  margin: 0 0 0.75rem;
+}
+.member__extra {
+  font-size: 0.8rem;
+  color: var(--cream-dim);
+  margin: 0.2rem 0;
+  opacity: 0.85;
+}
+
+/* social links — small ringed icon buttons */
+.member__links,
+.pi-card .member__links {
+  display: flex; flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.7rem;
+}
+.member__links .link {
+  width: 28px; height: 28px;
+  display: grid; place-items: center;
+  color: var(--cream-dim);
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+  transition: color 0.3s var(--easing),
+              border-color 0.3s var(--easing),
+              background 0.3s var(--easing);
+}
+.pi-card .member__links .link { width: 32px; height: 32px; }
+.member__links .link:hover {
+  color: var(--bg);
+  background: var(--gold);
+  border-color: var(--gold);
+}
+.member__links .link svg { width: 13px; height: 13px; }
+.pi-card .member__links .link svg { width: 15px; height: 15px; }
+
+/* ------------------------------------------------------------
+   REVEAL ON SCROLL
+   ------------------------------------------------------------ */
+.reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.9s var(--easing), transform 0.9s var(--easing); }
+.reveal.in { opacity: 1; transform: translateY(0); }
+
+/* ------------------------------------------------------------
+   RESPONSIVE
+   ------------------------------------------------------------ */
+@media (max-width: 900px) {
+  .pi-card {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;
+    text-align: center;
+  }
+  .pi-card__frame { width: 260px; height: 260px; margin: 0 auto; }
+  .pi-card .member__links { justify-content: center; }
+  .people-section__head { gap: 1rem; }
+  .people-section__rule { display: none; }
+}
+@media (max-width: 600px) {
+  .people-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem 1rem;
+  }
+  .member__name { font-size: 1.15rem; }
+  .team-hero { padding: 7rem 1.2rem 4rem; }
+  .pi-card { padding: 1.5rem; }
+  .pi-card__frame { width: 220px; height: 220px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .member__photo, .pi-card__photo { transition: none; filter: none; }
+}
