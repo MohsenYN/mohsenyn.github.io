@@ -623,60 +623,54 @@ section {
    (01-02-03 / 04-05-06 / 07-08-09) so taps land on the right node.
    The "core" doesn't get special placement here — it's just node 09. */
 @media (max-width: 720px) {
+  /* !important throughout — on mobile the grid layout is non-negotiable.
+     Without it, any later rule (or cached desktop CSS) would re-apply
+     position:absolute and the nodes would stack on each other. */
   .hub-stage {
-    aspect-ratio: auto;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1.1rem;
-    padding: 0 1rem;
-    margin: 1rem auto 3rem;
+    aspect-ratio: auto !important;
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 1.2rem !important;
+    padding: 0 1rem !important;
+    margin: 1rem auto 3rem !important;
   }
-  .hub-net { display: none; }
+  .hub-net { display: none !important; }
 
   .hub-node {
-    /* `relative` (not `static`) so that ::before stays anchored to
-       THIS node, not to the whole .hub-stage. With `static` the halo
-       escaped up to .hub-stage and made every tap route to the last
-       node. */
-    position: relative;
-    transform: none;
-    width: 100%;
-    max-width: none;
-    aspect-ratio: 1 / 1;
-    margin: 0;
-    animation: none;
-    /* Tighter box-shadow on mobile, the big 60px-wide black halo from
-       the desktop rule was crashing into the neighbouring cells when
-       the grid gap is small. Replace with a single subtle ring. */
-    box-shadow:
-      0 0 0 1px rgba(201,169,97, 0.28) inset,
-      0 0 14px rgba(138,10,10, 0.45);
-    /* Larger touch target, no iOS tap delay */
+    position: relative !important;
+    left: auto !important;
+    top:  auto !important;
+    transform: none !important;
+    width: 88% !important;
+    max-width: none !important;
+    aspect-ratio: 1 / 1 !important;
+    margin: 0 auto !important;
+    animation: none !important;
+    /* No outer glow on mobile — kills the cell-overflow problem. Just
+       a single thin gold ring so the shape stays luxe. */
+    box-shadow: 0 0 0 1px rgba(201,169,97, 0.45) inset !important;
     -webkit-tap-highlight-color: transparent;
     touch-action: manipulation;
   }
-  /* And tighten the gold halo too, so neighbours don't get nibbled. */
-  .hub-node::before { inset: -2px; }
+  .hub-node::before { inset: -2px !important; }
   .hub-node--core {
-    width: 100%;
-    max-width: none;
-    grid-column: auto;
-    grid-row: auto;
-    animation: none;
+    width: 88% !important;
+    max-width: none !important;
+    grid-column: auto !important;
+    grid-row: auto !important;
+    animation: none !important;
     box-shadow:
-      0 0 0 1px rgba(201,169,97, 0.36) inset,
-      0 0 18px rgba(201,169,97, 0.32),
-      0 0 22px rgba(138,10,10, 0.50);
+      0 0 0 1px rgba(201,169,97, 0.6) inset,
+      0 0 10px rgba(201,169,97, 0.25) !important;
   }
 
-  /* Tap feedback on touch — small inward scale on press */
+  /* Tap feedback */
   .hub-node:active {
-    transform: scale(0.94);
+    transform: scale(0.94) !important;
     transition: transform 0.08s ease-out;
   }
-  /* Make sure focus-visible doesn't try to translate(-50%, -50%) on mobile */
   .hub-node:focus-visible {
-    transform: scale(1.05);
+    transform: scale(1.05) !important;
   }
 
   .hub-num   { font-size: 0.56rem; letter-spacing: 0.22em; }
