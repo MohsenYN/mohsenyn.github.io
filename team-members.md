@@ -16,7 +16,7 @@ accent_image: /assets/img/TeamMembers.png
     allowfullscreen>
   </iframe>
 </div>
-  <img src="/assets/img/TeamFeb6.jpg" alt="Team Members" style="max-width: 100%; width: 500px; border-radius: 10px; box-shadow: 0 6px 12px rgba(0,0,0,0.2); margin: 0 auto 1rem; display: block;">
+  <img src="/assets/img/Lab July 2026.jpg" alt="Team Members" style="max-width: 100%; width: 500px; border-radius: 10px; box-shadow: 0 6px 12px rgba(0,0,0,0.2); margin: 0 auto 1rem; display: block;">
   <p style="font-size: 1.2rem; line-height: 1.6; color: rgb(0,0,0); font-style: italic; margin: 0 auto;">The Dry Bean Breeding & Computational Biology Program thrives thanks to our diverse, passionate team. Together, we’re cultivating innovation in agriculture.</p>
 </div>
 
