@@ -57,6 +57,27 @@ accent_image: /assets/img/LabNews.png
 
 <main class="news-grid" role="main">
 
+<article class="news-item" aria-labelledby="news-2026-07-20">
+  <h2 class="news-date" id="news-2026-07-24">July 20, 2026</h2>
+  <p>
+    <strong>Hybrid AI in Synthetic Biology Presented at ASPB 2026</strong><br><br>
+    Dr. Mohsen Yoosefzadeh Najafabadi recently attended the 2026 American Society of Plant Biologists Annual Meeting in Ottawa.
+    <br><br>
+    During the conference, Dr. Yoosefzadeh Najafabadi was invited to present his work on the use of Hybrid AI in synthetic biology. The presentation discussed how artificial intelligence models can be combined with biological knowledge, scientific information, and computational methods to support research and address complex questions in plant biology.
+    <br><br>
+    The presentation generated several discussions about how Hybrid AI could be applied across synthetic biology and other areas of plant science. These conversations highlighted the growing interest in connecting artificial intelligence with biological research and identified several ideas for future research and collaboration.
+    <br><br>
+    The conference also provided an opportunity to learn about recent developments across plant biology through a broad program of scientific talks and poster presentations. The sessions covered topics ranging from molecular biology and plant development to detailed research on auxin signalling and other biological processes.
+    <br><br>
+    Special thanks are extended to Dr. Shao-shan Carol Huang for inviting Dr. Yoosefzadeh Najafabadi to speak and share this research with the ASPB community.
+  </p>
+  <figure>
+    <img src="/assets/img/news/ASPB2026.jpeg"
+         alt="Dr. Mohsen Yoosefzadeh Najafabadi presenting at ASPB 2026"
+         loading="lazy">
+  </figure>
+</article>
+
 <article class="news-item" aria-labelledby="news-2026-06-14">
   <h2 class="news-date" id="news-2026-06-14">June 14, 2026</h2>
   <p><strong>BeanGPT Presented at the International Legume Society Conference (ILS5)</strong><br>
