@@ -34,7 +34,12 @@ accent_image: /assets/img/LabNews.png
     <!-- Scrollable LinkedIn Feed -->
     <div class="linkedin-scroll-frame">
       <div class="linkedin-post">
-         
+
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7490529072242905088?collapsed=1" height="611" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7495177912237658112?collapsed=1" height="669" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7495621570237800448?collapsed=1" height="542" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7496259012024266752?collapsed=1" height="543" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7495627300152139776?collapsed=1" height="634" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> 
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7472059669377904640?collapsed=1" height="628" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7460007416856838144?collapsed=1" height="497" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7434357340809920512?collapsed=1" height="634" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
@@ -48,14 +53,139 @@ accent_image: /assets/img/LabNews.png
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7336405967481270273?collapsed=1" height="609" allowfullscreen></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7335681269361537027?collapsed=1" height="547" allowfullscreen></iframe>
         <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7332815324544671744?collapsed=1" height="636" allowfullscreen></iframe>
-        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7328529520574058496?collapsed=1" height="610" allowfullscreen></iframe>
-        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7327758948533489664?collapsed=1" height="534" allowfullscreen></iframe>
       </div>
     </div>
   </div>
 </header>
 
 <main class="news-grid" role="main">
+
+<article class="news-item" aria-labelledby="news-2026-08-27">
+  <h2 class="news-date" id="news-2026-08-27">August 27, 2026</h2>
+  <p>
+    <strong>BeanGPT and Hybrid AI Dry Bean Breeding Featured by the University of Guelph and CTV News</strong><br><br>
+
+    The Dry Bean Breeding &amp; Computational Biology Program was recently featured by the University of Guelph and Ontario Agricultural College for its work using artificial intelligence to support the development of new dry bean varieties.
+    <br><br>
+
+    The coverage highlighted BeanGPT and the program’s first dry bean cross designed with the support of Hybrid AI. The approach brings together field performance, genetics, disease information, imaging, historical breeding data, and breeder knowledge to help inform one of the earliest decisions in the breeding process: which parents should be crossed.
+    <br><br>
+
+    CTV News Kitchener also visited the Ontario Crops Research Centre – Elora to see the research in the field and learn how AI-assisted breeding could help accelerate the development of productive, disease-resistant, and locally adapted dry bean varieties.
+    <br><br>
+
+    The growing interest in this work reflects a broader goal of the program: using AI as a tool to strengthen plant breeding while keeping biological knowledge, field experience, and breeder expertise at the centre of decision making.
+    <br><br>
+
+    For more information, visit:
+    <br>
+    <a href="https://uoguel.ph/gh8dv" target="_blank" rel="noopener noreferrer">
+      University of Guelph feature on BeanGPT
+    </a>
+    <br>
+    <a href="https://youtu.be/ZETg9rSlAvA?si=LjCf429NKiJe0DH0" target="_blank" rel="noopener noreferrer">
+      Watch the CTV News feature
+    </a>
+  </p>
+</article>
+
+
+<article class="news-item" aria-labelledby="news-2026-08-20">
+  <h2 class="news-date" id="news-2026-08-20">August 20, 2026</h2>
+  <p>
+    <strong>New Dry Bean Lines Highlighted for Upcoming Licensing Opportunities</strong><br><br>
+
+    The Dry Bean Breeding &amp; Computational Biology Program, together with the University of Guelph Research Innovation Office, recently highlighted a series of advanced dry bean lines being considered for upcoming licensing opportunities.
+    <br><br>
+
+    The spotlight series began with OAC 24-1 and expanded to lines representing several important dry bean market classes. Together, these materials demonstrate progress across traits including yield, maturity, harvestability, disease resistance, seed characteristics, and cooking and canning quality.
+    <br><br>
+
+    Rather than focusing on a single trait, the breeding program continues to select lines that combine strong agronomic performance with characteristics important to growers, processors, and consumers. The spotlight series also provides industry partners with an early look at promising materials moving through the final stages of the breeding pipeline.
+    <br><br>
+
+    For more information, visit:
+    <br>
+    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7488619712285802496/" target="_blank" rel="noopener noreferrer">
+      University of Guelph Research Innovation Office variety spotlight
+    </a>
+    <br>
+    <a href="https://www.uogbeans.com/" target="_blank" rel="noopener noreferrer">
+      Dry Bean Breeding &amp; Computational Biology Program
+    </a>
+  </p>
+</article>
+
+
+<article class="news-item" aria-labelledby="news-2026-08-17">
+  <h2 class="news-date" id="news-2026-08-17">August 17, 2026</h2>
+  <p>
+    <strong>Dry Bean Breeding Open House Brings Growers, Researchers, Students, and Partners Together at Elora</strong><br><br>
+
+    The Dry Bean Breeding &amp; Computational Biology Program welcomed growers, researchers, industry partners, government representatives, students, and members of the agricultural community to its annual Open House at the Ontario Crops Research Centre – Elora.
+    <br><br>
+
+    The event provided an opportunity to explore current research across the breeding program, including new dry bean lines, disease resistance, genomic research, high-throughput phenotyping, canning quality, sensory evaluation, and the growing use of artificial intelligence in plant breeding.
+    <br><br>
+
+    Graduate students also presented their research directly in the field. Aashvi Patel discussed genomic mapping for anthracnose resistance, Philip Lorenc presented work using phenomics to study anthracnose resistance, Leah Chin introduced research connecting sensory information, canning quality, and AI, and Katherine Chinchilla Hidalgo shared work using AI-based phenotyping to investigate disease responses in adzuki bean.
+    <br><br>
+
+    One of the major research milestones shared during the Open House was the program’s first dry bean cross designed with the support of Hybrid AI, demonstrating how computational tools can begin contributing to breeding decisions from the earliest stages of the breeding pipeline.
+    <br><br>
+
+    The Open House also highlighted the importance of public plant breeding and the partnerships among researchers, growers, industry, government, and students that help move research from experimental fields toward practical outcomes for Ontario agriculture.
+    <br><br>
+
+    For more information, visit:
+    <br>
+    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7497268928880984064/" target="_blank" rel="noopener noreferrer">
+      Dry Bean Breeding Open House highlights
+    </a>
+  </p>
+
+  <!--
+  I recommend using ONE strong group or field photo for this story.
+  After adding the image to your assets folder, you can activate:
+
+  <figure>
+    <img src="/assets/img/news/OpenHouse2026.jpg"
+         alt="Dry Bean Breeding and Computational Biology Open House at Elora"
+         loading="lazy">
+  </figure>
+  -->
+</article>
+
+
+<article class="news-item" aria-labelledby="news-2026-07-29">
+  <h2 class="news-date" id="news-2026-07-29">July 29, 2026</h2>
+  <p>
+    <strong>BeanGPT Published in Plant Methods</strong><br><br>
+
+    A major milestone for the Dry Bean Breeding &amp; Computational Biology Program was reached with the publication of the research paper “BeanGPT: a domain-specific retrieval-augmented generation system for Phaseolus vulgaris research” in <em>Plant Methods</em>.
+    <br><br>
+
+    BeanGPT was developed as a specialized artificial intelligence platform for common bean research, breeding, production, and decision making. Rather than relying only on the general knowledge of a large language model, the system searches relevant scientific and agricultural information before generating its response and provides supporting sources for users to examine.
+    <br><br>
+
+    The platform brings together peer-reviewed legume literature, multi-year field trial information, climate projections, cultivar information, and genomic resources. It was designed to support researchers, breeders, growers, students, industry partners, and other members of the bean community in accessing and connecting information that is often distributed across many different sources.
+    <br><br>
+
+    The publication represents an important step in the program’s broader effort to connect artificial intelligence with biological knowledge, breeding data, and real agricultural decision making.
+    <br><br>
+
+    For more information, visit:
+    <br>
+    <a href="https://lnkd.in/guzBE43g" target="_blank" rel="noopener noreferrer">
+      BeanGPT publication
+    </a>
+    <br>
+    <a href="https://beangpt.ca/" target="_blank" rel="noopener noreferrer">
+      BeanGPT
+    </a>
+  </p>
+</article>
+
 
 <article class="news-item" aria-labelledby="news-2026-07-20">
   <h2 class="news-date" id="news-2026-07-24">July 20, 2026</h2>
