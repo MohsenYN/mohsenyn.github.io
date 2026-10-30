@@ -47,6 +47,14 @@ accent_image: /assets/img/Research.png
     <h3 style="color: rgb(150,0,0); font-size: 1.5rem; margin-bottom: 0.75rem;">Computational Tools Development</h3>
     <p style="font-size: 1.1rem; line-height: 1.6; color: #444;"> Creating and implementing advanced computational tools, including data packages, statistical methods, and data-driven pipelines, designed for processing and analyzing complex crop breeding datasets.</p>
   </div>
+  <div style="padding: 1.5rem; background: rgba(255, 255, 255, 0.9); border-left: 6px solid rgb(150,0,0); border-radius: 8px; margin-bottom: 1.5rem; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s;">
+    <h3 style="color: rgb(150,0,0); font-size: 1.5rem; margin-bottom: 0.75rem;">Hybrid AI &amp; Large Language Models in Breeding</h3>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: #444;"> Building Hybrid AI systems and domain specific large language models such as BeanGPT that bring together scientific literature, field trials, genomics, imaging, and breeder knowledge to guide breeding decisions from the very first cross.</p>
+  </div>
+  <div style="padding: 1.5rem; background: rgba(255, 255, 255, 0.9); border-left: 6px solid rgb(150,0,0); border-radius: 8px; margin-bottom: 1.5rem; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s;">
+    <h3 style="color: rgb(150,0,0); font-size: 1.5rem; margin-bottom: 0.75rem;">Bioinformatics for Food Safety</h3>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: #444;"> Applying genomic and computational approaches to study E. coli and other food related bacteria, in projects connected with the Canadian Food Inspection Agency, so that the same data science tools used in breeding can also support a safer food system.</p>
+  </div>
 </div>
 
 ---
@@ -91,6 +99,35 @@ Our ongoing projects bring these research areas to life, addressing critical cha
   </figure>
 </div>
 <p style="font-size: 1.1rem; line-height: 1.6; color: #444; padding: 1rem; background: rgba(255, 255, 255, 0.9); border-radius: 8px;">BeanGPT, the first fine-tuned Large Language Model for breeding, leverages vast literature and public datasets to accelerate variety development with AI-powered insights, redefining precision in dry bean research.</p>
+<p style="font-size: 1.1rem; line-height: 1.6; color: #444; padding: 1rem; background: rgba(255, 255, 255, 0.9); border-radius: 8px;">In 2026 BeanGPT was published in <em>Plant Methods</em> as a domain specific retrieval augmented generation system for <em>Phaseolus vulgaris</em> research. The platform searches more than 314,000 peer reviewed articles, multi year field trial records, climate projections, cultivar information, and genomic resources before it answers a question, and it shows the supporting sources so users can check the evidence for themselves. BeanGPT is openly available at <a href="https://beangpt.ca/" target="_blank" rel="noopener noreferrer">beangpt.ca</a> and is already being used by Ontario Bean Growers, and the team is now exploring how the same approach could support other crops such as soybean, wheat, and lentils.</p>
+
+### AI Designed Crosses with Hybrid AI
+<div class="gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 2rem 0;">
+  <figure style="margin: 0; position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <img src="/assets/img/FIeld1.jpg" alt="Dry bean breeding plots at Elora" style="width: 100%; height: auto; transition: transform 0.3s;">
+    <figcaption style="position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.7); color: white; padding: 0.5rem; text-align: center; opacity: 0; transition: opacity 0.3s;">Hybrid AI Guided Crossing</figcaption>
+  </figure>
+</div>
+<p style="font-size: 1.1rem; line-height: 1.6; color: #444; padding: 1rem; background: rgba(255, 255, 255, 0.9); border-radius: 8px;">In 2026 the program made its first dry bean cross designed with the support of Hybrid AI, a milestone that was shared with growers and partners at the annual Open House in Elora. BeanGPT and related models bring together field trial performance, genetic information, disease records, drone imagery, seed quality data, weather and soil information, and more than four decades of breeding notes to help answer one of the earliest questions in any breeding program, which is which parents should be crossed. Tens of thousands of possible combinations are narrowed down to a few hundred promising crosses, and the resulting populations are then advanced through conventional crossing and selection in the field. The first line developed this way was selected for higher yield and stronger disease resistance, with work spanning the navy, black, kidney, and cranberry market classes, and it is now going through further seasons of testing at the Ontario Crops Research Centre in Elora before any release decision is made. The long term goal is to give breeders a tool that remembers everything the program has learned over the years while keeping biological knowledge and breeder expertise at the centre of every decision.</p>
+
+### Soybean Cyst Nematode and Bacterial Blight Resistance in Dry and Adzuki Beans
+<div class="gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 2rem 0;">
+  <figure style="margin: 0; position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <img src="/assets/img/Adzuki1.jpg" alt="Adzuki bean plant at harvest" style="width: 100%; height: auto; transition: transform 0.3s;">
+    <figcaption style="position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.7); color: white; padding: 0.5rem; text-align: center; opacity: 0; transition: opacity 0.3s;">Nematode and Blight Resistance Screening</figcaption>
+  </figure>
+</div>
+<p style="font-size: 1.1rem; line-height: 1.6; color: #444; padding: 1rem; background: rgba(255, 255, 255, 0.9); border-radius: 8px;">Soybean cyst nematode is a serious pest in Ontario fields, and the program is screening a dry bean GWAS panel for resistance to two contrasting HG types of the nematode in order to find new sources of resistance and the genomic regions behind them. This work brings together graduate students, interns, and visiting researchers from Brazil, and it builds on the team’s experience mapping cyst nematode resistance in soybean. In adzuki beans, the lab is developing phenomics driven strategies that use imaging and AI to measure how plants respond to soybean cyst nematode and bacterial blights, with the aim of speeding up the selection of resistant lines for this valuable specialty crop.</p>
+
+### AI Assisted Sensory and Canning Quality Evaluation
+<div class="gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 2rem 0;">
+  <figure style="margin: 0; position: relative; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <img src="/assets/img/Seed1.jpg" alt="Seeds from several dry bean market classes" style="width: 100%; height: auto; transition: transform 0.3s;">
+    <figcaption style="position: absolute; bottom: 0; left: 0; right: 0; background: rgba(0,0,0,0.7); color: white; padding: 0.5rem; text-align: center; opacity: 0; transition: opacity 0.3s;">Sensory and Canning Quality</figcaption>
+  </figure>
+</div>
+<p style="font-size: 1.1rem; line-height: 1.6; color: #444; padding: 1rem; background: rgba(255, 255, 255, 0.9); border-radius: 8px;">How a bean looks, feels, and tastes after cooking or canning matters a great deal to processors and consumers, but sensory panels and canning tests are slow and can only handle a limited number of lines each year. The program is combining trained sensory panel evaluations with imaging, sensing technologies, and artificial intelligence to predict sensory and canning quality traits without destroying the seed, so that quality can be considered much earlier in the breeding pipeline. This work builds on the farm to can framework published in <em>Legume Science</em> and the framework for AI assisted nondestructive phenotyping of sensory traits published in <em>Smart Agricultural Technology</em>, both developed together with colleagues in food science at the University of Guelph.</p>
+
 
 ---
 

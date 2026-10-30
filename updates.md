@@ -60,6 +60,118 @@ accent_image: /assets/img/LabNews.png
 
 <main class="news-grid" role="main">
 
+<article class="news-item" aria-labelledby="news-2026-10-21">
+  <h2 class="news-date" id="news-2026-10-21">October 21, 2026</h2>
+  <p>
+    <strong>Ontario Bean Growers Shares the Story of the First AI Designed Bean Line</strong><br><br>
+
+    The story of the program’s first dry bean line designed with help from AI kept travelling this fall, and on October 21 Ontario Bean Growers shared a new feature about it with growers across the province. The article walks through how BeanGPT helped the team narrow tens of thousands of possible crosses down to a few hundred worth testing, before the chosen lines went through five generations of conventional crossing and selection in the field.
+    <br><br>
+
+    One part of the story the team was especially happy to see is the reminder that BeanGPT is a decision support tool and not a gene editing tool, since the crossing itself still happens the traditional way while AI helps decide which cross is worth making. The feature also notes that the platform draws on more than 314,000 scientific articles together with the program’s field records going back to 2006, including phenotyping notes, drone imagery, seed quality tests, and weather and soil data.
+    <br><br>
+
+    The new line still has a few more seasons of testing ahead at the Ontario Crops Research Centre in Elora before any release decision is made, and the lab is looking forward to sharing yield and disease results once they are ready. It was also great to read that Ontario Bean Growers is already using BeanGPT in its own work, and that breeders working on soybean, wheat, lentils, and other grains are interested in trying the same approach.
+    <br><br>
+
+    Anyone curious about the details can read the full feature through the links below.
+    <br>
+    <a href="https://www.global-agriculture.com/ag-tech-research-news/ai-platform-helps-university-of-guelph-breed-its-first-new-dry-bean-line/" target="_blank" rel="noopener noreferrer">
+      AI Platform Helps University of Guelph Breed Its First New Dry Bean Line
+    </a>
+    <br>
+    <a href="https://ontariobeans.on.ca/growers/news-events/news-releases/" target="_blank" rel="noopener noreferrer">
+      Ontario Bean Growers news releases
+    </a>
+  </p>
+</article>
+
+
+<article class="news-item" aria-labelledby="news-2026-10-07">
+  <h2 class="news-date" id="news-2026-10-07">October 7, 2026</h2>
+  <p>
+    <strong>Dry Beans Make It to the Thanksgiving Table in a U of G Harvest Feature</strong><br><br>
+
+    Just ahead of Thanksgiving, the University of Guelph published a harvest season story about how research across campus helps put food on Ontario tables, and the dry bean program was happy to be part of the menu. In the feature, beans show up as the side dish that adds fibre and protein to a harvest meal, which is a role the team is always glad to see beans get some credit for.
+    <br><br>
+
+    The story also points to the work the lab does every year to improve bean quality and yield, including the hundreds of crosses made each season to keep building genetic diversity in the program. BeanGPT gets a mention as well, as the AI platform the team is developing to help breed dry beans that fit specific growing conditions across the province.
+    <br><br>
+
+    For the team, the feature landed at a fitting moment, since October is usually when plots are harvested and the next round of breeding decisions starts to take shape. It was a nice reminder that the work happening in the field and in the lab eventually finds its way onto family tables during the holidays.
+    <br><br>
+
+    The full harvest story is available on U of G News through the link below.
+    <br>
+    <a href="https://news.uoguelph.ca/2026/10/how-u-of-g-helps-put-food-on-your-harvest-plate/" target="_blank" rel="noopener noreferrer">
+      How U of G Helps Put Food on Your Harvest Plate
+    </a>
+  </p>
+</article>
+
+
+<article class="news-item" aria-labelledby="news-2026-09-11">
+  <h2 class="news-date" id="news-2026-09-11">September 11, 2026</h2>
+  <p>
+    <strong>Dr. Yoosefzadeh Najafabadi Makes the Case for Public Plant Breeding</strong><br><br>
+
+    In September, Dr. Mohsen Yoosefzadeh Najafabadi wrote an opinion piece for Farmtario about why public investment in plant breeding matters so much for the future of Ontario crops, and the University of Guelph later shared it on U of G News. The article explains that food security starts long before food reaches the grocery store, with the breeding programs that decide which crops farmers can grow and how reliably those crops perform.
+    <br><br>
+
+    A big part of the piece focuses on time, because developing a new variety often takes many years and sometimes more than a decade. As Dr. Yoosefzadeh Najafabadi puts it, “Breeding is not a tap that can be turned off and on,” and interrupted funding would not show up right away but would leave farmers with fewer and less adapted varieties later on.
+    <br><br>
+
+    The article also shares a few numbers that the whole team found really encouraging to see in print. Over the past 25 years, Canadian public plant breeding programs have returned roughly $20 for every $1 invested, and for the University of Guelph dry bean breeding and computational biology program that return is estimated to be closer to $40 for every dollar.
+    <br><br>
+
+    Beyond the numbers, the piece highlights the wider value of public breeding, from training the next generation of plant breeders to building shared knowledge and tools that help growers deal with drought, floods, heat, new pests, and changing diseases. The program is grateful to the Ontario Agri-Food Innovation Alliance, a partnership between the Government of Ontario, the University of Guelph, and industry, for making this work possible.
+    <br><br>
+
+    The full opinion piece can be read on U of G News through the link below.
+    <br>
+    <a href="https://news.uoguelph.ca/2026/09/ontarios-future-crops-depend-on-public-investments-today-opinion/" target="_blank" rel="noopener noreferrer">
+      Ontario’s Future Crops Depend on Public Investments Today
+    </a>
+  </p>
+</article>
+
+
+<article class="news-item" aria-labelledby="news-2026-09-06">
+  <h2 class="news-date" id="news-2026-09-06">September 6, 2026</h2>
+  <p>
+    <strong>The AI Designed Super Bean Keeps Making Headlines</strong><br><br>
+
+    After the Open House in August, news about the program’s first bean designed with help from AI travelled much further than the team expected. CTV News Kitchener shared the story from the field in Elora on August 17, and the University of Guelph and the Ontario Agri-Food Innovation Alliance followed with their own features calling it the first bean designed with help from AI.
+    <br><br>
+
+    In early September, Farms.com published a piece about how the so called super bean could soon be growing in Ontario fields, describing how BeanGPT helps breeders narrow thousands of possible crosses down to a handful of strong candidates. On September 6, CBC Kitchener Waterloo reporter John Dalusong talked with Dr. Mohsen Yoosefzadeh Najafabadi about how the software works and why a new variety developed with AI support could reach the market within the next few years. Guelph Today also picked up the story and noted that the bean was creating quite a stir around town.
+    <br><br>
+
+    The team is grateful to every reporter and outlet that took the time to visit, ask questions, and help explain this work to growers and the public. The links below collect the coverage in one place for anyone who missed it the first time around.
+    <br>
+    <a href="https://ca.news.yahoo.com/ai-platform-beangpt-aims-boost-100000943.html" target="_blank" rel="noopener noreferrer">
+      CBC Kitchener Waterloo on BeanGPT
+    </a>
+    <br>
+    <a href="https://www.farms.com/news/ai-powered-super-bean-could-grow-in-ontario-farmers-fields-soon-246480.aspx" target="_blank" rel="noopener noreferrer">
+      Farms.com on the AI powered super bean
+    </a>
+    <br>
+    <a href="https://www.ctvnews.ca/kitchener/article/ontario-researchers-using-ai-to-breed-a-better-bean/" target="_blank" rel="noopener noreferrer">
+      CTV News Kitchener from the field in Elora
+    </a>
+    <br>
+    <a href="https://www.uoguelph.ca/alliance/news/2026/08/first-super-bean-developed-help-ai" target="_blank" rel="noopener noreferrer">
+      Ontario Agri-Food Innovation Alliance feature
+    </a>
+    <br>
+    <a href="https://www.guelphtoday.com/local-news/bean-developed-by-u-of-g-creating-quite-the-stir-10075241" target="_blank" rel="noopener noreferrer">
+      Guelph Today coverage
+    </a>
+  </p>
+</article>
+
+
 <article class="news-item" aria-labelledby="news-2026-08-27">
   <h2 class="news-date" id="news-2026-08-27">August 27, 2026</h2>
   <p>
