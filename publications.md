@@ -16,6 +16,11 @@ accent_image: /assets/img/Publication.png
 <div class="publications-list" style="margin: 3rem 0; max-width: 900px; margin-left: auto; margin-right: auto;">
 
   <div style="padding: 2rem; background: rgba(255, 255, 255, 0.95); border-left: 8px solid rgb(150,0,0); border-radius: 10px; margin-bottom: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); transition: transform 0.3s, box-shadow 0.3s;">
+    <h3 style="color: rgb(150,0,0); font-size: 1.6rem; margin-bottom: 0.75rem; font-weight: 600; letter-spacing: 0.5px;"><a href="https://doi.org/10.1016/j.atech.2026.102668" style="color: rgb(150,0,0); text-decoration: none; transition: color 0.3s;" target="_blank">AI-assisted nondestructive phenotyping of sensory-related traits in modern legume breeding: From sensing technologies to a proposed framework for breeding-scale application</a></h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: #444; font-style: italic;"><em> Smart Agricultural Technology </em>.</p>
+  </div>
+
+  <div style="padding: 2rem; background: rgba(255, 255, 255, 0.95); border-left: 8px solid rgb(150,0,0); border-radius: 10px; margin-bottom: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); transition: transform 0.3s, box-shadow 0.3s;">
     <h3 style="color: rgb(150,0,0); font-size: 1.6rem; margin-bottom: 0.75rem; font-weight: 600; letter-spacing: 0.5px;"><a href="https://link.springer.com/article/10.1186/s13007-026-01575-w" style="color: rgb(150,0,0); text-decoration: none; transition: color 0.3s;" target="_blank">BeanGPT: a domain-specific retrieval-augmented generation system for Phaseolus vulgaris research</a></h3>
     <p style="font-size: 1.15rem; line-height: 1.7; color: #444; font-style: italic;"><em> Plant Methods </em>.</p>
   </div>
@@ -36,8 +41,28 @@ accent_image: /assets/img/Publication.png
   </div>
   
   <div style="padding: 2rem; background: rgba(255, 255, 255, 0.95); border-left: 8px solid rgb(150,0,0); border-radius: 10px; margin-bottom: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); transition: transform 0.3s, box-shadow 0.3s;">
+    <h3 style="color: rgb(150,0,0); font-size: 1.6rem; margin-bottom: 0.75rem; font-weight: 600; letter-spacing: 0.5px;"><a href="https://doi.org/10.3390/plants15091385" style="color: rgb(150,0,0); text-decoration: none; transition: color 0.3s;" target="_blank">Identification of Genomic Regions for Partial Resistance to Soybean Rust Under Field Conditions Using FarmCPU and Machine Learning Approaches</a></h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: #444; font-style: italic;"><em> Plants </em>.</p>
+  </div>
+
+  <div style="padding: 2rem; background: rgba(255, 255, 255, 0.95); border-left: 8px solid rgb(150,0,0); border-radius: 10px; margin-bottom: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); transition: transform 0.3s, box-shadow 0.3s;">
+    <h3 style="color: rgb(150,0,0); font-size: 1.6rem; margin-bottom: 0.75rem; font-weight: 600; letter-spacing: 0.5px;"><a href="https://doi.org/10.1007/s00122-026-05243-4" style="color: rgb(150,0,0); text-decoration: none; transition: color 0.3s;" target="_blank">Genome-wide association study of soybean germplasm derived from modern Canadian and Chinese soybean cultivars to identify novel genes conferring soybean cyst nematode resistance</a></h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: #444; font-style: italic;"><em> Theoretical and Applied Genetics </em>.</p>
+  </div>
+
+  <div style="padding: 2rem; background: rgba(255, 255, 255, 0.95); border-left: 8px solid rgb(150,0,0); border-radius: 10px; margin-bottom: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); transition: transform 0.3s, box-shadow 0.3s;">
     <h3 style="color: rgb(150,0,0); font-size: 1.6rem; margin-bottom: 0.75rem; font-weight: 600; letter-spacing: 0.5px;"><a href="https://www.sciencedirect.com/science/article/pii/S1360138525002377" style="color: rgb(150,0,0); text-decoration: none; transition: color 0.3s;" target="_blank">Hybrid AI in synthetic biology: next era in agriculture</a></h3>
     <p style="font-size: 1.15rem; line-height: 1.7; color: #444; font-style: italic;"><em> Trends in Plant Science </em>.</p>
+  </div>
+
+  <div style="padding: 2rem; background: rgba(255, 255, 255, 0.95); border-left: 8px solid rgb(150,0,0); border-radius: 10px; margin-bottom: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); transition: transform 0.3s, box-shadow 0.3s;">
+    <h3 style="color: rgb(150,0,0); font-size: 1.6rem; margin-bottom: 0.75rem; font-weight: 600; letter-spacing: 0.5px;"><a href="https://doi.org/10.1002/csc2.70158" style="color: rgb(150,0,0); text-decoration: none; transition: color 0.3s;" target="_blank">Evaluating the potential penalty of sclerotinia stem rot resistance on agronomic and seed quality traits in a Canadian soybean germplasm panel</a></h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: #444; font-style: italic;"><em> Crop Science </em>.</p>
+  </div>
+
+  <div style="padding: 2rem; background: rgba(255, 255, 255, 0.95); border-left: 8px solid rgb(150,0,0); border-radius: 10px; margin-bottom: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); transition: transform 0.3s, box-shadow 0.3s;">
+    <h3 style="color: rgb(150,0,0); font-size: 1.6rem; margin-bottom: 0.75rem; font-weight: 600; letter-spacing: 0.5px;"><a href="https://doi.org/10.56367/oag-047-12094" style="color: rgb(150,0,0); text-decoration: none; transition: color 0.3s;" target="_blank">Bean breeding at the University of Guelph: Past and present</a></h3>
+    <p style="font-size: 1.15rem; line-height: 1.7; color: #444; font-style: italic;"><em> Open Access Government </em>.</p>
   </div>
 
   <div style="padding: 2rem; background: rgba(255, 255, 255, 0.95); border-left: 8px solid rgb(150,0,0); border-radius: 10px; margin-bottom: 2rem; box-shadow: 0 6px 12px rgba(0,0,0,0.15); transition: transform 0.3s, box-shadow 0.3s;">
