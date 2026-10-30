@@ -162,6 +162,18 @@ Our ongoing projects bring these research areas to life, addressing critical cha
     <div style="max-width: 200px;">
       <img src="/assets/img/NSERC.png" alt="Sponsor 6 Logo" style="width: 100%; height: auto; transition: transform 0.3s;">
     </div>
+    <div style="max-width: 200px;">
+      <a href="https://www.mitacs.ca/" target="_blank" rel="noopener noreferrer" style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 100px; padding: 1rem; border: 2px solid rgb(150,0,0); border-radius: 10px; background: #fff; color: rgb(150,0,0); text-decoration: none; transition: transform 0.3s;">
+        <strong style="font-size: 1.4rem;">Mitacs</strong>
+        <span style="font-size: 0.9rem; color: #555;">Research Internships</span>
+      </a>
+    </div>
+    <div style="max-width: 200px;">
+      <a href="https://trilliummfg.ca/profile/sprague-foods/" target="_blank" rel="noopener noreferrer" style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 100px; padding: 1rem; border: 2px solid rgb(150,0,0); border-radius: 10px; background: #fff; color: rgb(150,0,0); text-decoration: none; transition: transform 0.3s;">
+        <strong style="font-size: 1.4rem;">Sprague Foods</strong>
+        <span style="font-size: 0.9rem; color: #555;">Industry Partner</span>
+      </a>
+    </div>
   </div>
 </div>
 

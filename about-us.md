@@ -107,6 +107,50 @@ Our collaboration with AAFC and Guelph researchers ensures varieties are tailore
   </figure>
 </div>
 
+## The Program Today
+
+Over the last few years the program has grown into a place where traditional field breeding and computational biology work side by side every day. The Dynasty kidney bean, bred at Guelph, was named the University of Guelph Innovation of the Year in 2025, and that same year the team launched BeanGPT, an AI platform built on more than 314,000 scientific articles and four decades of Guelph breeding records. In 2026 the program made its first dry bean cross designed with the support of Hybrid AI, and that line is now moving through field testing at the Ontario Crops Research Centre in Elora, which is owned by Agricultural Research and Innovation Ontario and managed by the University of Guelph through the Ontario Agri-Food Innovation Alliance.
+
+---
+
+## Our Partners and Supporters
+
+<div class="partners-box" style="background: linear-gradient(135deg, rgba(150,0,0,0.1), rgba(255,255,255,0.9)); border: 2px solid rgb(150,0,0); border-radius: 12px; padding: 2rem; margin: 2rem 0; box-shadow: 0 6px 12px rgba(0,0,0,0.15); text-align: center;">
+  <p style="font-size: 1.2rem; line-height: 1.6; color: #333; margin-bottom: 2rem;">The work of the program depends on growers, industry, government, and research partners who share the goal of better beans for Ontario, and the team is very thankful for every one of them.</p>
+  <div class="sponsor-logos" style="display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap;">
+    <div style="max-width: 200px;">
+      <img src="/assets/img/obg.png" alt="Ontario Bean Growers" style="width: 100%; height: auto; transition: transform 0.3s;">
+    </div>
+    <div style="max-width: 200px;">
+      <img src="/assets/img/ARIO.png" alt="Agricultural Research and Innovation Ontario" style="width: 100%; height: auto; transition: transform 0.3s;">
+    </div>
+    <div style="max-width: 200px;">
+      <img src="/assets/img/NSERC.png" alt="NSERC" style="width: 100%; height: auto; transition: transform 0.3s;">
+    </div>
+    <div style="max-width: 200px;">
+      <img src="/assets/img/Tier1.png" alt="Tier 1 partner" style="width: 100%; height: auto; transition: transform 0.3s;">
+    </div>
+    <div style="max-width: 200px;">
+      <img src="/assets/img/agilent.png" alt="Agilent" style="width: 100%; height: auto; transition: transform 0.3s;">
+    </div>
+    <div style="max-width: 200px;">
+      <img src="/assets/img/hensal.png" alt="Hensall Co-op" style="width: 100%; height: auto; transition: transform 0.3s;">
+    </div>
+    <div style="max-width: 200px;">
+      <a href="https://www.mitacs.ca/" target="_blank" rel="noopener noreferrer" style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 100px; padding: 1rem; border: 2px solid rgb(150,0,0); border-radius: 10px; background: #fff; color: rgb(150,0,0); text-decoration: none; transition: transform 0.3s;">
+        <strong style="font-size: 1.4rem;">Mitacs</strong>
+        <span style="font-size: 0.9rem; color: #555;">Research Internships</span>
+      </a>
+    </div>
+    <div style="max-width: 200px;">
+      <a href="https://trilliummfg.ca/profile/sprague-foods/" target="_blank" rel="noopener noreferrer" style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 100px; padding: 1rem; border: 2px solid rgb(150,0,0); border-radius: 10px; background: #fff; color: rgb(150,0,0); text-decoration: none; transition: transform 0.3s;">
+        <strong style="font-size: 1.4rem;">Sprague Foods</strong>
+        <span style="font-size: 0.9rem; color: #555;">Industry Partner</span>
+      </a>
+    </div>
+  </div>
+</div>
+
 <div style="text-align: center; margin: 2rem 0;">
   <a href="/research/" class="btn" style="display: inline-block; padding: 0.75rem 1.5rem; background-color: rgb(150,0,0); color: white; text-decoration: none; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">Explore Our Research</a>
 </div>
@@ -114,4 +158,5 @@ Our collaboration with AAFC and Guelph researchers ensures varieties are tailore
 <style>
   .gallery figure:hover img { transform: scale(1.05); }
   .gallery figure:hover figcaption { opacity: 1; }
+  .sponsor-logos img:hover, .sponsor-logos a:hover { transform: scale(1.1); }
 </style>

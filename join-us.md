@@ -27,6 +27,10 @@ accent_image: /assets/img/JoinUs.png
         <h3>Research Collaborations</h3>
         <p>Partner with us to explore dry bean breeding and computational biology.</p>
       </article>
+      <article class="opportunity-box">
+        <h3>Internships and Visiting Researchers</h3>
+        <p>The lab regularly hosts interns, volunteers, and visiting scholars, and industry partnered internships can be arranged through programs such as <a href="https://www.mitacs.ca/" target="_blank" rel="noopener noreferrer">Mitacs</a>.</p>
+      </article>
     </div>
     <p class="call-to-action">Interested? Email <a href="mailto:myoosefz@uoguelph.ca" class="email-link" aria-label="Email myoosefz@uoguelph.ca">myoosefz@uoguelph.ca</a> with your CV and a brief statement of your interests. While there are no specific openings at this moment, we are always seeking exceptional students, scientists, and collaborators to join our dynamic team.</p>
   </section>
@@ -64,7 +68,7 @@ accent_image: /assets/img/JoinUs.png
       <strong>Positions Available:</strong> 2
       </p>
       <p>
-      Are you interested in working in a multidisciplinary research environment that bridges plant breeding, food science, artificial intelligence, and multi-omics? The Dry Bean Breeding & Computational Biology Lab at the University of Guelph is now accepting applications for two fully funded PhD positions starting in Winter 2025. These opportunities are part of a dynamic research program aimed at advancing sustainable agriculture and agri-food innovation in Canada. Successful candidates will engage in collaborative, high-impact research with strong support from industry and government partners, and will benefit from comprehensive training in both field and computational techniques. Applicants from all backgrounds are encouraged to apply.
+      Are you interested in working in a multidisciplinary research environment that bridges plant breeding, food science, artificial intelligence, and multi-omics? The Dry Bean Breeding & Computational Biology Lab at the University of Guelph is now accepting applications for two fully funded PhD positions starting in Winter 2026. These opportunities are part of a dynamic research program aimed at advancing sustainable agriculture and agri-food innovation in Canada. Successful candidates will engage in collaborative, high-impact research with strong support from industry and government partners, and will benefit from comprehensive training in both field and computational techniques. Applicants from all backgrounds are encouraged to apply.
      </p>
      <p><strong>How to Apply:</strong></p>
      <p>
