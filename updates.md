@@ -60,6 +60,57 @@ accent_image: /assets/img/LabNews.png
 
 <main class="news-grid" role="main">
 
+<article class="news-item" aria-labelledby="news-2026-11-22">
+  <h2 class="news-date" id="news-2026-11-22">November 22, 2026</h2>
+  <p>
+    <strong>Welcoming Dr. Meha Sharma and Leslie Huynh to the Team</strong><br><br>
+
+    The Dry Bean Breeding &amp; Computational Biology Program is very happy to welcome two new members who joined the team this fall, bringing more hands and more expertise to a group that keeps getting busier every season.
+    <br><br>
+
+    Dr. Meha Sharma joins the lab as a Postdoctoral Fellow and will be working closely with students and staff across the program’s research in breeding and computational biology. Having a postdoctoral researcher on board is a big boost for the team, since it adds research experience that helps move projects forward and gives graduate students another mentor to learn from.
+    <br><br>
+
+    Leslie Huynh joins the program as a Research Associate and will be coordinating the canning quality assessment work that has become such an important part of how new lines are evaluated. This role connects directly with the program’s effort to look at canning and sensory quality much earlier in the breeding pipeline, so that new varieties perform well for processors and consumers as well as for growers.
+    <br><br>
+
+    Please join the lab in giving Meha and Leslie a very warm welcome, and feel free to visit the team page to learn more about them and the rest of the group.
+    <br>
+    <a href="/team-members/">Meet the team</a>
+  </p>
+  <figure>
+    <img src="/assets/img/team/Meha.jpg" alt="Dr. Meha Sharma" loading="lazy">
+    <img src="/assets/img/team/Leslie.jpg" alt="Leslie Huynh" loading="lazy">
+  </figure>
+</article>
+
+
+<article class="news-item" aria-labelledby="news-2026-11-09">
+  <h2 class="news-date" id="news-2026-11-09">November 9, 2026</h2>
+  <p>
+    <strong>The Super Bean Featured in a Globe and Mail Story on Plant Protein</strong><br><br>
+
+    The program’s work was part of a feature produced with The Globe and Mail and the University of Guelph about how research at U of G is helping meet the growing demand for protein, and the story was also shared on U of G News on November 9. The piece opens with the super bean, described as the world’s first bean designed with the help of artificial intelligence, which is likely still a few years away from wide commercial availability and may even get a new name before it reaches the market.
+    <br><br>
+
+    The article explains how Dr. Mohsen Yoosefzadeh Najafabadi built BeanGPT from more than 300,000 research papers and around 50 million data points, and how a second tool called Bean Memory was trained on 40 years of University of Guelph breeding archives. Together, the two tools were asked for ideas on a bean that would be high in protein, high yielding, and resistant to disease, which is a tall order for a crop where a new variety can take more than a decade to develop.
+    <br><br>
+
+    One of the nicest parts of the story for the team is the update from this past summer, when the new super bean lines performed very well in the field despite heat waves and wildfire smoke, holding their own against lines chosen through traditional breeding decisions. As Dr. Yoosefzadeh Najafabadi put it in the article, “It’s very promising,” and the team is looking forward to more seasons of testing.
+    <br><br>
+
+    The feature also mentions another project the lab is excited about, which is the development of small seeded bean varieties that can cook in about 30 minutes without any soaking. In the words of Dr. Yoosefzadeh Najafabadi, “Beans are the practical way to put plant protein and fibre on the plate,” and making them quicker to cook is one more way to bring them to more tables.
+    <br><br>
+
+    The full story can be read on U of G News through the link below.
+    <br>
+    <a href="https://news.uoguelph.ca/2026/11/hungry-for-protein-how-critical-u-of-g-research-is-helping-meet-demand/" target="_blank" rel="noopener noreferrer">
+      Hungry for Protein: How Critical U of G Research is Helping Meet Demand
+    </a>
+  </p>
+</article>
+
+
 <article class="news-item" aria-labelledby="news-2026-10-21">
   <h2 class="news-date" id="news-2026-10-21">October 21, 2026</h2>
   <p>
